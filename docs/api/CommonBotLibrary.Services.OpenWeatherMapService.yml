@@ -1,0 +1,242 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.OpenWeatherMapService
+  commentId: T:CommonBotLibrary.Services.OpenWeatherMapService
+  id: OpenWeatherMapService
+  parent: CommonBotLibrary.Services
+  children:
+  - CommonBotLibrary.Services.OpenWeatherMapService.#ctor(System.String)
+  - CommonBotLibrary.Services.OpenWeatherMapService.GetCurrentWeatherAsync(System.String,Unit)
+  langs:
+  - csharp
+  - vb
+  name: OpenWeatherMapService
+  nameWithType: OpenWeatherMapService
+  fullName: CommonBotLibrary.Services.OpenWeatherMapService
+  type: Class
+  source:
+    id: OpenWeatherMapService
+    path: ''
+    startLine: 878
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: 'public class OpenWeatherMapService : IWeatherService'
+    content.vb: >-
+      Public Class OpenWeatherMapService
+
+          Inherits IWeatherService
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.OpenWeatherMapService.#ctor(System.String)
+  commentId: M:CommonBotLibrary.Services.OpenWeatherMapService.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: CommonBotLibrary.Services.OpenWeatherMapService
+  langs:
+  - csharp
+  - vb
+  name: OpenWeatherMapService(String)
+  nameWithType: OpenWeatherMapService.OpenWeatherMapService(String)
+  fullName: CommonBotLibrary.Services.OpenWeatherMapService.OpenWeatherMapService(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 885
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nConstructs an <see cref=\"!:IWeatherService\"></see> implementation that searches Google.\n"
+  example: []
+  syntax:
+    content: public OpenWeatherMapService(string apiKey = null)
+    parameters:
+    - id: apiKey
+      type: System.String
+      description: Defaults to API key in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
+    content.vb: Public Sub New(apiKey As String = Nothing)
+  overload: CommonBotLibrary.Services.OpenWeatherMapService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.OpenWeatherMapService.GetCurrentWeatherAsync(System.String,Unit)
+  commentId: M:CommonBotLibrary.Services.OpenWeatherMapService.GetCurrentWeatherAsync(System.String,Unit)
+  id: GetCurrentWeatherAsync(System.String,Unit)
+  parent: CommonBotLibrary.Services.OpenWeatherMapService
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentWeatherAsync(String, Unit)
+  nameWithType: OpenWeatherMapService.GetCurrentWeatherAsync(String, Unit)
+  fullName: CommonBotLibrary.Services.OpenWeatherMapService.GetCurrentWeatherAsync(System.String, Unit)
+  type: Method
+  source:
+    id: GetCurrentWeatherAsync
+    path: ''
+    startLine: 912
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nGets current weather data for a city from openweathermap.com\n"
+  example: []
+  syntax:
+    content: public Task<OpenWeatherMapResult> GetCurrentWeatherAsync(string city, Unit units = null)
+    parameters:
+    - id: city
+      type: System.String
+      description: The city to lookup weather for.
+    - id: units
+      type: Unit
+      description: The units for temperature, etc.
+    return:
+      type: Task{OpenWeatherMapResult}
+      description: Current weather conditions.
+    content.vb: Public Function GetCurrentWeatherAsync(city As String, units As Unit = Nothing) As Task(Of OpenWeatherMapResult)
+  overload: CommonBotLibrary.Services.OpenWeatherMapService.GetCurrentWeatherAsync*
+  seealso:
+  - linkType: HRef
+    linkId: https://openweathermap.org/price
+    altText: API Info
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services
+  commentId: N:CommonBotLibrary.Services
+  isExternal: false
+  name: CommonBotLibrary.Services
+  nameWithType: CommonBotLibrary.Services
+  fullName: CommonBotLibrary.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Tokens
+  commentId: T:CommonBotLibrary.Tokens
+  isExternal: false
+  name: Tokens
+  nameWithType: Tokens
+  fullName: CommonBotLibrary.Tokens
+- uid: CommonBotLibrary.Services.OpenWeatherMapService.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.OpenWeatherMapService.#ctor
+  isExternal: false
+  name: OpenWeatherMapService
+  nameWithType: OpenWeatherMapService.OpenWeatherMapService
+  fullName: CommonBotLibrary.Services.OpenWeatherMapService.OpenWeatherMapService
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.OpenWeatherMapService.GetCurrentWeatherAsync*
+  commentId: Overload:CommonBotLibrary.Services.OpenWeatherMapService.GetCurrentWeatherAsync
+  isExternal: false
+  name: GetCurrentWeatherAsync
+  nameWithType: OpenWeatherMapService.GetCurrentWeatherAsync
+  fullName: CommonBotLibrary.Services.OpenWeatherMapService.GetCurrentWeatherAsync
+- uid: Unit
+  isExternal: true
+  name: Unit
+  nameWithType: Unit
+  fullName: Unit
+- uid: Task{OpenWeatherMapResult}
+  commentId: '!:Task{OpenWeatherMapResult}'
+  definition: Task`1
+  name: Task<OpenWeatherMapResult>
+  nameWithType: Task<OpenWeatherMapResult>
+  fullName: Task<OpenWeatherMapResult>
+  nameWithType.vb: Task(Of OpenWeatherMapResult)
+  fullName.vb: Task(Of OpenWeatherMapResult)
+  name.vb: Task(Of OpenWeatherMapResult)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenWeatherMapResult
+    name: OpenWeatherMapResult
+    nameWithType: OpenWeatherMapResult
+    fullName: OpenWeatherMapResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenWeatherMapResult
+    name: OpenWeatherMapResult
+    nameWithType: OpenWeatherMapResult
+    fullName: OpenWeatherMapResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

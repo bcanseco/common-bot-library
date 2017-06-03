@@ -1,0 +1,272 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.RedditResult
+  commentId: T:CommonBotLibrary.Services.Models.RedditResult
+  id: RedditResult
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.RedditResult.#ctor(Post)
+  - CommonBotLibrary.Services.Models.RedditResult.op_Implicit(CommonBotLibrary.Services.Models.RedditResult)~Post
+  - CommonBotLibrary.Services.Models.RedditResult.Post
+  - CommonBotLibrary.Services.Models.RedditResult.Title
+  - CommonBotLibrary.Services.Models.RedditResult.Url
+  langs:
+  - csharp
+  - vb
+  name: RedditResult
+  nameWithType: RedditResult
+  fullName: CommonBotLibrary.Services.Models.RedditResult
+  type: Class
+  source:
+    id: RedditResult
+    path: ''
+    startLine: 1681
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: 'public class RedditResult : IWebpage'
+    content.vb: >-
+      Public Class RedditResult
+
+          Inherits IWebpage
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.RedditResult.#ctor(Post)
+  commentId: M:CommonBotLibrary.Services.Models.RedditResult.#ctor(Post)
+  id: '#ctor(Post)'
+  parent: CommonBotLibrary.Services.Models.RedditResult
+  langs:
+  - csharp
+  - vb
+  name: RedditResult(Post)
+  nameWithType: RedditResult.RedditResult(Post)
+  fullName: CommonBotLibrary.Services.Models.RedditResult.RedditResult(Post)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1684
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public RedditResult(Post post)
+    parameters:
+    - id: post
+      type: Post
+    content.vb: Public Sub New(post As Post)
+  overload: CommonBotLibrary.Services.Models.RedditResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.RedditResult.Post
+  commentId: P:CommonBotLibrary.Services.Models.RedditResult.Post
+  id: Post
+  parent: CommonBotLibrary.Services.Models.RedditResult
+  langs:
+  - csharp
+  - vb
+  name: Post
+  nameWithType: RedditResult.Post
+  fullName: CommonBotLibrary.Services.Models.RedditResult.Post
+  type: Property
+  source:
+    id: Post
+    path: ''
+    startLine: 1695
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  summary: "\nThe wrapped model returned by RedditSharp with more submission props.\n"
+  example: []
+  syntax:
+    content: public Post Post { get; }
+    parameters: []
+    return:
+      type: Post
+    content.vb: Public ReadOnly Property Post As Post
+  overload: CommonBotLibrary.Services.Models.RedditResult.Post*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CommonBotLibrary.Services.Models.RedditResult.Url
+  commentId: P:CommonBotLibrary.Services.Models.RedditResult.Url
+  id: Url
+  parent: CommonBotLibrary.Services.Models.RedditResult
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: RedditResult.Url
+  fullName: CommonBotLibrary.Services.Models.RedditResult.Url
+  type: Property
+  source:
+    id: Url
+    path: ''
+    startLine: 1696
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: CommonBotLibrary.Services.Models.RedditResult.Url*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.RedditResult.Title
+  commentId: P:CommonBotLibrary.Services.Models.RedditResult.Title
+  id: Title
+  parent: CommonBotLibrary.Services.Models.RedditResult
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: RedditResult.Title
+  fullName: CommonBotLibrary.Services.Models.RedditResult.Title
+  type: Property
+  source:
+    id: Title
+    path: ''
+    startLine: 1697
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: CommonBotLibrary.Services.Models.RedditResult.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.RedditResult.op_Implicit(CommonBotLibrary.Services.Models.RedditResult)~Post
+  commentId: M:CommonBotLibrary.Services.Models.RedditResult.op_Implicit(CommonBotLibrary.Services.Models.RedditResult)~Post
+  id: op_Implicit(CommonBotLibrary.Services.Models.RedditResult)~Post
+  parent: CommonBotLibrary.Services.Models.RedditResult
+  langs:
+  - csharp
+  - vb
+  name: Implicit(RedditResult to Post)
+  nameWithType: RedditResult.Implicit(RedditResult to Post)
+  fullName: CommonBotLibrary.Services.Models.RedditResult.Implicit(CommonBotLibrary.Services.Models.RedditResult to Post)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 1699
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public static implicit operator Post(RedditResult redditResult)
+    parameters:
+    - id: redditResult
+      type: CommonBotLibrary.Services.Models.RedditResult
+    return:
+      type: Post
+    content.vb: Public Shared Widening Operator CType(redditResult As RedditResult) As Post
+  overload: CommonBotLibrary.Services.Models.RedditResult.op_Implicit*
+  nameWithType.vb: RedditResult.Widening(RedditResult to Post)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CommonBotLibrary.Services.Models.RedditResult.Widening(CommonBotLibrary.Services.Models.RedditResult to Post)
+  name.vb: Widening(RedditResult to Post)
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.RedditResult.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.Models.RedditResult.#ctor
+  isExternal: false
+  name: RedditResult
+  nameWithType: RedditResult.RedditResult
+  fullName: CommonBotLibrary.Services.Models.RedditResult.RedditResult
+- uid: Post
+  isExternal: true
+  name: Post
+  nameWithType: Post
+  fullName: Post
+- uid: CommonBotLibrary.Services.Models.RedditResult.Post*
+  commentId: Overload:CommonBotLibrary.Services.Models.RedditResult.Post
+  isExternal: false
+  name: Post
+  nameWithType: RedditResult.Post
+  fullName: CommonBotLibrary.Services.Models.RedditResult.Post
+- uid: CommonBotLibrary.Services.Models.RedditResult.Url*
+  commentId: Overload:CommonBotLibrary.Services.Models.RedditResult.Url
+  isExternal: false
+  name: Url
+  nameWithType: RedditResult.Url
+  fullName: CommonBotLibrary.Services.Models.RedditResult.Url
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.Models.RedditResult.Title*
+  commentId: Overload:CommonBotLibrary.Services.Models.RedditResult.Title
+  isExternal: false
+  name: Title
+  nameWithType: RedditResult.Title
+  fullName: CommonBotLibrary.Services.Models.RedditResult.Title
+- uid: CommonBotLibrary.Services.Models.RedditResult.op_Implicit*
+  commentId: Overload:CommonBotLibrary.Services.Models.RedditResult.op_Implicit
+  isExternal: false
+  name: Implicit
+  nameWithType: RedditResult.Implicit
+  fullName: CommonBotLibrary.Services.Models.RedditResult.Implicit
+  nameWithType.vb: RedditResult.Widening
+  fullName.vb: CommonBotLibrary.Services.Models.RedditResult.Widening
+  name.vb: Widening
+- uid: CommonBotLibrary.Services.Models.RedditResult
+  commentId: T:CommonBotLibrary.Services.Models.RedditResult
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: RedditResult
+  nameWithType: RedditResult
+  fullName: CommonBotLibrary.Services.Models.RedditResult

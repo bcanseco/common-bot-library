@@ -1,0 +1,315 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.RedditService
+  commentId: T:CommonBotLibrary.Services.RedditService
+  id: RedditService
+  parent: CommonBotLibrary.Services
+  children:
+  - CommonBotLibrary.Services.RedditService.GetPostsAsync(System.String,Category,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: RedditService
+  nameWithType: RedditService
+  fullName: CommonBotLibrary.Services.RedditService
+  type: Class
+  source:
+    id: RedditService
+    path: ''
+    startLine: 978
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: 'public class RedditService : IWebpageService, ISearchable<IWebpage>'
+    content.vb: >-
+      Public Class RedditService
+
+          Inherits IWebpageService
+
+          Implements ISearchable(Of IWebpage)
+  inheritance:
+  - System.Object
+  implements:
+  - ISearchable{IWebpage}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.RedditService.GetPostsAsync(System.String,Category,System.Int32)
+  commentId: M:CommonBotLibrary.Services.RedditService.GetPostsAsync(System.String,Category,System.Int32)
+  id: GetPostsAsync(System.String,Category,System.Int32)
+  parent: CommonBotLibrary.Services.RedditService
+  langs:
+  - csharp
+  - vb
+  name: GetPostsAsync(String, Category, Int32)
+  nameWithType: RedditService.GetPostsAsync(String, Category, Int32)
+  fullName: CommonBotLibrary.Services.RedditService.GetPostsAsync(System.String, Category, System.Int32)
+  type: Method
+  source:
+    id: GetPostsAsync
+    path: ''
+    startLine: 992
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nGets relevant posts from a subreddit.\n"
+  example: []
+  syntax:
+    content: public Task<IEnumerable<Post>> GetPostsAsync(string subredditName = null, Category category = null, int limit = 50)
+    parameters:
+    - id: subredditName
+      type: System.String
+      description: The name of the subreddit to fetch from, or the front page if null.
+    - id: category
+      type: Category
+      description: What category posts should be retrieved from.
+    - id: limit
+      type: System.Int32
+      description: How many results should be retrieved.
+    return:
+      type: Task{IEnumerable{Post}}
+      description: A collection of relevant webpages indexed on a subreddit.
+    content.vb: Public Function GetPostsAsync(subredditName As String = Nothing, category As Category = Nothing, limit As Integer = 50) As Task(Of IEnumerable(Of Post))
+  overload: CommonBotLibrary.Services.RedditService.GetPostsAsync*
+  seealso:
+  - linkType: HRef
+    linkId: https://github.com/reddit/reddit/wiki/API
+    altText: TOS
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services
+  commentId: N:CommonBotLibrary.Services
+  isExternal: false
+  name: CommonBotLibrary.Services
+  nameWithType: CommonBotLibrary.Services
+  fullName: CommonBotLibrary.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: ISearchable{IWebpage}
+  commentId: '!:ISearchable{IWebpage}'
+  definition: ISearchable`1
+  name: ISearchable<IWebpage>
+  nameWithType: ISearchable<IWebpage>
+  fullName: ISearchable<IWebpage>
+  nameWithType.vb: ISearchable(Of IWebpage)
+  fullName.vb: ISearchable(Of IWebpage)
+  name.vb: ISearchable(Of IWebpage)
+  spec.csharp:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IWebpage
+    name: IWebpage
+    nameWithType: IWebpage
+    fullName: IWebpage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IWebpage
+    name: IWebpage
+    nameWithType: IWebpage
+    fullName: IWebpage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ISearchable`1
+  isExternal: true
+  name: ISearchable<>
+  nameWithType: ISearchable<>
+  fullName: ISearchable<>
+  nameWithType.vb: ISearchable(Of )
+  fullName.vb: ISearchable(Of )
+  name.vb: ISearchable(Of )
+  spec.csharp:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Services.RedditService.GetPostsAsync*
+  commentId: Overload:CommonBotLibrary.Services.RedditService.GetPostsAsync
+  isExternal: false
+  name: GetPostsAsync
+  nameWithType: RedditService.GetPostsAsync
+  fullName: CommonBotLibrary.Services.RedditService.GetPostsAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Category
+  commentId: '!:Category'
+  isExternal: true
+  name: Category
+  nameWithType: Category
+  fullName: Category
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Task{IEnumerable{Post}}
+  commentId: '!:Task{IEnumerable{Post}}'
+  definition: Task`1
+  name: Task<IEnumerable<Post>>
+  nameWithType: Task<IEnumerable<Post>>
+  fullName: Task<IEnumerable<Post>>
+  nameWithType.vb: Task(Of IEnumerable(Of Post))
+  fullName.vb: Task(Of IEnumerable(Of Post))
+  name.vb: Task(Of IEnumerable(Of Post))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Post
+    name: Post
+    nameWithType: Post
+    fullName: Post
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Post
+    name: Post
+    nameWithType: Post
+    fullName: Post
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

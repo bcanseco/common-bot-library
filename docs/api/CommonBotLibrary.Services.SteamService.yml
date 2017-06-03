@@ -1,0 +1,476 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.SteamService
+  commentId: T:CommonBotLibrary.Services.SteamService
+  id: SteamService
+  parent: CommonBotLibrary.Services
+  children:
+  - CommonBotLibrary.Services.SteamService.GetCurrentPlayersAsync(System.UInt32)
+  - CommonBotLibrary.Services.SteamService.GetSteamSpyDataAsync(System.UInt32)
+  - CommonBotLibrary.Services.SteamService.SearchAsync(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: SteamService
+  nameWithType: SteamService
+  fullName: CommonBotLibrary.Services.SteamService
+  type: Class
+  source:
+    id: SteamService
+    path: ''
+    startLine: 1038
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: 'public class SteamService : IWebpageService, ISearchable<IWebpage>'
+    content.vb: >-
+      Public Class SteamService
+
+          Inherits IWebpageService
+
+          Implements ISearchable(Of IWebpage)
+  inheritance:
+  - System.Object
+  implements:
+  - ISearchable{IWebpage}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.SteamService.SearchAsync(System.String,System.String)
+  commentId: M:CommonBotLibrary.Services.SteamService.SearchAsync(System.String,System.String)
+  id: SearchAsync(System.String,System.String)
+  parent: CommonBotLibrary.Services.SteamService
+  langs:
+  - csharp
+  - vb
+  name: SearchAsync(String, String)
+  nameWithType: SteamService.SearchAsync(String, String)
+  fullName: CommonBotLibrary.Services.SteamService.SearchAsync(System.String, System.String)
+  type: Method
+  source:
+    id: SearchAsync
+    path: ''
+    startLine: 1047
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nSearches steampowered.com for games that match a given title.\n"
+  example: []
+  syntax:
+    content: public Task<IEnumerable<SteamResult>> SearchAsync(string title, string currency = "USD")
+    parameters:
+    - id: title
+      type: System.String
+      description: The game title to search for.
+    - id: currency
+      type: System.String
+      description: The currency to retrieve prices in.
+    return:
+      type: Task{IEnumerable{SteamResult}}
+      description: A collection of relevant games.
+    content.vb: Public Function SearchAsync(title As String, currency As String = "USD") As Task(Of IEnumerable(Of SteamResult))
+  overload: CommonBotLibrary.Services.SteamService.SearchAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.SteamService.GetSteamSpyDataAsync(System.UInt32)
+  commentId: M:CommonBotLibrary.Services.SteamService.GetSteamSpyDataAsync(System.UInt32)
+  id: GetSteamSpyDataAsync(System.UInt32)
+  parent: CommonBotLibrary.Services.SteamService
+  langs:
+  - csharp
+  - vb
+  name: GetSteamSpyDataAsync(UInt32)
+  nameWithType: SteamService.GetSteamSpyDataAsync(UInt32)
+  fullName: CommonBotLibrary.Services.SteamService.GetSteamSpyDataAsync(System.UInt32)
+  type: Method
+  source:
+    id: GetSteamSpyDataAsync
+    path: ''
+    startLine: 1071
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nSearches steamspy.com for statistics about a game.\n"
+  example: []
+  syntax:
+    content: public Task<SteamSpyData> GetSteamSpyDataAsync(uint appId)
+    parameters:
+    - id: appId
+      type: System.UInt32
+      description: The game id to fetch stats for.
+    return:
+      type: Task{SteamSpyData}
+      description: Owner and player data for the matched game.
+    content.vb: Public Function GetSteamSpyDataAsync(appId As UInteger) As Task(Of SteamSpyData)
+  overload: CommonBotLibrary.Services.SteamService.GetSteamSpyDataAsync*
+  seealso:
+  - linkType: HRef
+    linkId: https://steamspy.com/api.php
+    altText: TOS
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.SteamService.GetCurrentPlayersAsync(System.UInt32)
+  commentId: M:CommonBotLibrary.Services.SteamService.GetCurrentPlayersAsync(System.UInt32)
+  id: GetCurrentPlayersAsync(System.UInt32)
+  parent: CommonBotLibrary.Services.SteamService
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentPlayersAsync(UInt32)
+  nameWithType: SteamService.GetCurrentPlayersAsync(UInt32)
+  fullName: CommonBotLibrary.Services.SteamService.GetCurrentPlayersAsync(System.UInt32)
+  type: Method
+  source:
+    id: GetCurrentPlayersAsync
+    path: ''
+    startLine: 1095
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nGets the number of current players for an app from the Steam Web API.\n"
+  example: []
+  syntax:
+    content: public Task<uint> GetCurrentPlayersAsync(uint appId)
+    parameters:
+    - id: appId
+      type: System.UInt32
+      description: The ID of the app to retrieve players for.
+    return:
+      type: Task{System.UInt32}
+      description: The number of current players.
+    content.vb: Public Function GetCurrentPlayersAsync(appId As UInteger) As Task(Of UInteger)
+  overload: CommonBotLibrary.Services.SteamService.GetCurrentPlayersAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services
+  commentId: N:CommonBotLibrary.Services
+  isExternal: false
+  name: CommonBotLibrary.Services
+  nameWithType: CommonBotLibrary.Services
+  fullName: CommonBotLibrary.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: ISearchable{IWebpage}
+  commentId: '!:ISearchable{IWebpage}'
+  definition: ISearchable`1
+  name: ISearchable<IWebpage>
+  nameWithType: ISearchable<IWebpage>
+  fullName: ISearchable<IWebpage>
+  nameWithType.vb: ISearchable(Of IWebpage)
+  fullName.vb: ISearchable(Of IWebpage)
+  name.vb: ISearchable(Of IWebpage)
+  spec.csharp:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IWebpage
+    name: IWebpage
+    nameWithType: IWebpage
+    fullName: IWebpage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IWebpage
+    name: IWebpage
+    nameWithType: IWebpage
+    fullName: IWebpage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ISearchable`1
+  isExternal: true
+  name: ISearchable<>
+  nameWithType: ISearchable<>
+  fullName: ISearchable<>
+  nameWithType.vb: ISearchable(Of )
+  fullName.vb: ISearchable(Of )
+  name.vb: ISearchable(Of )
+  spec.csharp:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Services.SteamService.SearchAsync*
+  commentId: Overload:CommonBotLibrary.Services.SteamService.SearchAsync
+  isExternal: false
+  name: SearchAsync
+  nameWithType: SteamService.SearchAsync
+  fullName: CommonBotLibrary.Services.SteamService.SearchAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{IEnumerable{SteamResult}}
+  commentId: '!:Task{IEnumerable{SteamResult}}'
+  definition: Task`1
+  name: Task<IEnumerable<SteamResult>>
+  nameWithType: Task<IEnumerable<SteamResult>>
+  fullName: Task<IEnumerable<SteamResult>>
+  nameWithType.vb: Task(Of IEnumerable(Of SteamResult))
+  fullName.vb: Task(Of IEnumerable(Of SteamResult))
+  name.vb: Task(Of IEnumerable(Of SteamResult))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SteamResult
+    name: SteamResult
+    nameWithType: SteamResult
+    fullName: SteamResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SteamResult
+    name: SteamResult
+    nameWithType: SteamResult
+    fullName: SteamResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Services.SteamService.GetSteamSpyDataAsync*
+  commentId: Overload:CommonBotLibrary.Services.SteamService.GetSteamSpyDataAsync
+  isExternal: false
+  name: GetSteamSpyDataAsync
+  nameWithType: SteamService.GetSteamSpyDataAsync
+  fullName: CommonBotLibrary.Services.SteamService.GetSteamSpyDataAsync
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Task{SteamSpyData}
+  commentId: '!:Task{SteamSpyData}'
+  definition: Task`1
+  name: Task<SteamSpyData>
+  nameWithType: Task<SteamSpyData>
+  fullName: Task<SteamSpyData>
+  nameWithType.vb: Task(Of SteamSpyData)
+  fullName.vb: Task(Of SteamSpyData)
+  name.vb: Task(Of SteamSpyData)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SteamSpyData
+    name: SteamSpyData
+    nameWithType: SteamSpyData
+    fullName: SteamSpyData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SteamSpyData
+    name: SteamSpyData
+    nameWithType: SteamSpyData
+    fullName: SteamSpyData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Services.SteamService.GetCurrentPlayersAsync*
+  commentId: Overload:CommonBotLibrary.Services.SteamService.GetCurrentPlayersAsync
+  isExternal: false
+  name: GetCurrentPlayersAsync
+  nameWithType: SteamService.GetCurrentPlayersAsync
+  fullName: CommonBotLibrary.Services.SteamService.GetCurrentPlayersAsync
+- uid: Task{System.UInt32}
+  commentId: '!:Task{System.UInt32}'
+  definition: Task`1
+  name: Task<UInt32>
+  nameWithType: Task<UInt32>
+  fullName: Task<System.UInt32>
+  nameWithType.vb: Task(Of UInt32)
+  fullName.vb: Task(Of System.UInt32)
+  name.vb: Task(Of UInt32)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

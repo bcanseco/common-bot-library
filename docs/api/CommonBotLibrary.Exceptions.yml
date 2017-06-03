@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Exceptions
+  commentId: N:CommonBotLibrary.Exceptions
+  id: CommonBotLibrary.Exceptions
+  children:
+  - CommonBotLibrary.Exceptions.InvalidCredentialsException
+  - CommonBotLibrary.Exceptions.ResultNotFoundException
+  langs:
+  - csharp
+  - vb
+  name: CommonBotLibrary.Exceptions
+  nameWithType: CommonBotLibrary.Exceptions
+  fullName: CommonBotLibrary.Exceptions
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CommonBotLibrary.Exceptions.InvalidCredentialsException
+  commentId: T:CommonBotLibrary.Exceptions.InvalidCredentialsException
+  isExternal: false
+  name: InvalidCredentialsException
+  nameWithType: InvalidCredentialsException
+  fullName: CommonBotLibrary.Exceptions.InvalidCredentialsException
+- uid: CommonBotLibrary.Exceptions.ResultNotFoundException
+  commentId: T:CommonBotLibrary.Exceptions.ResultNotFoundException
+  isExternal: false
+  name: ResultNotFoundException
+  nameWithType: ResultNotFoundException
+  fullName: CommonBotLibrary.Exceptions.ResultNotFoundException

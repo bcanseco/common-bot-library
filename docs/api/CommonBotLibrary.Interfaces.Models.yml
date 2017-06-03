@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces.Models
+  commentId: N:CommonBotLibrary.Interfaces.Models
+  id: CommonBotLibrary.Interfaces.Models
+  children:
+  - CommonBotLibrary.Interfaces.Models.AnimeBase
+  - CommonBotLibrary.Interfaces.Models.DefinitionBase
+  - CommonBotLibrary.Interfaces.Models.IWebpage
+  - CommonBotLibrary.Interfaces.Models.MovieBase
+  - CommonBotLibrary.Interfaces.Models.SymbolBase
+  - CommonBotLibrary.Interfaces.Models.WeatherBase
+  - CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+  langs:
+  - csharp
+  - vb
+  name: CommonBotLibrary.Interfaces.Models
+  nameWithType: CommonBotLibrary.Interfaces.Models
+  fullName: CommonBotLibrary.Interfaces.Models
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase
+  commentId: T:CommonBotLibrary.Interfaces.Models.AnimeBase
+  isExternal: false
+  name: AnimeBase
+  nameWithType: AnimeBase
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase
+- uid: CommonBotLibrary.Interfaces.Models.DefinitionBase
+  commentId: T:CommonBotLibrary.Interfaces.Models.DefinitionBase
+  isExternal: false
+  name: DefinitionBase
+  nameWithType: DefinitionBase
+  fullName: CommonBotLibrary.Interfaces.Models.DefinitionBase
+- uid: CommonBotLibrary.Interfaces.Models.IWebpage
+  commentId: T:CommonBotLibrary.Interfaces.Models.IWebpage
+  isExternal: false
+  name: IWebpage
+  nameWithType: IWebpage
+  fullName: CommonBotLibrary.Interfaces.Models.IWebpage
+- uid: CommonBotLibrary.Interfaces.Models.MovieBase
+  commentId: T:CommonBotLibrary.Interfaces.Models.MovieBase
+  isExternal: false
+  name: MovieBase
+  nameWithType: MovieBase
+  fullName: CommonBotLibrary.Interfaces.Models.MovieBase
+- uid: CommonBotLibrary.Interfaces.Models.SymbolBase
+  commentId: T:CommonBotLibrary.Interfaces.Models.SymbolBase
+  isExternal: false
+  name: SymbolBase
+  nameWithType: SymbolBase
+  fullName: CommonBotLibrary.Interfaces.Models.SymbolBase
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase
+  commentId: T:CommonBotLibrary.Interfaces.Models.WeatherBase
+  isExternal: false
+  name: WeatherBase
+  nameWithType: WeatherBase
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+  commentId: T:CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+  parent: CommonBotLibrary.Interfaces.Models
+  isExternal: false
+  name: WeatherBase.Unit
+  nameWithType: WeatherBase.Unit
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+- uid: CommonBotLibrary.Interfaces.Models
+  commentId: N:CommonBotLibrary.Interfaces.Models
+  isExternal: false
+  name: CommonBotLibrary.Interfaces.Models
+  nameWithType: CommonBotLibrary.Interfaces.Models
+  fullName: CommonBotLibrary.Interfaces.Models

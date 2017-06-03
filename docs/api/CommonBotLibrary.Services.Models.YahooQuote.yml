@@ -1,0 +1,785 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.YahooQuote
+  commentId: T:CommonBotLibrary.Services.Models.YahooQuote
+  id: YahooQuote
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.YahooQuote.Ask
+  - CommonBotLibrary.Services.Models.YahooQuote.AverageDailyVolume
+  - CommonBotLibrary.Services.Models.YahooQuote.Bid
+  - CommonBotLibrary.Services.Models.YahooQuote.Change
+  - CommonBotLibrary.Services.Models.YahooQuote.Currency
+  - CommonBotLibrary.Services.Models.YahooQuote.DaysHigh
+  - CommonBotLibrary.Services.Models.YahooQuote.DaysLow
+  - CommonBotLibrary.Services.Models.YahooQuote.EarningsShare
+  - CommonBotLibrary.Services.Models.YahooQuote.LastTradeDate
+  - CommonBotLibrary.Services.Models.YahooQuote.MarketCapitalization
+  - CommonBotLibrary.Services.Models.YahooQuote.Notes
+  - CommonBotLibrary.Services.Models.YahooQuote.Open
+  - CommonBotLibrary.Services.Models.YahooQuote.PercentChange
+  - CommonBotLibrary.Services.Models.YahooQuote.PreviousClose
+  - CommonBotLibrary.Services.Models.YahooQuote.StockExchange
+  - CommonBotLibrary.Services.Models.YahooQuote.Volume
+  - CommonBotLibrary.Services.Models.YahooQuote.YearHigh
+  - CommonBotLibrary.Services.Models.YahooQuote.YearLow
+  langs:
+  - csharp
+  - vb
+  name: YahooQuote
+  nameWithType: YahooQuote
+  fullName: CommonBotLibrary.Services.Models.YahooQuote
+  type: Class
+  source:
+    id: YahooQuote
+    path: ''
+    startLine: 1921
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: 'public class YahooQuote : YahooResult'
+    content.vb: >-
+      Public Class YahooQuote
+
+          Inherits YahooResult
+  inheritance:
+  - System.Object
+  - CommonBotLibrary.Services.Models.YahooResult
+  inheritedMembers:
+  - CommonBotLibrary.Services.Models.YahooResult.ExchangeDisplay
+  - CommonBotLibrary.Services.Models.YahooResult.Type
+  - CommonBotLibrary.Services.Models.YahooResult.TypeDisplay
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.YahooQuote.StockExchange
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.StockExchange
+  id: StockExchange
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: StockExchange
+  nameWithType: YahooQuote.StockExchange
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.StockExchange
+  type: Property
+  source:
+    id: StockExchange
+    path: ''
+    startLine: 1924
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string StockExchange { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StockExchange As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.StockExchange*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.Currency
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.Currency
+  id: Currency
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: YahooQuote.Currency
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.Currency
+  type: Property
+  source:
+    id: Currency
+    path: ''
+    startLine: 1929
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Currency { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Currency As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.Currency*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.Open
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.Open
+  id: Open
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: Open
+  nameWithType: YahooQuote.Open
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.Open
+  type: Property
+  source:
+    id: Open
+    path: ''
+    startLine: 1930
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Open { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Open As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.Open*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.PreviousClose
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.PreviousClose
+  id: PreviousClose
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: PreviousClose
+  nameWithType: YahooQuote.PreviousClose
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.PreviousClose
+  type: Property
+  source:
+    id: PreviousClose
+    path: ''
+    startLine: 1931
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string PreviousClose { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PreviousClose As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.PreviousClose*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.Ask
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.Ask
+  id: Ask
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: Ask
+  nameWithType: YahooQuote.Ask
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.Ask
+  type: Property
+  source:
+    id: Ask
+    path: ''
+    startLine: 1932
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Ask { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Ask As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.Ask*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.Bid
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.Bid
+  id: Bid
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: Bid
+  nameWithType: YahooQuote.Bid
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.Bid
+  type: Property
+  source:
+    id: Bid
+    path: ''
+    startLine: 1933
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Bid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Bid As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.Bid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.DaysLow
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.DaysLow
+  id: DaysLow
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: DaysLow
+  nameWithType: YahooQuote.DaysLow
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.DaysLow
+  type: Property
+  source:
+    id: DaysLow
+    path: ''
+    startLine: 1934
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string DaysLow { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DaysLow As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.DaysLow*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.DaysHigh
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.DaysHigh
+  id: DaysHigh
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: DaysHigh
+  nameWithType: YahooQuote.DaysHigh
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.DaysHigh
+  type: Property
+  source:
+    id: DaysHigh
+    path: ''
+    startLine: 1935
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string DaysHigh { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DaysHigh As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.DaysHigh*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.YearLow
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.YearLow
+  id: YearLow
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: YearLow
+  nameWithType: YahooQuote.YearLow
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.YearLow
+  type: Property
+  source:
+    id: YearLow
+    path: ''
+    startLine: 1936
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string YearLow { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property YearLow As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.YearLow*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.YearHigh
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.YearHigh
+  id: YearHigh
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: YearHigh
+  nameWithType: YahooQuote.YearHigh
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.YearHigh
+  type: Property
+  source:
+    id: YearHigh
+    path: ''
+    startLine: 1937
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string YearHigh { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property YearHigh As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.YearHigh*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.Change
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.Change
+  id: Change
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: Change
+  nameWithType: YahooQuote.Change
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.Change
+  type: Property
+  source:
+    id: Change
+    path: ''
+    startLine: 1938
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Change { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Change As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.Change*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.PercentChange
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.PercentChange
+  id: PercentChange
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: PercentChange
+  nameWithType: YahooQuote.PercentChange
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.PercentChange
+  type: Property
+  source:
+    id: PercentChange
+    path: ''
+    startLine: 1939
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string PercentChange { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PercentChange As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.PercentChange*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.AverageDailyVolume
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.AverageDailyVolume
+  id: AverageDailyVolume
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: AverageDailyVolume
+  nameWithType: YahooQuote.AverageDailyVolume
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.AverageDailyVolume
+  type: Property
+  source:
+    id: AverageDailyVolume
+    path: ''
+    startLine: 1940
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string AverageDailyVolume { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AverageDailyVolume As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.AverageDailyVolume*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.MarketCapitalization
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.MarketCapitalization
+  id: MarketCapitalization
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: MarketCapitalization
+  nameWithType: YahooQuote.MarketCapitalization
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.MarketCapitalization
+  type: Property
+  source:
+    id: MarketCapitalization
+    path: ''
+    startLine: 1941
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string MarketCapitalization { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MarketCapitalization As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.MarketCapitalization*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.EarningsShare
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.EarningsShare
+  id: EarningsShare
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: EarningsShare
+  nameWithType: YahooQuote.EarningsShare
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.EarningsShare
+  type: Property
+  source:
+    id: EarningsShare
+    path: ''
+    startLine: 1942
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string EarningsShare { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EarningsShare As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.EarningsShare*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.Volume
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.Volume
+  id: Volume
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: YahooQuote.Volume
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.Volume
+  type: Property
+  source:
+    id: Volume
+    path: ''
+    startLine: 1943
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Volume { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Volume As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.Volume*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.Notes
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.Notes
+  id: Notes
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: Notes
+  nameWithType: YahooQuote.Notes
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.Notes
+  type: Property
+  source:
+    id: Notes
+    path: ''
+    startLine: 1944
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Notes { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Notes As String
+  overload: CommonBotLibrary.Services.Models.YahooQuote.Notes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooQuote.LastTradeDate
+  commentId: P:CommonBotLibrary.Services.Models.YahooQuote.LastTradeDate
+  id: LastTradeDate
+  parent: CommonBotLibrary.Services.Models.YahooQuote
+  langs:
+  - csharp
+  - vb
+  name: LastTradeDate
+  nameWithType: YahooQuote.LastTradeDate
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.LastTradeDate
+  type: Property
+  source:
+    id: LastTradeDate
+    path: ''
+    startLine: 1945
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public DateTime LastTradeDate { get; set; }
+    parameters: []
+    return:
+      type: DateTime
+    content.vb: Public Property LastTradeDate As DateTime
+  overload: CommonBotLibrary.Services.Models.YahooQuote.LastTradeDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CommonBotLibrary.Services.Models.YahooResult
+  commentId: T:CommonBotLibrary.Services.Models.YahooResult
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: YahooResult
+  nameWithType: YahooResult
+  fullName: CommonBotLibrary.Services.Models.YahooResult
+- uid: CommonBotLibrary.Services.Models.YahooResult.ExchangeDisplay
+  commentId: P:CommonBotLibrary.Services.Models.YahooResult.ExchangeDisplay
+  parent: CommonBotLibrary.Services.Models.YahooResult
+  isExternal: false
+  name: ExchangeDisplay
+  nameWithType: YahooResult.ExchangeDisplay
+  fullName: CommonBotLibrary.Services.Models.YahooResult.ExchangeDisplay
+- uid: CommonBotLibrary.Services.Models.YahooResult.Type
+  commentId: P:CommonBotLibrary.Services.Models.YahooResult.Type
+  parent: CommonBotLibrary.Services.Models.YahooResult
+  isExternal: false
+  name: Type
+  nameWithType: YahooResult.Type
+  fullName: CommonBotLibrary.Services.Models.YahooResult.Type
+- uid: CommonBotLibrary.Services.Models.YahooResult.TypeDisplay
+  commentId: P:CommonBotLibrary.Services.Models.YahooResult.TypeDisplay
+  parent: CommonBotLibrary.Services.Models.YahooResult
+  isExternal: false
+  name: TypeDisplay
+  nameWithType: YahooResult.TypeDisplay
+  fullName: CommonBotLibrary.Services.Models.YahooResult.TypeDisplay
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.YahooQuote.StockExchange*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.StockExchange
+  isExternal: false
+  name: StockExchange
+  nameWithType: YahooQuote.StockExchange
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.StockExchange
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.Models.YahooQuote.Currency*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.Currency
+  isExternal: false
+  name: Currency
+  nameWithType: YahooQuote.Currency
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.Currency
+- uid: CommonBotLibrary.Services.Models.YahooQuote.Open*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.Open
+  isExternal: false
+  name: Open
+  nameWithType: YahooQuote.Open
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.Open
+- uid: CommonBotLibrary.Services.Models.YahooQuote.PreviousClose*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.PreviousClose
+  isExternal: false
+  name: PreviousClose
+  nameWithType: YahooQuote.PreviousClose
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.PreviousClose
+- uid: CommonBotLibrary.Services.Models.YahooQuote.Ask*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.Ask
+  isExternal: false
+  name: Ask
+  nameWithType: YahooQuote.Ask
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.Ask
+- uid: CommonBotLibrary.Services.Models.YahooQuote.Bid*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.Bid
+  isExternal: false
+  name: Bid
+  nameWithType: YahooQuote.Bid
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.Bid
+- uid: CommonBotLibrary.Services.Models.YahooQuote.DaysLow*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.DaysLow
+  isExternal: false
+  name: DaysLow
+  nameWithType: YahooQuote.DaysLow
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.DaysLow
+- uid: CommonBotLibrary.Services.Models.YahooQuote.DaysHigh*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.DaysHigh
+  isExternal: false
+  name: DaysHigh
+  nameWithType: YahooQuote.DaysHigh
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.DaysHigh
+- uid: CommonBotLibrary.Services.Models.YahooQuote.YearLow*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.YearLow
+  isExternal: false
+  name: YearLow
+  nameWithType: YahooQuote.YearLow
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.YearLow
+- uid: CommonBotLibrary.Services.Models.YahooQuote.YearHigh*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.YearHigh
+  isExternal: false
+  name: YearHigh
+  nameWithType: YahooQuote.YearHigh
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.YearHigh
+- uid: CommonBotLibrary.Services.Models.YahooQuote.Change*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.Change
+  isExternal: false
+  name: Change
+  nameWithType: YahooQuote.Change
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.Change
+- uid: CommonBotLibrary.Services.Models.YahooQuote.PercentChange*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.PercentChange
+  isExternal: false
+  name: PercentChange
+  nameWithType: YahooQuote.PercentChange
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.PercentChange
+- uid: CommonBotLibrary.Services.Models.YahooQuote.AverageDailyVolume*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.AverageDailyVolume
+  isExternal: false
+  name: AverageDailyVolume
+  nameWithType: YahooQuote.AverageDailyVolume
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.AverageDailyVolume
+- uid: CommonBotLibrary.Services.Models.YahooQuote.MarketCapitalization*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.MarketCapitalization
+  isExternal: false
+  name: MarketCapitalization
+  nameWithType: YahooQuote.MarketCapitalization
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.MarketCapitalization
+- uid: CommonBotLibrary.Services.Models.YahooQuote.EarningsShare*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.EarningsShare
+  isExternal: false
+  name: EarningsShare
+  nameWithType: YahooQuote.EarningsShare
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.EarningsShare
+- uid: CommonBotLibrary.Services.Models.YahooQuote.Volume*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.Volume
+  isExternal: false
+  name: Volume
+  nameWithType: YahooQuote.Volume
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.Volume
+- uid: CommonBotLibrary.Services.Models.YahooQuote.Notes*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.Notes
+  isExternal: false
+  name: Notes
+  nameWithType: YahooQuote.Notes
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.Notes
+- uid: CommonBotLibrary.Services.Models.YahooQuote.LastTradeDate*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooQuote.LastTradeDate
+  isExternal: false
+  name: LastTradeDate
+  nameWithType: YahooQuote.LastTradeDate
+  fullName: CommonBotLibrary.Services.Models.YahooQuote.LastTradeDate
+- uid: DateTime
+  commentId: '!:DateTime'
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime

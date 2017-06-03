@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces.ISearchable`1
+  commentId: T:CommonBotLibrary.Interfaces.ISearchable`1
+  id: ISearchable`1
+  parent: CommonBotLibrary.Interfaces
+  children:
+  - CommonBotLibrary.Interfaces.ISearchable`1.SearchAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ISearchable<T>
+  nameWithType: ISearchable<T>
+  fullName: CommonBotLibrary.Interfaces.ISearchable<T>
+  type: Interface
+  source:
+    id: ISearchable
+    path: ''
+    startLine: 407
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nDefines an API for searching for data.\n"
+  example: []
+  syntax:
+    content: >-
+      public interface ISearchable<T>
+
+          where T : class
+    typeParameters:
+    - id: T
+    content.vb: Public Interface ISearchable(Of T As Class)
+  nameWithType.vb: ISearchable(Of T)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: CommonBotLibrary.Interfaces.ISearchable(Of T)
+  name.vb: ISearchable(Of T)
+- uid: CommonBotLibrary.Interfaces.ISearchable`1.SearchAsync(System.String)
+  commentId: M:CommonBotLibrary.Interfaces.ISearchable`1.SearchAsync(System.String)
+  id: SearchAsync(System.String)
+  parent: CommonBotLibrary.Interfaces.ISearchable`1
+  langs:
+  - csharp
+  - vb
+  name: SearchAsync(String)
+  nameWithType: ISearchable<T>.SearchAsync(String)
+  fullName: CommonBotLibrary.Interfaces.ISearchable<T>.SearchAsync(System.String)
+  type: Method
+  source:
+    id: SearchAsync
+    path: ''
+    startLine: 415
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nSearches for data matching the given query.\n"
+  example: []
+  syntax:
+    content: Task<IEnumerable<T>> SearchAsync(string query)
+    parameters:
+    - id: query
+      type: System.String
+      description: The query to use for searching.
+    return:
+      type: Task{IEnumerable{{T}}}
+      description: A collection of related search results.
+    content.vb: Function SearchAsync(query As String) As Task(Of IEnumerable(Of T))
+  overload: CommonBotLibrary.Interfaces.ISearchable`1.SearchAsync*
+  nameWithType.vb: ISearchable(Of T).SearchAsync(String)
+  fullName.vb: CommonBotLibrary.Interfaces.ISearchable(Of T).SearchAsync(System.String)
+references:
+- uid: CommonBotLibrary.Interfaces
+  commentId: N:CommonBotLibrary.Interfaces
+  isExternal: false
+  name: CommonBotLibrary.Interfaces
+  nameWithType: CommonBotLibrary.Interfaces
+  fullName: CommonBotLibrary.Interfaces
+- uid: CommonBotLibrary.Interfaces.ISearchable`1.SearchAsync*
+  commentId: Overload:CommonBotLibrary.Interfaces.ISearchable`1.SearchAsync
+  isExternal: false
+  name: SearchAsync
+  nameWithType: ISearchable<T>.SearchAsync
+  fullName: CommonBotLibrary.Interfaces.ISearchable<T>.SearchAsync
+  nameWithType.vb: ISearchable(Of T).SearchAsync
+  fullName.vb: CommonBotLibrary.Interfaces.ISearchable(Of T).SearchAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{IEnumerable{{T}}}
+  commentId: '!:Task{IEnumerable{`0}}'
+  definition: Task`1
+  name: Task<IEnumerable<T>>
+  nameWithType: Task<IEnumerable<T>>
+  fullName: Task<IEnumerable<T>>
+  nameWithType.vb: Task(Of IEnumerable(Of T))
+  fullName.vb: Task(Of IEnumerable(Of T))
+  name.vb: Task(Of IEnumerable(Of T))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

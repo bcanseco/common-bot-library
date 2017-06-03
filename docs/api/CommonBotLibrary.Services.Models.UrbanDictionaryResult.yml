@@ -1,0 +1,297 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.UrbanDictionaryResult
+  commentId: T:CommonBotLibrary.Services.Models.UrbanDictionaryResult
+  id: UrbanDictionaryResult
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.UrbanDictionaryResult.Author
+  - CommonBotLibrary.Services.Models.UrbanDictionaryResult.DefId
+  - CommonBotLibrary.Services.Models.UrbanDictionaryResult.Example
+  - CommonBotLibrary.Services.Models.UrbanDictionaryResult.Permalink
+  - CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsDown
+  - CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsUp
+  langs:
+  - csharp
+  - vb
+  name: UrbanDictionaryResult
+  nameWithType: UrbanDictionaryResult
+  fullName: CommonBotLibrary.Services.Models.UrbanDictionaryResult
+  type: Class
+  source:
+    id: UrbanDictionaryResult
+    path: ''
+    startLine: 1891
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: 'public class UrbanDictionaryResult : DefinitionBase'
+    content.vb: >-
+      Public Class UrbanDictionaryResult
+
+          Inherits DefinitionBase
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.UrbanDictionaryResult.DefId
+  commentId: P:CommonBotLibrary.Services.Models.UrbanDictionaryResult.DefId
+  id: DefId
+  parent: CommonBotLibrary.Services.Models.UrbanDictionaryResult
+  langs:
+  - csharp
+  - vb
+  name: DefId
+  nameWithType: UrbanDictionaryResult.DefId
+  fullName: CommonBotLibrary.Services.Models.UrbanDictionaryResult.DefId
+  type: Property
+  source:
+    id: DefId
+    path: ''
+    startLine: 1893
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public int DefId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DefId As Integer
+  overload: CommonBotLibrary.Services.Models.UrbanDictionaryResult.DefId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.UrbanDictionaryResult.Permalink
+  commentId: P:CommonBotLibrary.Services.Models.UrbanDictionaryResult.Permalink
+  id: Permalink
+  parent: CommonBotLibrary.Services.Models.UrbanDictionaryResult
+  langs:
+  - csharp
+  - vb
+  name: Permalink
+  nameWithType: UrbanDictionaryResult.Permalink
+  fullName: CommonBotLibrary.Services.Models.UrbanDictionaryResult.Permalink
+  type: Property
+  source:
+    id: Permalink
+    path: ''
+    startLine: 1894
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Permalink { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Permalink As String
+  overload: CommonBotLibrary.Services.Models.UrbanDictionaryResult.Permalink*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.UrbanDictionaryResult.Example
+  commentId: P:CommonBotLibrary.Services.Models.UrbanDictionaryResult.Example
+  id: Example
+  parent: CommonBotLibrary.Services.Models.UrbanDictionaryResult
+  langs:
+  - csharp
+  - vb
+  name: Example
+  nameWithType: UrbanDictionaryResult.Example
+  fullName: CommonBotLibrary.Services.Models.UrbanDictionaryResult.Example
+  type: Property
+  source:
+    id: Example
+    path: ''
+    startLine: 1895
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Example { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Example As String
+  overload: CommonBotLibrary.Services.Models.UrbanDictionaryResult.Example*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.UrbanDictionaryResult.Author
+  commentId: P:CommonBotLibrary.Services.Models.UrbanDictionaryResult.Author
+  id: Author
+  parent: CommonBotLibrary.Services.Models.UrbanDictionaryResult
+  langs:
+  - csharp
+  - vb
+  name: Author
+  nameWithType: UrbanDictionaryResult.Author
+  fullName: CommonBotLibrary.Services.Models.UrbanDictionaryResult.Author
+  type: Property
+  source:
+    id: Author
+    path: ''
+    startLine: 1896
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Author { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Author As String
+  overload: CommonBotLibrary.Services.Models.UrbanDictionaryResult.Author*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsUp
+  commentId: P:CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsUp
+  id: ThumbsUp
+  parent: CommonBotLibrary.Services.Models.UrbanDictionaryResult
+  langs:
+  - csharp
+  - vb
+  name: ThumbsUp
+  nameWithType: UrbanDictionaryResult.ThumbsUp
+  fullName: CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsUp
+  type: Property
+  source:
+    id: ThumbsUp
+    path: ''
+    startLine: 1897
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public int ThumbsUp { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ThumbsUp As Integer
+  overload: CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsUp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsDown
+  commentId: P:CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsDown
+  id: ThumbsDown
+  parent: CommonBotLibrary.Services.Models.UrbanDictionaryResult
+  langs:
+  - csharp
+  - vb
+  name: ThumbsDown
+  nameWithType: UrbanDictionaryResult.ThumbsDown
+  fullName: CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsDown
+  type: Property
+  source:
+    id: ThumbsDown
+    path: ''
+    startLine: 1899
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public int ThumbsDown { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ThumbsDown As Integer
+  overload: CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsDown*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.UrbanDictionaryResult.DefId*
+  commentId: Overload:CommonBotLibrary.Services.Models.UrbanDictionaryResult.DefId
+  isExternal: false
+  name: DefId
+  nameWithType: UrbanDictionaryResult.DefId
+  fullName: CommonBotLibrary.Services.Models.UrbanDictionaryResult.DefId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CommonBotLibrary.Services.Models.UrbanDictionaryResult.Permalink*
+  commentId: Overload:CommonBotLibrary.Services.Models.UrbanDictionaryResult.Permalink
+  isExternal: false
+  name: Permalink
+  nameWithType: UrbanDictionaryResult.Permalink
+  fullName: CommonBotLibrary.Services.Models.UrbanDictionaryResult.Permalink
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.Models.UrbanDictionaryResult.Example*
+  commentId: Overload:CommonBotLibrary.Services.Models.UrbanDictionaryResult.Example
+  isExternal: false
+  name: Example
+  nameWithType: UrbanDictionaryResult.Example
+  fullName: CommonBotLibrary.Services.Models.UrbanDictionaryResult.Example
+- uid: CommonBotLibrary.Services.Models.UrbanDictionaryResult.Author*
+  commentId: Overload:CommonBotLibrary.Services.Models.UrbanDictionaryResult.Author
+  isExternal: false
+  name: Author
+  nameWithType: UrbanDictionaryResult.Author
+  fullName: CommonBotLibrary.Services.Models.UrbanDictionaryResult.Author
+- uid: CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsUp*
+  commentId: Overload:CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsUp
+  isExternal: false
+  name: ThumbsUp
+  nameWithType: UrbanDictionaryResult.ThumbsUp
+  fullName: CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsUp
+- uid: CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsDown*
+  commentId: Overload:CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsDown
+  isExternal: false
+  name: ThumbsDown
+  nameWithType: UrbanDictionaryResult.ThumbsDown
+  fullName: CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsDown

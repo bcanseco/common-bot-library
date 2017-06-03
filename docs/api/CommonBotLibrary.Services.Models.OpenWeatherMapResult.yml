@@ -1,0 +1,283 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult
+  commentId: T:CommonBotLibrary.Services.Models.OpenWeatherMapResult
+  id: OpenWeatherMapResult
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.OpenWeatherMapResult.#ctor(JToken,Unit)
+  - CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions
+  - CommonBotLibrary.Services.Models.OpenWeatherMapResult.Humidity
+  - CommonBotLibrary.Services.Models.OpenWeatherMapResult.Location
+  - CommonBotLibrary.Services.Models.OpenWeatherMapResult.WindSpeed
+  langs:
+  - csharp
+  - vb
+  name: OpenWeatherMapResult
+  nameWithType: OpenWeatherMapResult
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult
+  type: Class
+  source:
+    id: OpenWeatherMapResult
+    path: ''
+    startLine: 1642
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: 'public class OpenWeatherMapResult : WeatherBase'
+    content.vb: >-
+      Public Class OpenWeatherMapResult
+
+          Inherits WeatherBase
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.#ctor(JToken,Unit)
+  commentId: M:CommonBotLibrary.Services.Models.OpenWeatherMapResult.#ctor(JToken,Unit)
+  id: '#ctor(JToken,Unit)'
+  parent: CommonBotLibrary.Services.Models.OpenWeatherMapResult
+  langs:
+  - csharp
+  - vb
+  name: OpenWeatherMapResult(JToken, Unit)
+  nameWithType: OpenWeatherMapResult.OpenWeatherMapResult(JToken, Unit)
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.OpenWeatherMapResult(JToken, Unit)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1644
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public OpenWeatherMapResult(JToken json, Unit units)
+    parameters:
+    - id: json
+      type: JToken
+    - id: units
+      type: Unit
+    content.vb: Public Sub New(json As JToken, units As Unit)
+  overload: CommonBotLibrary.Services.Models.OpenWeatherMapResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions
+  commentId: P:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions
+  id: Conditions
+  parent: CommonBotLibrary.Services.Models.OpenWeatherMapResult
+  langs:
+  - csharp
+  - vb
+  name: Conditions
+  nameWithType: OpenWeatherMapResult.Conditions
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions
+  type: Property
+  source:
+    id: Conditions
+    path: ''
+    startLine: 1655
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Conditions { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Conditions As String
+  overload: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Humidity
+  commentId: P:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Humidity
+  id: Humidity
+  parent: CommonBotLibrary.Services.Models.OpenWeatherMapResult
+  langs:
+  - csharp
+  - vb
+  name: Humidity
+  nameWithType: OpenWeatherMapResult.Humidity
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Humidity
+  type: Property
+  source:
+    id: Humidity
+    path: ''
+    startLine: 1656
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public int Humidity { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Humidity As Integer
+  overload: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Humidity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.WindSpeed
+  commentId: P:CommonBotLibrary.Services.Models.OpenWeatherMapResult.WindSpeed
+  id: WindSpeed
+  parent: CommonBotLibrary.Services.Models.OpenWeatherMapResult
+  langs:
+  - csharp
+  - vb
+  name: WindSpeed
+  nameWithType: OpenWeatherMapResult.WindSpeed
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.WindSpeed
+  type: Property
+  source:
+    id: WindSpeed
+    path: ''
+    startLine: 1657
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public double WindSpeed { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property WindSpeed As Double
+  overload: CommonBotLibrary.Services.Models.OpenWeatherMapResult.WindSpeed*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Location
+  commentId: P:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Location
+  id: Location
+  parent: CommonBotLibrary.Services.Models.OpenWeatherMapResult
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: OpenWeatherMapResult.Location
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Location
+  type: Property
+  source:
+    id: Location
+    path: ''
+    startLine: 1658
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public OpenWeatherMapResult.Coordinates Location { get; set; }
+    parameters: []
+    return:
+      type: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
+    content.vb: Public Property Location As OpenWeatherMapResult.Coordinates
+  overload: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Location*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.#ctor
+  isExternal: false
+  name: OpenWeatherMapResult
+  nameWithType: OpenWeatherMapResult.OpenWeatherMapResult
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.OpenWeatherMapResult
+- uid: JToken
+  isExternal: true
+  name: JToken
+  nameWithType: JToken
+  fullName: JToken
+- uid: Unit
+  isExternal: true
+  name: Unit
+  nameWithType: Unit
+  fullName: Unit
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions*
+  commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions
+  isExternal: false
+  name: Conditions
+  nameWithType: OpenWeatherMapResult.Conditions
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Humidity*
+  commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Humidity
+  isExternal: false
+  name: Humidity
+  nameWithType: OpenWeatherMapResult.Humidity
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Humidity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.WindSpeed*
+  commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.WindSpeed
+  isExternal: false
+  name: WindSpeed
+  nameWithType: OpenWeatherMapResult.WindSpeed
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.WindSpeed
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Location*
+  commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Location
+  isExternal: false
+  name: Location
+  nameWithType: OpenWeatherMapResult.Location
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Location
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
+  commentId: T:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: OpenWeatherMapResult.Coordinates
+  nameWithType: OpenWeatherMapResult.Coordinates
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates

@@ -1,0 +1,817 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase
+  commentId: T:CommonBotLibrary.Interfaces.Models.AnimeBase
+  id: AnimeBase
+  parent: CommonBotLibrary.Interfaces.Models
+  children:
+  - CommonBotLibrary.Interfaces.Models.AnimeBase.EndDate
+  - CommonBotLibrary.Interfaces.Models.AnimeBase.English
+  - CommonBotLibrary.Interfaces.Models.AnimeBase.Episodes
+  - CommonBotLibrary.Interfaces.Models.AnimeBase.Image
+  - CommonBotLibrary.Interfaces.Models.AnimeBase.Score
+  - CommonBotLibrary.Interfaces.Models.AnimeBase.StartDate
+  - CommonBotLibrary.Interfaces.Models.AnimeBase.Status
+  - CommonBotLibrary.Interfaces.Models.AnimeBase.Synonyms
+  - CommonBotLibrary.Interfaces.Models.AnimeBase.Synopsis
+  - CommonBotLibrary.Interfaces.Models.AnimeBase.Title
+  - CommonBotLibrary.Interfaces.Models.AnimeBase.ToString
+  - CommonBotLibrary.Interfaces.Models.AnimeBase.Type
+  langs:
+  - csharp
+  - vb
+  name: AnimeBase
+  nameWithType: AnimeBase
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase
+  type: Class
+  source:
+    id: AnimeBase
+    path: ''
+    startLine: 483
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public abstract class AnimeBase
+    content.vb: Public MustInherit Class AnimeBase
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.Title
+  commentId: P:CommonBotLibrary.Interfaces.Models.AnimeBase.Title
+  id: Title
+  parent: CommonBotLibrary.Interfaces.Models.AnimeBase
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: AnimeBase.Title
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.Title
+  type: Property
+  source:
+    id: Title
+    path: ''
+    startLine: 485
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: CommonBotLibrary.Interfaces.Models.AnimeBase.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.English
+  commentId: P:CommonBotLibrary.Interfaces.Models.AnimeBase.English
+  id: English
+  parent: CommonBotLibrary.Interfaces.Models.AnimeBase
+  langs:
+  - csharp
+  - vb
+  name: English
+  nameWithType: AnimeBase.English
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.English
+  type: Property
+  source:
+    id: English
+    path: ''
+    startLine: 486
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public string English { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property English As String
+  overload: CommonBotLibrary.Interfaces.Models.AnimeBase.English*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.Synonyms
+  commentId: P:CommonBotLibrary.Interfaces.Models.AnimeBase.Synonyms
+  id: Synonyms
+  parent: CommonBotLibrary.Interfaces.Models.AnimeBase
+  langs:
+  - csharp
+  - vb
+  name: Synonyms
+  nameWithType: AnimeBase.Synonyms
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.Synonyms
+  type: Property
+  source:
+    id: Synonyms
+    path: ''
+    startLine: 487
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public string Synonyms { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Synonyms As String
+  overload: CommonBotLibrary.Interfaces.Models.AnimeBase.Synonyms*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.Episodes
+  commentId: P:CommonBotLibrary.Interfaces.Models.AnimeBase.Episodes
+  id: Episodes
+  parent: CommonBotLibrary.Interfaces.Models.AnimeBase
+  langs:
+  - csharp
+  - vb
+  name: Episodes
+  nameWithType: AnimeBase.Episodes
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.Episodes
+  type: Property
+  source:
+    id: Episodes
+    path: ''
+    startLine: 488
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public int Episodes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Episodes As Integer
+  overload: CommonBotLibrary.Interfaces.Models.AnimeBase.Episodes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.Score
+  commentId: P:CommonBotLibrary.Interfaces.Models.AnimeBase.Score
+  id: Score
+  parent: CommonBotLibrary.Interfaces.Models.AnimeBase
+  langs:
+  - csharp
+  - vb
+  name: Score
+  nameWithType: AnimeBase.Score
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.Score
+  type: Property
+  source:
+    id: Score
+    path: ''
+    startLine: 489
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public double Score { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Score As Double
+  overload: CommonBotLibrary.Interfaces.Models.AnimeBase.Score*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.Type
+  commentId: P:CommonBotLibrary.Interfaces.Models.AnimeBase.Type
+  id: Type
+  parent: CommonBotLibrary.Interfaces.Models.AnimeBase
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: AnimeBase.Type
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.Type
+  type: Property
+  source:
+    id: Type
+    path: ''
+    startLine: 490
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: CommonBotLibrary.Interfaces.Models.AnimeBase.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.Status
+  commentId: P:CommonBotLibrary.Interfaces.Models.AnimeBase.Status
+  id: Status
+  parent: CommonBotLibrary.Interfaces.Models.AnimeBase
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: AnimeBase.Status
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.Status
+  type: Property
+  source:
+    id: Status
+    path: ''
+    startLine: 491
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public string Status { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Status As String
+  overload: CommonBotLibrary.Interfaces.Models.AnimeBase.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.StartDate
+  commentId: P:CommonBotLibrary.Interfaces.Models.AnimeBase.StartDate
+  id: StartDate
+  parent: CommonBotLibrary.Interfaces.Models.AnimeBase
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: AnimeBase.StartDate
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.StartDate
+  type: Property
+  source:
+    id: StartDate
+    path: ''
+    startLine: 492
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public string StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StartDate As String
+  overload: CommonBotLibrary.Interfaces.Models.AnimeBase.StartDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.EndDate
+  commentId: P:CommonBotLibrary.Interfaces.Models.AnimeBase.EndDate
+  id: EndDate
+  parent: CommonBotLibrary.Interfaces.Models.AnimeBase
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: AnimeBase.EndDate
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.EndDate
+  type: Property
+  source:
+    id: EndDate
+    path: ''
+    startLine: 493
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public string EndDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EndDate As String
+  overload: CommonBotLibrary.Interfaces.Models.AnimeBase.EndDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.Image
+  commentId: P:CommonBotLibrary.Interfaces.Models.AnimeBase.Image
+  id: Image
+  parent: CommonBotLibrary.Interfaces.Models.AnimeBase
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: AnimeBase.Image
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.Image
+  type: Property
+  source:
+    id: Image
+    path: ''
+    startLine: 494
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public string Image { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Image As String
+  overload: CommonBotLibrary.Interfaces.Models.AnimeBase.Image*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.Synopsis
+  commentId: P:CommonBotLibrary.Interfaces.Models.AnimeBase.Synopsis
+  id: Synopsis
+  parent: CommonBotLibrary.Interfaces.Models.AnimeBase
+  langs:
+  - csharp
+  - vb
+  name: Synopsis
+  nameWithType: AnimeBase.Synopsis
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.Synopsis
+  type: Property
+  source:
+    id: Synopsis
+    path: ''
+    startLine: 495
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public string Synopsis { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Synopsis As String
+  overload: CommonBotLibrary.Interfaces.Models.AnimeBase.Synopsis*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.ToString
+  commentId: M:CommonBotLibrary.Interfaces.Models.AnimeBase.ToString
+  id: ToString
+  parent: CommonBotLibrary.Interfaces.Models.AnimeBase
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: AnimeBase.ToString()
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 497
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: CommonBotLibrary.Interfaces.Models.AnimeBase.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: CommonBotLibrary.Interfaces.Models
+  commentId: N:CommonBotLibrary.Interfaces.Models
+  isExternal: false
+  name: CommonBotLibrary.Interfaces.Models
+  nameWithType: CommonBotLibrary.Interfaces.Models
+  fullName: CommonBotLibrary.Interfaces.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.Title*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.AnimeBase.Title
+  isExternal: false
+  name: Title
+  nameWithType: AnimeBase.Title
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.English*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.AnimeBase.English
+  isExternal: false
+  name: English
+  nameWithType: AnimeBase.English
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.English
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.Synonyms*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.AnimeBase.Synonyms
+  isExternal: false
+  name: Synonyms
+  nameWithType: AnimeBase.Synonyms
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.Synonyms
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.Episodes*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.AnimeBase.Episodes
+  isExternal: false
+  name: Episodes
+  nameWithType: AnimeBase.Episodes
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.Episodes
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.Score*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.AnimeBase.Score
+  isExternal: false
+  name: Score
+  nameWithType: AnimeBase.Score
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.Score
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.Type*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.AnimeBase.Type
+  isExternal: false
+  name: Type
+  nameWithType: AnimeBase.Type
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.Type
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.Status*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.AnimeBase.Status
+  isExternal: false
+  name: Status
+  nameWithType: AnimeBase.Status
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.Status
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.StartDate*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.AnimeBase.StartDate
+  isExternal: false
+  name: StartDate
+  nameWithType: AnimeBase.StartDate
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.StartDate
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.EndDate*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.AnimeBase.EndDate
+  isExternal: false
+  name: EndDate
+  nameWithType: AnimeBase.EndDate
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.EndDate
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.Image*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.AnimeBase.Image
+  isExternal: false
+  name: Image
+  nameWithType: AnimeBase.Image
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.Image
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.Synopsis*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.AnimeBase.Synopsis
+  isExternal: false
+  name: Synopsis
+  nameWithType: AnimeBase.Synopsis
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.Synopsis
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Interfaces.Models.AnimeBase.ToString*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.AnimeBase.ToString
+  isExternal: false
+  name: ToString
+  nameWithType: AnimeBase.ToString
+  fullName: CommonBotLibrary.Interfaces.Models.AnimeBase.ToString

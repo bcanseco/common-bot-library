@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Exceptions.ResultNotFoundException
+  commentId: T:CommonBotLibrary.Exceptions.ResultNotFoundException
+  id: ResultNotFoundException
+  parent: CommonBotLibrary.Exceptions
+  children:
+  - CommonBotLibrary.Exceptions.ResultNotFoundException.#ctor
+  - CommonBotLibrary.Exceptions.ResultNotFoundException.#ctor(System.String)
+  - CommonBotLibrary.Exceptions.ResultNotFoundException.#ctor(System.String,Exception)
+  langs:
+  - csharp
+  - vb
+  name: ResultNotFoundException
+  nameWithType: ResultNotFoundException
+  fullName: CommonBotLibrary.Exceptions.ResultNotFoundException
+  type: Class
+  source:
+    id: ResultNotFoundException
+    path: ''
+    startLine: 205
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Exceptions
+  syntax:
+    content: 'public class ResultNotFoundException : FileNotFoundException'
+    content.vb: >-
+      Public Class ResultNotFoundException
+
+          Inherits FileNotFoundException
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Exceptions.ResultNotFoundException.#ctor
+  commentId: M:CommonBotLibrary.Exceptions.ResultNotFoundException.#ctor
+  id: '#ctor'
+  parent: CommonBotLibrary.Exceptions.ResultNotFoundException
+  langs:
+  - csharp
+  - vb
+  name: ResultNotFoundException()
+  nameWithType: ResultNotFoundException.ResultNotFoundException()
+  fullName: CommonBotLibrary.Exceptions.ResultNotFoundException.ResultNotFoundException()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 207
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Exceptions
+  syntax:
+    content: public ResultNotFoundException()
+    content.vb: Public Sub New
+  overload: CommonBotLibrary.Exceptions.ResultNotFoundException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Exceptions.ResultNotFoundException.#ctor(System.String)
+  commentId: M:CommonBotLibrary.Exceptions.ResultNotFoundException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: CommonBotLibrary.Exceptions.ResultNotFoundException
+  langs:
+  - csharp
+  - vb
+  name: ResultNotFoundException(String)
+  nameWithType: ResultNotFoundException.ResultNotFoundException(String)
+  fullName: CommonBotLibrary.Exceptions.ResultNotFoundException.ResultNotFoundException(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 210
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Exceptions
+  syntax:
+    content: public ResultNotFoundException(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub New(message As String)
+  overload: CommonBotLibrary.Exceptions.ResultNotFoundException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Exceptions.ResultNotFoundException.#ctor(System.String,Exception)
+  commentId: M:CommonBotLibrary.Exceptions.ResultNotFoundException.#ctor(System.String,Exception)
+  id: '#ctor(System.String,Exception)'
+  parent: CommonBotLibrary.Exceptions.ResultNotFoundException
+  langs:
+  - csharp
+  - vb
+  name: ResultNotFoundException(String, Exception)
+  nameWithType: ResultNotFoundException.ResultNotFoundException(String, Exception)
+  fullName: CommonBotLibrary.Exceptions.ResultNotFoundException.ResultNotFoundException(System.String, Exception)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 214
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Exceptions
+  syntax:
+    content: public ResultNotFoundException(string message, Exception inner)
+    parameters:
+    - id: message
+      type: System.String
+    - id: inner
+      type: Exception
+    content.vb: Public Sub New(message As String, inner As Exception)
+  overload: CommonBotLibrary.Exceptions.ResultNotFoundException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Exceptions
+  commentId: N:CommonBotLibrary.Exceptions
+  isExternal: false
+  name: CommonBotLibrary.Exceptions
+  nameWithType: CommonBotLibrary.Exceptions
+  fullName: CommonBotLibrary.Exceptions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Exceptions.ResultNotFoundException.#ctor*
+  commentId: Overload:CommonBotLibrary.Exceptions.ResultNotFoundException.#ctor
+  isExternal: false
+  name: ResultNotFoundException
+  nameWithType: ResultNotFoundException.ResultNotFoundException
+  fullName: CommonBotLibrary.Exceptions.ResultNotFoundException.ResultNotFoundException
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception

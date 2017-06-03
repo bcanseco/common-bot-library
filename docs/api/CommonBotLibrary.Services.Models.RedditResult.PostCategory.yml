@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  commentId: T:CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  id: RedditResult.PostCategory
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.RedditResult.PostCategory.Controversial
+  - CommonBotLibrary.Services.Models.RedditResult.PostCategory.Hot
+  - CommonBotLibrary.Services.Models.RedditResult.PostCategory.New
+  - CommonBotLibrary.Services.Models.RedditResult.PostCategory.Rising
+  - CommonBotLibrary.Services.Models.RedditResult.PostCategory.Top
+  langs:
+  - csharp
+  - vb
+  name: RedditResult.PostCategory
+  nameWithType: RedditResult.PostCategory
+  fullName: CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  type: Enum
+  source:
+    id: PostCategory
+    path: ''
+    startLine: 1702
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public enum PostCategory
+    content.vb: Public Enum PostCategory
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CommonBotLibrary.Services.Models.RedditResult.PostCategory.New
+  commentId: F:CommonBotLibrary.Services.Models.RedditResult.PostCategory.New
+  id: New
+  parent: CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  langs:
+  - csharp
+  - vb
+  name: New
+  nameWithType: RedditResult.PostCategory.New
+  fullName: CommonBotLibrary.Services.Models.RedditResult.PostCategory.New
+  type: Field
+  source:
+    id: New
+    path: ''
+    startLine: 1704
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: New = 0
+    return:
+      type: CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CommonBotLibrary.Services.Models.RedditResult.PostCategory.Controversial
+  commentId: F:CommonBotLibrary.Services.Models.RedditResult.PostCategory.Controversial
+  id: Controversial
+  parent: CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  langs:
+  - csharp
+  - vb
+  name: Controversial
+  nameWithType: RedditResult.PostCategory.Controversial
+  fullName: CommonBotLibrary.Services.Models.RedditResult.PostCategory.Controversial
+  type: Field
+  source:
+    id: Controversial
+    path: ''
+    startLine: 1705
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: Controversial = 1
+    return:
+      type: CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CommonBotLibrary.Services.Models.RedditResult.PostCategory.Rising
+  commentId: F:CommonBotLibrary.Services.Models.RedditResult.PostCategory.Rising
+  id: Rising
+  parent: CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  langs:
+  - csharp
+  - vb
+  name: Rising
+  nameWithType: RedditResult.PostCategory.Rising
+  fullName: CommonBotLibrary.Services.Models.RedditResult.PostCategory.Rising
+  type: Field
+  source:
+    id: Rising
+    path: ''
+    startLine: 1706
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: Rising = 2
+    return:
+      type: CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CommonBotLibrary.Services.Models.RedditResult.PostCategory.Hot
+  commentId: F:CommonBotLibrary.Services.Models.RedditResult.PostCategory.Hot
+  id: Hot
+  parent: CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  langs:
+  - csharp
+  - vb
+  name: Hot
+  nameWithType: RedditResult.PostCategory.Hot
+  fullName: CommonBotLibrary.Services.Models.RedditResult.PostCategory.Hot
+  type: Field
+  source:
+    id: Hot
+    path: ''
+    startLine: 1707
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: Hot = 3
+    return:
+      type: CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CommonBotLibrary.Services.Models.RedditResult.PostCategory.Top
+  commentId: F:CommonBotLibrary.Services.Models.RedditResult.PostCategory.Top
+  id: Top
+  parent: CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: RedditResult.PostCategory.Top
+  fullName: CommonBotLibrary.Services.Models.RedditResult.PostCategory.Top
+  type: Field
+  source:
+    id: Top
+    path: ''
+    startLine: 1708
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: Top = 4
+    return:
+      type: CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  commentId: T:CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: RedditResult.PostCategory
+  nameWithType: RedditResult.PostCategory
+  fullName: CommonBotLibrary.Services.Models.RedditResult.PostCategory

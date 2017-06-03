@@ -1,0 +1,385 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.YahooFinanceService
+  commentId: T:CommonBotLibrary.Services.YahooFinanceService
+  id: YahooFinanceService
+  parent: CommonBotLibrary.Services
+  children:
+  - CommonBotLibrary.Services.YahooFinanceService.GetQuoteAsync(System.String)
+  - CommonBotLibrary.Services.YahooFinanceService.SearchSymbolsAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: YahooFinanceService
+  nameWithType: YahooFinanceService
+  fullName: CommonBotLibrary.Services.YahooFinanceService
+  type: Class
+  source:
+    id: YahooFinanceService
+    path: ''
+    startLine: 1266
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: 'public class YahooFinanceService : IStockService, ISearchable<SymbolBase>'
+    content.vb: >-
+      Public Class YahooFinanceService
+
+          Inherits IStockService
+
+          Implements ISearchable(Of SymbolBase)
+  inheritance:
+  - System.Object
+  implements:
+  - ISearchable{SymbolBase}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.YahooFinanceService.SearchSymbolsAsync(System.String)
+  commentId: M:CommonBotLibrary.Services.YahooFinanceService.SearchSymbolsAsync(System.String)
+  id: SearchSymbolsAsync(System.String)
+  parent: CommonBotLibrary.Services.YahooFinanceService
+  langs:
+  - csharp
+  - vb
+  name: SearchSymbolsAsync(String)
+  nameWithType: YahooFinanceService.SearchSymbolsAsync(String)
+  fullName: CommonBotLibrary.Services.YahooFinanceService.SearchSymbolsAsync(System.String)
+  type: Method
+  source:
+    id: SearchSymbolsAsync
+    path: ''
+    startLine: 1275
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nSearches the Yahoo SymbolSuggest API for symbols matching a company name.\n"
+  example: []
+  syntax:
+    content: public Task<IEnumerable<YahooResult>> SearchSymbolsAsync(string companyName)
+    parameters:
+    - id: companyName
+      type: System.String
+      description: The company name to search with.
+    return:
+      type: Task{IEnumerable{YahooResult}}
+      description: A collection of relevant symbols.
+    content.vb: Public Function SearchSymbolsAsync(companyName As String) As Task(Of IEnumerable(Of YahooResult))
+  overload: CommonBotLibrary.Services.YahooFinanceService.SearchSymbolsAsync*
+  seealso:
+  - linkType: HRef
+    linkId: https://policies.yahoo.com/us/en/yahoo/terms/
+    altText: TOS
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.YahooFinanceService.GetQuoteAsync(System.String)
+  commentId: M:CommonBotLibrary.Services.YahooFinanceService.GetQuoteAsync(System.String)
+  id: GetQuoteAsync(System.String)
+  parent: CommonBotLibrary.Services.YahooFinanceService
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteAsync(String)
+  nameWithType: YahooFinanceService.GetQuoteAsync(String)
+  fullName: CommonBotLibrary.Services.YahooFinanceService.GetQuoteAsync(System.String)
+  type: Method
+  source:
+    id: GetQuoteAsync
+    path: ''
+    startLine: 1301
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nGets quote data for a given symbol from the Yahoo Finance API.\n"
+  example: []
+  syntax:
+    content: public Task<YahooQuote> GetQuoteAsync(string symbol)
+    parameters:
+    - id: symbol
+      type: System.String
+      description: The symbol to query for.
+    return:
+      type: Task{YahooQuote}
+      description: Stock quote data.
+    content.vb: Public Function GetQuoteAsync(symbol As String) As Task(Of YahooQuote)
+  overload: CommonBotLibrary.Services.YahooFinanceService.GetQuoteAsync*
+  seealso:
+  - linkType: HRef
+    linkId: https://policies.yahoo.com/us/en/yahoo/terms/
+    altText: TOS
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services
+  commentId: N:CommonBotLibrary.Services
+  isExternal: false
+  name: CommonBotLibrary.Services
+  nameWithType: CommonBotLibrary.Services
+  fullName: CommonBotLibrary.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: ISearchable{SymbolBase}
+  commentId: '!:ISearchable{SymbolBase}'
+  definition: ISearchable`1
+  name: ISearchable<SymbolBase>
+  nameWithType: ISearchable<SymbolBase>
+  fullName: ISearchable<SymbolBase>
+  nameWithType.vb: ISearchable(Of SymbolBase)
+  fullName.vb: ISearchable(Of SymbolBase)
+  name.vb: ISearchable(Of SymbolBase)
+  spec.csharp:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SymbolBase
+    name: SymbolBase
+    nameWithType: SymbolBase
+    fullName: SymbolBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SymbolBase
+    name: SymbolBase
+    nameWithType: SymbolBase
+    fullName: SymbolBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ISearchable`1
+  isExternal: true
+  name: ISearchable<>
+  nameWithType: ISearchable<>
+  fullName: ISearchable<>
+  nameWithType.vb: ISearchable(Of )
+  fullName.vb: ISearchable(Of )
+  name.vb: ISearchable(Of )
+  spec.csharp:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Services.YahooFinanceService.SearchSymbolsAsync*
+  commentId: Overload:CommonBotLibrary.Services.YahooFinanceService.SearchSymbolsAsync
+  isExternal: false
+  name: SearchSymbolsAsync
+  nameWithType: YahooFinanceService.SearchSymbolsAsync
+  fullName: CommonBotLibrary.Services.YahooFinanceService.SearchSymbolsAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{IEnumerable{YahooResult}}
+  commentId: '!:Task{IEnumerable{YahooResult}}'
+  definition: Task`1
+  name: Task<IEnumerable<YahooResult>>
+  nameWithType: Task<IEnumerable<YahooResult>>
+  fullName: Task<IEnumerable<YahooResult>>
+  nameWithType.vb: Task(Of IEnumerable(Of YahooResult))
+  fullName.vb: Task(Of IEnumerable(Of YahooResult))
+  name.vb: Task(Of IEnumerable(Of YahooResult))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: YahooResult
+    name: YahooResult
+    nameWithType: YahooResult
+    fullName: YahooResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: YahooResult
+    name: YahooResult
+    nameWithType: YahooResult
+    fullName: YahooResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Services.YahooFinanceService.GetQuoteAsync*
+  commentId: Overload:CommonBotLibrary.Services.YahooFinanceService.GetQuoteAsync
+  isExternal: false
+  name: GetQuoteAsync
+  nameWithType: YahooFinanceService.GetQuoteAsync
+  fullName: CommonBotLibrary.Services.YahooFinanceService.GetQuoteAsync
+- uid: Task{YahooQuote}
+  commentId: '!:Task{YahooQuote}'
+  definition: Task`1
+  name: Task<YahooQuote>
+  nameWithType: Task<YahooQuote>
+  fullName: Task<YahooQuote>
+  nameWithType.vb: Task(Of YahooQuote)
+  fullName.vb: Task(Of YahooQuote)
+  name.vb: Task(Of YahooQuote)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: YahooQuote
+    name: YahooQuote
+    nameWithType: YahooQuote
+    fullName: YahooQuote
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: YahooQuote
+    name: YahooQuote
+    nameWithType: YahooQuote
+    fullName: YahooQuote
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

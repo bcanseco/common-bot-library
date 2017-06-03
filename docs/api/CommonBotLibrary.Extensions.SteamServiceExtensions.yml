@@ -1,0 +1,618 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Extensions.SteamServiceExtensions
+  commentId: T:CommonBotLibrary.Extensions.SteamServiceExtensions
+  id: SteamServiceExtensions
+  parent: CommonBotLibrary.Extensions
+  children:
+  - CommonBotLibrary.Extensions.SteamServiceExtensions.GetCurrentPlayersAsync(SteamService,SteamResult)
+  - CommonBotLibrary.Extensions.SteamServiceExtensions.GetCurrentPlayersAsync(SteamService,SteamSpyData)
+  - CommonBotLibrary.Extensions.SteamServiceExtensions.GetSteamSpyDataAsync(SteamService,SteamResult)
+  langs:
+  - csharp
+  - vb
+  name: SteamServiceExtensions
+  nameWithType: SteamServiceExtensions
+  fullName: CommonBotLibrary.Extensions.SteamServiceExtensions
+  type: Class
+  source:
+    id: SteamServiceExtensions
+    path: ''
+    startLine: 285
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Extensions
+  syntax:
+    content: public static class SteamServiceExtensions
+    content.vb: Public Module SteamServiceExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: CommonBotLibrary.Extensions.SteamServiceExtensions.GetSteamSpyDataAsync(SteamService,SteamResult)
+  commentId: M:CommonBotLibrary.Extensions.SteamServiceExtensions.GetSteamSpyDataAsync(SteamService,SteamResult)
+  id: GetSteamSpyDataAsync(SteamService,SteamResult)
+  isExtensionMethod: true
+  parent: CommonBotLibrary.Extensions.SteamServiceExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetSteamSpyDataAsync(SteamService, SteamResult)
+  nameWithType: SteamServiceExtensions.GetSteamSpyDataAsync(SteamService, SteamResult)
+  fullName: CommonBotLibrary.Extensions.SteamServiceExtensions.GetSteamSpyDataAsync(SteamService, SteamResult)
+  type: Method
+  source:
+    id: GetSteamSpyDataAsync
+    path: ''
+    startLine: 291
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Extensions
+  summary: "\nOverload for <see cref=\"!:SteamService.GetSteamSpyDataAsync(uint)\"></see>\nthat allows searches with the given game's Id property.\n"
+  example: []
+  syntax:
+    content: public static Task<SteamSpyData> GetSteamSpyDataAsync(this SteamService service, SteamResult game)
+    parameters:
+    - id: service
+      type: SteamService
+    - id: game
+      type: SteamResult
+    return:
+      type: Task{SteamSpyData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetSteamSpyDataAsync(service As SteamService, game As SteamResult) As Task(Of SteamSpyData)
+  overload: CommonBotLibrary.Extensions.SteamServiceExtensions.GetSteamSpyDataAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CommonBotLibrary.Extensions.SteamServiceExtensions.GetCurrentPlayersAsync(SteamService,SteamResult)
+  commentId: M:CommonBotLibrary.Extensions.SteamServiceExtensions.GetCurrentPlayersAsync(SteamService,SteamResult)
+  id: GetCurrentPlayersAsync(SteamService,SteamResult)
+  isExtensionMethod: true
+  parent: CommonBotLibrary.Extensions.SteamServiceExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentPlayersAsync(SteamService, SteamResult)
+  nameWithType: SteamServiceExtensions.GetCurrentPlayersAsync(SteamService, SteamResult)
+  fullName: CommonBotLibrary.Extensions.SteamServiceExtensions.GetCurrentPlayersAsync(SteamService, SteamResult)
+  type: Method
+  source:
+    id: GetCurrentPlayersAsync
+    path: ''
+    startLine: 298
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Extensions
+  summary: "\nOverload for <see cref=\"!:SteamService.GetCurrentPlayersAsync(uint)\"></see>\nthat allows retrieval with the given game's Id property.\n"
+  example: []
+  syntax:
+    content: public static Task<uint> GetCurrentPlayersAsync(this SteamService service, SteamResult game)
+    parameters:
+    - id: service
+      type: SteamService
+    - id: game
+      type: SteamResult
+    return:
+      type: Task{System.UInt32}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetCurrentPlayersAsync(service As SteamService, game As SteamResult) As Task(Of UInteger)
+  overload: CommonBotLibrary.Extensions.SteamServiceExtensions.GetCurrentPlayersAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CommonBotLibrary.Extensions.SteamServiceExtensions.GetCurrentPlayersAsync(SteamService,SteamSpyData)
+  commentId: M:CommonBotLibrary.Extensions.SteamServiceExtensions.GetCurrentPlayersAsync(SteamService,SteamSpyData)
+  id: GetCurrentPlayersAsync(SteamService,SteamSpyData)
+  isExtensionMethod: true
+  parent: CommonBotLibrary.Extensions.SteamServiceExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentPlayersAsync(SteamService, SteamSpyData)
+  nameWithType: SteamServiceExtensions.GetCurrentPlayersAsync(SteamService, SteamSpyData)
+  fullName: CommonBotLibrary.Extensions.SteamServiceExtensions.GetCurrentPlayersAsync(SteamService, SteamSpyData)
+  type: Method
+  source:
+    id: GetCurrentPlayersAsync
+    path: ''
+    startLine: 305
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Extensions
+  summary: "\nOverload for <see cref=\"!:SteamService.GetCurrentPlayersAsync(uint)\"></see>\nthat allows retrieval with the given SteamSpy data's AppId property.\n"
+  example: []
+  syntax:
+    content: public static Task<uint> GetCurrentPlayersAsync(this SteamService service, SteamSpyData data)
+    parameters:
+    - id: service
+      type: SteamService
+    - id: data
+      type: SteamSpyData
+    return:
+      type: Task{System.UInt32}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetCurrentPlayersAsync(service As SteamService, data As SteamSpyData) As Task(Of UInteger)
+  overload: CommonBotLibrary.Extensions.SteamServiceExtensions.GetCurrentPlayersAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CommonBotLibrary.Extensions
+  commentId: N:CommonBotLibrary.Extensions
+  isExternal: false
+  name: CommonBotLibrary.Extensions
+  nameWithType: CommonBotLibrary.Extensions
+  fullName: CommonBotLibrary.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Extensions.SteamServiceExtensions.GetSteamSpyDataAsync*
+  commentId: Overload:CommonBotLibrary.Extensions.SteamServiceExtensions.GetSteamSpyDataAsync
+  isExternal: false
+  name: GetSteamSpyDataAsync
+  nameWithType: SteamServiceExtensions.GetSteamSpyDataAsync
+  fullName: CommonBotLibrary.Extensions.SteamServiceExtensions.GetSteamSpyDataAsync
+- uid: SteamService
+  isExternal: true
+  name: SteamService
+  nameWithType: SteamService
+  fullName: SteamService
+- uid: SteamResult
+  isExternal: true
+  name: SteamResult
+  nameWithType: SteamResult
+  fullName: SteamResult
+- uid: Task{SteamSpyData}
+  commentId: '!:Task{SteamSpyData}'
+  definition: Task`1
+  name: Task<SteamSpyData>
+  nameWithType: Task<SteamSpyData>
+  fullName: Task<SteamSpyData>
+  nameWithType.vb: Task(Of SteamSpyData)
+  fullName.vb: Task(Of SteamSpyData)
+  name.vb: Task(Of SteamSpyData)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SteamSpyData
+    name: SteamSpyData
+    nameWithType: SteamSpyData
+    fullName: SteamSpyData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SteamSpyData
+    name: SteamSpyData
+    nameWithType: SteamSpyData
+    fullName: SteamSpyData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Extensions.SteamServiceExtensions.GetCurrentPlayersAsync*
+  commentId: Overload:CommonBotLibrary.Extensions.SteamServiceExtensions.GetCurrentPlayersAsync
+  isExternal: false
+  name: GetCurrentPlayersAsync
+  nameWithType: SteamServiceExtensions.GetCurrentPlayersAsync
+  fullName: CommonBotLibrary.Extensions.SteamServiceExtensions.GetCurrentPlayersAsync
+- uid: Task{System.UInt32}
+  commentId: '!:Task{System.UInt32}'
+  definition: Task`1
+  name: Task<UInt32>
+  nameWithType: Task<UInt32>
+  fullName: Task<System.UInt32>
+  nameWithType.vb: Task(Of UInt32)
+  fullName.vb: Task(Of System.UInt32)
+  name.vb: Task(Of UInt32)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SteamSpyData
+  commentId: '!:SteamSpyData'
+  isExternal: true
+  name: SteamSpyData
+  nameWithType: SteamSpyData
+  fullName: SteamSpyData

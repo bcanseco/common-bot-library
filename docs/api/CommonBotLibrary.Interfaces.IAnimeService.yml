@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces.IAnimeService
+  commentId: T:CommonBotLibrary.Interfaces.IAnimeService
+  id: IAnimeService
+  parent: CommonBotLibrary.Interfaces
+  children:
+  - CommonBotLibrary.Interfaces.IAnimeService.SearchAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IAnimeService
+  nameWithType: IAnimeService
+  fullName: CommonBotLibrary.Interfaces.IAnimeService
+  type: Interface
+  source:
+    id: IAnimeService
+    path: ''
+    startLine: 319
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nDefines an API for working with anime.\n"
+  example: []
+  syntax:
+    content: public interface IAnimeService
+    content.vb: Public Interface IAnimeService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CommonBotLibrary.Interfaces.IAnimeService.SearchAsync(System.String)
+  commentId: M:CommonBotLibrary.Interfaces.IAnimeService.SearchAsync(System.String)
+  id: SearchAsync(System.String)
+  parent: CommonBotLibrary.Interfaces.IAnimeService
+  langs:
+  - csharp
+  - vb
+  name: SearchAsync(String)
+  nameWithType: IAnimeService.SearchAsync(String)
+  fullName: CommonBotLibrary.Interfaces.IAnimeService.SearchAsync(System.String)
+  type: Method
+  source:
+    id: SearchAsync
+    path: ''
+    startLine: 326
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nSearches for all anime matching a given query.\n"
+  example: []
+  syntax:
+    content: Task<IEnumerable<AnimeBase>> SearchAsync(string title)
+    parameters:
+    - id: title
+      type: System.String
+      description: The anime title to search with.
+    return:
+      type: Task{IEnumerable{AnimeBase}}
+      description: A collection of relevant anime.
+    content.vb: Function SearchAsync(title As String) As Task(Of IEnumerable(Of AnimeBase))
+  overload: CommonBotLibrary.Interfaces.IAnimeService.SearchAsync*
+references:
+- uid: CommonBotLibrary.Interfaces
+  commentId: N:CommonBotLibrary.Interfaces
+  isExternal: false
+  name: CommonBotLibrary.Interfaces
+  nameWithType: CommonBotLibrary.Interfaces
+  fullName: CommonBotLibrary.Interfaces
+- uid: CommonBotLibrary.Interfaces.IAnimeService.SearchAsync*
+  commentId: Overload:CommonBotLibrary.Interfaces.IAnimeService.SearchAsync
+  isExternal: false
+  name: SearchAsync
+  nameWithType: IAnimeService.SearchAsync
+  fullName: CommonBotLibrary.Interfaces.IAnimeService.SearchAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{IEnumerable{AnimeBase}}
+  commentId: '!:Task{IEnumerable{AnimeBase}}'
+  definition: Task`1
+  name: Task<IEnumerable<AnimeBase>>
+  nameWithType: Task<IEnumerable<AnimeBase>>
+  fullName: Task<IEnumerable<AnimeBase>>
+  nameWithType.vb: Task(Of IEnumerable(Of AnimeBase))
+  fullName.vb: Task(Of IEnumerable(Of AnimeBase))
+  name.vb: Task(Of IEnumerable(Of AnimeBase))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AnimeBase
+    name: AnimeBase
+    nameWithType: AnimeBase
+    fullName: AnimeBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AnimeBase
+    name: AnimeBase
+    nameWithType: AnimeBase
+    fullName: AnimeBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

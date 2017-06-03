@@ -1,0 +1,732 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.SteamResult
+  commentId: T:CommonBotLibrary.Services.Models.SteamResult
+  id: SteamResult
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.SteamResult.#ctor(System.String,System.UInt32,System.String,System.String,System.Boolean,CommonBotLibrary.Services.Models.SteamResult.Cost,CommonBotLibrary.Services.Models.SteamResult.Architecture)
+  - CommonBotLibrary.Services.Models.SteamResult.Equals(CommonBotLibrary.Services.Models.SteamResult)
+  - CommonBotLibrary.Services.Models.SteamResult.Equals(System.Object)
+  - CommonBotLibrary.Services.Models.SteamResult.GetHashCode
+  - CommonBotLibrary.Services.Models.SteamResult.Id
+  - CommonBotLibrary.Services.Models.SteamResult.ImageUrl
+  - CommonBotLibrary.Services.Models.SteamResult.Metascore
+  - CommonBotLibrary.Services.Models.SteamResult.op_Equality(CommonBotLibrary.Services.Models.SteamResult,CommonBotLibrary.Services.Models.SteamResult)
+  - CommonBotLibrary.Services.Models.SteamResult.op_Inequality(CommonBotLibrary.Services.Models.SteamResult,CommonBotLibrary.Services.Models.SteamResult)
+  - CommonBotLibrary.Services.Models.SteamResult.Platforms
+  - CommonBotLibrary.Services.Models.SteamResult.Price
+  - CommonBotLibrary.Services.Models.SteamResult.StreamingVideo
+  - CommonBotLibrary.Services.Models.SteamResult.Title
+  - CommonBotLibrary.Services.Models.SteamResult.Url
+  langs:
+  - csharp
+  - vb
+  name: SteamResult
+  nameWithType: SteamResult
+  fullName: CommonBotLibrary.Services.Models.SteamResult
+  type: Class
+  source:
+    id: SteamResult
+    path: ''
+    startLine: 1722
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: 'public class SteamResult : IWebpage, IEquatable<SteamResult>'
+    content.vb: >-
+      Public Class SteamResult
+
+          Inherits IWebpage
+
+          Implements IEquatable(Of SteamResult)
+  inheritance:
+  - System.Object
+  implements:
+  - IEquatable{CommonBotLibrary.Services.Models.SteamResult}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.SteamResult.Id
+  commentId: P:CommonBotLibrary.Services.Models.SteamResult.Id
+  id: Id
+  parent: CommonBotLibrary.Services.Models.SteamResult
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SteamResult.Id
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Id
+  type: Property
+  source:
+    id: Id
+    path: ''
+    startLine: 1725
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public uint Id { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Property Id As UInteger
+  overload: CommonBotLibrary.Services.Models.SteamResult.Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CommonBotLibrary.Services.Models.SteamResult.ImageUrl
+  commentId: P:CommonBotLibrary.Services.Models.SteamResult.ImageUrl
+  id: ImageUrl
+  parent: CommonBotLibrary.Services.Models.SteamResult
+  langs:
+  - csharp
+  - vb
+  name: ImageUrl
+  nameWithType: SteamResult.ImageUrl
+  fullName: CommonBotLibrary.Services.Models.SteamResult.ImageUrl
+  type: Property
+  source:
+    id: ImageUrl
+    path: ''
+    startLine: 1726
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string ImageUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ImageUrl As String
+  overload: CommonBotLibrary.Services.Models.SteamResult.ImageUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamResult.Metascore
+  commentId: P:CommonBotLibrary.Services.Models.SteamResult.Metascore
+  id: Metascore
+  parent: CommonBotLibrary.Services.Models.SteamResult
+  langs:
+  - csharp
+  - vb
+  name: Metascore
+  nameWithType: SteamResult.Metascore
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Metascore
+  type: Property
+  source:
+    id: Metascore
+    path: ''
+    startLine: 1728
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Metascore { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Metascore As String
+  overload: CommonBotLibrary.Services.Models.SteamResult.Metascore*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamResult.StreamingVideo
+  commentId: P:CommonBotLibrary.Services.Models.SteamResult.StreamingVideo
+  id: StreamingVideo
+  parent: CommonBotLibrary.Services.Models.SteamResult
+  langs:
+  - csharp
+  - vb
+  name: StreamingVideo
+  nameWithType: SteamResult.StreamingVideo
+  fullName: CommonBotLibrary.Services.Models.SteamResult.StreamingVideo
+  type: Property
+  source:
+    id: StreamingVideo
+    path: ''
+    startLine: 1729
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public bool StreamingVideo { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property StreamingVideo As Boolean
+  overload: CommonBotLibrary.Services.Models.SteamResult.StreamingVideo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamResult.Price
+  commentId: P:CommonBotLibrary.Services.Models.SteamResult.Price
+  id: Price
+  parent: CommonBotLibrary.Services.Models.SteamResult
+  langs:
+  - csharp
+  - vb
+  name: Price
+  nameWithType: SteamResult.Price
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Price
+  type: Property
+  source:
+    id: Price
+    path: ''
+    startLine: 1730
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public SteamResult.Cost Price { get; set; }
+    parameters: []
+    return:
+      type: CommonBotLibrary.Services.Models.SteamResult.Cost
+    content.vb: Public Property Price As SteamResult.Cost
+  overload: CommonBotLibrary.Services.Models.SteamResult.Price*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamResult.Platforms
+  commentId: P:CommonBotLibrary.Services.Models.SteamResult.Platforms
+  id: Platforms
+  parent: CommonBotLibrary.Services.Models.SteamResult
+  langs:
+  - csharp
+  - vb
+  name: Platforms
+  nameWithType: SteamResult.Platforms
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Platforms
+  type: Property
+  source:
+    id: Platforms
+    path: ''
+    startLine: 1731
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public SteamResult.Architecture Platforms { get; set; }
+    parameters: []
+    return:
+      type: CommonBotLibrary.Services.Models.SteamResult.Architecture
+    content.vb: Public Property Platforms As SteamResult.Architecture
+  overload: CommonBotLibrary.Services.Models.SteamResult.Platforms*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamResult.Url
+  commentId: P:CommonBotLibrary.Services.Models.SteamResult.Url
+  id: Url
+  parent: CommonBotLibrary.Services.Models.SteamResult
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: SteamResult.Url
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Url
+  type: Property
+  source:
+    id: Url
+    path: ''
+    startLine: 1732
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: CommonBotLibrary.Services.Models.SteamResult.Url*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamResult.Title
+  commentId: P:CommonBotLibrary.Services.Models.SteamResult.Title
+  id: Title
+  parent: CommonBotLibrary.Services.Models.SteamResult
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: SteamResult.Title
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Title
+  type: Property
+  source:
+    id: Title
+    path: ''
+    startLine: 1733
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: CommonBotLibrary.Services.Models.SteamResult.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamResult.#ctor(System.String,System.UInt32,System.String,System.String,System.Boolean,CommonBotLibrary.Services.Models.SteamResult.Cost,CommonBotLibrary.Services.Models.SteamResult.Architecture)
+  commentId: M:CommonBotLibrary.Services.Models.SteamResult.#ctor(System.String,System.UInt32,System.String,System.String,System.Boolean,CommonBotLibrary.Services.Models.SteamResult.Cost,CommonBotLibrary.Services.Models.SteamResult.Architecture)
+  id: '#ctor(System.String,System.UInt32,System.String,System.String,System.Boolean,CommonBotLibrary.Services.Models.SteamResult.Cost,CommonBotLibrary.Services.Models.SteamResult.Architecture)'
+  parent: CommonBotLibrary.Services.Models.SteamResult
+  langs:
+  - csharp
+  - vb
+  name: SteamResult(String, UInt32, String, String, Boolean, SteamResult.Cost, SteamResult.Architecture)
+  nameWithType: SteamResult.SteamResult(String, UInt32, String, String, Boolean, SteamResult.Cost, SteamResult.Architecture)
+  fullName: CommonBotLibrary.Services.Models.SteamResult.SteamResult(System.String, System.UInt32, System.String, System.String, System.Boolean, CommonBotLibrary.Services.Models.SteamResult.Cost, CommonBotLibrary.Services.Models.SteamResult.Architecture)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1735
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public SteamResult(string name, uint id, string tinyImage, string metascore, bool streamingVideo, SteamResult.Cost price, SteamResult.Architecture platforms)
+    parameters:
+    - id: name
+      type: System.String
+    - id: id
+      type: System.UInt32
+    - id: tinyImage
+      type: System.String
+    - id: metascore
+      type: System.String
+    - id: streamingVideo
+      type: System.Boolean
+    - id: price
+      type: CommonBotLibrary.Services.Models.SteamResult.Cost
+    - id: platforms
+      type: CommonBotLibrary.Services.Models.SteamResult.Architecture
+    content.vb: Public Sub New(name As String, id As UInteger, tinyImage As String, metascore As String, streamingVideo As Boolean, price As SteamResult.Cost, platforms As SteamResult.Architecture)
+  overload: CommonBotLibrary.Services.Models.SteamResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamResult.Equals(CommonBotLibrary.Services.Models.SteamResult)
+  commentId: M:CommonBotLibrary.Services.Models.SteamResult.Equals(CommonBotLibrary.Services.Models.SteamResult)
+  id: Equals(CommonBotLibrary.Services.Models.SteamResult)
+  parent: CommonBotLibrary.Services.Models.SteamResult
+  langs:
+  - csharp
+  - vb
+  name: Equals(SteamResult)
+  nameWithType: SteamResult.Equals(SteamResult)
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Equals(CommonBotLibrary.Services.Models.SteamResult)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 1757
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public bool Equals(SteamResult other)
+    parameters:
+    - id: other
+      type: CommonBotLibrary.Services.Models.SteamResult
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SteamResult) As Boolean
+  overload: CommonBotLibrary.Services.Models.SteamResult.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamResult.Equals(System.Object)
+  commentId: M:CommonBotLibrary.Services.Models.SteamResult.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: CommonBotLibrary.Services.Models.SteamResult
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: SteamResult.Equals(Object)
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 1764
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overload: CommonBotLibrary.Services.Models.SteamResult.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CommonBotLibrary.Services.Models.SteamResult.GetHashCode
+  commentId: M:CommonBotLibrary.Services.Models.SteamResult.GetHashCode
+  id: GetHashCode
+  parent: CommonBotLibrary.Services.Models.SteamResult
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SteamResult.GetHashCode()
+  fullName: CommonBotLibrary.Services.Models.SteamResult.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 1772
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: CommonBotLibrary.Services.Models.SteamResult.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CommonBotLibrary.Services.Models.SteamResult.op_Equality(CommonBotLibrary.Services.Models.SteamResult,CommonBotLibrary.Services.Models.SteamResult)
+  commentId: M:CommonBotLibrary.Services.Models.SteamResult.op_Equality(CommonBotLibrary.Services.Models.SteamResult,CommonBotLibrary.Services.Models.SteamResult)
+  id: op_Equality(CommonBotLibrary.Services.Models.SteamResult,CommonBotLibrary.Services.Models.SteamResult)
+  parent: CommonBotLibrary.Services.Models.SteamResult
+  langs:
+  - csharp
+  - vb
+  name: Equality(SteamResult, SteamResult)
+  nameWithType: SteamResult.Equality(SteamResult, SteamResult)
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Equality(CommonBotLibrary.Services.Models.SteamResult, CommonBotLibrary.Services.Models.SteamResult)
+  type: Operator
+  source:
+    id: op_Equality
+    path: ''
+    startLine: 1774
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public static bool operator ==(SteamResult left, SteamResult right)
+    parameters:
+    - id: left
+      type: CommonBotLibrary.Services.Models.SteamResult
+    - id: right
+      type: CommonBotLibrary.Services.Models.SteamResult
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As SteamResult, right As SteamResult) As Boolean
+  overload: CommonBotLibrary.Services.Models.SteamResult.op_Equality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CommonBotLibrary.Services.Models.SteamResult.op_Inequality(CommonBotLibrary.Services.Models.SteamResult,CommonBotLibrary.Services.Models.SteamResult)
+  commentId: M:CommonBotLibrary.Services.Models.SteamResult.op_Inequality(CommonBotLibrary.Services.Models.SteamResult,CommonBotLibrary.Services.Models.SteamResult)
+  id: op_Inequality(CommonBotLibrary.Services.Models.SteamResult,CommonBotLibrary.Services.Models.SteamResult)
+  parent: CommonBotLibrary.Services.Models.SteamResult
+  langs:
+  - csharp
+  - vb
+  name: Inequality(SteamResult, SteamResult)
+  nameWithType: SteamResult.Inequality(SteamResult, SteamResult)
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Inequality(CommonBotLibrary.Services.Models.SteamResult, CommonBotLibrary.Services.Models.SteamResult)
+  type: Operator
+  source:
+    id: op_Inequality
+    path: ''
+    startLine: 1777
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public static bool operator !=(SteamResult left, SteamResult right)
+    parameters:
+    - id: left
+      type: CommonBotLibrary.Services.Models.SteamResult
+    - id: right
+      type: CommonBotLibrary.Services.Models.SteamResult
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As SteamResult, right As SteamResult) As Boolean
+  overload: CommonBotLibrary.Services.Models.SteamResult.op_Inequality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: IEquatable{CommonBotLibrary.Services.Models.SteamResult}
+  commentId: '!:IEquatable{CommonBotLibrary.Services.Models.SteamResult}'
+  definition: IEquatable`1
+  name: IEquatable<SteamResult>
+  nameWithType: IEquatable<SteamResult>
+  fullName: IEquatable<CommonBotLibrary.Services.Models.SteamResult>
+  nameWithType.vb: IEquatable(Of SteamResult)
+  fullName.vb: IEquatable(Of CommonBotLibrary.Services.Models.SteamResult)
+  name.vb: IEquatable(Of SteamResult)
+  spec.csharp:
+  - uid: IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CommonBotLibrary.Services.Models.SteamResult
+    name: SteamResult
+    nameWithType: SteamResult
+    fullName: CommonBotLibrary.Services.Models.SteamResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CommonBotLibrary.Services.Models.SteamResult
+    name: SteamResult
+    nameWithType: SteamResult
+    fullName: CommonBotLibrary.Services.Models.SteamResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IEquatable`1
+  isExternal: true
+  name: IEquatable<>
+  nameWithType: IEquatable<>
+  fullName: IEquatable<>
+  nameWithType.vb: IEquatable(Of )
+  fullName.vb: IEquatable(Of )
+  name.vb: IEquatable(Of )
+  spec.csharp:
+  - uid: IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Services.Models.SteamResult.Id*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.Id
+  isExternal: false
+  name: Id
+  nameWithType: SteamResult.Id
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Id
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: CommonBotLibrary.Services.Models.SteamResult.ImageUrl*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.ImageUrl
+  isExternal: false
+  name: ImageUrl
+  nameWithType: SteamResult.ImageUrl
+  fullName: CommonBotLibrary.Services.Models.SteamResult.ImageUrl
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.Models.SteamResult.Metascore*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.Metascore
+  isExternal: false
+  name: Metascore
+  nameWithType: SteamResult.Metascore
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Metascore
+- uid: CommonBotLibrary.Services.Models.SteamResult.StreamingVideo*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.StreamingVideo
+  isExternal: false
+  name: StreamingVideo
+  nameWithType: SteamResult.StreamingVideo
+  fullName: CommonBotLibrary.Services.Models.SteamResult.StreamingVideo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CommonBotLibrary.Services.Models.SteamResult.Price*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.Price
+  isExternal: false
+  name: Price
+  nameWithType: SteamResult.Price
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Price
+- uid: CommonBotLibrary.Services.Models.SteamResult.Cost
+  commentId: T:CommonBotLibrary.Services.Models.SteamResult.Cost
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: SteamResult.Cost
+  nameWithType: SteamResult.Cost
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Cost
+- uid: CommonBotLibrary.Services.Models.SteamResult.Platforms*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.Platforms
+  isExternal: false
+  name: Platforms
+  nameWithType: SteamResult.Platforms
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Platforms
+- uid: CommonBotLibrary.Services.Models.SteamResult.Architecture
+  commentId: T:CommonBotLibrary.Services.Models.SteamResult.Architecture
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: SteamResult.Architecture
+  nameWithType: SteamResult.Architecture
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Architecture
+- uid: CommonBotLibrary.Services.Models.SteamResult.Url*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.Url
+  isExternal: false
+  name: Url
+  nameWithType: SteamResult.Url
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Url
+- uid: CommonBotLibrary.Services.Models.SteamResult.Title*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.Title
+  isExternal: false
+  name: Title
+  nameWithType: SteamResult.Title
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Title
+- uid: CommonBotLibrary.Services.Models.SteamResult.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.#ctor
+  isExternal: false
+  name: SteamResult
+  nameWithType: SteamResult.SteamResult
+  fullName: CommonBotLibrary.Services.Models.SteamResult.SteamResult
+- uid: CommonBotLibrary.Services.Models.SteamResult.Equals*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.Equals
+  isExternal: false
+  name: Equals
+  nameWithType: SteamResult.Equals
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Equals
+- uid: CommonBotLibrary.Services.Models.SteamResult
+  commentId: T:CommonBotLibrary.Services.Models.SteamResult
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: SteamResult
+  nameWithType: SteamResult
+  fullName: CommonBotLibrary.Services.Models.SteamResult
+- uid: CommonBotLibrary.Services.Models.SteamResult.GetHashCode*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.GetHashCode
+  isExternal: false
+  name: GetHashCode
+  nameWithType: SteamResult.GetHashCode
+  fullName: CommonBotLibrary.Services.Models.SteamResult.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CommonBotLibrary.Services.Models.SteamResult.op_Equality*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.op_Equality
+  isExternal: false
+  name: Equality
+  nameWithType: SteamResult.Equality
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Equality
+- uid: CommonBotLibrary.Services.Models.SteamResult.op_Inequality*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.op_Inequality
+  isExternal: false
+  name: Inequality
+  nameWithType: SteamResult.Inequality
+  fullName: CommonBotLibrary.Services.Models.SteamResult.Inequality

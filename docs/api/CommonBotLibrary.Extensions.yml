@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Extensions
+  commentId: N:CommonBotLibrary.Extensions
+  id: CommonBotLibrary.Extensions
+  children:
+  - CommonBotLibrary.Extensions.RedditExtensions
+  - CommonBotLibrary.Extensions.RestClientExtensions
+  - CommonBotLibrary.Extensions.SteamServiceExtensions
+  langs:
+  - csharp
+  - vb
+  name: CommonBotLibrary.Extensions
+  nameWithType: CommonBotLibrary.Extensions
+  fullName: CommonBotLibrary.Extensions
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CommonBotLibrary.Extensions.RedditExtensions
+  commentId: T:CommonBotLibrary.Extensions.RedditExtensions
+  isExternal: false
+  name: RedditExtensions
+  nameWithType: RedditExtensions
+  fullName: CommonBotLibrary.Extensions.RedditExtensions
+- uid: CommonBotLibrary.Extensions.RestClientExtensions
+  commentId: T:CommonBotLibrary.Extensions.RestClientExtensions
+  isExternal: false
+  name: RestClientExtensions
+  nameWithType: RestClientExtensions
+  fullName: CommonBotLibrary.Extensions.RestClientExtensions
+- uid: CommonBotLibrary.Extensions.SteamServiceExtensions
+  commentId: T:CommonBotLibrary.Extensions.SteamServiceExtensions
+  isExternal: false
+  name: SteamServiceExtensions
+  nameWithType: SteamServiceExtensions
+  fullName: CommonBotLibrary.Extensions.SteamServiceExtensions

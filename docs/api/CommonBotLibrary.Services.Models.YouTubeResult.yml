@@ -1,0 +1,272 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.YouTubeResult
+  commentId: T:CommonBotLibrary.Services.Models.YouTubeResult
+  id: YouTubeResult
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.YouTubeResult.#ctor(SearchResult)
+  - CommonBotLibrary.Services.Models.YouTubeResult.ApiResult
+  - CommonBotLibrary.Services.Models.YouTubeResult.op_Implicit(CommonBotLibrary.Services.Models.YouTubeResult)~SearchResult
+  - CommonBotLibrary.Services.Models.YouTubeResult.Title
+  - CommonBotLibrary.Services.Models.YouTubeResult.Url
+  langs:
+  - csharp
+  - vb
+  name: YouTubeResult
+  nameWithType: YouTubeResult
+  fullName: CommonBotLibrary.Services.Models.YouTubeResult
+  type: Class
+  source:
+    id: YouTubeResult
+    path: ''
+    startLine: 1955
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: 'public class YouTubeResult : IWebpage'
+    content.vb: >-
+      Public Class YouTubeResult
+
+          Inherits IWebpage
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.YouTubeResult.#ctor(SearchResult)
+  commentId: M:CommonBotLibrary.Services.Models.YouTubeResult.#ctor(SearchResult)
+  id: '#ctor(SearchResult)'
+  parent: CommonBotLibrary.Services.Models.YouTubeResult
+  langs:
+  - csharp
+  - vb
+  name: YouTubeResult(SearchResult)
+  nameWithType: YouTubeResult.YouTubeResult(SearchResult)
+  fullName: CommonBotLibrary.Services.Models.YouTubeResult.YouTubeResult(SearchResult)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1958
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public YouTubeResult(SearchResult result)
+    parameters:
+    - id: result
+      type: SearchResult
+    content.vb: Public Sub New(result As SearchResult)
+  overload: CommonBotLibrary.Services.Models.YouTubeResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YouTubeResult.ApiResult
+  commentId: P:CommonBotLibrary.Services.Models.YouTubeResult.ApiResult
+  id: ApiResult
+  parent: CommonBotLibrary.Services.Models.YouTubeResult
+  langs:
+  - csharp
+  - vb
+  name: ApiResult
+  nameWithType: YouTubeResult.ApiResult
+  fullName: CommonBotLibrary.Services.Models.YouTubeResult.ApiResult
+  type: Property
+  source:
+    id: ApiResult
+    path: ''
+    startLine: 1969
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  summary: "\nThe wrapped model returned by YouTube with more video properties.\n"
+  example: []
+  syntax:
+    content: public SearchResult ApiResult { get; }
+    parameters: []
+    return:
+      type: SearchResult
+    content.vb: Public ReadOnly Property ApiResult As SearchResult
+  overload: CommonBotLibrary.Services.Models.YouTubeResult.ApiResult*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CommonBotLibrary.Services.Models.YouTubeResult.Url
+  commentId: P:CommonBotLibrary.Services.Models.YouTubeResult.Url
+  id: Url
+  parent: CommonBotLibrary.Services.Models.YouTubeResult
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: YouTubeResult.Url
+  fullName: CommonBotLibrary.Services.Models.YouTubeResult.Url
+  type: Property
+  source:
+    id: Url
+    path: ''
+    startLine: 1970
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: CommonBotLibrary.Services.Models.YouTubeResult.Url*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YouTubeResult.Title
+  commentId: P:CommonBotLibrary.Services.Models.YouTubeResult.Title
+  id: Title
+  parent: CommonBotLibrary.Services.Models.YouTubeResult
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: YouTubeResult.Title
+  fullName: CommonBotLibrary.Services.Models.YouTubeResult.Title
+  type: Property
+  source:
+    id: Title
+    path: ''
+    startLine: 1971
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: CommonBotLibrary.Services.Models.YouTubeResult.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YouTubeResult.op_Implicit(CommonBotLibrary.Services.Models.YouTubeResult)~SearchResult
+  commentId: M:CommonBotLibrary.Services.Models.YouTubeResult.op_Implicit(CommonBotLibrary.Services.Models.YouTubeResult)~SearchResult
+  id: op_Implicit(CommonBotLibrary.Services.Models.YouTubeResult)~SearchResult
+  parent: CommonBotLibrary.Services.Models.YouTubeResult
+  langs:
+  - csharp
+  - vb
+  name: Implicit(YouTubeResult to SearchResult)
+  nameWithType: YouTubeResult.Implicit(YouTubeResult to SearchResult)
+  fullName: CommonBotLibrary.Services.Models.YouTubeResult.Implicit(CommonBotLibrary.Services.Models.YouTubeResult to SearchResult)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 1973
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public static implicit operator SearchResult(YouTubeResult result)
+    parameters:
+    - id: result
+      type: CommonBotLibrary.Services.Models.YouTubeResult
+    return:
+      type: SearchResult
+    content.vb: Public Shared Widening Operator CType(result As YouTubeResult) As SearchResult
+  overload: CommonBotLibrary.Services.Models.YouTubeResult.op_Implicit*
+  nameWithType.vb: YouTubeResult.Widening(YouTubeResult to SearchResult)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CommonBotLibrary.Services.Models.YouTubeResult.Widening(CommonBotLibrary.Services.Models.YouTubeResult to SearchResult)
+  name.vb: Widening(YouTubeResult to SearchResult)
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.YouTubeResult.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.Models.YouTubeResult.#ctor
+  isExternal: false
+  name: YouTubeResult
+  nameWithType: YouTubeResult.YouTubeResult
+  fullName: CommonBotLibrary.Services.Models.YouTubeResult.YouTubeResult
+- uid: SearchResult
+  isExternal: true
+  name: SearchResult
+  nameWithType: SearchResult
+  fullName: SearchResult
+- uid: CommonBotLibrary.Services.Models.YouTubeResult.ApiResult*
+  commentId: Overload:CommonBotLibrary.Services.Models.YouTubeResult.ApiResult
+  isExternal: false
+  name: ApiResult
+  nameWithType: YouTubeResult.ApiResult
+  fullName: CommonBotLibrary.Services.Models.YouTubeResult.ApiResult
+- uid: CommonBotLibrary.Services.Models.YouTubeResult.Url*
+  commentId: Overload:CommonBotLibrary.Services.Models.YouTubeResult.Url
+  isExternal: false
+  name: Url
+  nameWithType: YouTubeResult.Url
+  fullName: CommonBotLibrary.Services.Models.YouTubeResult.Url
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.Models.YouTubeResult.Title*
+  commentId: Overload:CommonBotLibrary.Services.Models.YouTubeResult.Title
+  isExternal: false
+  name: Title
+  nameWithType: YouTubeResult.Title
+  fullName: CommonBotLibrary.Services.Models.YouTubeResult.Title
+- uid: CommonBotLibrary.Services.Models.YouTubeResult.op_Implicit*
+  commentId: Overload:CommonBotLibrary.Services.Models.YouTubeResult.op_Implicit
+  isExternal: false
+  name: Implicit
+  nameWithType: YouTubeResult.Implicit
+  fullName: CommonBotLibrary.Services.Models.YouTubeResult.Implicit
+  nameWithType.vb: YouTubeResult.Widening
+  fullName.vb: CommonBotLibrary.Services.Models.YouTubeResult.Widening
+  name.vb: Widening
+- uid: CommonBotLibrary.Services.Models.YouTubeResult
+  commentId: T:CommonBotLibrary.Services.Models.YouTubeResult
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: YouTubeResult
+  nameWithType: YouTubeResult
+  fullName: CommonBotLibrary.Services.Models.YouTubeResult

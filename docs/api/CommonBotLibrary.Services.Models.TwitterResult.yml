@@ -1,0 +1,278 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.TwitterResult
+  commentId: T:CommonBotLibrary.Services.Models.TwitterResult
+  id: TwitterResult
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.TwitterResult.#ctor(ITweet)
+  - CommonBotLibrary.Services.Models.TwitterResult.op_Implicit(CommonBotLibrary.Services.Models.TwitterResult)~Tweet
+  - CommonBotLibrary.Services.Models.TwitterResult.Title
+  - CommonBotLibrary.Services.Models.TwitterResult.Tweet
+  - CommonBotLibrary.Services.Models.TwitterResult.Url
+  langs:
+  - csharp
+  - vb
+  name: TwitterResult
+  nameWithType: TwitterResult
+  fullName: CommonBotLibrary.Services.Models.TwitterResult
+  type: Class
+  source:
+    id: TwitterResult
+    path: ''
+    startLine: 1863
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: 'public class TwitterResult : IWebpage'
+    content.vb: >-
+      Public Class TwitterResult
+
+          Inherits IWebpage
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.TwitterResult.#ctor(ITweet)
+  commentId: M:CommonBotLibrary.Services.Models.TwitterResult.#ctor(ITweet)
+  id: '#ctor(ITweet)'
+  parent: CommonBotLibrary.Services.Models.TwitterResult
+  langs:
+  - csharp
+  - vb
+  name: TwitterResult(ITweet)
+  nameWithType: TwitterResult.TwitterResult(ITweet)
+  fullName: CommonBotLibrary.Services.Models.TwitterResult.TwitterResult(ITweet)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1866
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public TwitterResult(ITweet tweet)
+    parameters:
+    - id: tweet
+      type: ITweet
+    content.vb: Public Sub New(tweet As ITweet)
+  overload: CommonBotLibrary.Services.Models.TwitterResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.TwitterResult.Tweet
+  commentId: P:CommonBotLibrary.Services.Models.TwitterResult.Tweet
+  id: Tweet
+  parent: CommonBotLibrary.Services.Models.TwitterResult
+  langs:
+  - csharp
+  - vb
+  name: Tweet
+  nameWithType: TwitterResult.Tweet
+  fullName: CommonBotLibrary.Services.Models.TwitterResult.Tweet
+  type: Property
+  source:
+    id: Tweet
+    path: ''
+    startLine: 1877
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  summary: "\nThe wrapped model returned by TweetInvi with more tweet props.\n"
+  example: []
+  syntax:
+    content: public ITweet Tweet { get; set; }
+    parameters: []
+    return:
+      type: ITweet
+    content.vb: Public Property Tweet As ITweet
+  overload: CommonBotLibrary.Services.Models.TwitterResult.Tweet*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.TwitterResult.Url
+  commentId: P:CommonBotLibrary.Services.Models.TwitterResult.Url
+  id: Url
+  parent: CommonBotLibrary.Services.Models.TwitterResult
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: TwitterResult.Url
+  fullName: CommonBotLibrary.Services.Models.TwitterResult.Url
+  type: Property
+  source:
+    id: Url
+    path: ''
+    startLine: 1878
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: CommonBotLibrary.Services.Models.TwitterResult.Url*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.TwitterResult.Title
+  commentId: P:CommonBotLibrary.Services.Models.TwitterResult.Title
+  id: Title
+  parent: CommonBotLibrary.Services.Models.TwitterResult
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TwitterResult.Title
+  fullName: CommonBotLibrary.Services.Models.TwitterResult.Title
+  type: Property
+  source:
+    id: Title
+    path: ''
+    startLine: 1879
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: CommonBotLibrary.Services.Models.TwitterResult.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.TwitterResult.op_Implicit(CommonBotLibrary.Services.Models.TwitterResult)~Tweet
+  commentId: M:CommonBotLibrary.Services.Models.TwitterResult.op_Implicit(CommonBotLibrary.Services.Models.TwitterResult)~Tweet
+  id: op_Implicit(CommonBotLibrary.Services.Models.TwitterResult)~Tweet
+  parent: CommonBotLibrary.Services.Models.TwitterResult
+  langs:
+  - csharp
+  - vb
+  name: Implicit(TwitterResult to Tweet)
+  nameWithType: TwitterResult.Implicit(TwitterResult to Tweet)
+  fullName: CommonBotLibrary.Services.Models.TwitterResult.Implicit(CommonBotLibrary.Services.Models.TwitterResult to Tweet)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 1881
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public static implicit operator Tweet(TwitterResult result)
+    parameters:
+    - id: result
+      type: CommonBotLibrary.Services.Models.TwitterResult
+    return:
+      type: Tweet
+    content.vb: Public Shared Widening Operator CType(result As TwitterResult) As Tweet
+  overload: CommonBotLibrary.Services.Models.TwitterResult.op_Implicit*
+  nameWithType.vb: TwitterResult.Widening(TwitterResult to Tweet)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CommonBotLibrary.Services.Models.TwitterResult.Widening(CommonBotLibrary.Services.Models.TwitterResult to Tweet)
+  name.vb: Widening(TwitterResult to Tweet)
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.TwitterResult.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.Models.TwitterResult.#ctor
+  isExternal: false
+  name: TwitterResult
+  nameWithType: TwitterResult.TwitterResult
+  fullName: CommonBotLibrary.Services.Models.TwitterResult.TwitterResult
+- uid: ITweet
+  isExternal: true
+  name: ITweet
+  nameWithType: ITweet
+  fullName: ITweet
+- uid: CommonBotLibrary.Services.Models.TwitterResult.Tweet*
+  commentId: Overload:CommonBotLibrary.Services.Models.TwitterResult.Tweet
+  isExternal: false
+  name: Tweet
+  nameWithType: TwitterResult.Tweet
+  fullName: CommonBotLibrary.Services.Models.TwitterResult.Tweet
+- uid: CommonBotLibrary.Services.Models.TwitterResult.Url*
+  commentId: Overload:CommonBotLibrary.Services.Models.TwitterResult.Url
+  isExternal: false
+  name: Url
+  nameWithType: TwitterResult.Url
+  fullName: CommonBotLibrary.Services.Models.TwitterResult.Url
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.Models.TwitterResult.Title*
+  commentId: Overload:CommonBotLibrary.Services.Models.TwitterResult.Title
+  isExternal: false
+  name: Title
+  nameWithType: TwitterResult.Title
+  fullName: CommonBotLibrary.Services.Models.TwitterResult.Title
+- uid: CommonBotLibrary.Services.Models.TwitterResult.op_Implicit*
+  commentId: Overload:CommonBotLibrary.Services.Models.TwitterResult.op_Implicit
+  isExternal: false
+  name: Implicit
+  nameWithType: TwitterResult.Implicit
+  fullName: CommonBotLibrary.Services.Models.TwitterResult.Implicit
+  nameWithType.vb: TwitterResult.Widening
+  fullName.vb: CommonBotLibrary.Services.Models.TwitterResult.Widening
+  name.vb: Widening
+- uid: CommonBotLibrary.Services.Models.TwitterResult
+  commentId: T:CommonBotLibrary.Services.Models.TwitterResult
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: TwitterResult
+  nameWithType: TwitterResult
+  fullName: CommonBotLibrary.Services.Models.TwitterResult
+- uid: Tweet
+  commentId: '!:Tweet'
+  isExternal: true
+  name: Tweet
+  nameWithType: Tweet
+  fullName: Tweet

@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces.IWebpageService
+  commentId: T:CommonBotLibrary.Interfaces.IWebpageService
+  id: IWebpageService
+  parent: CommonBotLibrary.Interfaces
+  children:
+  - CommonBotLibrary.Interfaces.IWebpageService.SearchAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IWebpageService
+  nameWithType: IWebpageService
+  fullName: CommonBotLibrary.Interfaces.IWebpageService
+  type: Interface
+  source:
+    id: IWebpageService
+    path: ''
+    startLine: 470
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nDefines an API for retrieving webpages.\n"
+  example: []
+  syntax:
+    content: public interface IWebpageService
+    content.vb: Public Interface IWebpageService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CommonBotLibrary.Interfaces.IWebpageService.SearchAsync(System.String)
+  commentId: M:CommonBotLibrary.Interfaces.IWebpageService.SearchAsync(System.String)
+  id: SearchAsync(System.String)
+  parent: CommonBotLibrary.Interfaces.IWebpageService
+  langs:
+  - csharp
+  - vb
+  name: SearchAsync(String)
+  nameWithType: IWebpageService.SearchAsync(String)
+  fullName: CommonBotLibrary.Interfaces.IWebpageService.SearchAsync(System.String)
+  type: Method
+  source:
+    id: SearchAsync
+    path: ''
+    startLine: 477
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nSearches for relevant webpages for a given query.\n"
+  example: []
+  syntax:
+    content: Task<IEnumerable<IWebpage>> SearchAsync(string query)
+    parameters:
+    - id: query
+      type: System.String
+      description: The search term to use.
+    return:
+      type: Task{IEnumerable{IWebpage}}
+      description: A collection of relevant webpages.
+    content.vb: Function SearchAsync(query As String) As Task(Of IEnumerable(Of IWebpage))
+  overload: CommonBotLibrary.Interfaces.IWebpageService.SearchAsync*
+references:
+- uid: CommonBotLibrary.Interfaces
+  commentId: N:CommonBotLibrary.Interfaces
+  isExternal: false
+  name: CommonBotLibrary.Interfaces
+  nameWithType: CommonBotLibrary.Interfaces
+  fullName: CommonBotLibrary.Interfaces
+- uid: CommonBotLibrary.Interfaces.IWebpageService.SearchAsync*
+  commentId: Overload:CommonBotLibrary.Interfaces.IWebpageService.SearchAsync
+  isExternal: false
+  name: SearchAsync
+  nameWithType: IWebpageService.SearchAsync
+  fullName: CommonBotLibrary.Interfaces.IWebpageService.SearchAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{IEnumerable{IWebpage}}
+  commentId: '!:Task{IEnumerable{IWebpage}}'
+  definition: Task`1
+  name: Task<IEnumerable<IWebpage>>
+  nameWithType: Task<IEnumerable<IWebpage>>
+  fullName: Task<IEnumerable<IWebpage>>
+  nameWithType.vb: Task(Of IEnumerable(Of IWebpage))
+  fullName.vb: Task(Of IEnumerable(Of IWebpage))
+  name.vb: Task(Of IEnumerable(Of IWebpage))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IWebpage
+    name: IWebpage
+    nameWithType: IWebpage
+    fullName: IWebpage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IWebpage
+    name: IWebpage
+    nameWithType: IWebpage
+    fullName: IWebpage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

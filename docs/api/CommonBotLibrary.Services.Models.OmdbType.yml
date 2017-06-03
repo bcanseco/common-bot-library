@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.OmdbType
+  commentId: T:CommonBotLibrary.Services.Models.OmdbType
+  id: OmdbType
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.OmdbType.Episode
+  - CommonBotLibrary.Services.Models.OmdbType.Movie
+  - CommonBotLibrary.Services.Models.OmdbType.Series
+  langs:
+  - csharp
+  - vb
+  name: OmdbType
+  nameWithType: OmdbType
+  fullName: CommonBotLibrary.Services.Models.OmdbType
+  type: Enum
+  source:
+    id: OmdbType
+    path: ''
+    startLine: 1628
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public enum OmdbType
+    content.vb: Public Enum OmdbType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CommonBotLibrary.Services.Models.OmdbType.Movie
+  commentId: F:CommonBotLibrary.Services.Models.OmdbType.Movie
+  id: Movie
+  parent: CommonBotLibrary.Services.Models.OmdbType
+  langs:
+  - csharp
+  - vb
+  name: Movie
+  nameWithType: OmdbType.Movie
+  fullName: CommonBotLibrary.Services.Models.OmdbType.Movie
+  type: Field
+  source:
+    id: Movie
+    path: ''
+    startLine: 1630
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: Movie = 0
+    return:
+      type: CommonBotLibrary.Services.Models.OmdbType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CommonBotLibrary.Services.Models.OmdbType.Series
+  commentId: F:CommonBotLibrary.Services.Models.OmdbType.Series
+  id: Series
+  parent: CommonBotLibrary.Services.Models.OmdbType
+  langs:
+  - csharp
+  - vb
+  name: Series
+  nameWithType: OmdbType.Series
+  fullName: CommonBotLibrary.Services.Models.OmdbType.Series
+  type: Field
+  source:
+    id: Series
+    path: ''
+    startLine: 1631
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: Series = 1
+    return:
+      type: CommonBotLibrary.Services.Models.OmdbType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CommonBotLibrary.Services.Models.OmdbType.Episode
+  commentId: F:CommonBotLibrary.Services.Models.OmdbType.Episode
+  id: Episode
+  parent: CommonBotLibrary.Services.Models.OmdbType
+  langs:
+  - csharp
+  - vb
+  name: Episode
+  nameWithType: OmdbType.Episode
+  fullName: CommonBotLibrary.Services.Models.OmdbType.Episode
+  type: Field
+  source:
+    id: Episode
+    path: ''
+    startLine: 1632
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: Episode = 2
+    return:
+      type: CommonBotLibrary.Services.Models.OmdbType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: CommonBotLibrary.Services.Models.OmdbType
+  commentId: T:CommonBotLibrary.Services.Models.OmdbType
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: OmdbType
+  nameWithType: OmdbType
+  fullName: CommonBotLibrary.Services.Models.OmdbType

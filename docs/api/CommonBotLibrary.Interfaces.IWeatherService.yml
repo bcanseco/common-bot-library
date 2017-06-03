@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces.IWeatherService
+  commentId: T:CommonBotLibrary.Interfaces.IWeatherService
+  id: IWeatherService
+  parent: CommonBotLibrary.Interfaces
+  children:
+  - CommonBotLibrary.Interfaces.IWeatherService.GetCurrentWeatherAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IWeatherService
+  nameWithType: IWeatherService
+  fullName: CommonBotLibrary.Interfaces.IWeatherService
+  type: Interface
+  source:
+    id: IWeatherService
+    path: ''
+    startLine: 449
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  syntax:
+    content: public interface IWeatherService
+    content.vb: Public Interface IWeatherService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CommonBotLibrary.Interfaces.IWeatherService.GetCurrentWeatherAsync(System.String)
+  commentId: M:CommonBotLibrary.Interfaces.IWeatherService.GetCurrentWeatherAsync(System.String)
+  id: GetCurrentWeatherAsync(System.String)
+  parent: CommonBotLibrary.Interfaces.IWeatherService
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentWeatherAsync(String)
+  nameWithType: IWeatherService.GetCurrentWeatherAsync(String)
+  fullName: CommonBotLibrary.Interfaces.IWeatherService.GetCurrentWeatherAsync(System.String)
+  type: Method
+  source:
+    id: GetCurrentWeatherAsync
+    path: ''
+    startLine: 457
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nFetches the current weather conditions for a city.\n"
+  example: []
+  syntax:
+    content: Task<WeatherBase> GetCurrentWeatherAsync(string city)
+    parameters:
+    - id: city
+      type: System.String
+      description: The city to get weather for.
+    return:
+      type: Task{WeatherBase}
+      description: Current weather data.
+    content.vb: Function GetCurrentWeatherAsync(city As String) As Task(Of WeatherBase)
+  overload: CommonBotLibrary.Interfaces.IWeatherService.GetCurrentWeatherAsync*
+  exceptions:
+  - type: CommonBotLibrary.Exceptions.ResultNotFoundException
+    commentId: T:CommonBotLibrary.Exceptions.ResultNotFoundException
+references:
+- uid: CommonBotLibrary.Interfaces
+  commentId: N:CommonBotLibrary.Interfaces
+  isExternal: false
+  name: CommonBotLibrary.Interfaces
+  nameWithType: CommonBotLibrary.Interfaces
+  fullName: CommonBotLibrary.Interfaces
+- uid: CommonBotLibrary.Interfaces.IWeatherService.GetCurrentWeatherAsync*
+  commentId: Overload:CommonBotLibrary.Interfaces.IWeatherService.GetCurrentWeatherAsync
+  isExternal: false
+  name: GetCurrentWeatherAsync
+  nameWithType: IWeatherService.GetCurrentWeatherAsync
+  fullName: CommonBotLibrary.Interfaces.IWeatherService.GetCurrentWeatherAsync
+- uid: CommonBotLibrary.Exceptions.ResultNotFoundException
+  commentId: T:CommonBotLibrary.Exceptions.ResultNotFoundException
+  isExternal: false
+  name: ResultNotFoundException
+  nameWithType: ResultNotFoundException
+  fullName: CommonBotLibrary.Exceptions.ResultNotFoundException
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{WeatherBase}
+  commentId: '!:Task{WeatherBase}'
+  definition: Task`1
+  name: Task<WeatherBase>
+  nameWithType: Task<WeatherBase>
+  fullName: Task<WeatherBase>
+  nameWithType.vb: Task(Of WeatherBase)
+  fullName.vb: Task(Of WeatherBase)
+  name.vb: Task(Of WeatherBase)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: WeatherBase
+    name: WeatherBase
+    nameWithType: WeatherBase
+    fullName: WeatherBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: WeatherBase
+    name: WeatherBase
+    nameWithType: WeatherBase
+    fullName: WeatherBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

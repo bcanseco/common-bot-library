@@ -1,0 +1,216 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.YahooResult
+  commentId: T:CommonBotLibrary.Services.Models.YahooResult
+  id: YahooResult
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.YahooResult.ExchangeDisplay
+  - CommonBotLibrary.Services.Models.YahooResult.StockExchange
+  - CommonBotLibrary.Services.Models.YahooResult.Type
+  - CommonBotLibrary.Services.Models.YahooResult.TypeDisplay
+  langs:
+  - csharp
+  - vb
+  name: YahooResult
+  nameWithType: YahooResult
+  fullName: CommonBotLibrary.Services.Models.YahooResult
+  type: Class
+  source:
+    id: YahooResult
+    path: ''
+    startLine: 1910
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: 'public class YahooResult : SymbolBase'
+    content.vb: >-
+      Public Class YahooResult
+
+          Inherits SymbolBase
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - CommonBotLibrary.Services.Models.YahooQuote
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.YahooResult.StockExchange
+  commentId: P:CommonBotLibrary.Services.Models.YahooResult.StockExchange
+  id: StockExchange
+  parent: CommonBotLibrary.Services.Models.YahooResult
+  langs:
+  - csharp
+  - vb
+  name: StockExchange
+  nameWithType: YahooResult.StockExchange
+  fullName: CommonBotLibrary.Services.Models.YahooResult.StockExchange
+  type: Property
+  source:
+    id: StockExchange
+    path: ''
+    startLine: 1912
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string StockExchange { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StockExchange As String
+  overload: CommonBotLibrary.Services.Models.YahooResult.StockExchange*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooResult.ExchangeDisplay
+  commentId: P:CommonBotLibrary.Services.Models.YahooResult.ExchangeDisplay
+  id: ExchangeDisplay
+  parent: CommonBotLibrary.Services.Models.YahooResult
+  langs:
+  - csharp
+  - vb
+  name: ExchangeDisplay
+  nameWithType: YahooResult.ExchangeDisplay
+  fullName: CommonBotLibrary.Services.Models.YahooResult.ExchangeDisplay
+  type: Property
+  source:
+    id: ExchangeDisplay
+    path: ''
+    startLine: 1914
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string ExchangeDisplay { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExchangeDisplay As String
+  overload: CommonBotLibrary.Services.Models.YahooResult.ExchangeDisplay*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooResult.Type
+  commentId: P:CommonBotLibrary.Services.Models.YahooResult.Type
+  id: Type
+  parent: CommonBotLibrary.Services.Models.YahooResult
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: YahooResult.Type
+  fullName: CommonBotLibrary.Services.Models.YahooResult.Type
+  type: Property
+  source:
+    id: Type
+    path: ''
+    startLine: 1916
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: CommonBotLibrary.Services.Models.YahooResult.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YahooResult.TypeDisplay
+  commentId: P:CommonBotLibrary.Services.Models.YahooResult.TypeDisplay
+  id: TypeDisplay
+  parent: CommonBotLibrary.Services.Models.YahooResult
+  langs:
+  - csharp
+  - vb
+  name: TypeDisplay
+  nameWithType: YahooResult.TypeDisplay
+  fullName: CommonBotLibrary.Services.Models.YahooResult.TypeDisplay
+  type: Property
+  source:
+    id: TypeDisplay
+    path: ''
+    startLine: 1917
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string TypeDisplay { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TypeDisplay As String
+  overload: CommonBotLibrary.Services.Models.YahooResult.TypeDisplay*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.YahooResult.StockExchange*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooResult.StockExchange
+  isExternal: false
+  name: StockExchange
+  nameWithType: YahooResult.StockExchange
+  fullName: CommonBotLibrary.Services.Models.YahooResult.StockExchange
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.Models.YahooResult.ExchangeDisplay*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooResult.ExchangeDisplay
+  isExternal: false
+  name: ExchangeDisplay
+  nameWithType: YahooResult.ExchangeDisplay
+  fullName: CommonBotLibrary.Services.Models.YahooResult.ExchangeDisplay
+- uid: CommonBotLibrary.Services.Models.YahooResult.Type*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooResult.Type
+  isExternal: false
+  name: Type
+  nameWithType: YahooResult.Type
+  fullName: CommonBotLibrary.Services.Models.YahooResult.Type
+- uid: CommonBotLibrary.Services.Models.YahooResult.TypeDisplay*
+  commentId: Overload:CommonBotLibrary.Services.Models.YahooResult.TypeDisplay
+  isExternal: false
+  name: TypeDisplay
+  nameWithType: YahooResult.TypeDisplay
+  fullName: CommonBotLibrary.Services.Models.YahooResult.TypeDisplay

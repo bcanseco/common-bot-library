@@ -1,0 +1,511 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase
+  commentId: T:CommonBotLibrary.Interfaces.Models.WeatherBase
+  id: WeatherBase
+  parent: CommonBotLibrary.Interfaces.Models
+  children:
+  - CommonBotLibrary.Interfaces.Models.WeatherBase.Name
+  - CommonBotLibrary.Interfaces.Models.WeatherBase.Temperature
+  - CommonBotLibrary.Interfaces.Models.WeatherBase.TemperatureDisplay
+  - CommonBotLibrary.Interfaces.Models.WeatherBase.UnitFormat
+  langs:
+  - csharp
+  - vb
+  name: WeatherBase
+  nameWithType: WeatherBase
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase
+  type: Class
+  source:
+    id: WeatherBase
+    path: ''
+    startLine: 553
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public abstract class WeatherBase
+    content.vb: Public MustInherit Class WeatherBase
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase.Name
+  commentId: P:CommonBotLibrary.Interfaces.Models.WeatherBase.Name
+  id: Name
+  parent: CommonBotLibrary.Interfaces.Models.WeatherBase
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: WeatherBase.Name
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 556
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: CommonBotLibrary.Interfaces.Models.WeatherBase.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase.Temperature
+  commentId: P:CommonBotLibrary.Interfaces.Models.WeatherBase.Temperature
+  id: Temperature
+  parent: CommonBotLibrary.Interfaces.Models.WeatherBase
+  langs:
+  - csharp
+  - vb
+  name: Temperature
+  nameWithType: WeatherBase.Temperature
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase.Temperature
+  type: Property
+  source:
+    id: Temperature
+    path: ''
+    startLine: 557
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public double Temperature { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Temperature As Double
+  overload: CommonBotLibrary.Interfaces.Models.WeatherBase.Temperature*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase.UnitFormat
+  commentId: P:CommonBotLibrary.Interfaces.Models.WeatherBase.UnitFormat
+  id: UnitFormat
+  parent: CommonBotLibrary.Interfaces.Models.WeatherBase
+  langs:
+  - csharp
+  - vb
+  name: UnitFormat
+  nameWithType: WeatherBase.UnitFormat
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase.UnitFormat
+  type: Property
+  source:
+    id: UnitFormat
+    path: ''
+    startLine: 558
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public WeatherBase.Unit UnitFormat { get; set; }
+    parameters: []
+    return:
+      type: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+    content.vb: Public Property UnitFormat As WeatherBase.Unit
+  overload: CommonBotLibrary.Interfaces.Models.WeatherBase.UnitFormat*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase.TemperatureDisplay
+  commentId: M:CommonBotLibrary.Interfaces.Models.WeatherBase.TemperatureDisplay
+  id: TemperatureDisplay
+  parent: CommonBotLibrary.Interfaces.Models.WeatherBase
+  langs:
+  - csharp
+  - vb
+  name: TemperatureDisplay()
+  nameWithType: WeatherBase.TemperatureDisplay()
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase.TemperatureDisplay()
+  type: Method
+  source:
+    id: TemperatureDisplay
+    path: ''
+    startLine: 560
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public string TemperatureDisplay()
+    return:
+      type: System.String
+    content.vb: Public Function TemperatureDisplay As String
+  overload: CommonBotLibrary.Interfaces.Models.WeatherBase.TemperatureDisplay*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Interfaces.Models
+  commentId: N:CommonBotLibrary.Interfaces.Models
+  isExternal: false
+  name: CommonBotLibrary.Interfaces.Models
+  nameWithType: CommonBotLibrary.Interfaces.Models
+  fullName: CommonBotLibrary.Interfaces.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase.Name*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.WeatherBase.Name
+  isExternal: false
+  name: Name
+  nameWithType: WeatherBase.Name
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase.Temperature*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.WeatherBase.Temperature
+  isExternal: false
+  name: Temperature
+  nameWithType: WeatherBase.Temperature
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase.Temperature
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase.UnitFormat*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.WeatherBase.UnitFormat
+  isExternal: false
+  name: UnitFormat
+  nameWithType: WeatherBase.UnitFormat
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase.UnitFormat
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+  commentId: T:CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+  parent: CommonBotLibrary.Interfaces.Models
+  isExternal: false
+  name: WeatherBase.Unit
+  nameWithType: WeatherBase.Unit
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase.TemperatureDisplay*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.WeatherBase.TemperatureDisplay
+  isExternal: false
+  name: TemperatureDisplay
+  nameWithType: WeatherBase.TemperatureDisplay
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase.TemperatureDisplay

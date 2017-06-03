@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary
+  commentId: N:CommonBotLibrary
+  id: CommonBotLibrary
+  children:
+  - CommonBotLibrary.Tokens
+  - CommonBotLibrary.Tokens.GoogleCredentials
+  - CommonBotLibrary.Tokens.MyAnimeListCredentials
+  - CommonBotLibrary.Tokens.TwitterCredentials
+  langs:
+  - csharp
+  - vb
+  name: CommonBotLibrary
+  nameWithType: CommonBotLibrary
+  fullName: CommonBotLibrary
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CommonBotLibrary.Tokens
+  commentId: T:CommonBotLibrary.Tokens
+  isExternal: false
+  name: Tokens
+  nameWithType: Tokens
+  fullName: CommonBotLibrary.Tokens
+- uid: CommonBotLibrary.Tokens.GoogleCredentials
+  commentId: T:CommonBotLibrary.Tokens.GoogleCredentials
+  parent: CommonBotLibrary
+  isExternal: false
+  name: Tokens.GoogleCredentials
+  nameWithType: Tokens.GoogleCredentials
+  fullName: CommonBotLibrary.Tokens.GoogleCredentials
+- uid: CommonBotLibrary.Tokens.MyAnimeListCredentials
+  commentId: T:CommonBotLibrary.Tokens.MyAnimeListCredentials
+  parent: CommonBotLibrary
+  isExternal: false
+  name: Tokens.MyAnimeListCredentials
+  nameWithType: Tokens.MyAnimeListCredentials
+  fullName: CommonBotLibrary.Tokens.MyAnimeListCredentials
+- uid: CommonBotLibrary.Tokens.TwitterCredentials
+  commentId: T:CommonBotLibrary.Tokens.TwitterCredentials
+  parent: CommonBotLibrary
+  isExternal: false
+  name: Tokens.TwitterCredentials
+  nameWithType: Tokens.TwitterCredentials
+  fullName: CommonBotLibrary.Tokens.TwitterCredentials
+- uid: CommonBotLibrary
+  commentId: N:CommonBotLibrary
+  isExternal: false
+  name: CommonBotLibrary
+  nameWithType: CommonBotLibrary
+  fullName: CommonBotLibrary

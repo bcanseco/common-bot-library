@@ -1,0 +1,560 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.Die
+  commentId: T:CommonBotLibrary.Services.Models.Die
+  id: Die
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.Die.Equals(CommonBotLibrary.Services.Models.Die)
+  - CommonBotLibrary.Services.Models.Die.Equals(System.Object)
+  - CommonBotLibrary.Services.Models.Die.Factory(System.Int32)
+  - CommonBotLibrary.Services.Models.Die.Factory(System.String)
+  - CommonBotLibrary.Services.Models.Die.GetHashCode
+  - CommonBotLibrary.Services.Models.Die.op_Equality(CommonBotLibrary.Services.Models.Die,CommonBotLibrary.Services.Models.Die)
+  - CommonBotLibrary.Services.Models.Die.op_Implicit(CommonBotLibrary.Services.Models.Die)~System.Int32
+  - CommonBotLibrary.Services.Models.Die.op_Implicit(System.Int32)~CommonBotLibrary.Services.Models.Die
+  - CommonBotLibrary.Services.Models.Die.op_Inequality(CommonBotLibrary.Services.Models.Die,CommonBotLibrary.Services.Models.Die)
+  - CommonBotLibrary.Services.Models.Die.Sides
+  - CommonBotLibrary.Services.Models.Die.StartsWithD(System.String)
+  - CommonBotLibrary.Services.Models.Die.ToString
+  langs:
+  - csharp
+  - vb
+  name: Die
+  nameWithType: Die
+  fullName: CommonBotLibrary.Services.Models.Die
+  type: Class
+  source:
+    id: Die
+    path: ''
+    startLine: 1412
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  summary: "\nWrapper class for a real die's side count.\nImplicitly typed as an <xref uid=\"langword_csharp_int\" name=\"int\" href=\"\"></xref>.\n"
+  example: []
+  syntax:
+    content: 'public class Die : IEquatable<Die>'
+    content.vb: >-
+      Public Class Die
+
+          Inherits IEquatable(Of Die)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.Die.Sides
+  commentId: P:CommonBotLibrary.Services.Models.Die.Sides
+  id: Sides
+  parent: CommonBotLibrary.Services.Models.Die
+  langs:
+  - csharp
+  - vb
+  name: Sides
+  nameWithType: Die.Sides
+  fullName: CommonBotLibrary.Services.Models.Die.Sides
+  type: Property
+  source:
+    id: Sides
+    path: ''
+    startLine: 1417
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public int Sides { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Sides As Integer
+  overload: CommonBotLibrary.Services.Models.Die.Sides*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CommonBotLibrary.Services.Models.Die.Factory(System.String)
+  commentId: M:CommonBotLibrary.Services.Models.Die.Factory(System.String)
+  id: Factory(System.String)
+  parent: CommonBotLibrary.Services.Models.Die
+  langs:
+  - csharp
+  - vb
+  name: Factory(String)
+  nameWithType: Die.Factory(String)
+  fullName: CommonBotLibrary.Services.Models.Die.Factory(System.String)
+  type: Method
+  source:
+    id: Factory
+    path: ''
+    startLine: 1430
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  summary: "\nCreates a new instance of the <xref href=\"CommonBotLibrary.Services.Models.Die\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public static Die Factory(string sides)
+    parameters:
+    - id: sides
+      type: System.String
+      description: "\nThe number of sides to use. May have a 'd' before the number.\nNumber must be between zero and <xref href=\"System.Int32.MaxValue\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+    return:
+      type: CommonBotLibrary.Services.Models.Die
+      description: A new die.
+    content.vb: Public Shared Function Factory(sides As String) As Die
+  overload: CommonBotLibrary.Services.Models.Die.Factory*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CommonBotLibrary.Services.Models.Die.Factory(System.Int32)
+  commentId: M:CommonBotLibrary.Services.Models.Die.Factory(System.Int32)
+  id: Factory(System.Int32)
+  parent: CommonBotLibrary.Services.Models.Die
+  langs:
+  - csharp
+  - vb
+  name: Factory(Int32)
+  nameWithType: Die.Factory(Int32)
+  fullName: CommonBotLibrary.Services.Models.Die.Factory(System.Int32)
+  type: Method
+  source:
+    id: Factory
+    path: ''
+    startLine: 1454
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  summary: "\nCreates a new instance of the <xref href=\"CommonBotLibrary.Services.Models.Die\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public static Die Factory(int sides = 6)
+    parameters:
+    - id: sides
+      type: System.Int32
+      description: "\nThe number of sides to use.\nNumber must be between zero and <xref href=\"System.Int32.MaxValue\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+    return:
+      type: CommonBotLibrary.Services.Models.Die
+      description: A new die.
+    content.vb: Public Shared Function Factory(sides As Integer = 6) As Die
+  overload: CommonBotLibrary.Services.Models.Die.Factory*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CommonBotLibrary.Services.Models.Die.StartsWithD(System.String)
+  commentId: M:CommonBotLibrary.Services.Models.Die.StartsWithD(System.String)
+  id: StartsWithD(System.String)
+  parent: CommonBotLibrary.Services.Models.Die
+  langs:
+  - csharp
+  - vb
+  name: StartsWithD(String)
+  nameWithType: Die.StartsWithD(String)
+  fullName: CommonBotLibrary.Services.Models.Die.StartsWithD(System.String)
+  type: Method
+  source:
+    id: StartsWithD
+    path: ''
+    startLine: 1465
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public static bool StartsWithD(string sides)
+    parameters:
+    - id: sides
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function StartsWithD(sides As String) As Boolean
+  overload: CommonBotLibrary.Services.Models.Die.StartsWithD*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CommonBotLibrary.Services.Models.Die.Equals(CommonBotLibrary.Services.Models.Die)
+  commentId: M:CommonBotLibrary.Services.Models.Die.Equals(CommonBotLibrary.Services.Models.Die)
+  id: Equals(CommonBotLibrary.Services.Models.Die)
+  parent: CommonBotLibrary.Services.Models.Die
+  langs:
+  - csharp
+  - vb
+  name: Equals(Die)
+  nameWithType: Die.Equals(Die)
+  fullName: CommonBotLibrary.Services.Models.Die.Equals(CommonBotLibrary.Services.Models.Die)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 1468
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public bool Equals(Die other)
+    parameters:
+    - id: other
+      type: CommonBotLibrary.Services.Models.Die
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As Die) As Boolean
+  overload: CommonBotLibrary.Services.Models.Die.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.Die.Equals(System.Object)
+  commentId: M:CommonBotLibrary.Services.Models.Die.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: CommonBotLibrary.Services.Models.Die
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: Die.Equals(Object)
+  fullName: CommonBotLibrary.Services.Models.Die.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 1475
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overload: CommonBotLibrary.Services.Models.Die.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CommonBotLibrary.Services.Models.Die.GetHashCode
+  commentId: M:CommonBotLibrary.Services.Models.Die.GetHashCode
+  id: GetHashCode
+  parent: CommonBotLibrary.Services.Models.Die
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Die.GetHashCode()
+  fullName: CommonBotLibrary.Services.Models.Die.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 1482
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: CommonBotLibrary.Services.Models.Die.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CommonBotLibrary.Services.Models.Die.ToString
+  commentId: M:CommonBotLibrary.Services.Models.Die.ToString
+  id: ToString
+  parent: CommonBotLibrary.Services.Models.Die
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Die.ToString()
+  fullName: CommonBotLibrary.Services.Models.Die.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 1483
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: CommonBotLibrary.Services.Models.Die.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CommonBotLibrary.Services.Models.Die.op_Equality(CommonBotLibrary.Services.Models.Die,CommonBotLibrary.Services.Models.Die)
+  commentId: M:CommonBotLibrary.Services.Models.Die.op_Equality(CommonBotLibrary.Services.Models.Die,CommonBotLibrary.Services.Models.Die)
+  id: op_Equality(CommonBotLibrary.Services.Models.Die,CommonBotLibrary.Services.Models.Die)
+  parent: CommonBotLibrary.Services.Models.Die
+  langs:
+  - csharp
+  - vb
+  name: Equality(Die, Die)
+  nameWithType: Die.Equality(Die, Die)
+  fullName: CommonBotLibrary.Services.Models.Die.Equality(CommonBotLibrary.Services.Models.Die, CommonBotLibrary.Services.Models.Die)
+  type: Operator
+  source:
+    id: op_Equality
+    path: ''
+    startLine: 1485
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public static bool operator ==(Die left, Die right)
+    parameters:
+    - id: left
+      type: CommonBotLibrary.Services.Models.Die
+    - id: right
+      type: CommonBotLibrary.Services.Models.Die
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As Die, right As Die) As Boolean
+  overload: CommonBotLibrary.Services.Models.Die.op_Equality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CommonBotLibrary.Services.Models.Die.op_Inequality(CommonBotLibrary.Services.Models.Die,CommonBotLibrary.Services.Models.Die)
+  commentId: M:CommonBotLibrary.Services.Models.Die.op_Inequality(CommonBotLibrary.Services.Models.Die,CommonBotLibrary.Services.Models.Die)
+  id: op_Inequality(CommonBotLibrary.Services.Models.Die,CommonBotLibrary.Services.Models.Die)
+  parent: CommonBotLibrary.Services.Models.Die
+  langs:
+  - csharp
+  - vb
+  name: Inequality(Die, Die)
+  nameWithType: Die.Inequality(Die, Die)
+  fullName: CommonBotLibrary.Services.Models.Die.Inequality(CommonBotLibrary.Services.Models.Die, CommonBotLibrary.Services.Models.Die)
+  type: Operator
+  source:
+    id: op_Inequality
+    path: ''
+    startLine: 1486
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public static bool operator !=(Die left, Die right)
+    parameters:
+    - id: left
+      type: CommonBotLibrary.Services.Models.Die
+    - id: right
+      type: CommonBotLibrary.Services.Models.Die
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As Die, right As Die) As Boolean
+  overload: CommonBotLibrary.Services.Models.Die.op_Inequality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CommonBotLibrary.Services.Models.Die.op_Implicit(CommonBotLibrary.Services.Models.Die)~System.Int32
+  commentId: M:CommonBotLibrary.Services.Models.Die.op_Implicit(CommonBotLibrary.Services.Models.Die)~System.Int32
+  id: op_Implicit(CommonBotLibrary.Services.Models.Die)~System.Int32
+  parent: CommonBotLibrary.Services.Models.Die
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Die to Int32)
+  nameWithType: Die.Implicit(Die to Int32)
+  fullName: CommonBotLibrary.Services.Models.Die.Implicit(CommonBotLibrary.Services.Models.Die to System.Int32)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 1488
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public static implicit operator int (Die die)
+    parameters:
+    - id: die
+      type: CommonBotLibrary.Services.Models.Die
+    return:
+      type: System.Int32
+    content.vb: Public Shared Widening Operator CType(die As Die) As Integer
+  overload: CommonBotLibrary.Services.Models.Die.op_Implicit*
+  nameWithType.vb: Die.Widening(Die to Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CommonBotLibrary.Services.Models.Die.Widening(CommonBotLibrary.Services.Models.Die to System.Int32)
+  name.vb: Widening(Die to Int32)
+- uid: CommonBotLibrary.Services.Models.Die.op_Implicit(System.Int32)~CommonBotLibrary.Services.Models.Die
+  commentId: M:CommonBotLibrary.Services.Models.Die.op_Implicit(System.Int32)~CommonBotLibrary.Services.Models.Die
+  id: op_Implicit(System.Int32)~CommonBotLibrary.Services.Models.Die
+  parent: CommonBotLibrary.Services.Models.Die
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Int32 to Die)
+  nameWithType: Die.Implicit(Int32 to Die)
+  fullName: CommonBotLibrary.Services.Models.Die.Implicit(System.Int32 to CommonBotLibrary.Services.Models.Die)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 1489
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public static implicit operator Die(int sides)
+    parameters:
+    - id: sides
+      type: System.Int32
+    return:
+      type: CommonBotLibrary.Services.Models.Die
+    content.vb: Public Shared Widening Operator CType(sides As Integer) As Die
+  overload: CommonBotLibrary.Services.Models.Die.op_Implicit*
+  nameWithType.vb: Die.Widening(Int32 to Die)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CommonBotLibrary.Services.Models.Die.Widening(System.Int32 to CommonBotLibrary.Services.Models.Die)
+  name.vb: Widening(Int32 to Die)
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.Die.Sides*
+  commentId: Overload:CommonBotLibrary.Services.Models.Die.Sides
+  isExternal: false
+  name: Sides
+  nameWithType: Die.Sides
+  fullName: CommonBotLibrary.Services.Models.Die.Sides
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CommonBotLibrary.Services.Models.Die
+  commentId: T:CommonBotLibrary.Services.Models.Die
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: Die
+  nameWithType: Die
+  fullName: CommonBotLibrary.Services.Models.Die
+- uid: System.Int32.MaxValue
+  commentId: F:System.Int32.MaxValue
+- uid: CommonBotLibrary.Services.Models.Die.Factory*
+  commentId: Overload:CommonBotLibrary.Services.Models.Die.Factory
+  isExternal: false
+  name: Factory
+  nameWithType: Die.Factory
+  fullName: CommonBotLibrary.Services.Models.Die.Factory
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.Models.Die.StartsWithD*
+  commentId: Overload:CommonBotLibrary.Services.Models.Die.StartsWithD
+  isExternal: false
+  name: StartsWithD
+  nameWithType: Die.StartsWithD
+  fullName: CommonBotLibrary.Services.Models.Die.StartsWithD
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CommonBotLibrary.Services.Models.Die.Equals*
+  commentId: Overload:CommonBotLibrary.Services.Models.Die.Equals
+  isExternal: false
+  name: Equals
+  nameWithType: Die.Equals
+  fullName: CommonBotLibrary.Services.Models.Die.Equals
+- uid: CommonBotLibrary.Services.Models.Die.GetHashCode*
+  commentId: Overload:CommonBotLibrary.Services.Models.Die.GetHashCode
+  isExternal: false
+  name: GetHashCode
+  nameWithType: Die.GetHashCode
+  fullName: CommonBotLibrary.Services.Models.Die.GetHashCode
+- uid: CommonBotLibrary.Services.Models.Die.ToString*
+  commentId: Overload:CommonBotLibrary.Services.Models.Die.ToString
+  isExternal: false
+  name: ToString
+  nameWithType: Die.ToString
+  fullName: CommonBotLibrary.Services.Models.Die.ToString
+- uid: CommonBotLibrary.Services.Models.Die.op_Equality*
+  commentId: Overload:CommonBotLibrary.Services.Models.Die.op_Equality
+  isExternal: false
+  name: Equality
+  nameWithType: Die.Equality
+  fullName: CommonBotLibrary.Services.Models.Die.Equality
+- uid: CommonBotLibrary.Services.Models.Die.op_Inequality*
+  commentId: Overload:CommonBotLibrary.Services.Models.Die.op_Inequality
+  isExternal: false
+  name: Inequality
+  nameWithType: Die.Inequality
+  fullName: CommonBotLibrary.Services.Models.Die.Inequality
+- uid: CommonBotLibrary.Services.Models.Die.op_Implicit*
+  commentId: Overload:CommonBotLibrary.Services.Models.Die.op_Implicit
+  isExternal: false
+  name: Implicit
+  nameWithType: Die.Implicit
+  fullName: CommonBotLibrary.Services.Models.Die.Implicit
+  nameWithType.vb: Die.Widening
+  fullName.vb: CommonBotLibrary.Services.Models.Die.Widening
+  name.vb: Widening

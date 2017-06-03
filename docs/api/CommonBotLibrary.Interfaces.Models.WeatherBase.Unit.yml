@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+  commentId: T:CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+  id: WeatherBase.Unit
+  parent: CommonBotLibrary.Interfaces.Models
+  children:
+  - CommonBotLibrary.Interfaces.Models.WeatherBase.Unit.Imperial
+  - CommonBotLibrary.Interfaces.Models.WeatherBase.Unit.Kelvin
+  - CommonBotLibrary.Interfaces.Models.WeatherBase.Unit.Metric
+  langs:
+  - csharp
+  - vb
+  name: WeatherBase.Unit
+  nameWithType: WeatherBase.Unit
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+  type: Enum
+  source:
+    id: Unit
+    path: ''
+    startLine: 571
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public enum Unit
+    content.vb: Public Enum Unit
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit.Imperial
+  commentId: F:CommonBotLibrary.Interfaces.Models.WeatherBase.Unit.Imperial
+  id: Imperial
+  parent: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+  langs:
+  - csharp
+  - vb
+  name: Imperial
+  nameWithType: WeatherBase.Unit.Imperial
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit.Imperial
+  type: Field
+  source:
+    id: Imperial
+    path: ''
+    startLine: 573
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: Imperial = 0
+    return:
+      type: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit.Metric
+  commentId: F:CommonBotLibrary.Interfaces.Models.WeatherBase.Unit.Metric
+  id: Metric
+  parent: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+  langs:
+  - csharp
+  - vb
+  name: Metric
+  nameWithType: WeatherBase.Unit.Metric
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit.Metric
+  type: Field
+  source:
+    id: Metric
+    path: ''
+    startLine: 574
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: Metric = 1
+    return:
+      type: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit.Kelvin
+  commentId: F:CommonBotLibrary.Interfaces.Models.WeatherBase.Unit.Kelvin
+  id: Kelvin
+  parent: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+  langs:
+  - csharp
+  - vb
+  name: Kelvin
+  nameWithType: WeatherBase.Unit.Kelvin
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit.Kelvin
+  type: Field
+  source:
+    id: Kelvin
+    path: ''
+    startLine: 575
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: Kelvin = 2
+    return:
+      type: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CommonBotLibrary.Interfaces.Models
+  commentId: N:CommonBotLibrary.Interfaces.Models
+  isExternal: false
+  name: CommonBotLibrary.Interfaces.Models
+  nameWithType: CommonBotLibrary.Interfaces.Models
+  fullName: CommonBotLibrary.Interfaces.Models
+- uid: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+  commentId: T:CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+  parent: CommonBotLibrary.Interfaces.Models
+  isExternal: false
+  name: WeatherBase.Unit
+  nameWithType: WeatherBase.Unit
+  fullName: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit

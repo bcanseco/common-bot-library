@@ -1,0 +1,296 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.UrbanDictionaryService
+  commentId: T:CommonBotLibrary.Services.UrbanDictionaryService
+  id: UrbanDictionaryService
+  parent: CommonBotLibrary.Services
+  children:
+  - CommonBotLibrary.Services.UrbanDictionaryService.GetDefinitionsAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: UrbanDictionaryService
+  nameWithType: UrbanDictionaryService
+  fullName: CommonBotLibrary.Services.UrbanDictionaryService
+  type: Class
+  source:
+    id: UrbanDictionaryService
+    path: ''
+    startLine: 1216
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: 'public class UrbanDictionaryService : IDictionaryService, ISearchable<DefinitionBase>'
+    content.vb: >-
+      Public Class UrbanDictionaryService
+
+          Inherits IDictionaryService
+
+          Implements ISearchable(Of DefinitionBase)
+  inheritance:
+  - System.Object
+  implements:
+  - ISearchable{DefinitionBase}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.UrbanDictionaryService.GetDefinitionsAsync(System.String)
+  commentId: M:CommonBotLibrary.Services.UrbanDictionaryService.GetDefinitionsAsync(System.String)
+  id: GetDefinitionsAsync(System.String)
+  parent: CommonBotLibrary.Services.UrbanDictionaryService
+  langs:
+  - csharp
+  - vb
+  name: GetDefinitionsAsync(String)
+  nameWithType: UrbanDictionaryService.GetDefinitionsAsync(String)
+  fullName: CommonBotLibrary.Services.UrbanDictionaryService.GetDefinitionsAsync(System.String)
+  type: Method
+  source:
+    id: GetDefinitionsAsync
+    path: ''
+    startLine: 1225
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nSearches urbandictionary.com for definitions that match a given phrase.\n"
+  example: []
+  syntax:
+    content: public Task<IEnumerable<UrbanDictionaryResult>> GetDefinitionsAsync(string phrase)
+    parameters:
+    - id: phrase
+      type: System.String
+      description: The phrase to search for.
+    return:
+      type: Task{IEnumerable{UrbanDictionaryResult}}
+      description: A collection of relevant definitions.
+    content.vb: Public Function GetDefinitionsAsync(phrase As String) As Task(Of IEnumerable(Of UrbanDictionaryResult))
+  overload: CommonBotLibrary.Services.UrbanDictionaryService.GetDefinitionsAsync*
+  seealso:
+  - linkType: HRef
+    linkId: http://about.urbandictionary.com/tos
+    altText: TOS
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services
+  commentId: N:CommonBotLibrary.Services
+  isExternal: false
+  name: CommonBotLibrary.Services
+  nameWithType: CommonBotLibrary.Services
+  fullName: CommonBotLibrary.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: ISearchable{DefinitionBase}
+  commentId: '!:ISearchable{DefinitionBase}'
+  definition: ISearchable`1
+  name: ISearchable<DefinitionBase>
+  nameWithType: ISearchable<DefinitionBase>
+  fullName: ISearchable<DefinitionBase>
+  nameWithType.vb: ISearchable(Of DefinitionBase)
+  fullName.vb: ISearchable(Of DefinitionBase)
+  name.vb: ISearchable(Of DefinitionBase)
+  spec.csharp:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DefinitionBase
+    name: DefinitionBase
+    nameWithType: DefinitionBase
+    fullName: DefinitionBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DefinitionBase
+    name: DefinitionBase
+    nameWithType: DefinitionBase
+    fullName: DefinitionBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ISearchable`1
+  isExternal: true
+  name: ISearchable<>
+  nameWithType: ISearchable<>
+  fullName: ISearchable<>
+  nameWithType.vb: ISearchable(Of )
+  fullName.vb: ISearchable(Of )
+  name.vb: ISearchable(Of )
+  spec.csharp:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Services.UrbanDictionaryService.GetDefinitionsAsync*
+  commentId: Overload:CommonBotLibrary.Services.UrbanDictionaryService.GetDefinitionsAsync
+  isExternal: false
+  name: GetDefinitionsAsync
+  nameWithType: UrbanDictionaryService.GetDefinitionsAsync
+  fullName: CommonBotLibrary.Services.UrbanDictionaryService.GetDefinitionsAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{IEnumerable{UrbanDictionaryResult}}
+  commentId: '!:Task{IEnumerable{UrbanDictionaryResult}}'
+  definition: Task`1
+  name: Task<IEnumerable<UrbanDictionaryResult>>
+  nameWithType: Task<IEnumerable<UrbanDictionaryResult>>
+  fullName: Task<IEnumerable<UrbanDictionaryResult>>
+  nameWithType.vb: Task(Of IEnumerable(Of UrbanDictionaryResult))
+  fullName.vb: Task(Of IEnumerable(Of UrbanDictionaryResult))
+  name.vb: Task(Of IEnumerable(Of UrbanDictionaryResult))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UrbanDictionaryResult
+    name: UrbanDictionaryResult
+    nameWithType: UrbanDictionaryResult
+    fullName: UrbanDictionaryResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UrbanDictionaryResult
+    name: UrbanDictionaryResult
+    nameWithType: UrbanDictionaryResult
+    fullName: UrbanDictionaryResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,1147 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.SteamSpyData
+  commentId: T:CommonBotLibrary.Services.Models.SteamSpyData
+  id: SteamSpyData
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.SteamSpyData.AppId
+  - CommonBotLibrary.Services.Models.SteamSpyData.Average2Weeks
+  - CommonBotLibrary.Services.Models.SteamSpyData.AverageForever
+  - CommonBotLibrary.Services.Models.SteamSpyData.Ccu
+  - CommonBotLibrary.Services.Models.SteamSpyData.Developer
+  - CommonBotLibrary.Services.Models.SteamSpyData.Median2Weeks
+  - CommonBotLibrary.Services.Models.SteamSpyData.MedianForever
+  - CommonBotLibrary.Services.Models.SteamSpyData.Name
+  - CommonBotLibrary.Services.Models.SteamSpyData.Owners
+  - CommonBotLibrary.Services.Models.SteamSpyData.OwnersVariance
+  - CommonBotLibrary.Services.Models.SteamSpyData.Players2Weeks
+  - CommonBotLibrary.Services.Models.SteamSpyData.Players2WeeksVariance
+  - CommonBotLibrary.Services.Models.SteamSpyData.PlayersForever
+  - CommonBotLibrary.Services.Models.SteamSpyData.PlayersForeverVariance
+  - CommonBotLibrary.Services.Models.SteamSpyData.Price
+  - CommonBotLibrary.Services.Models.SteamSpyData.Publisher
+  - CommonBotLibrary.Services.Models.SteamSpyData.ScoreRank
+  - CommonBotLibrary.Services.Models.SteamSpyData.Tags
+  langs:
+  - csharp
+  - vb
+  name: SteamSpyData
+  nameWithType: SteamSpyData
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData
+  type: Class
+  source:
+    id: SteamSpyData
+    path: ''
+    startLine: 1822
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public class SteamSpyData
+    content.vb: Public Class SteamSpyData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.AppId
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.AppId
+  id: AppId
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: AppId
+  nameWithType: SteamSpyData.AppId
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.AppId
+  type: Property
+  source:
+    id: AppId
+    path: ''
+    startLine: 1824
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public uint AppId { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property AppId As UInteger
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.AppId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Name
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.Name
+  id: Name
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SteamSpyData.Name
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 1825
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Developer
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.Developer
+  id: Developer
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: Developer
+  nameWithType: SteamSpyData.Developer
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Developer
+  type: Property
+  source:
+    id: Developer
+    path: ''
+    startLine: 1826
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Developer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Developer As String
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.Developer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Publisher
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.Publisher
+  id: Publisher
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: Publisher
+  nameWithType: SteamSpyData.Publisher
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Publisher
+  type: Property
+  source:
+    id: Publisher
+    path: ''
+    startLine: 1827
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Publisher { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Publisher As String
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.Publisher*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.ScoreRank
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.ScoreRank
+  id: ScoreRank
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: ScoreRank
+  nameWithType: SteamSpyData.ScoreRank
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.ScoreRank
+  type: Property
+  source:
+    id: ScoreRank
+    path: ''
+    startLine: 1828
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string ScoreRank { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ScoreRank As String
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.ScoreRank*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Owners
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.Owners
+  id: Owners
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: Owners
+  nameWithType: SteamSpyData.Owners
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Owners
+  type: Property
+  source:
+    id: Owners
+    path: ''
+    startLine: 1830
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public uint Owners { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Owners As UInteger
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.Owners*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.OwnersVariance
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.OwnersVariance
+  id: OwnersVariance
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: OwnersVariance
+  nameWithType: SteamSpyData.OwnersVariance
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.OwnersVariance
+  type: Property
+  source:
+    id: OwnersVariance
+    path: ''
+    startLine: 1831
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public uint OwnersVariance { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property OwnersVariance As UInteger
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.OwnersVariance*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.PlayersForever
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.PlayersForever
+  id: PlayersForever
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: PlayersForever
+  nameWithType: SteamSpyData.PlayersForever
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.PlayersForever
+  type: Property
+  source:
+    id: PlayersForever
+    path: ''
+    startLine: 1833
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public uint PlayersForever { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property PlayersForever As UInteger
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.PlayersForever*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.PlayersForeverVariance
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.PlayersForeverVariance
+  id: PlayersForeverVariance
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: PlayersForeverVariance
+  nameWithType: SteamSpyData.PlayersForeverVariance
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.PlayersForeverVariance
+  type: Property
+  source:
+    id: PlayersForeverVariance
+    path: ''
+    startLine: 1835
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public uint PlayersForeverVariance { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property PlayersForeverVariance As UInteger
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.PlayersForeverVariance*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Players2Weeks
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.Players2Weeks
+  id: Players2Weeks
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: Players2Weeks
+  nameWithType: SteamSpyData.Players2Weeks
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Players2Weeks
+  type: Property
+  source:
+    id: Players2Weeks
+    path: ''
+    startLine: 1837
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public uint Players2Weeks { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Players2Weeks As UInteger
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.Players2Weeks*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Players2WeeksVariance
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.Players2WeeksVariance
+  id: Players2WeeksVariance
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: Players2WeeksVariance
+  nameWithType: SteamSpyData.Players2WeeksVariance
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Players2WeeksVariance
+  type: Property
+  source:
+    id: Players2WeeksVariance
+    path: ''
+    startLine: 1839
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public uint Players2WeeksVariance { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Players2WeeksVariance As UInteger
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.Players2WeeksVariance*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.AverageForever
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.AverageForever
+  id: AverageForever
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: AverageForever
+  nameWithType: SteamSpyData.AverageForever
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.AverageForever
+  type: Property
+  source:
+    id: AverageForever
+    path: ''
+    startLine: 1841
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public uint AverageForever { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property AverageForever As UInteger
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.AverageForever*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Average2Weeks
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.Average2Weeks
+  id: Average2Weeks
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: Average2Weeks
+  nameWithType: SteamSpyData.Average2Weeks
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Average2Weeks
+  type: Property
+  source:
+    id: Average2Weeks
+    path: ''
+    startLine: 1843
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public uint Average2Weeks { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Average2Weeks As UInteger
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.Average2Weeks*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.MedianForever
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.MedianForever
+  id: MedianForever
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: MedianForever
+  nameWithType: SteamSpyData.MedianForever
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.MedianForever
+  type: Property
+  source:
+    id: MedianForever
+    path: ''
+    startLine: 1845
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public uint MedianForever { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property MedianForever As UInteger
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.MedianForever*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Median2Weeks
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.Median2Weeks
+  id: Median2Weeks
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: Median2Weeks
+  nameWithType: SteamSpyData.Median2Weeks
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Median2Weeks
+  type: Property
+  source:
+    id: Median2Weeks
+    path: ''
+    startLine: 1847
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public uint Median2Weeks { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Median2Weeks As UInteger
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.Median2Weeks*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Ccu
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.Ccu
+  id: Ccu
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: Ccu
+  nameWithType: SteamSpyData.Ccu
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Ccu
+  type: Property
+  source:
+    id: Ccu
+    path: ''
+    startLine: 1849
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public uint Ccu { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Ccu As UInteger
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.Ccu*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Price
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.Price
+  id: Price
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: Price
+  nameWithType: SteamSpyData.Price
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Price
+  type: Property
+  source:
+    id: Price
+    path: ''
+    startLine: 1850
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Price { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Price As String
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.Price*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Tags
+  commentId: P:CommonBotLibrary.Services.Models.SteamSpyData.Tags
+  id: Tags
+  parent: CommonBotLibrary.Services.Models.SteamSpyData
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: SteamSpyData.Tags
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Tags
+  type: Property
+  source:
+    id: Tags
+    path: ''
+    startLine: 1851
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public IDictionary<string, int> Tags { get; set; }
+    parameters: []
+    return:
+      type: IDictionary{System.String,System.Int32}
+    content.vb: Public Property Tags As IDictionary(Of String, Integer)
+  overload: CommonBotLibrary.Services.Models.SteamSpyData.Tags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.AppId*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.AppId
+  isExternal: false
+  name: AppId
+  nameWithType: SteamSpyData.AppId
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.AppId
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Name*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.Name
+  isExternal: false
+  name: Name
+  nameWithType: SteamSpyData.Name
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Developer*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.Developer
+  isExternal: false
+  name: Developer
+  nameWithType: SteamSpyData.Developer
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Developer
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Publisher*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.Publisher
+  isExternal: false
+  name: Publisher
+  nameWithType: SteamSpyData.Publisher
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Publisher
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.ScoreRank*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.ScoreRank
+  isExternal: false
+  name: ScoreRank
+  nameWithType: SteamSpyData.ScoreRank
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.ScoreRank
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Owners*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.Owners
+  isExternal: false
+  name: Owners
+  nameWithType: SteamSpyData.Owners
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Owners
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.OwnersVariance*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.OwnersVariance
+  isExternal: false
+  name: OwnersVariance
+  nameWithType: SteamSpyData.OwnersVariance
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.OwnersVariance
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.PlayersForever*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.PlayersForever
+  isExternal: false
+  name: PlayersForever
+  nameWithType: SteamSpyData.PlayersForever
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.PlayersForever
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.PlayersForeverVariance*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.PlayersForeverVariance
+  isExternal: false
+  name: PlayersForeverVariance
+  nameWithType: SteamSpyData.PlayersForeverVariance
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.PlayersForeverVariance
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Players2Weeks*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.Players2Weeks
+  isExternal: false
+  name: Players2Weeks
+  nameWithType: SteamSpyData.Players2Weeks
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Players2Weeks
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Players2WeeksVariance*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.Players2WeeksVariance
+  isExternal: false
+  name: Players2WeeksVariance
+  nameWithType: SteamSpyData.Players2WeeksVariance
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Players2WeeksVariance
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.AverageForever*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.AverageForever
+  isExternal: false
+  name: AverageForever
+  nameWithType: SteamSpyData.AverageForever
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.AverageForever
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Average2Weeks*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.Average2Weeks
+  isExternal: false
+  name: Average2Weeks
+  nameWithType: SteamSpyData.Average2Weeks
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Average2Weeks
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.MedianForever*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.MedianForever
+  isExternal: false
+  name: MedianForever
+  nameWithType: SteamSpyData.MedianForever
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.MedianForever
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Median2Weeks*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.Median2Weeks
+  isExternal: false
+  name: Median2Weeks
+  nameWithType: SteamSpyData.Median2Weeks
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Median2Weeks
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Ccu*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.Ccu
+  isExternal: false
+  name: Ccu
+  nameWithType: SteamSpyData.Ccu
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Ccu
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Price*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.Price
+  isExternal: false
+  name: Price
+  nameWithType: SteamSpyData.Price
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Price
+- uid: CommonBotLibrary.Services.Models.SteamSpyData.Tags*
+  commentId: Overload:CommonBotLibrary.Services.Models.SteamSpyData.Tags
+  isExternal: false
+  name: Tags
+  nameWithType: SteamSpyData.Tags
+  fullName: CommonBotLibrary.Services.Models.SteamSpyData.Tags
+- uid: IDictionary{System.String,System.Int32}
+  commentId: '!:IDictionary{System.String,System.Int32}'
+  definition: IDictionary`2
+  name: IDictionary<String, Int32>
+  nameWithType: IDictionary<String, Int32>
+  fullName: IDictionary<System.String, System.Int32>
+  nameWithType.vb: IDictionary(Of String, Int32)
+  fullName.vb: IDictionary(Of System.String, System.Int32)
+  name.vb: IDictionary(Of String, Int32)
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IDictionary`2
+  commentId: '!:IDictionary`2'
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

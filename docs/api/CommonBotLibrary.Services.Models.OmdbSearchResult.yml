@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.OmdbSearchResult
+  commentId: T:CommonBotLibrary.Services.Models.OmdbSearchResult
+  id: OmdbSearchResult
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.OmdbSearchResult.ImdbId
+  - CommonBotLibrary.Services.Models.OmdbSearchResult.Poster
+  - CommonBotLibrary.Services.Models.OmdbSearchResult.Type
+  langs:
+  - csharp
+  - vb
+  name: OmdbSearchResult
+  nameWithType: OmdbSearchResult
+  fullName: CommonBotLibrary.Services.Models.OmdbSearchResult
+  type: Class
+  source:
+    id: OmdbSearchResult
+    path: ''
+    startLine: 1591
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: 'public class OmdbSearchResult : MovieBase'
+    content.vb: >-
+      Public Class OmdbSearchResult
+
+          Inherits MovieBase
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - CommonBotLibrary.Services.Models.OmdbDirectResult
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.OmdbSearchResult.ImdbId
+  commentId: P:CommonBotLibrary.Services.Models.OmdbSearchResult.ImdbId
+  id: ImdbId
+  parent: CommonBotLibrary.Services.Models.OmdbSearchResult
+  langs:
+  - csharp
+  - vb
+  name: ImdbId
+  nameWithType: OmdbSearchResult.ImdbId
+  fullName: CommonBotLibrary.Services.Models.OmdbSearchResult.ImdbId
+  type: Property
+  source:
+    id: ImdbId
+    path: ''
+    startLine: 1593
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string ImdbId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ImdbId As String
+  overload: CommonBotLibrary.Services.Models.OmdbSearchResult.ImdbId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbSearchResult.Poster
+  commentId: P:CommonBotLibrary.Services.Models.OmdbSearchResult.Poster
+  id: Poster
+  parent: CommonBotLibrary.Services.Models.OmdbSearchResult
+  langs:
+  - csharp
+  - vb
+  name: Poster
+  nameWithType: OmdbSearchResult.Poster
+  fullName: CommonBotLibrary.Services.Models.OmdbSearchResult.Poster
+  type: Property
+  source:
+    id: Poster
+    path: ''
+    startLine: 1594
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Poster { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Poster As String
+  overload: CommonBotLibrary.Services.Models.OmdbSearchResult.Poster*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbSearchResult.Type
+  commentId: P:CommonBotLibrary.Services.Models.OmdbSearchResult.Type
+  id: Type
+  parent: CommonBotLibrary.Services.Models.OmdbSearchResult
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: OmdbSearchResult.Type
+  fullName: CommonBotLibrary.Services.Models.OmdbSearchResult.Type
+  type: Property
+  source:
+    id: Type
+    path: ''
+    startLine: 1595
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public OmdbType Type { get; set; }
+    parameters: []
+    return:
+      type: CommonBotLibrary.Services.Models.OmdbType
+    content.vb: Public Property Type As OmdbType
+  overload: CommonBotLibrary.Services.Models.OmdbSearchResult.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.OmdbSearchResult.ImdbId*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbSearchResult.ImdbId
+  isExternal: false
+  name: ImdbId
+  nameWithType: OmdbSearchResult.ImdbId
+  fullName: CommonBotLibrary.Services.Models.OmdbSearchResult.ImdbId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.Models.OmdbSearchResult.Poster*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbSearchResult.Poster
+  isExternal: false
+  name: Poster
+  nameWithType: OmdbSearchResult.Poster
+  fullName: CommonBotLibrary.Services.Models.OmdbSearchResult.Poster
+- uid: CommonBotLibrary.Services.Models.OmdbSearchResult.Type*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbSearchResult.Type
+  isExternal: false
+  name: Type
+  nameWithType: OmdbSearchResult.Type
+  fullName: CommonBotLibrary.Services.Models.OmdbSearchResult.Type
+- uid: CommonBotLibrary.Services.Models.OmdbType
+  commentId: T:CommonBotLibrary.Services.Models.OmdbType
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: OmdbType
+  nameWithType: OmdbType
+  fullName: CommonBotLibrary.Services.Models.OmdbType

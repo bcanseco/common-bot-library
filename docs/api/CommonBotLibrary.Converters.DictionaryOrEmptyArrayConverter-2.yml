@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2
+  commentId: T:CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2
+  id: DictionaryOrEmptyArrayConverter`2
+  parent: CommonBotLibrary.Converters
+  children:
+  - CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.CanConvert(Type)
+  - CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.CanWrite
+  - CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.ReadJson(JsonReader,Type,System.Object,JsonSerializer)
+  - CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.WriteJson(JsonWriter,System.Object,JsonSerializer)
+  langs:
+  - csharp
+  - vb
+  name: DictionaryOrEmptyArrayConverter<T, TF>
+  nameWithType: DictionaryOrEmptyArrayConverter<T, TF>
+  fullName: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter<T, TF>
+  type: Class
+  source:
+    id: DictionaryOrEmptyArrayConverter
+    path: ''
+    startLine: 140
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Converters
+  summary: "\nUsed for treating an empty array as a dictionary with JSON.NET.\nCan be applied with <see cref=\"!:JsonConverterAttribute\"></see>.\n"
+  example: []
+  syntax:
+    content: 'public class DictionaryOrEmptyArrayConverter<T, TF> : JsonConverter'
+    typeParameters:
+    - id: T
+      description: Dictionary key type.
+    - id: TF
+      description: Dictionary value type.
+    content.vb: >-
+      Public Class DictionaryOrEmptyArrayConverter(Of T, TF)
+
+          Inherits JsonConverter
+  seealso:
+  - linkType: HRef
+    linkId: https://stackoverflow.com/q/26725138
+    altText: Source
+  inheritance:
+  - System.Object
+  nameWithType.vb: DictionaryOrEmptyArrayConverter(Of T, TF)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter(Of T, TF)
+  name.vb: DictionaryOrEmptyArrayConverter(Of T, TF)
+- uid: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.CanWrite
+  commentId: P:CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.CanWrite
+  id: CanWrite
+  parent: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2
+  langs:
+  - csharp
+  - vb
+  name: CanWrite
+  nameWithType: DictionaryOrEmptyArrayConverter<T, TF>.CanWrite
+  fullName: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter<T, TF>.CanWrite
+  type: Property
+  source:
+    id: CanWrite
+    path: ''
+    startLine: 142
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Converters
+  syntax:
+    content: public override bool CanWrite { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property CanWrite As Boolean
+  overload: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.CanWrite*
+  nameWithType.vb: DictionaryOrEmptyArrayConverter(Of T, TF).CanWrite
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+  fullName.vb: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter(Of T, TF).CanWrite
+- uid: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.CanConvert(Type)
+  commentId: M:CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.CanConvert(Type)
+  id: CanConvert(Type)
+  parent: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2
+  langs:
+  - csharp
+  - vb
+  name: CanConvert(Type)
+  nameWithType: DictionaryOrEmptyArrayConverter<T, TF>.CanConvert(Type)
+  fullName: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter<T, TF>.CanConvert(Type)
+  type: Method
+  source:
+    id: CanConvert
+    path: ''
+    startLine: 144
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Converters
+  syntax:
+    content: public override bool CanConvert(Type objectType)
+    parameters:
+    - id: objectType
+      type: Type
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function CanConvert(objectType As Type) As Boolean
+  overload: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.CanConvert*
+  nameWithType.vb: DictionaryOrEmptyArrayConverter(Of T, TF).CanConvert(Type)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter(Of T, TF).CanConvert(Type)
+- uid: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.ReadJson(JsonReader,Type,System.Object,JsonSerializer)
+  commentId: M:CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.ReadJson(JsonReader,Type,System.Object,JsonSerializer)
+  id: ReadJson(JsonReader,Type,System.Object,JsonSerializer)
+  parent: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2
+  langs:
+  - csharp
+  - vb
+  name: ReadJson(JsonReader, Type, Object, JsonSerializer)
+  nameWithType: DictionaryOrEmptyArrayConverter<T, TF>.ReadJson(JsonReader, Type, Object, JsonSerializer)
+  fullName: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter<T, TF>.ReadJson(JsonReader, Type, System.Object, JsonSerializer)
+  type: Method
+  source:
+    id: ReadJson
+    path: ''
+    startLine: 147
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Converters
+  syntax:
+    content: public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+    parameters:
+    - id: reader
+      type: JsonReader
+    - id: objectType
+      type: Type
+    - id: existingValue
+      type: System.Object
+    - id: serializer
+      type: JsonSerializer
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function ReadJson(reader As JsonReader, objectType As Type, existingValue As Object, serializer As JsonSerializer) As Object
+  overload: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.ReadJson*
+  nameWithType.vb: DictionaryOrEmptyArrayConverter(Of T, TF).ReadJson(JsonReader, Type, Object, JsonSerializer)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter(Of T, TF).ReadJson(JsonReader, Type, System.Object, JsonSerializer)
+- uid: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.WriteJson(JsonWriter,System.Object,JsonSerializer)
+  commentId: M:CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.WriteJson(JsonWriter,System.Object,JsonSerializer)
+  id: WriteJson(JsonWriter,System.Object,JsonSerializer)
+  parent: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2
+  langs:
+  - csharp
+  - vb
+  name: WriteJson(JsonWriter, Object, JsonSerializer)
+  nameWithType: DictionaryOrEmptyArrayConverter<T, TF>.WriteJson(JsonWriter, Object, JsonSerializer)
+  fullName: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter<T, TF>.WriteJson(JsonWriter, System.Object, JsonSerializer)
+  type: Method
+  source:
+    id: WriteJson
+    path: ''
+    startLine: 176
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Converters
+  syntax:
+    content: public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+    parameters:
+    - id: writer
+      type: JsonWriter
+    - id: value
+      type: System.Object
+    - id: serializer
+      type: JsonSerializer
+    content.vb: Public Overrides Sub WriteJson(writer As JsonWriter, value As Object, serializer As JsonSerializer)
+  overload: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.WriteJson*
+  nameWithType.vb: DictionaryOrEmptyArrayConverter(Of T, TF).WriteJson(JsonWriter, Object, JsonSerializer)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter(Of T, TF).WriteJson(JsonWriter, System.Object, JsonSerializer)
+references:
+- uid: CommonBotLibrary.Converters
+  commentId: N:CommonBotLibrary.Converters
+  isExternal: false
+  name: CommonBotLibrary.Converters
+  nameWithType: CommonBotLibrary.Converters
+  fullName: CommonBotLibrary.Converters
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.CanWrite*
+  commentId: Overload:CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.CanWrite
+  isExternal: false
+  name: CanWrite
+  nameWithType: DictionaryOrEmptyArrayConverter<T, TF>.CanWrite
+  fullName: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter<T, TF>.CanWrite
+  nameWithType.vb: DictionaryOrEmptyArrayConverter(Of T, TF).CanWrite
+  fullName.vb: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter(Of T, TF).CanWrite
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.CanConvert*
+  commentId: Overload:CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.CanConvert
+  isExternal: false
+  name: CanConvert
+  nameWithType: DictionaryOrEmptyArrayConverter<T, TF>.CanConvert
+  fullName: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter<T, TF>.CanConvert
+  nameWithType.vb: DictionaryOrEmptyArrayConverter(Of T, TF).CanConvert
+  fullName.vb: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter(Of T, TF).CanConvert
+- uid: Type
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: Type
+- uid: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.ReadJson*
+  commentId: Overload:CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.ReadJson
+  isExternal: false
+  name: ReadJson
+  nameWithType: DictionaryOrEmptyArrayConverter<T, TF>.ReadJson
+  fullName: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter<T, TF>.ReadJson
+  nameWithType.vb: DictionaryOrEmptyArrayConverter(Of T, TF).ReadJson
+  fullName.vb: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter(Of T, TF).ReadJson
+- uid: JsonReader
+  commentId: '!:JsonReader'
+  isExternal: true
+  name: JsonReader
+  nameWithType: JsonReader
+  fullName: JsonReader
+- uid: JsonSerializer
+  isExternal: true
+  name: JsonSerializer
+  nameWithType: JsonSerializer
+  fullName: JsonSerializer
+- uid: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.WriteJson*
+  commentId: Overload:CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2.WriteJson
+  isExternal: false
+  name: WriteJson
+  nameWithType: DictionaryOrEmptyArrayConverter<T, TF>.WriteJson
+  fullName: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter<T, TF>.WriteJson
+  nameWithType.vb: DictionaryOrEmptyArrayConverter(Of T, TF).WriteJson
+  fullName.vb: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter(Of T, TF).WriteJson
+- uid: JsonWriter
+  commentId: '!:JsonWriter'
+  isExternal: true
+  name: JsonWriter
+  nameWithType: JsonWriter
+  fullName: JsonWriter

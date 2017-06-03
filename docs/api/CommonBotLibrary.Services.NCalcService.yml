@@ -1,0 +1,191 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.NCalcService
+  commentId: T:CommonBotLibrary.Services.NCalcService
+  id: NCalcService
+  parent: CommonBotLibrary.Services
+  children:
+  - CommonBotLibrary.Services.NCalcService.EvaluateAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: NCalcService
+  nameWithType: NCalcService
+  fullName: CommonBotLibrary.Services.NCalcService
+  type: Class
+  source:
+    id: NCalcService
+    path: ''
+    startLine: 738
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: 'public class NCalcService : ICalculatorService'
+    content.vb: >-
+      Public Class NCalcService
+
+          Inherits ICalculatorService
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.NCalcService.EvaluateAsync(System.String)
+  commentId: M:CommonBotLibrary.Services.NCalcService.EvaluateAsync(System.String)
+  id: EvaluateAsync(System.String)
+  parent: CommonBotLibrary.Services.NCalcService
+  langs:
+  - csharp
+  - vb
+  name: EvaluateAsync(String)
+  nameWithType: NCalcService.EvaluateAsync(String)
+  fullName: CommonBotLibrary.Services.NCalcService.EvaluateAsync(System.String)
+  type: Method
+  source:
+    id: EvaluateAsync
+    path: ''
+    startLine: 751
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nReturns the string result of a mathematical evaluation.\n"
+  example: []
+  syntax:
+    content: public Task<string> EvaluateAsync(string expression)
+    parameters:
+    - id: expression
+      type: System.String
+      description: The expression to evaluate.
+    return:
+      type: Task{System.String}
+      description: The evaluated expression.
+    content.vb: Public Function EvaluateAsync(expression As String) As Task(Of String)
+  overload: CommonBotLibrary.Services.NCalcService.EvaluateAsync*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: "\nThrown if <span class=\"paramref\">expression</span> is empty or null.\n"
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services
+  commentId: N:CommonBotLibrary.Services
+  isExternal: false
+  name: CommonBotLibrary.Services
+  nameWithType: CommonBotLibrary.Services
+  fullName: CommonBotLibrary.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.NCalcService.EvaluateAsync*
+  commentId: Overload:CommonBotLibrary.Services.NCalcService.EvaluateAsync
+  isExternal: false
+  name: EvaluateAsync
+  nameWithType: NCalcService.EvaluateAsync
+  fullName: CommonBotLibrary.Services.NCalcService.EvaluateAsync
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{System.String}
+  commentId: '!:Task{System.String}'
+  definition: Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

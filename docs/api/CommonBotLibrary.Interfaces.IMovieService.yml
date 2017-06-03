@@ -1,0 +1,283 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces.IMovieService
+  commentId: T:CommonBotLibrary.Interfaces.IMovieService
+  id: IMovieService
+  parent: CommonBotLibrary.Interfaces
+  children:
+  - CommonBotLibrary.Interfaces.IMovieService.DirectAsync(System.String)
+  - CommonBotLibrary.Interfaces.IMovieService.SearchAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IMovieService
+  nameWithType: IMovieService
+  fullName: CommonBotLibrary.Interfaces.IMovieService
+  type: Interface
+  source:
+    id: IMovieService
+    path: ''
+    startLine: 380
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nDefines an API for working with movies.\n"
+  example: []
+  syntax:
+    content: public interface IMovieService
+    content.vb: Public Interface IMovieService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CommonBotLibrary.Interfaces.IMovieService.SearchAsync(System.String)
+  commentId: M:CommonBotLibrary.Interfaces.IMovieService.SearchAsync(System.String)
+  id: SearchAsync(System.String)
+  parent: CommonBotLibrary.Interfaces.IMovieService
+  langs:
+  - csharp
+  - vb
+  name: SearchAsync(String)
+  nameWithType: IMovieService.SearchAsync(String)
+  fullName: CommonBotLibrary.Interfaces.IMovieService.SearchAsync(System.String)
+  type: Method
+  source:
+    id: SearchAsync
+    path: ''
+    startLine: 387
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nSearches for all movies matching a given query.\n"
+  example: []
+  syntax:
+    content: Task<IEnumerable<MovieBase>> SearchAsync(string title)
+    parameters:
+    - id: title
+      type: System.String
+      description: The movie title to search with.
+    return:
+      type: Task{IEnumerable{MovieBase}}
+      description: A collection of relevant movies.
+    content.vb: Function SearchAsync(title As String) As Task(Of IEnumerable(Of MovieBase))
+  overload: CommonBotLibrary.Interfaces.IMovieService.SearchAsync*
+- uid: CommonBotLibrary.Interfaces.IMovieService.DirectAsync(System.String)
+  commentId: M:CommonBotLibrary.Interfaces.IMovieService.DirectAsync(System.String)
+  id: DirectAsync(System.String)
+  parent: CommonBotLibrary.Interfaces.IMovieService
+  langs:
+  - csharp
+  - vb
+  name: DirectAsync(String)
+  nameWithType: IMovieService.DirectAsync(String)
+  fullName: CommonBotLibrary.Interfaces.IMovieService.DirectAsync(System.String)
+  type: Method
+  source:
+    id: DirectAsync
+    path: ''
+    startLine: 395
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nGets full information about a particular movie.\n"
+  example: []
+  syntax:
+    content: Task<MovieBase> DirectAsync(string title)
+    parameters:
+    - id: title
+      type: System.String
+      description: The movie title to match against.
+    return:
+      type: Task{MovieBase}
+      description: The most relevant movie for the given title.
+    content.vb: Function DirectAsync(title As String) As Task(Of MovieBase)
+  overload: CommonBotLibrary.Interfaces.IMovieService.DirectAsync*
+  exceptions:
+  - type: CommonBotLibrary.Exceptions.ResultNotFoundException
+    commentId: T:CommonBotLibrary.Exceptions.ResultNotFoundException
+references:
+- uid: CommonBotLibrary.Interfaces
+  commentId: N:CommonBotLibrary.Interfaces
+  isExternal: false
+  name: CommonBotLibrary.Interfaces
+  nameWithType: CommonBotLibrary.Interfaces
+  fullName: CommonBotLibrary.Interfaces
+- uid: CommonBotLibrary.Interfaces.IMovieService.SearchAsync*
+  commentId: Overload:CommonBotLibrary.Interfaces.IMovieService.SearchAsync
+  isExternal: false
+  name: SearchAsync
+  nameWithType: IMovieService.SearchAsync
+  fullName: CommonBotLibrary.Interfaces.IMovieService.SearchAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{IEnumerable{MovieBase}}
+  commentId: '!:Task{IEnumerable{MovieBase}}'
+  definition: Task`1
+  name: Task<IEnumerable<MovieBase>>
+  nameWithType: Task<IEnumerable<MovieBase>>
+  fullName: Task<IEnumerable<MovieBase>>
+  nameWithType.vb: Task(Of IEnumerable(Of MovieBase))
+  fullName.vb: Task(Of IEnumerable(Of MovieBase))
+  name.vb: Task(Of IEnumerable(Of MovieBase))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MovieBase
+    name: MovieBase
+    nameWithType: MovieBase
+    fullName: MovieBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MovieBase
+    name: MovieBase
+    nameWithType: MovieBase
+    fullName: MovieBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Interfaces.IMovieService.DirectAsync*
+  commentId: Overload:CommonBotLibrary.Interfaces.IMovieService.DirectAsync
+  isExternal: false
+  name: DirectAsync
+  nameWithType: IMovieService.DirectAsync
+  fullName: CommonBotLibrary.Interfaces.IMovieService.DirectAsync
+- uid: CommonBotLibrary.Exceptions.ResultNotFoundException
+  commentId: T:CommonBotLibrary.Exceptions.ResultNotFoundException
+  isExternal: false
+  name: ResultNotFoundException
+  nameWithType: ResultNotFoundException
+  fullName: CommonBotLibrary.Exceptions.ResultNotFoundException
+- uid: Task{MovieBase}
+  commentId: '!:Task{MovieBase}'
+  definition: Task`1
+  name: Task<MovieBase>
+  nameWithType: Task<MovieBase>
+  fullName: Task<MovieBase>
+  nameWithType.vb: Task(Of MovieBase)
+  fullName.vb: Task(Of MovieBase)
+  name.vb: Task(Of MovieBase)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MovieBase
+    name: MovieBase
+    nameWithType: MovieBase
+    fullName: MovieBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MovieBase
+    name: MovieBase
+    nameWithType: MovieBase
+    fullName: MovieBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

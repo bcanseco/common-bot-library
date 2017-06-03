@@ -1,0 +1,141 @@
+### YamlMime:TableOfContent
+- uid: CommonBotLibrary
+  name: CommonBotLibrary
+  items:
+  - uid: CommonBotLibrary.Tokens
+    name: Tokens
+  - uid: CommonBotLibrary.Tokens.GoogleCredentials
+    name: Tokens.GoogleCredentials
+  - uid: CommonBotLibrary.Tokens.MyAnimeListCredentials
+    name: Tokens.MyAnimeListCredentials
+  - uid: CommonBotLibrary.Tokens.TwitterCredentials
+    name: Tokens.TwitterCredentials
+- uid: CommonBotLibrary.Converters
+  name: CommonBotLibrary.Converters
+  items:
+  - uid: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2
+    name: DictionaryOrEmptyArrayConverter<T, TF>
+    name.vb: DictionaryOrEmptyArrayConverter(Of T, TF)
+- uid: CommonBotLibrary.Exceptions
+  name: CommonBotLibrary.Exceptions
+  items:
+  - uid: CommonBotLibrary.Exceptions.InvalidCredentialsException
+    name: InvalidCredentialsException
+  - uid: CommonBotLibrary.Exceptions.ResultNotFoundException
+    name: ResultNotFoundException
+- uid: CommonBotLibrary.Extensions
+  name: CommonBotLibrary.Extensions
+  items:
+  - uid: CommonBotLibrary.Extensions.RedditExtensions
+    name: RedditExtensions
+  - uid: CommonBotLibrary.Extensions.RestClientExtensions
+    name: RestClientExtensions
+  - uid: CommonBotLibrary.Extensions.SteamServiceExtensions
+    name: SteamServiceExtensions
+- uid: CommonBotLibrary.Interfaces
+  name: CommonBotLibrary.Interfaces
+  items:
+  - uid: CommonBotLibrary.Interfaces.IAnimeService
+    name: IAnimeService
+  - uid: CommonBotLibrary.Interfaces.ICalculatorService
+    name: ICalculatorService
+  - uid: CommonBotLibrary.Interfaces.IDictionaryService
+    name: IDictionaryService
+  - uid: CommonBotLibrary.Interfaces.IMovieService
+    name: IMovieService
+  - uid: CommonBotLibrary.Interfaces.ISearchable`1
+    name: ISearchable<T>
+    name.vb: ISearchable(Of T)
+  - uid: CommonBotLibrary.Interfaces.IStockService
+    name: IStockService
+  - uid: CommonBotLibrary.Interfaces.IWeatherService
+    name: IWeatherService
+  - uid: CommonBotLibrary.Interfaces.IWebpageService
+    name: IWebpageService
+- uid: CommonBotLibrary.Interfaces.Models
+  name: CommonBotLibrary.Interfaces.Models
+  items:
+  - uid: CommonBotLibrary.Interfaces.Models.AnimeBase
+    name: AnimeBase
+  - uid: CommonBotLibrary.Interfaces.Models.DefinitionBase
+    name: DefinitionBase
+  - uid: CommonBotLibrary.Interfaces.Models.IWebpage
+    name: IWebpage
+  - uid: CommonBotLibrary.Interfaces.Models.MovieBase
+    name: MovieBase
+  - uid: CommonBotLibrary.Interfaces.Models.SymbolBase
+    name: SymbolBase
+  - uid: CommonBotLibrary.Interfaces.Models.WeatherBase
+    name: WeatherBase
+  - uid: CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
+    name: WeatherBase.Unit
+- uid: CommonBotLibrary.Services
+  name: CommonBotLibrary.Services
+  items:
+  - uid: CommonBotLibrary.Services.GoogleService
+    name: GoogleService
+  - uid: CommonBotLibrary.Services.MyAnimeListService
+    name: MyAnimeListService
+  - uid: CommonBotLibrary.Services.NCalcService
+    name: NCalcService
+  - uid: CommonBotLibrary.Services.OmdbService
+    name: OmdbService
+  - uid: CommonBotLibrary.Services.OpenWeatherMapService
+    name: OpenWeatherMapService
+  - uid: CommonBotLibrary.Services.RandomService
+    name: RandomService
+  - uid: CommonBotLibrary.Services.RedditService
+    name: RedditService
+  - uid: CommonBotLibrary.Services.SteamService
+    name: SteamService
+  - uid: CommonBotLibrary.Services.TwitterService
+    name: TwitterService
+  - uid: CommonBotLibrary.Services.UrbanDictionaryService
+    name: UrbanDictionaryService
+  - uid: CommonBotLibrary.Services.YahooFinanceService
+    name: YahooFinanceService
+  - uid: CommonBotLibrary.Services.YouTubeService
+    name: YouTubeService
+- uid: CommonBotLibrary.Services.Models
+  name: CommonBotLibrary.Services.Models
+  items:
+  - uid: CommonBotLibrary.Services.Models.Die
+    name: Die
+  - uid: CommonBotLibrary.Services.Models.GoogleResult
+    name: GoogleResult
+  - uid: CommonBotLibrary.Services.Models.MyAnimeListResult
+    name: MyAnimeListResult
+  - uid: CommonBotLibrary.Services.Models.OmdbDirectResult
+    name: OmdbDirectResult
+  - uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Rating
+    name: OmdbDirectResult.Rating
+  - uid: CommonBotLibrary.Services.Models.OmdbSearchResult
+    name: OmdbSearchResult
+  - uid: CommonBotLibrary.Services.Models.OmdbType
+    name: OmdbType
+  - uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult
+    name: OpenWeatherMapResult
+  - uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
+    name: OpenWeatherMapResult.Coordinates
+  - uid: CommonBotLibrary.Services.Models.RedditResult
+    name: RedditResult
+  - uid: CommonBotLibrary.Services.Models.RedditResult.PostCategory
+    name: RedditResult.PostCategory
+  - uid: CommonBotLibrary.Services.Models.SteamResult
+    name: SteamResult
+  - uid: CommonBotLibrary.Services.Models.SteamResult.Architecture
+    name: SteamResult.Architecture
+  - uid: CommonBotLibrary.Services.Models.SteamResult.Cost
+    name: SteamResult.Cost
+  - uid: CommonBotLibrary.Services.Models.SteamSpyData
+    name: SteamSpyData
+  - uid: CommonBotLibrary.Services.Models.TwitterResult
+    name: TwitterResult
+  - uid: CommonBotLibrary.Services.Models.UrbanDictionaryResult
+    name: UrbanDictionaryResult
+  - uid: CommonBotLibrary.Services.Models.YahooQuote
+    name: YahooQuote
+  - uid: CommonBotLibrary.Services.Models.YahooResult
+    name: YahooResult
+  - uid: CommonBotLibrary.Services.Models.YouTubeResult
+    name: YouTubeResult

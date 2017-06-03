@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.MyAnimeListService
+  commentId: T:CommonBotLibrary.Services.MyAnimeListService
+  id: MyAnimeListService
+  parent: CommonBotLibrary.Services
+  children:
+  - CommonBotLibrary.Services.MyAnimeListService.#ctor(System.String,System.String)
+  - CommonBotLibrary.Services.MyAnimeListService.SearchAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: MyAnimeListService
+  nameWithType: MyAnimeListService
+  fullName: CommonBotLibrary.Services.MyAnimeListService
+  type: Class
+  source:
+    id: MyAnimeListService
+    path: ''
+    startLine: 668
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: 'public class MyAnimeListService : IAnimeService, IWebpageService, ISearchable<AnimeBase>'
+    content.vb: >-
+      Public Class MyAnimeListService
+
+          Inherits IAnimeService
+
+          Implements IWebpageService, ISearchable(Of AnimeBase)
+  inheritance:
+  - System.Object
+  implements:
+  - IWebpageService
+  - ISearchable{AnimeBase}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.MyAnimeListService.#ctor(System.String,System.String)
+  commentId: M:CommonBotLibrary.Services.MyAnimeListService.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: CommonBotLibrary.Services.MyAnimeListService
+  langs:
+  - csharp
+  - vb
+  name: MyAnimeListService(String, String)
+  nameWithType: MyAnimeListService.MyAnimeListService(String, String)
+  fullName: CommonBotLibrary.Services.MyAnimeListService.MyAnimeListService(System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 676
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nConstructs an <see cref=\"!:IAnimeService\"></see> implementation that searches MAL.\n"
+  example: []
+  syntax:
+    content: public MyAnimeListService(string username = null, string password = null)
+    parameters:
+    - id: username
+      type: System.String
+      description: Defaults to username in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
+    - id: password
+      type: System.String
+      description: Defaults to password in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
+    content.vb: Public Sub New(username As String = Nothing, password As String = Nothing)
+  overload: CommonBotLibrary.Services.MyAnimeListService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.MyAnimeListService.SearchAsync(System.String)
+  commentId: M:CommonBotLibrary.Services.MyAnimeListService.SearchAsync(System.String)
+  id: SearchAsync(System.String)
+  parent: CommonBotLibrary.Services.MyAnimeListService
+  langs:
+  - csharp
+  - vb
+  name: SearchAsync(String)
+  nameWithType: MyAnimeListService.SearchAsync(String)
+  fullName: CommonBotLibrary.Services.MyAnimeListService.SearchAsync(System.String)
+  type: Method
+  source:
+    id: SearchAsync
+    path: ''
+    startLine: 701
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nSearches myanimelist.net for anime that match a given title.\n"
+  example: []
+  syntax:
+    content: public Task<IEnumerable<MyAnimeListResult>> SearchAsync(string title)
+    parameters:
+    - id: title
+      type: System.String
+      description: The anime title to search for.
+    return:
+      type: Task{IEnumerable{MyAnimeListResult}}
+      description: A collection of relevant anime.
+    content.vb: Public Function SearchAsync(title As String) As Task(Of IEnumerable(Of MyAnimeListResult))
+  overload: CommonBotLibrary.Services.MyAnimeListService.SearchAsync*
+  seealso:
+  - linkType: HRef
+    linkId: https://myanimelist.net/modules.php?go=api
+    altText: API Docs
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services
+  commentId: N:CommonBotLibrary.Services
+  isExternal: false
+  name: CommonBotLibrary.Services
+  nameWithType: CommonBotLibrary.Services
+  fullName: CommonBotLibrary.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: IWebpageService
+  commentId: '!:IWebpageService'
+  isExternal: true
+  name: IWebpageService
+  nameWithType: IWebpageService
+  fullName: IWebpageService
+- uid: ISearchable{AnimeBase}
+  commentId: '!:ISearchable{AnimeBase}'
+  definition: ISearchable`1
+  name: ISearchable<AnimeBase>
+  nameWithType: ISearchable<AnimeBase>
+  fullName: ISearchable<AnimeBase>
+  nameWithType.vb: ISearchable(Of AnimeBase)
+  fullName.vb: ISearchable(Of AnimeBase)
+  name.vb: ISearchable(Of AnimeBase)
+  spec.csharp:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AnimeBase
+    name: AnimeBase
+    nameWithType: AnimeBase
+    fullName: AnimeBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AnimeBase
+    name: AnimeBase
+    nameWithType: AnimeBase
+    fullName: AnimeBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ISearchable`1
+  isExternal: true
+  name: ISearchable<>
+  nameWithType: ISearchable<>
+  fullName: ISearchable<>
+  nameWithType.vb: ISearchable(Of )
+  fullName.vb: ISearchable(Of )
+  name.vb: ISearchable(Of )
+  spec.csharp:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Tokens
+  commentId: T:CommonBotLibrary.Tokens
+  isExternal: false
+  name: Tokens
+  nameWithType: Tokens
+  fullName: CommonBotLibrary.Tokens
+- uid: CommonBotLibrary.Services.MyAnimeListService.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.MyAnimeListService.#ctor
+  isExternal: false
+  name: MyAnimeListService
+  nameWithType: MyAnimeListService.MyAnimeListService
+  fullName: CommonBotLibrary.Services.MyAnimeListService.MyAnimeListService
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.MyAnimeListService.SearchAsync*
+  commentId: Overload:CommonBotLibrary.Services.MyAnimeListService.SearchAsync
+  isExternal: false
+  name: SearchAsync
+  nameWithType: MyAnimeListService.SearchAsync
+  fullName: CommonBotLibrary.Services.MyAnimeListService.SearchAsync
+- uid: Task{IEnumerable{MyAnimeListResult}}
+  commentId: '!:Task{IEnumerable{MyAnimeListResult}}'
+  definition: Task`1
+  name: Task<IEnumerable<MyAnimeListResult>>
+  nameWithType: Task<IEnumerable<MyAnimeListResult>>
+  fullName: Task<IEnumerable<MyAnimeListResult>>
+  nameWithType.vb: Task(Of IEnumerable(Of MyAnimeListResult))
+  fullName.vb: Task(Of IEnumerable(Of MyAnimeListResult))
+  name.vb: Task(Of IEnumerable(Of MyAnimeListResult))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MyAnimeListResult
+    name: MyAnimeListResult
+    nameWithType: MyAnimeListResult
+    fullName: MyAnimeListResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MyAnimeListResult
+    name: MyAnimeListResult
+    nameWithType: MyAnimeListResult
+    fullName: MyAnimeListResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

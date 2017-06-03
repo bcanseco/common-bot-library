@@ -1,0 +1,486 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.RandomService
+  commentId: T:CommonBotLibrary.Services.RandomService
+  id: RandomService
+  parent: CommonBotLibrary.Services
+  children:
+  - CommonBotLibrary.Services.RandomService.FlipCoin
+  - CommonBotLibrary.Services.RandomService.Generator
+  - CommonBotLibrary.Services.RandomService.Roll(Die)
+  langs:
+  - csharp
+  - vb
+  name: RandomService
+  nameWithType: RandomService
+  fullName: CommonBotLibrary.Services.RandomService
+  type: Class
+  source:
+    id: RandomService
+    path: ''
+    startLine: 938
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: public class RandomService
+    content.vb: Public Class RandomService
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.RandomService.Generator
+  commentId: P:CommonBotLibrary.Services.RandomService.Generator
+  id: Generator
+  parent: CommonBotLibrary.Services.RandomService
+  langs:
+  - csharp
+  - vb
+  name: Generator
+  nameWithType: RandomService.Generator
+  fullName: CommonBotLibrary.Services.RandomService.Generator
+  type: Property
+  source:
+    id: Generator
+    path: ''
+    startLine: 940
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: public static Random Generator { get; }
+    parameters: []
+    return:
+      type: Random
+    content.vb: Public Shared ReadOnly Property Generator As Random
+  overload: CommonBotLibrary.Services.RandomService.Generator*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: CommonBotLibrary.Services.RandomService.Roll(Die)
+  commentId: M:CommonBotLibrary.Services.RandomService.Roll(Die)
+  id: Roll(Die)
+  parent: CommonBotLibrary.Services.RandomService
+  langs:
+  - csharp
+  - vb
+  name: Roll(Die)
+  nameWithType: RandomService.Roll(Die)
+  fullName: CommonBotLibrary.Services.RandomService.Roll(Die)
+  type: Method
+  source:
+    id: Roll
+    path: ''
+    startLine: 951
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nRolls a pseudo-random die.\n"
+  remarks: "\nIf explicitly using an <xref uid=\"langword_csharp_int\" name=\"int\" href=\"\"></xref> as an argument, check the\n<xref uid=\"langword_csharp_Factory()\" name=\"Factory()\" href=\"\"></xref> method in <see cref=\"!:Die\"></see> for exception docs.\n"
+  example: []
+  syntax:
+    content: public int Roll(Die die)
+    parameters:
+    - id: die
+      type: Die
+      description: The die to roll. Six-sided if null.
+    return:
+      type: System.Int32
+      description: The result of the roll.
+    content.vb: Public Function Roll(die As Die) As Integer
+  overload: CommonBotLibrary.Services.RandomService.Roll*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.RandomService.FlipCoin
+  commentId: M:CommonBotLibrary.Services.RandomService.FlipCoin
+  id: FlipCoin
+  parent: CommonBotLibrary.Services.RandomService
+  langs:
+  - csharp
+  - vb
+  name: FlipCoin()
+  nameWithType: RandomService.FlipCoin()
+  fullName: CommonBotLibrary.Services.RandomService.FlipCoin()
+  type: Method
+  source:
+    id: FlipCoin
+    path: ''
+    startLine: 958
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nFlips a pseudo-random coin.\n"
+  example: []
+  syntax:
+    content: public bool FlipCoin()
+    return:
+      type: System.Boolean
+      description: True if heads, false if tails.
+    content.vb: Public Function FlipCoin As Boolean
+  overload: CommonBotLibrary.Services.RandomService.FlipCoin*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services
+  commentId: N:CommonBotLibrary.Services
+  isExternal: false
+  name: CommonBotLibrary.Services
+  nameWithType: CommonBotLibrary.Services
+  fullName: CommonBotLibrary.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.RandomService.Generator*
+  commentId: Overload:CommonBotLibrary.Services.RandomService.Generator
+  isExternal: false
+  name: Generator
+  nameWithType: RandomService.Generator
+  fullName: CommonBotLibrary.Services.RandomService.Generator
+- uid: Random
+  commentId: '!:Random'
+  isExternal: true
+  name: Random
+  nameWithType: Random
+  fullName: Random
+- uid: CommonBotLibrary.Services.RandomService.Roll*
+  commentId: Overload:CommonBotLibrary.Services.RandomService.Roll
+  isExternal: false
+  name: Roll
+  nameWithType: RandomService.Roll
+  fullName: CommonBotLibrary.Services.RandomService.Roll
+- uid: Die
+  commentId: '!:Die'
+  isExternal: true
+  name: Die
+  nameWithType: Die
+  fullName: Die
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CommonBotLibrary.Services.RandomService.FlipCoin*
+  commentId: Overload:CommonBotLibrary.Services.RandomService.FlipCoin
+  isExternal: false
+  name: FlipCoin
+  nameWithType: RandomService.FlipCoin
+  fullName: CommonBotLibrary.Services.RandomService.FlipCoin
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,897 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult
+  commentId: T:CommonBotLibrary.Services.Models.OmdbDirectResult
+  id: OmdbDirectResult
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.Actors
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.Awards
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.BoxOffice
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.Country
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.Director
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.Dvd
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.Genre
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.ImdbRating
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.ImdbVotes
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.Language
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.Metascore
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.Plot
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.Production
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.Rated
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.Ratings
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.Released
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.Runtime
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.Website
+  - CommonBotLibrary.Services.Models.OmdbDirectResult.Writer
+  langs:
+  - csharp
+  - vb
+  name: OmdbDirectResult
+  nameWithType: OmdbDirectResult
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult
+  type: Class
+  source:
+    id: OmdbDirectResult
+    path: ''
+    startLine: 1598
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: 'public class OmdbDirectResult : OmdbSearchResult'
+    content.vb: >-
+      Public Class OmdbDirectResult
+
+          Inherits OmdbSearchResult
+  inheritance:
+  - System.Object
+  - CommonBotLibrary.Services.Models.OmdbSearchResult
+  inheritedMembers:
+  - CommonBotLibrary.Services.Models.OmdbSearchResult.ImdbId
+  - CommonBotLibrary.Services.Models.OmdbSearchResult.Poster
+  - CommonBotLibrary.Services.Models.OmdbSearchResult.Type
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Rated
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.Rated
+  id: Rated
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: Rated
+  nameWithType: OmdbDirectResult.Rated
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Rated
+  type: Property
+  source:
+    id: Rated
+    path: ''
+    startLine: 1600
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Rated { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Rated As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.Rated*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Released
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.Released
+  id: Released
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: Released
+  nameWithType: OmdbDirectResult.Released
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Released
+  type: Property
+  source:
+    id: Released
+    path: ''
+    startLine: 1601
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Released { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Released As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.Released*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Runtime
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.Runtime
+  id: Runtime
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: Runtime
+  nameWithType: OmdbDirectResult.Runtime
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Runtime
+  type: Property
+  source:
+    id: Runtime
+    path: ''
+    startLine: 1602
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Runtime { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Runtime As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.Runtime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Genre
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.Genre
+  id: Genre
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: Genre
+  nameWithType: OmdbDirectResult.Genre
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Genre
+  type: Property
+  source:
+    id: Genre
+    path: ''
+    startLine: 1603
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Genre { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Genre As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.Genre*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Director
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.Director
+  id: Director
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: Director
+  nameWithType: OmdbDirectResult.Director
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Director
+  type: Property
+  source:
+    id: Director
+    path: ''
+    startLine: 1604
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Director { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Director As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.Director*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Writer
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.Writer
+  id: Writer
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: Writer
+  nameWithType: OmdbDirectResult.Writer
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Writer
+  type: Property
+  source:
+    id: Writer
+    path: ''
+    startLine: 1605
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Writer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Writer As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.Writer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Actors
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.Actors
+  id: Actors
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: Actors
+  nameWithType: OmdbDirectResult.Actors
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Actors
+  type: Property
+  source:
+    id: Actors
+    path: ''
+    startLine: 1606
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Actors { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Actors As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.Actors*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Plot
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.Plot
+  id: Plot
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: Plot
+  nameWithType: OmdbDirectResult.Plot
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Plot
+  type: Property
+  source:
+    id: Plot
+    path: ''
+    startLine: 1607
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Plot { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Plot As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.Plot*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Language
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.Language
+  id: Language
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: OmdbDirectResult.Language
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Language
+  type: Property
+  source:
+    id: Language
+    path: ''
+    startLine: 1608
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Language { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Language As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.Language*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Country
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.Country
+  id: Country
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: OmdbDirectResult.Country
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Country
+  type: Property
+  source:
+    id: Country
+    path: ''
+    startLine: 1609
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Country { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Country As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.Country*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Awards
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.Awards
+  id: Awards
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: Awards
+  nameWithType: OmdbDirectResult.Awards
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Awards
+  type: Property
+  source:
+    id: Awards
+    path: ''
+    startLine: 1610
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Awards { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Awards As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.Awards*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Metascore
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.Metascore
+  id: Metascore
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: Metascore
+  nameWithType: OmdbDirectResult.Metascore
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Metascore
+  type: Property
+  source:
+    id: Metascore
+    path: ''
+    startLine: 1611
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Metascore { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Metascore As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.Metascore*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.ImdbRating
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.ImdbRating
+  id: ImdbRating
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: ImdbRating
+  nameWithType: OmdbDirectResult.ImdbRating
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.ImdbRating
+  type: Property
+  source:
+    id: ImdbRating
+    path: ''
+    startLine: 1612
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string ImdbRating { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ImdbRating As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.ImdbRating*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.ImdbVotes
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.ImdbVotes
+  id: ImdbVotes
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: ImdbVotes
+  nameWithType: OmdbDirectResult.ImdbVotes
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.ImdbVotes
+  type: Property
+  source:
+    id: ImdbVotes
+    path: ''
+    startLine: 1613
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string ImdbVotes { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ImdbVotes As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.ImdbVotes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Dvd
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.Dvd
+  id: Dvd
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: Dvd
+  nameWithType: OmdbDirectResult.Dvd
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Dvd
+  type: Property
+  source:
+    id: Dvd
+    path: ''
+    startLine: 1614
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Dvd { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Dvd As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.Dvd*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.BoxOffice
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.BoxOffice
+  id: BoxOffice
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: BoxOffice
+  nameWithType: OmdbDirectResult.BoxOffice
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.BoxOffice
+  type: Property
+  source:
+    id: BoxOffice
+    path: ''
+    startLine: 1615
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string BoxOffice { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BoxOffice As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.BoxOffice*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Production
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.Production
+  id: Production
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: Production
+  nameWithType: OmdbDirectResult.Production
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Production
+  type: Property
+  source:
+    id: Production
+    path: ''
+    startLine: 1616
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Production { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Production As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.Production*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Website
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.Website
+  id: Website
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: Website
+  nameWithType: OmdbDirectResult.Website
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Website
+  type: Property
+  source:
+    id: Website
+    path: ''
+    startLine: 1617
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Website { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Website As String
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.Website*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Ratings
+  commentId: P:CommonBotLibrary.Services.Models.OmdbDirectResult.Ratings
+  id: Ratings
+  parent: CommonBotLibrary.Services.Models.OmdbDirectResult
+  langs:
+  - csharp
+  - vb
+  name: Ratings
+  nameWithType: OmdbDirectResult.Ratings
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Ratings
+  type: Property
+  source:
+    id: Ratings
+    path: ''
+    startLine: 1618
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public IList<OmdbDirectResult.Rating> Ratings { get; set; }
+    parameters: []
+    return:
+      type: IList{CommonBotLibrary.Services.Models.OmdbDirectResult.Rating}
+    content.vb: Public Property Ratings As IList(Of OmdbDirectResult.Rating)
+  overload: CommonBotLibrary.Services.Models.OmdbDirectResult.Ratings*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CommonBotLibrary.Services.Models.OmdbSearchResult
+  commentId: T:CommonBotLibrary.Services.Models.OmdbSearchResult
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: OmdbSearchResult
+  nameWithType: OmdbSearchResult
+  fullName: CommonBotLibrary.Services.Models.OmdbSearchResult
+- uid: CommonBotLibrary.Services.Models.OmdbSearchResult.ImdbId
+  commentId: P:CommonBotLibrary.Services.Models.OmdbSearchResult.ImdbId
+  parent: CommonBotLibrary.Services.Models.OmdbSearchResult
+  isExternal: false
+  name: ImdbId
+  nameWithType: OmdbSearchResult.ImdbId
+  fullName: CommonBotLibrary.Services.Models.OmdbSearchResult.ImdbId
+- uid: CommonBotLibrary.Services.Models.OmdbSearchResult.Poster
+  commentId: P:CommonBotLibrary.Services.Models.OmdbSearchResult.Poster
+  parent: CommonBotLibrary.Services.Models.OmdbSearchResult
+  isExternal: false
+  name: Poster
+  nameWithType: OmdbSearchResult.Poster
+  fullName: CommonBotLibrary.Services.Models.OmdbSearchResult.Poster
+- uid: CommonBotLibrary.Services.Models.OmdbSearchResult.Type
+  commentId: P:CommonBotLibrary.Services.Models.OmdbSearchResult.Type
+  parent: CommonBotLibrary.Services.Models.OmdbSearchResult
+  isExternal: false
+  name: Type
+  nameWithType: OmdbSearchResult.Type
+  fullName: CommonBotLibrary.Services.Models.OmdbSearchResult.Type
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Rated*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.Rated
+  isExternal: false
+  name: Rated
+  nameWithType: OmdbDirectResult.Rated
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Rated
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Released*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.Released
+  isExternal: false
+  name: Released
+  nameWithType: OmdbDirectResult.Released
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Released
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Runtime*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.Runtime
+  isExternal: false
+  name: Runtime
+  nameWithType: OmdbDirectResult.Runtime
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Runtime
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Genre*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.Genre
+  isExternal: false
+  name: Genre
+  nameWithType: OmdbDirectResult.Genre
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Genre
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Director*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.Director
+  isExternal: false
+  name: Director
+  nameWithType: OmdbDirectResult.Director
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Director
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Writer*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.Writer
+  isExternal: false
+  name: Writer
+  nameWithType: OmdbDirectResult.Writer
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Writer
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Actors*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.Actors
+  isExternal: false
+  name: Actors
+  nameWithType: OmdbDirectResult.Actors
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Actors
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Plot*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.Plot
+  isExternal: false
+  name: Plot
+  nameWithType: OmdbDirectResult.Plot
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Plot
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Language*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.Language
+  isExternal: false
+  name: Language
+  nameWithType: OmdbDirectResult.Language
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Language
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Country*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.Country
+  isExternal: false
+  name: Country
+  nameWithType: OmdbDirectResult.Country
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Country
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Awards*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.Awards
+  isExternal: false
+  name: Awards
+  nameWithType: OmdbDirectResult.Awards
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Awards
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Metascore*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.Metascore
+  isExternal: false
+  name: Metascore
+  nameWithType: OmdbDirectResult.Metascore
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Metascore
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.ImdbRating*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.ImdbRating
+  isExternal: false
+  name: ImdbRating
+  nameWithType: OmdbDirectResult.ImdbRating
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.ImdbRating
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.ImdbVotes*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.ImdbVotes
+  isExternal: false
+  name: ImdbVotes
+  nameWithType: OmdbDirectResult.ImdbVotes
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.ImdbVotes
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Dvd*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.Dvd
+  isExternal: false
+  name: Dvd
+  nameWithType: OmdbDirectResult.Dvd
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Dvd
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.BoxOffice*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.BoxOffice
+  isExternal: false
+  name: BoxOffice
+  nameWithType: OmdbDirectResult.BoxOffice
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.BoxOffice
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Production*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.Production
+  isExternal: false
+  name: Production
+  nameWithType: OmdbDirectResult.Production
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Production
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Website*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.Website
+  isExternal: false
+  name: Website
+  nameWithType: OmdbDirectResult.Website
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Website
+- uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Ratings*
+  commentId: Overload:CommonBotLibrary.Services.Models.OmdbDirectResult.Ratings
+  isExternal: false
+  name: Ratings
+  nameWithType: OmdbDirectResult.Ratings
+  fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Ratings
+- uid: IList{CommonBotLibrary.Services.Models.OmdbDirectResult.Rating}
+  commentId: '!:IList{CommonBotLibrary.Services.Models.OmdbDirectResult.Rating}'
+  definition: IList`1
+  name: IList<OmdbDirectResult.Rating>
+  nameWithType: IList<OmdbDirectResult.Rating>
+  fullName: IList<CommonBotLibrary.Services.Models.OmdbDirectResult.Rating>
+  nameWithType.vb: IList(Of OmdbDirectResult.Rating)
+  fullName.vb: IList(Of CommonBotLibrary.Services.Models.OmdbDirectResult.Rating)
+  name.vb: IList(Of OmdbDirectResult.Rating)
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Rating
+    name: OmdbDirectResult.Rating
+    nameWithType: OmdbDirectResult.Rating
+    fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Rating
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CommonBotLibrary.Services.Models.OmdbDirectResult.Rating
+    name: OmdbDirectResult.Rating
+    nameWithType: OmdbDirectResult.Rating
+    fullName: CommonBotLibrary.Services.Models.OmdbDirectResult.Rating
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IList`1
+  commentId: '!:IList`1'
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

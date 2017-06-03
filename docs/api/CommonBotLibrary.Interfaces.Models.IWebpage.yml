@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces.Models.IWebpage
+  commentId: T:CommonBotLibrary.Interfaces.Models.IWebpage
+  id: IWebpage
+  parent: CommonBotLibrary.Interfaces.Models
+  children:
+  - CommonBotLibrary.Interfaces.Models.IWebpage.Title
+  - CommonBotLibrary.Interfaces.Models.IWebpage.Url
+  langs:
+  - csharp
+  - vb
+  name: IWebpage
+  nameWithType: IWebpage
+  fullName: CommonBotLibrary.Interfaces.Models.IWebpage
+  type: Interface
+  source:
+    id: IWebpage
+    path: ''
+    startLine: 519
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  remarks: "\nThis is an interface rather than an abstract class because the\nother models may also be webpages. This lets implementations inherit\nboth this interface and their less generic base models.\n"
+  example: []
+  syntax:
+    content: public interface IWebpage
+    content.vb: Public Interface IWebpage
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CommonBotLibrary.Interfaces.Models.IWebpage.Url
+  commentId: P:CommonBotLibrary.Interfaces.Models.IWebpage.Url
+  id: Url
+  parent: CommonBotLibrary.Interfaces.Models.IWebpage
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: IWebpage.Url
+  fullName: CommonBotLibrary.Interfaces.Models.IWebpage.Url
+  type: Property
+  source:
+    id: Url
+    path: ''
+    startLine: 521
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: string Url { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Url As String
+  overload: CommonBotLibrary.Interfaces.Models.IWebpage.Url*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: CommonBotLibrary.Interfaces.Models.IWebpage.Title
+  commentId: P:CommonBotLibrary.Interfaces.Models.IWebpage.Title
+  id: Title
+  parent: CommonBotLibrary.Interfaces.Models.IWebpage
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: IWebpage.Title
+  fullName: CommonBotLibrary.Interfaces.Models.IWebpage.Title
+  type: Property
+  source:
+    id: Title
+    path: ''
+    startLine: 522
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: string Title { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Title As String
+  overload: CommonBotLibrary.Interfaces.Models.IWebpage.Title*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: CommonBotLibrary.Interfaces.Models
+  commentId: N:CommonBotLibrary.Interfaces.Models
+  isExternal: false
+  name: CommonBotLibrary.Interfaces.Models
+  nameWithType: CommonBotLibrary.Interfaces.Models
+  fullName: CommonBotLibrary.Interfaces.Models
+- uid: CommonBotLibrary.Interfaces.Models.IWebpage.Url*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.IWebpage.Url
+  isExternal: false
+  name: Url
+  nameWithType: IWebpage.Url
+  fullName: CommonBotLibrary.Interfaces.Models.IWebpage.Url
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Interfaces.Models.IWebpage.Title*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.IWebpage.Title
+  isExternal: false
+  name: Title
+  nameWithType: IWebpage.Title
+  fullName: CommonBotLibrary.Interfaces.Models.IWebpage.Title

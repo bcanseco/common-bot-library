@@ -1,0 +1,539 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.OmdbService
+  commentId: T:CommonBotLibrary.Services.OmdbService
+  id: OmdbService
+  parent: CommonBotLibrary.Services
+  children:
+  - CommonBotLibrary.Services.OmdbService.#ctor(System.String)
+  - CommonBotLibrary.Services.OmdbService.DirectAsync(System.String,Type,System.Nullable{System.Int32})
+  - CommonBotLibrary.Services.OmdbService.SearchAsync(System.String,Type,System.Nullable{System.Int32},System.String)
+  langs:
+  - csharp
+  - vb
+  name: OmdbService
+  nameWithType: OmdbService
+  fullName: CommonBotLibrary.Services.OmdbService
+  type: Class
+  source:
+    id: OmdbService
+    path: ''
+    startLine: 775
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: 'public class OmdbService : IMovieService, ISearchable<MovieBase>'
+    content.vb: >-
+      Public Class OmdbService
+
+          Inherits IMovieService
+
+          Implements ISearchable(Of MovieBase)
+  inheritance:
+  - System.Object
+  implements:
+  - ISearchable{MovieBase}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.OmdbService.#ctor(System.String)
+  commentId: M:CommonBotLibrary.Services.OmdbService.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: CommonBotLibrary.Services.OmdbService
+  langs:
+  - csharp
+  - vb
+  name: OmdbService(String)
+  nameWithType: OmdbService.OmdbService(String)
+  fullName: CommonBotLibrary.Services.OmdbService.OmdbService(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 782
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nConstructs an <see cref=\"!:IMovieService\"></see> implementation that searches OMDb.\n"
+  example: []
+  syntax:
+    content: public OmdbService(string apiKey = null)
+    parameters:
+    - id: apiKey
+      type: System.String
+      description: Defaults to API key in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
+    content.vb: Public Sub New(apiKey As String = Nothing)
+  overload: CommonBotLibrary.Services.OmdbService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.OmdbService.SearchAsync(System.String,Type,System.Nullable{System.Int32},System.String)
+  commentId: M:CommonBotLibrary.Services.OmdbService.SearchAsync(System.String,Type,System.Nullable{System.Int32},System.String)
+  id: SearchAsync(System.String,Type,System.Nullable{System.Int32},System.String)
+  parent: CommonBotLibrary.Services.OmdbService
+  langs:
+  - csharp
+  - vb
+  name: SearchAsync(String, Type, Nullable<Int32>, String)
+  nameWithType: OmdbService.SearchAsync(String, Type, Nullable<Int32>, String)
+  fullName: CommonBotLibrary.Services.OmdbService.SearchAsync(System.String, Type, System.Nullable<System.Int32>, System.String)
+  type: Method
+  source:
+    id: SearchAsync
+    path: ''
+    startLine: 806
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nSearches omdbapi.com for media that match a given title.\n"
+  example: []
+  syntax:
+    content: public Task<IEnumerable<OmdbSearchResult>> SearchAsync(string title, Type type = null, int ? year = null, string plot = "short")
+    parameters:
+    - id: title
+      type: System.String
+      description: The title to search for.
+    - id: type
+      type: Type
+      description: The type of content to search for.
+    - id: year
+      type: System.Nullable{System.Int32}
+      description: The year the media was released.
+    - id: plot
+      type: System.String
+      description: The length of the returned plot summary; "short" or "full"
+    return:
+      type: Task{IEnumerable{OmdbSearchResult}}
+      description: A collection of relevant media filled with basic info.
+    content.vb: Public Function SearchAsync(title As String, type As Type = Nothing, year As Integer? = Nothing, plot As String = "short") As Task(Of IEnumerable(Of OmdbSearchResult))
+  overload: CommonBotLibrary.Services.OmdbService.SearchAsync*
+  seealso:
+  - linkType: HRef
+    linkId: http://www.omdbapi.com/legal.htm
+    altText: API TOS
+  nameWithType.vb: OmdbService.SearchAsync(String, Type, Nullable(Of Int32), String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CommonBotLibrary.Services.OmdbService.SearchAsync(System.String, Type, System.Nullable(Of System.Int32), System.String)
+  name.vb: SearchAsync(String, Type, Nullable(Of Int32), String)
+- uid: CommonBotLibrary.Services.OmdbService.DirectAsync(System.String,Type,System.Nullable{System.Int32})
+  commentId: M:CommonBotLibrary.Services.OmdbService.DirectAsync(System.String,Type,System.Nullable{System.Int32})
+  id: DirectAsync(System.String,Type,System.Nullable{System.Int32})
+  parent: CommonBotLibrary.Services.OmdbService
+  langs:
+  - csharp
+  - vb
+  name: DirectAsync(String, Type, Nullable<Int32>)
+  nameWithType: OmdbService.DirectAsync(String, Type, Nullable<Int32>)
+  fullName: CommonBotLibrary.Services.OmdbService.DirectAsync(System.String, Type, System.Nullable<System.Int32>)
+  type: Method
+  source:
+    id: DirectAsync
+    path: ''
+    startLine: 836
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nRetrieves a direct result from omdbapi.com with complete information.\n"
+  example: []
+  syntax:
+    content: public Task<OmdbDirectResult> DirectAsync(string title, Type type = null, int ? year = null)
+    parameters:
+    - id: title
+      type: System.String
+      description: The title to use.
+    - id: type
+      type: Type
+      description: The type of content to search for.
+    - id: year
+      type: System.Nullable{System.Int32}
+      description: The year the media was released.
+    return:
+      type: Task{OmdbDirectResult}
+      description: The most relevant media for the given title.
+    content.vb: Public Function DirectAsync(title As String, type As Type = Nothing, year As Integer? = Nothing) As Task(Of OmdbDirectResult)
+  overload: CommonBotLibrary.Services.OmdbService.DirectAsync*
+  seealso:
+  - linkType: HRef
+    linkId: http://www.omdbapi.com/legal.htm
+    altText: API TOS
+  nameWithType.vb: OmdbService.DirectAsync(String, Type, Nullable(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CommonBotLibrary.Services.OmdbService.DirectAsync(System.String, Type, System.Nullable(Of System.Int32))
+  name.vb: DirectAsync(String, Type, Nullable(Of Int32))
+references:
+- uid: CommonBotLibrary.Services
+  commentId: N:CommonBotLibrary.Services
+  isExternal: false
+  name: CommonBotLibrary.Services
+  nameWithType: CommonBotLibrary.Services
+  fullName: CommonBotLibrary.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: ISearchable{MovieBase}
+  commentId: '!:ISearchable{MovieBase}'
+  definition: ISearchable`1
+  name: ISearchable<MovieBase>
+  nameWithType: ISearchable<MovieBase>
+  fullName: ISearchable<MovieBase>
+  nameWithType.vb: ISearchable(Of MovieBase)
+  fullName.vb: ISearchable(Of MovieBase)
+  name.vb: ISearchable(Of MovieBase)
+  spec.csharp:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MovieBase
+    name: MovieBase
+    nameWithType: MovieBase
+    fullName: MovieBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MovieBase
+    name: MovieBase
+    nameWithType: MovieBase
+    fullName: MovieBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ISearchable`1
+  isExternal: true
+  name: ISearchable<>
+  nameWithType: ISearchable<>
+  fullName: ISearchable<>
+  nameWithType.vb: ISearchable(Of )
+  fullName.vb: ISearchable(Of )
+  name.vb: ISearchable(Of )
+  spec.csharp:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Tokens
+  commentId: T:CommonBotLibrary.Tokens
+  isExternal: false
+  name: Tokens
+  nameWithType: Tokens
+  fullName: CommonBotLibrary.Tokens
+- uid: CommonBotLibrary.Services.OmdbService.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.OmdbService.#ctor
+  isExternal: false
+  name: OmdbService
+  nameWithType: OmdbService.OmdbService
+  fullName: CommonBotLibrary.Services.OmdbService.OmdbService
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.OmdbService.SearchAsync*
+  commentId: Overload:CommonBotLibrary.Services.OmdbService.SearchAsync
+  isExternal: false
+  name: SearchAsync
+  nameWithType: OmdbService.SearchAsync
+  fullName: CommonBotLibrary.Services.OmdbService.SearchAsync
+- uid: Type
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: Type
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task{IEnumerable{OmdbSearchResult}}
+  commentId: '!:Task{IEnumerable{OmdbSearchResult}}'
+  definition: Task`1
+  name: Task<IEnumerable<OmdbSearchResult>>
+  nameWithType: Task<IEnumerable<OmdbSearchResult>>
+  fullName: Task<IEnumerable<OmdbSearchResult>>
+  nameWithType.vb: Task(Of IEnumerable(Of OmdbSearchResult))
+  fullName.vb: Task(Of IEnumerable(Of OmdbSearchResult))
+  name.vb: Task(Of IEnumerable(Of OmdbSearchResult))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OmdbSearchResult
+    name: OmdbSearchResult
+    nameWithType: OmdbSearchResult
+    fullName: OmdbSearchResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OmdbSearchResult
+    name: OmdbSearchResult
+    nameWithType: OmdbSearchResult
+    fullName: OmdbSearchResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Services.OmdbService.DirectAsync*
+  commentId: Overload:CommonBotLibrary.Services.OmdbService.DirectAsync
+  isExternal: false
+  name: DirectAsync
+  nameWithType: OmdbService.DirectAsync
+  fullName: CommonBotLibrary.Services.OmdbService.DirectAsync
+- uid: Task{OmdbDirectResult}
+  commentId: '!:Task{OmdbDirectResult}'
+  definition: Task`1
+  name: Task<OmdbDirectResult>
+  nameWithType: Task<OmdbDirectResult>
+  fullName: Task<OmdbDirectResult>
+  nameWithType.vb: Task(Of OmdbDirectResult)
+  fullName.vb: Task(Of OmdbDirectResult)
+  name.vb: Task(Of OmdbDirectResult)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OmdbDirectResult
+    name: OmdbDirectResult
+    nameWithType: OmdbDirectResult
+    fullName: OmdbDirectResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OmdbDirectResult
+    name: OmdbDirectResult
+    nameWithType: OmdbDirectResult
+    fullName: OmdbDirectResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

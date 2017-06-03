@@ -1,0 +1,350 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.YouTubeService
+  commentId: T:CommonBotLibrary.Services.YouTubeService
+  id: YouTubeService
+  parent: CommonBotLibrary.Services
+  children:
+  - CommonBotLibrary.Services.YouTubeService.#ctor(System.String)
+  - CommonBotLibrary.Services.YouTubeService.SearchAsync(System.String,SafeSearchEnum)
+  langs:
+  - csharp
+  - vb
+  name: YouTubeService
+  nameWithType: YouTubeService
+  fullName: CommonBotLibrary.Services.YouTubeService
+  type: Class
+  source:
+    id: YouTubeService
+    path: ''
+    startLine: 1347
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: 'public class YouTubeService : IWebpageService, ISearchable<IWebpage>'
+    content.vb: >-
+      Public Class YouTubeService
+
+          Inherits IWebpageService
+
+          Implements ISearchable(Of IWebpage)
+  inheritance:
+  - System.Object
+  implements:
+  - ISearchable{IWebpage}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.YouTubeService.#ctor(System.String)
+  commentId: M:CommonBotLibrary.Services.YouTubeService.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: CommonBotLibrary.Services.YouTubeService
+  langs:
+  - csharp
+  - vb
+  name: YouTubeService(String)
+  nameWithType: YouTubeService.YouTubeService(String)
+  fullName: CommonBotLibrary.Services.YouTubeService.YouTubeService(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1354
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nConstructs an <see cref=\"!:IWebpageService\"></see> implementation that searches Youtube.\n"
+  example: []
+  syntax:
+    content: public YouTubeService(string platformKey = null)
+    parameters:
+    - id: platformKey
+      type: System.String
+      description: Defaults to platform key in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
+    content.vb: Public Sub New(platformKey As String = Nothing)
+  overload: CommonBotLibrary.Services.YouTubeService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.YouTubeService.SearchAsync(System.String,SafeSearchEnum)
+  commentId: M:CommonBotLibrary.Services.YouTubeService.SearchAsync(System.String,SafeSearchEnum)
+  id: SearchAsync(System.String,SafeSearchEnum)
+  parent: CommonBotLibrary.Services.YouTubeService
+  langs:
+  - csharp
+  - vb
+  name: SearchAsync(String, SafeSearchEnum)
+  nameWithType: YouTubeService.SearchAsync(String, SafeSearchEnum)
+  fullName: CommonBotLibrary.Services.YouTubeService.SearchAsync(System.String, SafeSearchEnum)
+  type: Method
+  source:
+    id: SearchAsync
+    path: ''
+    startLine: 1380
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nSearches youtube.com for videos relevant to the given search term(s).\n"
+  example: []
+  syntax:
+    content: public Task<IEnumerable<SearchResult>> SearchAsync(string query, SafeSearchEnum safeSearch = null)
+    parameters:
+    - id: query
+      type: System.String
+      description: The query to search for.
+    - id: safeSearch
+      type: SafeSearchEnum
+      description: Safe search configuration.
+    return:
+      type: Task{IEnumerable{SearchResult}}
+      description: A collection of relevant videos indexed on Youtube.
+    content.vb: Public Function SearchAsync(query As String, safeSearch As SafeSearchEnum = Nothing) As Task(Of IEnumerable(Of SearchResult))
+  overload: CommonBotLibrary.Services.YouTubeService.SearchAsync*
+  seealso:
+  - linkType: HRef
+    linkId: https://developers.google.com/youtube/terms/api-services-terms-of-service
+    altText: "\nAPI TOS\n"
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services
+  commentId: N:CommonBotLibrary.Services
+  isExternal: false
+  name: CommonBotLibrary.Services
+  nameWithType: CommonBotLibrary.Services
+  fullName: CommonBotLibrary.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: ISearchable{IWebpage}
+  commentId: '!:ISearchable{IWebpage}'
+  definition: ISearchable`1
+  name: ISearchable<IWebpage>
+  nameWithType: ISearchable<IWebpage>
+  fullName: ISearchable<IWebpage>
+  nameWithType.vb: ISearchable(Of IWebpage)
+  fullName.vb: ISearchable(Of IWebpage)
+  name.vb: ISearchable(Of IWebpage)
+  spec.csharp:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IWebpage
+    name: IWebpage
+    nameWithType: IWebpage
+    fullName: IWebpage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IWebpage
+    name: IWebpage
+    nameWithType: IWebpage
+    fullName: IWebpage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ISearchable`1
+  isExternal: true
+  name: ISearchable<>
+  nameWithType: ISearchable<>
+  fullName: ISearchable<>
+  nameWithType.vb: ISearchable(Of )
+  fullName.vb: ISearchable(Of )
+  name.vb: ISearchable(Of )
+  spec.csharp:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Tokens
+  commentId: T:CommonBotLibrary.Tokens
+  isExternal: false
+  name: Tokens
+  nameWithType: Tokens
+  fullName: CommonBotLibrary.Tokens
+- uid: CommonBotLibrary.Services.YouTubeService.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.YouTubeService.#ctor
+  isExternal: false
+  name: YouTubeService
+  nameWithType: YouTubeService.YouTubeService
+  fullName: CommonBotLibrary.Services.YouTubeService.YouTubeService
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.YouTubeService.SearchAsync*
+  commentId: Overload:CommonBotLibrary.Services.YouTubeService.SearchAsync
+  isExternal: false
+  name: SearchAsync
+  nameWithType: YouTubeService.SearchAsync
+  fullName: CommonBotLibrary.Services.YouTubeService.SearchAsync
+- uid: SafeSearchEnum
+  commentId: '!:SafeSearchEnum'
+  isExternal: true
+  name: SafeSearchEnum
+  nameWithType: SafeSearchEnum
+  fullName: SafeSearchEnum
+- uid: Task{IEnumerable{SearchResult}}
+  commentId: '!:Task{IEnumerable{SearchResult}}'
+  definition: Task`1
+  name: Task<IEnumerable<SearchResult>>
+  nameWithType: Task<IEnumerable<SearchResult>>
+  fullName: Task<IEnumerable<SearchResult>>
+  nameWithType.vb: Task(Of IEnumerable(Of SearchResult))
+  fullName.vb: Task(Of IEnumerable(Of SearchResult))
+  name.vb: Task(Of IEnumerable(Of SearchResult))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SearchResult
+    name: SearchResult
+    nameWithType: SearchResult
+    fullName: SearchResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SearchResult
+    name: SearchResult
+    nameWithType: SearchResult
+    fullName: SearchResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

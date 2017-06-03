@@ -1,0 +1,103 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces
+  commentId: N:CommonBotLibrary.Interfaces
+  id: CommonBotLibrary.Interfaces
+  children:
+  - CommonBotLibrary.Interfaces.IAnimeService
+  - CommonBotLibrary.Interfaces.ICalculatorService
+  - CommonBotLibrary.Interfaces.IDictionaryService
+  - CommonBotLibrary.Interfaces.IMovieService
+  - CommonBotLibrary.Interfaces.ISearchable`1
+  - CommonBotLibrary.Interfaces.IStockService
+  - CommonBotLibrary.Interfaces.IWeatherService
+  - CommonBotLibrary.Interfaces.IWebpageService
+  langs:
+  - csharp
+  - vb
+  name: CommonBotLibrary.Interfaces
+  nameWithType: CommonBotLibrary.Interfaces
+  fullName: CommonBotLibrary.Interfaces
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CommonBotLibrary.Interfaces.IAnimeService
+  commentId: T:CommonBotLibrary.Interfaces.IAnimeService
+  isExternal: false
+  name: IAnimeService
+  nameWithType: IAnimeService
+  fullName: CommonBotLibrary.Interfaces.IAnimeService
+- uid: CommonBotLibrary.Interfaces.ICalculatorService
+  commentId: T:CommonBotLibrary.Interfaces.ICalculatorService
+  isExternal: false
+  name: ICalculatorService
+  nameWithType: ICalculatorService
+  fullName: CommonBotLibrary.Interfaces.ICalculatorService
+- uid: CommonBotLibrary.Interfaces.IDictionaryService
+  commentId: T:CommonBotLibrary.Interfaces.IDictionaryService
+  isExternal: false
+  name: IDictionaryService
+  nameWithType: IDictionaryService
+  fullName: CommonBotLibrary.Interfaces.IDictionaryService
+- uid: CommonBotLibrary.Interfaces.IMovieService
+  commentId: T:CommonBotLibrary.Interfaces.IMovieService
+  isExternal: false
+  name: IMovieService
+  nameWithType: IMovieService
+  fullName: CommonBotLibrary.Interfaces.IMovieService
+- uid: CommonBotLibrary.Interfaces.ISearchable`1
+  commentId: T:CommonBotLibrary.Interfaces.ISearchable`1
+  isExternal: false
+  name: ISearchable<T>
+  nameWithType: ISearchable<T>
+  fullName: CommonBotLibrary.Interfaces.ISearchable<T>
+  nameWithType.vb: ISearchable(Of T)
+  fullName.vb: CommonBotLibrary.Interfaces.ISearchable(Of T)
+  name.vb: ISearchable(Of T)
+  spec.csharp:
+  - uid: CommonBotLibrary.Interfaces.ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: CommonBotLibrary.Interfaces.ISearchable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CommonBotLibrary.Interfaces.ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: CommonBotLibrary.Interfaces.ISearchable
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Interfaces.IStockService
+  commentId: T:CommonBotLibrary.Interfaces.IStockService
+  isExternal: false
+  name: IStockService
+  nameWithType: IStockService
+  fullName: CommonBotLibrary.Interfaces.IStockService
+- uid: CommonBotLibrary.Interfaces.IWeatherService
+  commentId: T:CommonBotLibrary.Interfaces.IWeatherService
+  isExternal: false
+  name: IWeatherService
+  nameWithType: IWeatherService
+  fullName: CommonBotLibrary.Interfaces.IWeatherService
+- uid: CommonBotLibrary.Interfaces.IWebpageService
+  commentId: T:CommonBotLibrary.Interfaces.IWebpageService
+  isExternal: false
+  name: IWebpageService
+  nameWithType: IWebpageService
+  fullName: CommonBotLibrary.Interfaces.IWebpageService

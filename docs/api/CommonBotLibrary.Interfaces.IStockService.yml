@@ -1,0 +1,281 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces.IStockService
+  commentId: T:CommonBotLibrary.Interfaces.IStockService
+  id: IStockService
+  parent: CommonBotLibrary.Interfaces
+  children:
+  - CommonBotLibrary.Interfaces.IStockService.GetQuoteAsync(System.String)
+  - CommonBotLibrary.Interfaces.IStockService.SearchSymbolsAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IStockService
+  nameWithType: IStockService
+  fullName: CommonBotLibrary.Interfaces.IStockService
+  type: Interface
+  source:
+    id: IStockService
+    path: ''
+    startLine: 425
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  syntax:
+    content: public interface IStockService
+    content.vb: Public Interface IStockService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CommonBotLibrary.Interfaces.IStockService.SearchSymbolsAsync(System.String)
+  commentId: M:CommonBotLibrary.Interfaces.IStockService.SearchSymbolsAsync(System.String)
+  id: SearchSymbolsAsync(System.String)
+  parent: CommonBotLibrary.Interfaces.IStockService
+  langs:
+  - csharp
+  - vb
+  name: SearchSymbolsAsync(String)
+  nameWithType: IStockService.SearchSymbolsAsync(String)
+  fullName: CommonBotLibrary.Interfaces.IStockService.SearchSymbolsAsync(System.String)
+  type: Method
+  source:
+    id: SearchSymbolsAsync
+    path: ''
+    startLine: 432
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nSearches for all symbols matching a given company name.\n"
+  example: []
+  syntax:
+    content: Task<IEnumerable<SymbolBase>> SearchSymbolsAsync(string companyName)
+    parameters:
+    - id: companyName
+      type: System.String
+      description: The company name to search with.
+    return:
+      type: Task{IEnumerable{SymbolBase}}
+      description: A collection of relevant symbols.
+    content.vb: Function SearchSymbolsAsync(companyName As String) As Task(Of IEnumerable(Of SymbolBase))
+  overload: CommonBotLibrary.Interfaces.IStockService.SearchSymbolsAsync*
+- uid: CommonBotLibrary.Interfaces.IStockService.GetQuoteAsync(System.String)
+  commentId: M:CommonBotLibrary.Interfaces.IStockService.GetQuoteAsync(System.String)
+  id: GetQuoteAsync(System.String)
+  parent: CommonBotLibrary.Interfaces.IStockService
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteAsync(String)
+  nameWithType: IStockService.GetQuoteAsync(String)
+  fullName: CommonBotLibrary.Interfaces.IStockService.GetQuoteAsync(System.String)
+  type: Method
+  source:
+    id: GetQuoteAsync
+    path: ''
+    startLine: 440
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nGets quote data for a given symbol.\n"
+  example: []
+  syntax:
+    content: Task<SymbolBase> GetQuoteAsync(string symbol)
+    parameters:
+    - id: symbol
+      type: System.String
+      description: The symbol to use.
+    return:
+      type: Task{SymbolBase}
+      description: Stock quote data.
+    content.vb: Function GetQuoteAsync(symbol As String) As Task(Of SymbolBase)
+  overload: CommonBotLibrary.Interfaces.IStockService.GetQuoteAsync*
+  exceptions:
+  - type: CommonBotLibrary.Exceptions.ResultNotFoundException
+    commentId: T:CommonBotLibrary.Exceptions.ResultNotFoundException
+references:
+- uid: CommonBotLibrary.Interfaces
+  commentId: N:CommonBotLibrary.Interfaces
+  isExternal: false
+  name: CommonBotLibrary.Interfaces
+  nameWithType: CommonBotLibrary.Interfaces
+  fullName: CommonBotLibrary.Interfaces
+- uid: CommonBotLibrary.Interfaces.IStockService.SearchSymbolsAsync*
+  commentId: Overload:CommonBotLibrary.Interfaces.IStockService.SearchSymbolsAsync
+  isExternal: false
+  name: SearchSymbolsAsync
+  nameWithType: IStockService.SearchSymbolsAsync
+  fullName: CommonBotLibrary.Interfaces.IStockService.SearchSymbolsAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{IEnumerable{SymbolBase}}
+  commentId: '!:Task{IEnumerable{SymbolBase}}'
+  definition: Task`1
+  name: Task<IEnumerable<SymbolBase>>
+  nameWithType: Task<IEnumerable<SymbolBase>>
+  fullName: Task<IEnumerable<SymbolBase>>
+  nameWithType.vb: Task(Of IEnumerable(Of SymbolBase))
+  fullName.vb: Task(Of IEnumerable(Of SymbolBase))
+  name.vb: Task(Of IEnumerable(Of SymbolBase))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SymbolBase
+    name: SymbolBase
+    nameWithType: SymbolBase
+    fullName: SymbolBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SymbolBase
+    name: SymbolBase
+    nameWithType: SymbolBase
+    fullName: SymbolBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Interfaces.IStockService.GetQuoteAsync*
+  commentId: Overload:CommonBotLibrary.Interfaces.IStockService.GetQuoteAsync
+  isExternal: false
+  name: GetQuoteAsync
+  nameWithType: IStockService.GetQuoteAsync
+  fullName: CommonBotLibrary.Interfaces.IStockService.GetQuoteAsync
+- uid: CommonBotLibrary.Exceptions.ResultNotFoundException
+  commentId: T:CommonBotLibrary.Exceptions.ResultNotFoundException
+  isExternal: false
+  name: ResultNotFoundException
+  nameWithType: ResultNotFoundException
+  fullName: CommonBotLibrary.Exceptions.ResultNotFoundException
+- uid: Task{SymbolBase}
+  commentId: '!:Task{SymbolBase}'
+  definition: Task`1
+  name: Task<SymbolBase>
+  nameWithType: Task<SymbolBase>
+  fullName: Task<SymbolBase>
+  nameWithType.vb: Task(Of SymbolBase)
+  fullName.vb: Task(Of SymbolBase)
+  name.vb: Task(Of SymbolBase)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SymbolBase
+    name: SymbolBase
+    nameWithType: SymbolBase
+    fullName: SymbolBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SymbolBase
+    name: SymbolBase
+    nameWithType: SymbolBase
+    fullName: SymbolBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

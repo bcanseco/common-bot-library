@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces.IDictionaryService
+  commentId: T:CommonBotLibrary.Interfaces.IDictionaryService
+  id: IDictionaryService
+  parent: CommonBotLibrary.Interfaces
+  children:
+  - CommonBotLibrary.Interfaces.IDictionaryService.GetDefinitionsAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IDictionaryService
+  nameWithType: IDictionaryService
+  fullName: CommonBotLibrary.Interfaces.IDictionaryService
+  type: Interface
+  source:
+    id: IDictionaryService
+    path: ''
+    startLine: 360
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nDefines an API for working with a dictionary.\n"
+  example: []
+  syntax:
+    content: public interface IDictionaryService
+    content.vb: Public Interface IDictionaryService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CommonBotLibrary.Interfaces.IDictionaryService.GetDefinitionsAsync(System.String)
+  commentId: M:CommonBotLibrary.Interfaces.IDictionaryService.GetDefinitionsAsync(System.String)
+  id: GetDefinitionsAsync(System.String)
+  parent: CommonBotLibrary.Interfaces.IDictionaryService
+  langs:
+  - csharp
+  - vb
+  name: GetDefinitionsAsync(String)
+  nameWithType: IDictionaryService.GetDefinitionsAsync(String)
+  fullName: CommonBotLibrary.Interfaces.IDictionaryService.GetDefinitionsAsync(System.String)
+  type: Method
+  source:
+    id: GetDefinitionsAsync
+    path: ''
+    startLine: 367
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nSearches for relevant definitions for a given phrase.\n"
+  example: []
+  syntax:
+    content: Task<IEnumerable<DefinitionBase>> GetDefinitionsAsync(string phrase)
+    parameters:
+    - id: phrase
+      type: System.String
+      description: The phrase to look up.
+    return:
+      type: Task{IEnumerable{DefinitionBase}}
+      description: A collection of relevant definitions.
+    content.vb: Function GetDefinitionsAsync(phrase As String) As Task(Of IEnumerable(Of DefinitionBase))
+  overload: CommonBotLibrary.Interfaces.IDictionaryService.GetDefinitionsAsync*
+references:
+- uid: CommonBotLibrary.Interfaces
+  commentId: N:CommonBotLibrary.Interfaces
+  isExternal: false
+  name: CommonBotLibrary.Interfaces
+  nameWithType: CommonBotLibrary.Interfaces
+  fullName: CommonBotLibrary.Interfaces
+- uid: CommonBotLibrary.Interfaces.IDictionaryService.GetDefinitionsAsync*
+  commentId: Overload:CommonBotLibrary.Interfaces.IDictionaryService.GetDefinitionsAsync
+  isExternal: false
+  name: GetDefinitionsAsync
+  nameWithType: IDictionaryService.GetDefinitionsAsync
+  fullName: CommonBotLibrary.Interfaces.IDictionaryService.GetDefinitionsAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{IEnumerable{DefinitionBase}}
+  commentId: '!:Task{IEnumerable{DefinitionBase}}'
+  definition: Task`1
+  name: Task<IEnumerable<DefinitionBase>>
+  nameWithType: Task<IEnumerable<DefinitionBase>>
+  fullName: Task<IEnumerable<DefinitionBase>>
+  nameWithType.vb: Task(Of IEnumerable(Of DefinitionBase))
+  fullName.vb: Task(Of IEnumerable(Of DefinitionBase))
+  name.vb: Task(Of IEnumerable(Of DefinitionBase))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DefinitionBase
+    name: DefinitionBase
+    nameWithType: DefinitionBase
+    fullName: DefinitionBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DefinitionBase
+    name: DefinitionBase
+    nameWithType: DefinitionBase
+    fullName: DefinitionBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

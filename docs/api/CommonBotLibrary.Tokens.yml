@@ -1,0 +1,674 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Tokens
+  commentId: T:CommonBotLibrary.Tokens
+  id: Tokens
+  parent: CommonBotLibrary
+  children:
+  - CommonBotLibrary.Tokens.Google
+  - CommonBotLibrary.Tokens.LoadAsync(System.String)
+  - CommonBotLibrary.Tokens.LoadAsync``1(System.String)
+  - CommonBotLibrary.Tokens.MyAnimeList
+  - CommonBotLibrary.Tokens.Omdb
+  - CommonBotLibrary.Tokens.OpenWeatherMap
+  - CommonBotLibrary.Tokens.Twitter
+  langs:
+  - csharp
+  - vb
+  name: Tokens
+  nameWithType: Tokens
+  fullName: CommonBotLibrary.Tokens
+  type: Class
+  source:
+    id: Tokens
+    path: ''
+    startLine: 61
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary
+  syntax:
+    content: public class Tokens
+    content.vb: Public Class Tokens
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Tokens.LoadAsync(System.String)
+  commentId: M:CommonBotLibrary.Tokens.LoadAsync(System.String)
+  id: LoadAsync(System.String)
+  parent: CommonBotLibrary.Tokens
+  langs:
+  - csharp
+  - vb
+  name: LoadAsync(String)
+  nameWithType: Tokens.LoadAsync(String)
+  fullName: CommonBotLibrary.Tokens.LoadAsync(System.String)
+  type: Method
+  source:
+    id: LoadAsync
+    path: ''
+    startLine: 73
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary
+  summary: "\nInitializes all static references to third-party API keys.\n"
+  example: []
+  syntax:
+    content: public static Task LoadAsync(string keysPath = "../tokens.json")
+    parameters:
+    - id: keysPath
+      type: System.String
+      description: The path to a tokens.json file.
+    return:
+      type: Task
+    content.vb: Public Shared Function LoadAsync(keysPath As String = "../tokens.json") As Task
+  overload: CommonBotLibrary.Tokens.LoadAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CommonBotLibrary.Tokens.LoadAsync``1(System.String)
+  commentId: M:CommonBotLibrary.Tokens.LoadAsync``1(System.String)
+  id: LoadAsync``1(System.String)
+  parent: CommonBotLibrary.Tokens
+  langs:
+  - csharp
+  - vb
+  name: LoadAsync<T>(String)
+  nameWithType: Tokens.LoadAsync<T>(String)
+  fullName: CommonBotLibrary.Tokens.LoadAsync<T>(System.String)
+  type: Method
+  source:
+    id: LoadAsync
+    path: ''
+    startLine: 89
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary
+  summary: "\nInitializes all static references to third-party API keys\ninto the provided type T. Use this if you have a class with \nadditional static API keys that subclasses <xref href=\"CommonBotLibrary.Tokens\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: 'public static Task LoadAsync<T>(string keysPath = "../tokens.json")where T : Tokens'
+    parameters:
+    - id: keysPath
+      type: System.String
+      description: The path to a tokens.json file.
+    typeParameters:
+    - id: T
+      description: The class to deserialize into.
+    return:
+      type: Task
+    content.vb: Public Shared Function LoadAsync(Of T As Tokens)(keysPath As String = "../tokens.json") As Task
+  overload: CommonBotLibrary.Tokens.LoadAsync*
+  nameWithType.vb: Tokens.LoadAsync(Of T)(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CommonBotLibrary.Tokens.LoadAsync(Of T)(System.String)
+  name.vb: LoadAsync(Of T)(String)
+- uid: CommonBotLibrary.Tokens.OpenWeatherMap
+  commentId: P:CommonBotLibrary.Tokens.OpenWeatherMap
+  id: OpenWeatherMap
+  parent: CommonBotLibrary.Tokens
+  langs:
+  - csharp
+  - vb
+  name: OpenWeatherMap
+  nameWithType: Tokens.OpenWeatherMap
+  fullName: CommonBotLibrary.Tokens.OpenWeatherMap
+  type: Property
+  source:
+    id: OpenWeatherMap
+    path: ''
+    startLine: 98
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary
+  summary: "\nOpenWeatherMap API key. \n"
+  example: []
+  syntax:
+    content: public static string OpenWeatherMap { set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared WriteOnly Property OpenWeatherMap As String
+  overload: CommonBotLibrary.Tokens.OpenWeatherMap*
+  modifiers.csharp:
+  - public
+  - static
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+  - WriteOnly
+- uid: CommonBotLibrary.Tokens.Omdb
+  commentId: P:CommonBotLibrary.Tokens.Omdb
+  id: Omdb
+  parent: CommonBotLibrary.Tokens
+  langs:
+  - csharp
+  - vb
+  name: Omdb
+  nameWithType: Tokens.Omdb
+  fullName: CommonBotLibrary.Tokens.Omdb
+  type: Property
+  source:
+    id: Omdb
+    path: ''
+    startLine: 104
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary
+  summary: "\nOMDb API key.\n"
+  example: []
+  syntax:
+    content: public static string Omdb { set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared WriteOnly Property Omdb As String
+  overload: CommonBotLibrary.Tokens.Omdb*
+  modifiers.csharp:
+  - public
+  - static
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+  - WriteOnly
+- uid: CommonBotLibrary.Tokens.Google
+  commentId: P:CommonBotLibrary.Tokens.Google
+  id: Google
+  parent: CommonBotLibrary.Tokens
+  langs:
+  - csharp
+  - vb
+  name: Google
+  nameWithType: Tokens.Google
+  fullName: CommonBotLibrary.Tokens.Google
+  type: Property
+  source:
+    id: Google
+    path: ''
+    startLine: 110
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary
+  summary: "\nContains Google Cloud Platform API key and Custom Search Engine ID.\n"
+  example: []
+  syntax:
+    content: public static Tokens.GoogleCredentials Google { get; set; }
+    parameters: []
+    return:
+      type: CommonBotLibrary.Tokens.GoogleCredentials
+    content.vb: Public Shared Property Google As Tokens.GoogleCredentials
+  overload: CommonBotLibrary.Tokens.Google*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CommonBotLibrary.Tokens.Twitter
+  commentId: P:CommonBotLibrary.Tokens.Twitter
+  id: Twitter
+  parent: CommonBotLibrary.Tokens
+  langs:
+  - csharp
+  - vb
+  name: Twitter
+  nameWithType: Tokens.Twitter
+  fullName: CommonBotLibrary.Tokens.Twitter
+  type: Property
+  source:
+    id: Twitter
+    path: ''
+    startLine: 116
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary
+  summary: "\nContains Twitter developer credentials. See TweetInvi for docs.\n"
+  example: []
+  syntax:
+    content: public static Tokens.TwitterCredentials Twitter { get; set; }
+    parameters: []
+    return:
+      type: CommonBotLibrary.Tokens.TwitterCredentials
+    content.vb: Public Shared Property Twitter As Tokens.TwitterCredentials
+  overload: CommonBotLibrary.Tokens.Twitter*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CommonBotLibrary.Tokens.MyAnimeList
+  commentId: P:CommonBotLibrary.Tokens.MyAnimeList
+  id: MyAnimeList
+  parent: CommonBotLibrary.Tokens
+  langs:
+  - csharp
+  - vb
+  name: MyAnimeList
+  nameWithType: Tokens.MyAnimeList
+  fullName: CommonBotLibrary.Tokens.MyAnimeList
+  type: Property
+  source:
+    id: MyAnimeList
+    path: ''
+    startLine: 122
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary
+  summary: "\nContains MyAnimeList account username and password.\n"
+  example: []
+  syntax:
+    content: public static Tokens.MyAnimeListCredentials MyAnimeList { get; set; }
+    parameters: []
+    return:
+      type: CommonBotLibrary.Tokens.MyAnimeListCredentials
+    content.vb: Public Shared Property MyAnimeList As Tokens.MyAnimeListCredentials
+  overload: CommonBotLibrary.Tokens.MyAnimeList*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CommonBotLibrary
+  commentId: N:CommonBotLibrary
+  isExternal: false
+  name: CommonBotLibrary
+  nameWithType: CommonBotLibrary
+  fullName: CommonBotLibrary
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Tokens.LoadAsync*
+  commentId: Overload:CommonBotLibrary.Tokens.LoadAsync
+  isExternal: false
+  name: LoadAsync
+  nameWithType: Tokens.LoadAsync
+  fullName: CommonBotLibrary.Tokens.LoadAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+- uid: CommonBotLibrary.Tokens
+  commentId: T:CommonBotLibrary.Tokens
+  isExternal: false
+  name: Tokens
+  nameWithType: Tokens
+  fullName: CommonBotLibrary.Tokens
+- uid: CommonBotLibrary.Tokens.OpenWeatherMap*
+  commentId: Overload:CommonBotLibrary.Tokens.OpenWeatherMap
+  isExternal: false
+  name: OpenWeatherMap
+  nameWithType: Tokens.OpenWeatherMap
+  fullName: CommonBotLibrary.Tokens.OpenWeatherMap
+- uid: CommonBotLibrary.Tokens.Omdb*
+  commentId: Overload:CommonBotLibrary.Tokens.Omdb
+  isExternal: false
+  name: Omdb
+  nameWithType: Tokens.Omdb
+  fullName: CommonBotLibrary.Tokens.Omdb
+- uid: CommonBotLibrary.Tokens.Google*
+  commentId: Overload:CommonBotLibrary.Tokens.Google
+  isExternal: false
+  name: Google
+  nameWithType: Tokens.Google
+  fullName: CommonBotLibrary.Tokens.Google
+- uid: CommonBotLibrary.Tokens.GoogleCredentials
+  commentId: T:CommonBotLibrary.Tokens.GoogleCredentials
+  parent: CommonBotLibrary
+  isExternal: false
+  name: Tokens.GoogleCredentials
+  nameWithType: Tokens.GoogleCredentials
+  fullName: CommonBotLibrary.Tokens.GoogleCredentials
+- uid: CommonBotLibrary.Tokens.Twitter*
+  commentId: Overload:CommonBotLibrary.Tokens.Twitter
+  isExternal: false
+  name: Twitter
+  nameWithType: Tokens.Twitter
+  fullName: CommonBotLibrary.Tokens.Twitter
+- uid: CommonBotLibrary.Tokens.TwitterCredentials
+  commentId: T:CommonBotLibrary.Tokens.TwitterCredentials
+  parent: CommonBotLibrary
+  isExternal: false
+  name: Tokens.TwitterCredentials
+  nameWithType: Tokens.TwitterCredentials
+  fullName: CommonBotLibrary.Tokens.TwitterCredentials
+- uid: CommonBotLibrary.Tokens.MyAnimeList*
+  commentId: Overload:CommonBotLibrary.Tokens.MyAnimeList
+  isExternal: false
+  name: MyAnimeList
+  nameWithType: Tokens.MyAnimeList
+  fullName: CommonBotLibrary.Tokens.MyAnimeList
+- uid: CommonBotLibrary.Tokens.MyAnimeListCredentials
+  commentId: T:CommonBotLibrary.Tokens.MyAnimeListCredentials
+  parent: CommonBotLibrary
+  isExternal: false
+  name: Tokens.MyAnimeListCredentials
+  nameWithType: Tokens.MyAnimeListCredentials
+  fullName: CommonBotLibrary.Tokens.MyAnimeListCredentials

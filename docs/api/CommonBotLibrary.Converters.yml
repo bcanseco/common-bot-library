@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Converters
+  commentId: N:CommonBotLibrary.Converters
+  id: CommonBotLibrary.Converters
+  children:
+  - CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2
+  langs:
+  - csharp
+  - vb
+  name: CommonBotLibrary.Converters
+  nameWithType: CommonBotLibrary.Converters
+  fullName: CommonBotLibrary.Converters
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2
+  commentId: T:CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2
+  isExternal: false
+  name: DictionaryOrEmptyArrayConverter<T, TF>
+  nameWithType: DictionaryOrEmptyArrayConverter<T, TF>
+  fullName: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter<T, TF>
+  nameWithType.vb: DictionaryOrEmptyArrayConverter(Of T, TF)
+  fullName.vb: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter(Of T, TF)
+  name.vb: DictionaryOrEmptyArrayConverter(Of T, TF)
+  spec.csharp:
+  - uid: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2
+    name: DictionaryOrEmptyArrayConverter
+    nameWithType: DictionaryOrEmptyArrayConverter
+    fullName: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TF
+    nameWithType: TF
+    fullName: TF
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter`2
+    name: DictionaryOrEmptyArrayConverter
+    nameWithType: DictionaryOrEmptyArrayConverter
+    fullName: CommonBotLibrary.Converters.DictionaryOrEmptyArrayConverter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TF
+    nameWithType: TF
+    fullName: TF
+  - name: )
+    nameWithType: )
+    fullName: )
