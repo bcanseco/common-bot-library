@@ -94,7 +94,7 @@ Now you can use all the CBL services plus your own custom services without havin
 More services are constantly added. If you prefer to keep things tidy, there are [interfaces](src/CommonBotLibrary/Interfaces) available.
 
 ## Contributing
-This project is actively maintained! Please feel free to open an issue or submit a pull request if you have a suggestion, an idea, run into an issue, or have any other questions. Everything is responded to within 24 hours.
+This project is actively maintained! Please feel free to open an issue or submit a pull request if you have a suggestion, an idea, run into a bug, or have any other questions. Everything is responded to within 24 hours.
 
 ## License
 
