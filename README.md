@@ -11,7 +11,7 @@ Console.WriteLine(result); // 2
 ```
 **You can check out the full list of services [here](#services).**
 
-## Quick Start
+## Quick start
 If you're using Visual Studio, you can install this library by following [these instructions](https://docs.microsoft.com/en-us/nuget/tools/package-manager-ui).  
 The package name on NuGet is `CommonBotLibrary`. **Note:** this library targets [.NET Standard 1.6](https://docs.microsoft.com/en-us/dotnet/standard/library#net-platforms-support).
 
