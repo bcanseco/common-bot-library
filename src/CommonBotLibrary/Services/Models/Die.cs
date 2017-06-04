@@ -3,18 +3,17 @@
 namespace CommonBotLibrary.Services.Models
 {
     /// <summary>
-    ///   Wrapper class for a real die's side count.
+    ///   Wrapper for a real die's side count.
     ///   Implicitly typed as an <see langword="int"/>.
     /// </summary>
-    public class Die : IEquatable<Die>
+    public struct Die : IEquatable<Die>
     {
-        private Die(int sides) 
-            => Sides = sides;
+        private Die(int sides) => Sides = sides;
 
         public int Sides { get; }
 
         /// <summary>
-        ///   Creates a new instance of the <see cref="Die"/> class.
+        ///   Creates a new instance of the <see cref="Die"/> struct.
         /// </summary>
         /// <param name="sides">
         ///   The number of sides to use. May have a 'd' before the number.
@@ -39,7 +38,7 @@ namespace CommonBotLibrary.Services.Models
         }
 
         /// <summary>
-        ///   Creates a new instance of the <see cref="Die"/> class.
+        ///   Creates a new instance of the <see cref="Die"/> struct.
         /// </summary>
         /// <param name="sides">
         ///   The number of sides to use.
@@ -62,17 +61,11 @@ namespace CommonBotLibrary.Services.Models
         public static bool StartsWithD(string sides)
             => sides.Length > 1 && char.IsNumber(sides[1]) && char.ToUpperInvariant(sides[0]) == 'D';
         
-        public bool Equals(Die other)
-        {
-            if (ReferenceEquals(null, other)) return false;
-            if (ReferenceEquals(this, other)) return true;
-            return Sides == other.Sides;
-        }
+        public bool Equals(Die other) => Sides == other.Sides;
 
         public override bool Equals(object obj)
         {
             if (ReferenceEquals(null, obj)) return false;
-            if (ReferenceEquals(this, obj)) return true;
             return obj.GetType() == GetType() && Equals((Die) obj);
         }
 
