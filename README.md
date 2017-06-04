@@ -42,7 +42,7 @@ For example, take this token file:
   "MyCustomDatabaseString": "Im_a_custom_key"
 }
 ```
-You can take advantage of the CBL token system by subclassing the [Tokens](src/CommonBotLibrary/Tokens.cs) file.
+You can take advantage of the CBL token system by subclassing the [Tokens](src/CommonBotLibrary/Tokens.cs) class.
 ```c#
 public class MyCustomTokens : Tokens
 {
@@ -84,7 +84,7 @@ Now you can use all the CBL services plus your own custom services without havin
    * Searches https://twitter.com for tweets.
    * Requires four keys that can be registered [here](https://apps.twitter.com/).
 * **UrbanDictionary Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.UrbanDictionaryService.html)**
-   * Searches https://urbandictionary.com for definitions.
+   * Searches https://www.urbandictionary.com for definitions.
 * **Yahoo Finance Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.YahooFinanceService.html)**
    * Searches https://finance.yahoo.com/ for stock information.
 * **YouTube Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.YouTubeService.html)**
