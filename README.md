@@ -70,6 +70,8 @@ Now you can use all the CBL services plus your own custom services without havin
 * **Omdb Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.OmdbService.html)**
    * Searches https://omdbapi.com for movies.
    * Requires an [API key](http://www.omdbapi.com/apikey.aspx).
+* **OpenTriviaDb Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.OpenTriviaDbService.html)**
+   * Searches https://opentdb.com for trivia.
 * **OpenWeatherMap Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.OpenWeatherMapService.html)**
    * Searches https://openweathermap.org for weather data.
    * Requires an [API key](https://openweathermap.org/appid).
