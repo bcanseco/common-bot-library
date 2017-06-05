@@ -11,7 +11,7 @@ Console.WriteLine(result); // 2
 ```
 **You can check out the full list of services [here](#services).**
 
-## Quick Start
+## Quick start
 If you're using Visual Studio, you can install this library by following [these instructions](https://docs.microsoft.com/en-us/nuget/tools/package-manager-ui).  
 The package name on NuGet is `CommonBotLibrary`. **Note:** this library targets [.NET Standard 1.6](https://docs.microsoft.com/en-us/dotnet/standard/library#net-platforms-support).
 
@@ -42,7 +42,7 @@ For example, take this token file:
   "MyCustomDatabaseString": "Im_a_custom_key"
 }
 ```
-You can take advantage of the CBL token system by subclassing the [Tokens](src/CommonBotLibrary/Tokens.cs) file.
+You can take advantage of the CBL token system by subclassing the [Tokens](src/CommonBotLibrary/Tokens.cs) class.
 ```c#
 public class MyCustomTokens : Tokens
 {
@@ -84,7 +84,7 @@ Now you can use all the CBL services plus your own custom services without havin
    * Searches https://twitter.com for tweets.
    * Requires four keys that can be registered [here](https://apps.twitter.com/).
 * **UrbanDictionary Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.UrbanDictionaryService.html)**
-   * Searches https://urbandictionary.com for definitions.
+   * Searches https://www.urbandictionary.com for definitions.
 * **Yahoo Finance Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.YahooFinanceService.html)**
    * Searches https://finance.yahoo.com/ for stock information.
 * **YouTube Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.YouTubeService.html)**
@@ -94,7 +94,7 @@ Now you can use all the CBL services plus your own custom services without havin
 More services are constantly added. If you prefer to keep things tidy, there are [interfaces](src/CommonBotLibrary/Interfaces) available.
 
 ## Contributing
-This project is actively maintained! Please feel free to open an issue or submit a pull request if you have a suggestion, an idea, run into an issue, or have any other questions. Everything is responded to within 24 hours.
+This project is actively maintained! Please feel free to open an issue or submit a pull request if you have a suggestion, an idea, run into a bug, or have any other questions. Everything is responded to within 24 hours.
 
 ## License
 

@@ -16,7 +16,7 @@ namespace CommonBotLibrary.Services
         ///   If explicitly using an <see langword="int"/> as an argument, check the
         ///   <see langword="Factory()"/> method in <see cref="Die"/> for exception docs.
         /// </remarks>
-        public int Roll(Die die)
+        public int Roll(Die? die = null)
             => Generator.Next(1, (die ?? Die.Factory()).Sides + 1);
 
         /// <summary>
