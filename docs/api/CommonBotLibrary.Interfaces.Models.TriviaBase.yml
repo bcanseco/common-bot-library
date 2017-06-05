@@ -1,35 +1,33 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CommonBotLibrary.Services.Models.SteamResult.Cost
-  commentId: T:CommonBotLibrary.Services.Models.SteamResult.Cost
-  id: SteamResult.Cost
-  parent: CommonBotLibrary.Services.Models
+- uid: CommonBotLibrary.Interfaces.Models.TriviaBase
+  commentId: T:CommonBotLibrary.Interfaces.Models.TriviaBase
+  id: TriviaBase
+  parent: CommonBotLibrary.Interfaces.Models
   children:
-  - CommonBotLibrary.Services.Models.SteamResult.Cost.#ctor(System.Int32,System.Int32)
-  - CommonBotLibrary.Services.Models.SteamResult.Cost.IsOnSale
-  - CommonBotLibrary.Services.Models.SteamResult.Cost.Regular
-  - CommonBotLibrary.Services.Models.SteamResult.Cost.Sale
+  - CommonBotLibrary.Interfaces.Models.TriviaBase.Category
+  - CommonBotLibrary.Interfaces.Models.TriviaBase.Question
+  - CommonBotLibrary.Interfaces.Models.TriviaBase.ToString
   langs:
   - csharp
   - vb
-  name: SteamResult.Cost
-  nameWithType: SteamResult.Cost
-  fullName: CommonBotLibrary.Services.Models.SteamResult.Cost
+  name: TriviaBase
+  nameWithType: TriviaBase
+  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase
   type: Class
   source:
-    id: Cost
+    id: TriviaBase
     path: ''
-    startLine: 1953
+    startLine: 567
   assemblies:
   - cs.temp.dll
-  namespace: CommonBotLibrary.Services.Models
+  namespace: CommonBotLibrary.Interfaces.Models
   syntax:
-    content: public class Cost
-    content.vb: Public Class Cost
+    content: public abstract class TriviaBase
+    content.vb: Public MustInherit Class TriviaBase
   inheritance:
   - System.Object
   inheritedMembers:
-  - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.ReferenceEquals(System.Object,System.Object)
@@ -38,141 +36,112 @@ items:
   - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
+  - abstract
   - class
   modifiers.vb:
   - Public
+  - MustInherit
   - Class
-- uid: CommonBotLibrary.Services.Models.SteamResult.Cost.#ctor(System.Int32,System.Int32)
-  commentId: M:CommonBotLibrary.Services.Models.SteamResult.Cost.#ctor(System.Int32,System.Int32)
-  id: '#ctor(System.Int32,System.Int32)'
-  parent: CommonBotLibrary.Services.Models.SteamResult.Cost
+- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.Category
+  commentId: P:CommonBotLibrary.Interfaces.Models.TriviaBase.Category
+  id: Category
+  parent: CommonBotLibrary.Interfaces.Models.TriviaBase
   langs:
   - csharp
   - vb
-  name: Cost(Int32, Int32)
-  nameWithType: SteamResult.Cost.Cost(Int32, Int32)
-  fullName: CommonBotLibrary.Services.Models.SteamResult.Cost.Cost(System.Int32, System.Int32)
-  type: Constructor
-  source:
-    id: .ctor
-    path: ''
-    startLine: 1956
-  assemblies:
-  - cs.temp.dll
-  namespace: CommonBotLibrary.Services.Models
-  syntax:
-    content: public Cost(int initial, int final)
-    parameters:
-    - id: initial
-      type: System.Int32
-    - id: final
-      type: System.Int32
-    content.vb: Public Sub New(initial As Integer, final As Integer)
-  overload: CommonBotLibrary.Services.Models.SteamResult.Cost.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: CommonBotLibrary.Services.Models.SteamResult.Cost.Regular
-  commentId: P:CommonBotLibrary.Services.Models.SteamResult.Cost.Regular
-  id: Regular
-  parent: CommonBotLibrary.Services.Models.SteamResult.Cost
-  langs:
-  - csharp
-  - vb
-  name: Regular
-  nameWithType: SteamResult.Cost.Regular
-  fullName: CommonBotLibrary.Services.Models.SteamResult.Cost.Regular
+  name: Category
+  nameWithType: TriviaBase.Category
+  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.Category
   type: Property
   source:
-    id: Regular
+    id: Category
     path: ''
-    startLine: 1963
+    startLine: 569
   assemblies:
   - cs.temp.dll
-  namespace: CommonBotLibrary.Services.Models
+  namespace: CommonBotLibrary.Interfaces.Models
   syntax:
-    content: public float Regular { get; set; }
+    content: public string Category { get; set; }
     parameters: []
     return:
-      type: System.Single
-    content.vb: Public Property Regular As Single
-  overload: CommonBotLibrary.Services.Models.SteamResult.Cost.Regular*
+      type: System.String
+    content.vb: Public Property Category As String
+  overload: CommonBotLibrary.Interfaces.Models.TriviaBase.Category*
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: CommonBotLibrary.Services.Models.SteamResult.Cost.Sale
-  commentId: P:CommonBotLibrary.Services.Models.SteamResult.Cost.Sale
-  id: Sale
-  parent: CommonBotLibrary.Services.Models.SteamResult.Cost
+- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.Question
+  commentId: P:CommonBotLibrary.Interfaces.Models.TriviaBase.Question
+  id: Question
+  parent: CommonBotLibrary.Interfaces.Models.TriviaBase
   langs:
   - csharp
   - vb
-  name: Sale
-  nameWithType: SteamResult.Cost.Sale
-  fullName: CommonBotLibrary.Services.Models.SteamResult.Cost.Sale
+  name: Question
+  nameWithType: TriviaBase.Question
+  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.Question
   type: Property
   source:
-    id: Sale
+    id: Question
     path: ''
-    startLine: 1964
+    startLine: 570
   assemblies:
   - cs.temp.dll
-  namespace: CommonBotLibrary.Services.Models
+  namespace: CommonBotLibrary.Interfaces.Models
   syntax:
-    content: public float Sale { get; set; }
+    content: public string Question { get; set; }
     parameters: []
     return:
-      type: System.Single
-    content.vb: Public Property Sale As Single
-  overload: CommonBotLibrary.Services.Models.SteamResult.Cost.Sale*
+      type: System.String
+    content.vb: Public Property Question As String
+  overload: CommonBotLibrary.Interfaces.Models.TriviaBase.Question*
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: CommonBotLibrary.Services.Models.SteamResult.Cost.IsOnSale
-  commentId: P:CommonBotLibrary.Services.Models.SteamResult.Cost.IsOnSale
-  id: IsOnSale
-  parent: CommonBotLibrary.Services.Models.SteamResult.Cost
+- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.ToString
+  commentId: M:CommonBotLibrary.Interfaces.Models.TriviaBase.ToString
+  id: ToString
+  parent: CommonBotLibrary.Interfaces.Models.TriviaBase
   langs:
   - csharp
   - vb
-  name: IsOnSale
-  nameWithType: SteamResult.Cost.IsOnSale
-  fullName: CommonBotLibrary.Services.Models.SteamResult.Cost.IsOnSale
-  type: Property
+  name: ToString()
+  nameWithType: TriviaBase.ToString()
+  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.ToString()
+  type: Method
   source:
-    id: IsOnSale
+    id: ToString
     path: ''
-    startLine: 1966
+    startLine: 572
   assemblies:
   - cs.temp.dll
-  namespace: CommonBotLibrary.Services.Models
+  namespace: CommonBotLibrary.Interfaces.Models
   syntax:
-    content: public bool IsOnSale { get; }
-    parameters: []
+    content: public override string ToString()
     return:
-      type: System.Boolean
-    content.vb: Public ReadOnly Property IsOnSale As Boolean
-  overload: CommonBotLibrary.Services.Models.SteamResult.Cost.IsOnSale*
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: CommonBotLibrary.Interfaces.Models.TriviaBase.ToString*
   modifiers.csharp:
   - public
-  - get
+  - override
   modifiers.vb:
   - Public
-  - ReadOnly
+  - Overrides
 references:
-- uid: CommonBotLibrary.Services.Models
-  commentId: N:CommonBotLibrary.Services.Models
+- uid: CommonBotLibrary.Interfaces.Models
+  commentId: N:CommonBotLibrary.Interfaces.Models
   isExternal: false
-  name: CommonBotLibrary.Services.Models
-  nameWithType: CommonBotLibrary.Services.Models
-  fullName: CommonBotLibrary.Services.Models
+  name: CommonBotLibrary.Interfaces.Models
+  nameWithType: CommonBotLibrary.Interfaces.Models
+  fullName: CommonBotLibrary.Interfaces.Models
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -180,37 +149,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -465,48 +403,59 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CommonBotLibrary.Services.Models.SteamResult.Cost.#ctor*
-  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.Cost.#ctor
+- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.Category*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.TriviaBase.Category
   isExternal: false
-  name: Cost
-  nameWithType: SteamResult.Cost.Cost
-  fullName: CommonBotLibrary.Services.Models.SteamResult.Cost.Cost
-- uid: System.Int32
-  commentId: T:System.Int32
+  name: Category
+  nameWithType: TriviaBase.Category
+  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.Category
+- uid: System.String
+  commentId: T:System.String
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: CommonBotLibrary.Services.Models.SteamResult.Cost.Regular*
-  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.Cost.Regular
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.Question*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.TriviaBase.Question
   isExternal: false
-  name: Regular
-  nameWithType: SteamResult.Cost.Regular
-  fullName: CommonBotLibrary.Services.Models.SteamResult.Cost.Regular
-- uid: System.Single
-  commentId: T:System.Single
-  parent: System
+  name: Question
+  nameWithType: TriviaBase.Question
+  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.Question
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: Single
-  nameWithType: Single
-  fullName: System.Single
-- uid: CommonBotLibrary.Services.Models.SteamResult.Cost.Sale*
-  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.Cost.Sale
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.ToString*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.TriviaBase.ToString
   isExternal: false
-  name: Sale
-  nameWithType: SteamResult.Cost.Sale
-  fullName: CommonBotLibrary.Services.Models.SteamResult.Cost.Sale
-- uid: CommonBotLibrary.Services.Models.SteamResult.Cost.IsOnSale*
-  commentId: Overload:CommonBotLibrary.Services.Models.SteamResult.Cost.IsOnSale
-  isExternal: false
-  name: IsOnSale
-  nameWithType: SteamResult.Cost.IsOnSale
-  fullName: CommonBotLibrary.Services.Models.SteamResult.Cost.IsOnSale
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  name: ToString
+  nameWithType: TriviaBase.ToString
+  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.ToString

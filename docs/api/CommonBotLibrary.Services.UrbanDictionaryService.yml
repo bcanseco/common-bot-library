@@ -16,7 +16,7 @@ items:
   source:
     id: UrbanDictionaryService
     path: ''
-    startLine: 1216
+    startLine: 1303
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -24,9 +24,7 @@ items:
     content: 'public class UrbanDictionaryService : IDictionaryService, ISearchable<DefinitionBase>'
     content.vb: >-
       Public Class UrbanDictionaryService
-
           Inherits IDictionaryService
-
           Implements ISearchable(Of DefinitionBase)
   inheritance:
   - System.Object
@@ -52,7 +50,7 @@ items:
   source:
     id: GetDefinitionsAsync
     path: ''
-    startLine: 1225
+    startLine: 1312
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

@@ -375,6 +375,24 @@ references:
   commentId: Overload:CommonBotLibrary.Interfaces.IStockService.SearchSymbolsAsync
   fullName: CommonBotLibrary.Interfaces.IStockService.SearchSymbolsAsync
   nameWithType: IStockService.SearchSymbolsAsync
+- uid: CommonBotLibrary.Interfaces.ITriviaService
+  name: ITriviaService
+  href: api/CommonBotLibrary.Interfaces.ITriviaService.html
+  commentId: T:CommonBotLibrary.Interfaces.ITriviaService
+  fullName: CommonBotLibrary.Interfaces.ITriviaService
+  nameWithType: ITriviaService
+- uid: CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync(System.Int32)
+  name: GetTriviaAsync(Int32)
+  href: api/CommonBotLibrary.Interfaces.ITriviaService.html#CommonBotLibrary_Interfaces_ITriviaService_GetTriviaAsync_System_Int32_
+  commentId: M:CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync(System.Int32)
+  fullName: CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync(System.Int32)
+  nameWithType: ITriviaService.GetTriviaAsync(Int32)
+- uid: CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync*
+  name: GetTriviaAsync
+  href: api/CommonBotLibrary.Interfaces.ITriviaService.html#CommonBotLibrary_Interfaces_ITriviaService_GetTriviaAsync_
+  commentId: Overload:CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync
+  fullName: CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync
+  nameWithType: ITriviaService.GetTriviaAsync
 - uid: CommonBotLibrary.Interfaces.IWeatherService
   name: IWeatherService
   href: api/CommonBotLibrary.Interfaces.IWeatherService.html
@@ -723,6 +741,48 @@ references:
   commentId: Overload:CommonBotLibrary.Interfaces.Models.SymbolBase.ToString
   fullName: CommonBotLibrary.Interfaces.Models.SymbolBase.ToString
   nameWithType: SymbolBase.ToString
+- uid: CommonBotLibrary.Interfaces.Models.TriviaBase
+  name: TriviaBase
+  href: api/CommonBotLibrary.Interfaces.Models.TriviaBase.html
+  commentId: T:CommonBotLibrary.Interfaces.Models.TriviaBase
+  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase
+  nameWithType: TriviaBase
+- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.Category
+  name: Category
+  href: api/CommonBotLibrary.Interfaces.Models.TriviaBase.html#CommonBotLibrary_Interfaces_Models_TriviaBase_Category
+  commentId: P:CommonBotLibrary.Interfaces.Models.TriviaBase.Category
+  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.Category
+  nameWithType: TriviaBase.Category
+- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.Category*
+  name: Category
+  href: api/CommonBotLibrary.Interfaces.Models.TriviaBase.html#CommonBotLibrary_Interfaces_Models_TriviaBase_Category_
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.TriviaBase.Category
+  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.Category
+  nameWithType: TriviaBase.Category
+- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.Question
+  name: Question
+  href: api/CommonBotLibrary.Interfaces.Models.TriviaBase.html#CommonBotLibrary_Interfaces_Models_TriviaBase_Question
+  commentId: P:CommonBotLibrary.Interfaces.Models.TriviaBase.Question
+  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.Question
+  nameWithType: TriviaBase.Question
+- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.Question*
+  name: Question
+  href: api/CommonBotLibrary.Interfaces.Models.TriviaBase.html#CommonBotLibrary_Interfaces_Models_TriviaBase_Question_
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.TriviaBase.Question
+  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.Question
+  nameWithType: TriviaBase.Question
+- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.ToString
+  name: ToString()
+  href: api/CommonBotLibrary.Interfaces.Models.TriviaBase.html#CommonBotLibrary_Interfaces_Models_TriviaBase_ToString
+  commentId: M:CommonBotLibrary.Interfaces.Models.TriviaBase.ToString
+  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.ToString()
+  nameWithType: TriviaBase.ToString()
+- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.ToString*
+  name: ToString
+  href: api/CommonBotLibrary.Interfaces.Models.TriviaBase.html#CommonBotLibrary_Interfaces_Models_TriviaBase_ToString_
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.TriviaBase.ToString
+  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.ToString
+  nameWithType: TriviaBase.ToString
 - uid: CommonBotLibrary.Interfaces.Models.WeatherBase
   name: WeatherBase
   href: api/CommonBotLibrary.Interfaces.Models.WeatherBase.html
@@ -1482,6 +1542,258 @@ references:
   commentId: F:CommonBotLibrary.Services.Models.OmdbType.Series
   fullName: CommonBotLibrary.Services.Models.OmdbType.Series
   nameWithType: OmdbType.Series
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
+  name: OpenTriviaDbCategory
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html
+  commentId: T:CommonBotLibrary.Services.Models.OpenTriviaDbCategory
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
+  nameWithType: OpenTriviaDbCategory
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Animals
+  name: Animals
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Animals
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Animals
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Animals
+  nameWithType: OpenTriviaDbCategory.Animals
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.AnimeManga
+  name: AnimeManga
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_AnimeManga
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.AnimeManga
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.AnimeManga
+  nameWithType: OpenTriviaDbCategory.AnimeManga
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Any
+  name: Any
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Any
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Any
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Any
+  nameWithType: OpenTriviaDbCategory.Any
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Art
+  name: Art
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Art
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Art
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Art
+  nameWithType: OpenTriviaDbCategory.Art
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.BoardGames
+  name: BoardGames
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_BoardGames
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.BoardGames
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.BoardGames
+  nameWithType: OpenTriviaDbCategory.BoardGames
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Books
+  name: Books
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Books
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Books
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Books
+  nameWithType: OpenTriviaDbCategory.Books
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.CartoonAnimations
+  name: CartoonAnimations
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_CartoonAnimations
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.CartoonAnimations
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.CartoonAnimations
+  nameWithType: OpenTriviaDbCategory.CartoonAnimations
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Celebrities
+  name: Celebrities
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Celebrities
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Celebrities
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Celebrities
+  nameWithType: OpenTriviaDbCategory.Celebrities
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Comics
+  name: Comics
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Comics
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Comics
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Comics
+  nameWithType: OpenTriviaDbCategory.Comics
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Computers
+  name: Computers
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Computers
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Computers
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Computers
+  nameWithType: OpenTriviaDbCategory.Computers
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Film
+  name: Film
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Film
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Film
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Film
+  nameWithType: OpenTriviaDbCategory.Film
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Gadgets
+  name: Gadgets
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Gadgets
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Gadgets
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Gadgets
+  nameWithType: OpenTriviaDbCategory.Gadgets
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.GeneralKnowledge
+  name: GeneralKnowledge
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_GeneralKnowledge
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.GeneralKnowledge
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.GeneralKnowledge
+  nameWithType: OpenTriviaDbCategory.GeneralKnowledge
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Geography
+  name: Geography
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Geography
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Geography
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Geography
+  nameWithType: OpenTriviaDbCategory.Geography
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.History
+  name: History
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_History
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.History
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.History
+  nameWithType: OpenTriviaDbCategory.History
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Mathematics
+  name: Mathematics
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Mathematics
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Mathematics
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Mathematics
+  nameWithType: OpenTriviaDbCategory.Mathematics
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Music
+  name: Music
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Music
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Music
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Music
+  nameWithType: OpenTriviaDbCategory.Music
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.MusicalsTheatres
+  name: MusicalsTheatres
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_MusicalsTheatres
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.MusicalsTheatres
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.MusicalsTheatres
+  nameWithType: OpenTriviaDbCategory.MusicalsTheatres
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Mythology
+  name: Mythology
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Mythology
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Mythology
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Mythology
+  nameWithType: OpenTriviaDbCategory.Mythology
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Politics
+  name: Politics
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Politics
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Politics
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Politics
+  nameWithType: OpenTriviaDbCategory.Politics
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceNature
+  name: ScienceNature
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_ScienceNature
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceNature
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceNature
+  nameWithType: OpenTriviaDbCategory.ScienceNature
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Sports
+  name: Sports
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Sports
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Sports
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Sports
+  nameWithType: OpenTriviaDbCategory.Sports
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Television
+  name: Television
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Television
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Television
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Television
+  nameWithType: OpenTriviaDbCategory.Television
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Vehicles
+  name: Vehicles
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Vehicles
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Vehicles
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Vehicles
+  nameWithType: OpenTriviaDbCategory.Vehicles
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.VideoGames
+  name: VideoGames
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_VideoGames
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.VideoGames
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.VideoGames
+  nameWithType: OpenTriviaDbCategory.VideoGames
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  name: OpenTriviaDbDifficulty
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.html
+  commentId: T:CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  nameWithType: OpenTriviaDbDifficulty
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Easy
+  name: Easy
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.html#CommonBotLibrary_Services_Models_OpenTriviaDbDifficulty_Easy
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Easy
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Easy
+  nameWithType: OpenTriviaDbDifficulty.Easy
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Hard
+  name: Hard
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.html#CommonBotLibrary_Services_Models_OpenTriviaDbDifficulty_Hard
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Hard
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Hard
+  nameWithType: OpenTriviaDbDifficulty.Hard
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Medium
+  name: Medium
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.html#CommonBotLibrary_Services_Models_OpenTriviaDbDifficulty_Medium
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Medium
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Medium
+  nameWithType: OpenTriviaDbDifficulty.Medium
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult
+  name: OpenTriviaDbResult
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbResult.html
+  commentId: T:CommonBotLibrary.Services.Models.OpenTriviaDbResult
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult
+  nameWithType: OpenTriviaDbResult
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult.CorrectAnswer
+  name: CorrectAnswer
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbResult.html#CommonBotLibrary_Services_Models_OpenTriviaDbResult_CorrectAnswer
+  commentId: P:CommonBotLibrary.Services.Models.OpenTriviaDbResult.CorrectAnswer
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult.CorrectAnswer
+  nameWithType: OpenTriviaDbResult.CorrectAnswer
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult.CorrectAnswer*
+  name: CorrectAnswer
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbResult.html#CommonBotLibrary_Services_Models_OpenTriviaDbResult_CorrectAnswer_
+  commentId: Overload:CommonBotLibrary.Services.Models.OpenTriviaDbResult.CorrectAnswer
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult.CorrectAnswer
+  nameWithType: OpenTriviaDbResult.CorrectAnswer
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Difficulty
+  name: Difficulty
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbResult.html#CommonBotLibrary_Services_Models_OpenTriviaDbResult_Difficulty
+  commentId: P:CommonBotLibrary.Services.Models.OpenTriviaDbResult.Difficulty
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Difficulty
+  nameWithType: OpenTriviaDbResult.Difficulty
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Difficulty*
+  name: Difficulty
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbResult.html#CommonBotLibrary_Services_Models_OpenTriviaDbResult_Difficulty_
+  commentId: Overload:CommonBotLibrary.Services.Models.OpenTriviaDbResult.Difficulty
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Difficulty
+  nameWithType: OpenTriviaDbResult.Difficulty
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult.IncorrectAnswers
+  name: IncorrectAnswers
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbResult.html#CommonBotLibrary_Services_Models_OpenTriviaDbResult_IncorrectAnswers
+  commentId: P:CommonBotLibrary.Services.Models.OpenTriviaDbResult.IncorrectAnswers
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult.IncorrectAnswers
+  nameWithType: OpenTriviaDbResult.IncorrectAnswers
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult.IncorrectAnswers*
+  name: IncorrectAnswers
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbResult.html#CommonBotLibrary_Services_Models_OpenTriviaDbResult_IncorrectAnswers_
+  commentId: Overload:CommonBotLibrary.Services.Models.OpenTriviaDbResult.IncorrectAnswers
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult.IncorrectAnswers
+  nameWithType: OpenTriviaDbResult.IncorrectAnswers
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Type
+  name: Type
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbResult.html#CommonBotLibrary_Services_Models_OpenTriviaDbResult_Type
+  commentId: P:CommonBotLibrary.Services.Models.OpenTriviaDbResult.Type
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Type
+  nameWithType: OpenTriviaDbResult.Type
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Type*
+  name: Type
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbResult.html#CommonBotLibrary_Services_Models_OpenTriviaDbResult_Type_
+  commentId: Overload:CommonBotLibrary.Services.Models.OpenTriviaDbResult.Type
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Type
+  nameWithType: OpenTriviaDbResult.Type
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbType
+  name: OpenTriviaDbType
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbType.html
+  commentId: T:CommonBotLibrary.Services.Models.OpenTriviaDbType
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbType
+  nameWithType: OpenTriviaDbType
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbType.Boolean
+  name: Boolean
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbType.html#CommonBotLibrary_Services_Models_OpenTriviaDbType_Boolean
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbType.Boolean
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbType.Boolean
+  nameWithType: OpenTriviaDbType.Boolean
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbType.Multiple
+  name: Multiple
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbType.html#CommonBotLibrary_Services_Models_OpenTriviaDbType_Multiple
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbType.Multiple
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbType.Multiple
+  nameWithType: OpenTriviaDbType.Multiple
 - uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult
   name: OpenWeatherMapResult
   href: api/CommonBotLibrary.Services.Models.OpenWeatherMapResult.html
@@ -2790,6 +3102,27 @@ references:
   commentId: Overload:CommonBotLibrary.Services.OmdbService.SearchAsync
   fullName: CommonBotLibrary.Services.OmdbService.SearchAsync
   nameWithType: OmdbService.SearchAsync
+- uid: CommonBotLibrary.Services.OpenTriviaDbService
+  name: OpenTriviaDbService
+  href: api/CommonBotLibrary.Services.OpenTriviaDbService.html
+  commentId: T:CommonBotLibrary.Services.OpenTriviaDbService
+  fullName: CommonBotLibrary.Services.OpenTriviaDbService
+  nameWithType: OpenTriviaDbService
+- uid: CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync(System.Int32,Category,System.Nullable{Difficulty},System.Nullable{Type})
+  name: GetTriviaAsync(Int32, Category, Nullable<Difficulty>, Nullable<Type>)
+  href: api/CommonBotLibrary.Services.OpenTriviaDbService.html#CommonBotLibrary_Services_OpenTriviaDbService_GetTriviaAsync_System_Int32_Category_System_Nullable_Difficulty__System_Nullable_Type__
+  commentId: M:CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync(System.Int32,Category,System.Nullable{Difficulty},System.Nullable{Type})
+  name.vb: GetTriviaAsync(Int32, Category, Nullable(Of Difficulty), Nullable(Of Type))
+  fullName: CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync(System.Int32, Category, System.Nullable<Difficulty>, System.Nullable<Type>)
+  fullName.vb: CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync(System.Int32, Category, System.Nullable(Of Difficulty), System.Nullable(Of Type))
+  nameWithType: OpenTriviaDbService.GetTriviaAsync(Int32, Category, Nullable<Difficulty>, Nullable<Type>)
+  nameWithType.vb: OpenTriviaDbService.GetTriviaAsync(Int32, Category, Nullable(Of Difficulty), Nullable(Of Type))
+- uid: CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync*
+  name: GetTriviaAsync
+  href: api/CommonBotLibrary.Services.OpenTriviaDbService.html#CommonBotLibrary_Services_OpenTriviaDbService_GetTriviaAsync_
+  commentId: Overload:CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync
+  fullName: CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync
+  nameWithType: OpenTriviaDbService.GetTriviaAsync
 - uid: CommonBotLibrary.Services.OpenWeatherMapService
   name: OpenWeatherMapService
   href: api/CommonBotLibrary.Services.OpenWeatherMapService.html
@@ -2850,12 +3183,15 @@ references:
   commentId: Overload:CommonBotLibrary.Services.RandomService.Generator
   fullName: CommonBotLibrary.Services.RandomService.Generator
   nameWithType: RandomService.Generator
-- uid: CommonBotLibrary.Services.RandomService.Roll(Die)
-  name: Roll(Die)
-  href: api/CommonBotLibrary.Services.RandomService.html#CommonBotLibrary_Services_RandomService_Roll_Die_
-  commentId: M:CommonBotLibrary.Services.RandomService.Roll(Die)
-  fullName: CommonBotLibrary.Services.RandomService.Roll(Die)
-  nameWithType: RandomService.Roll(Die)
+- uid: CommonBotLibrary.Services.RandomService.Roll(System.Nullable{Die})
+  name: Roll(Nullable<Die>)
+  href: api/CommonBotLibrary.Services.RandomService.html#CommonBotLibrary_Services_RandomService_Roll_System_Nullable_Die__
+  commentId: M:CommonBotLibrary.Services.RandomService.Roll(System.Nullable{Die})
+  name.vb: Roll(Nullable(Of Die))
+  fullName: CommonBotLibrary.Services.RandomService.Roll(System.Nullable<Die>)
+  fullName.vb: CommonBotLibrary.Services.RandomService.Roll(System.Nullable(Of Die))
+  nameWithType: RandomService.Roll(Nullable<Die>)
+  nameWithType.vb: RandomService.Roll(Nullable(Of Die))
 - uid: CommonBotLibrary.Services.RandomService.Roll*
   name: Roll
   href: api/CommonBotLibrary.Services.RandomService.html#CommonBotLibrary_Services_RandomService_Roll_

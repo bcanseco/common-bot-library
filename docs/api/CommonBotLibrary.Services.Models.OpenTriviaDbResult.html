@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ISearchable&lt;T&gt;
+    <title>Class OpenTriviaDbResult
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ISearchable&lt;T&gt;
+    <meta name="title" content="Class OpenTriviaDbResult
    ">
     <meta name="generator" content="docfx 2.18.2.0">
     
@@ -67,68 +67,64 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CommonBotLibrary.Interfaces.ISearchable`1">
+            <article class="content wrap" id="_content" data-uid="CommonBotLibrary.Services.Models.OpenTriviaDbResult">
   
   
-  <h1 id="CommonBotLibrary_Interfaces_ISearchable_1" data-uid="CommonBotLibrary.Interfaces.ISearchable`1">Interface ISearchable&lt;T&gt;
+  <h1 id="CommonBotLibrary_Services_Models_OpenTriviaDbResult" data-uid="CommonBotLibrary.Services.Models.OpenTriviaDbResult">Class OpenTriviaDbResult
   </h1>
-  <div class="markdown level0 summary"><p>Defines an API for searching for data.</p>
+  <div class="markdown level0 summary"><p>A model for OpenTriviaDb responses. Question and answer strings are HTML encoded.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CommonBotLibrary.Interfaces.html">CommonBotLibrary.Interfaces</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CommonBotLibrary_Interfaces_ISearchable_1_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ISearchable&lt;T&gt;
-    where T : class</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">OpenTriviaDbResult</span></div>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
+  <h6><strong>Namespace</strong>: <a class="xref" href="CommonBotLibrary.Services.Models.html">CommonBotLibrary.Services.Models</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CommonBotLibrary_Services_Models_OpenTriviaDbResult_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class OpenTriviaDbResult : TriviaBase</code></pre>
+  </div>
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="CommonBotLibrary_Interfaces_ISearchable_1_SearchAsync_" data-uid="CommonBotLibrary.Interfaces.ISearchable`1.SearchAsync*"></a>
-  <h4 id="CommonBotLibrary_Interfaces_ISearchable_1_SearchAsync_System_String_" data-uid="CommonBotLibrary.Interfaces.ISearchable`1.SearchAsync(System.String)">SearchAsync(String)</h4>
-  <div class="markdown level1 summary"><p>Searches for data matching the given query.</p>
-</div>
+  <a id="CommonBotLibrary_Services_Models_OpenTriviaDbResult_CorrectAnswer_" data-uid="CommonBotLibrary.Services.Models.OpenTriviaDbResult.CorrectAnswer*"></a>
+  <h4 id="CommonBotLibrary_Services_Models_OpenTriviaDbResult_CorrectAnswer" data-uid="CommonBotLibrary.Services.Models.OpenTriviaDbResult.CorrectAnswer">CorrectAnswer</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;T&gt;&gt; SearchAsync(string query)</code></pre>
+    <pre><code class="lang-csharp hljs">public string CorrectAnswer { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">query</span></td>
-        <td><p>The query to use for searching.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  
+  
+  <a id="CommonBotLibrary_Services_Models_OpenTriviaDbResult_Difficulty_" data-uid="CommonBotLibrary.Services.Models.OpenTriviaDbResult.Difficulty*"></a>
+  <h4 id="CommonBotLibrary_Services_Models_OpenTriviaDbResult_Difficulty" data-uid="CommonBotLibrary.Services.Models.OpenTriviaDbResult.Difficulty">Difficulty</h4>
+  <div class="markdown level1 summary"><p>&quot;easy&quot;, &quot;medium&quot;, or &quot;hard&quot; </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Difficulty { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -138,9 +134,59 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;T&gt;&gt;</td>
-        <td><p>A collection of related search results.</p>
-</td>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CommonBotLibrary_Services_Models_OpenTriviaDbResult_IncorrectAnswers_" data-uid="CommonBotLibrary.Services.Models.OpenTriviaDbResult.IncorrectAnswers*"></a>
+  <h4 id="CommonBotLibrary_Services_Models_OpenTriviaDbResult_IncorrectAnswers" data-uid="CommonBotLibrary.Services.Models.OpenTriviaDbResult.IncorrectAnswers">IncorrectAnswers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;string&gt; IncorrectAnswers { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CommonBotLibrary_Services_Models_OpenTriviaDbResult_Type_" data-uid="CommonBotLibrary.Services.Models.OpenTriviaDbResult.Type*"></a>
+  <h4 id="CommonBotLibrary_Services_Models_OpenTriviaDbResult_Type" data-uid="CommonBotLibrary.Services.Models.OpenTriviaDbResult.Type">Type</h4>
+  <div class="markdown level1 summary"><p>&quot;multiple&quot; for multiple choice or &quot;boolean&quot; for true/false </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Type { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

@@ -17,7 +17,7 @@ items:
   source:
     id: MyAnimeListService
     path: ''
-    startLine: 668
+    startLine: 696
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -25,9 +25,7 @@ items:
     content: 'public class MyAnimeListService : IAnimeService, IWebpageService, ISearchable<AnimeBase>'
     content.vb: >-
       Public Class MyAnimeListService
-
           Inherits IAnimeService
-
           Implements IWebpageService, ISearchable(Of AnimeBase)
   inheritance:
   - System.Object
@@ -54,7 +52,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 676
+    startLine: 704
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -89,7 +87,7 @@ items:
   source:
     id: SearchAsync
     path: ''
-    startLine: 701
+    startLine: 729
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

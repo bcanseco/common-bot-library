@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  commentId: T:CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  id: OpenTriviaDbDifficulty
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Easy
+  - CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Hard
+  - CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Medium
+  langs:
+  - csharp
+  - vb
+  name: OpenTriviaDbDifficulty
+  nameWithType: OpenTriviaDbDifficulty
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  type: Enum
+  source:
+    id: OpenTriviaDbDifficulty
+    path: ''
+    startLine: 1768
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public enum OpenTriviaDbDifficulty
+    content.vb: Public Enum OpenTriviaDbDifficulty
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Easy
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Easy
+  id: Easy
+  parent: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  langs:
+  - csharp
+  - vb
+  name: Easy
+  nameWithType: OpenTriviaDbDifficulty.Easy
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Easy
+  type: Field
+  source:
+    id: Easy
+    path: ''
+    startLine: 1771
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: Easy = 0
+    return:
+      type: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Medium
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Medium
+  id: Medium
+  parent: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  langs:
+  - csharp
+  - vb
+  name: Medium
+  nameWithType: OpenTriviaDbDifficulty.Medium
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Medium
+  type: Field
+  source:
+    id: Medium
+    path: ''
+    startLine: 1772
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: Medium = 1
+    return:
+      type: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Hard
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Hard
+  id: Hard
+  parent: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  langs:
+  - csharp
+  - vb
+  name: Hard
+  nameWithType: OpenTriviaDbDifficulty.Hard
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.Hard
+  type: Field
+  source:
+    id: Hard
+    path: ''
+    startLine: 1773
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: Hard = 2
+    return:
+      type: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  commentId: T:CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: OpenTriviaDbDifficulty
+  nameWithType: OpenTriviaDbDifficulty
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty

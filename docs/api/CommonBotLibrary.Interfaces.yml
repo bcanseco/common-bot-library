@@ -10,6 +10,7 @@ items:
   - CommonBotLibrary.Interfaces.IMovieService
   - CommonBotLibrary.Interfaces.ISearchable`1
   - CommonBotLibrary.Interfaces.IStockService
+  - CommonBotLibrary.Interfaces.ITriviaService
   - CommonBotLibrary.Interfaces.IWeatherService
   - CommonBotLibrary.Interfaces.IWebpageService
   langs:
@@ -89,6 +90,12 @@ references:
   name: IStockService
   nameWithType: IStockService
   fullName: CommonBotLibrary.Interfaces.IStockService
+- uid: CommonBotLibrary.Interfaces.ITriviaService
+  commentId: T:CommonBotLibrary.Interfaces.ITriviaService
+  isExternal: false
+  name: ITriviaService
+  nameWithType: ITriviaService
+  fullName: CommonBotLibrary.Interfaces.ITriviaService
 - uid: CommonBotLibrary.Interfaces.IWeatherService
   commentId: T:CommonBotLibrary.Interfaces.IWeatherService
   isExternal: false

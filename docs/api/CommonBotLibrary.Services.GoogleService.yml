@@ -17,7 +17,7 @@ items:
   source:
     id: GoogleService
     path: ''
-    startLine: 594
+    startLine: 622
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -25,9 +25,7 @@ items:
     content: 'public class GoogleService : IWebpageService, ISearchable<IWebpage>'
     content.vb: >-
       Public Class GoogleService
-
           Inherits IWebpageService
-
           Implements ISearchable(Of IWebpage)
   inheritance:
   - System.Object
@@ -53,7 +51,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 602
+    startLine: 630
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -88,7 +86,7 @@ items:
   source:
     id: SearchAsync
     path: ''
-    startLine: 628
+    startLine: 656
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

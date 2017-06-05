@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbType
+  commentId: T:CommonBotLibrary.Services.Models.OpenTriviaDbType
+  id: OpenTriviaDbType
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.OpenTriviaDbType.Boolean
+  - CommonBotLibrary.Services.Models.OpenTriviaDbType.Multiple
+  langs:
+  - csharp
+  - vb
+  name: OpenTriviaDbType
+  nameWithType: OpenTriviaDbType
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbType
+  type: Enum
+  source:
+    id: OpenTriviaDbType
+    path: ''
+    startLine: 1776
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public enum OpenTriviaDbType
+    content.vb: Public Enum OpenTriviaDbType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbType.Multiple
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbType.Multiple
+  id: Multiple
+  parent: CommonBotLibrary.Services.Models.OpenTriviaDbType
+  langs:
+  - csharp
+  - vb
+  name: Multiple
+  nameWithType: OpenTriviaDbType.Multiple
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbType.Multiple
+  type: Field
+  source:
+    id: Multiple
+    path: ''
+    startLine: 1779
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: Multiple = 0
+    return:
+      type: CommonBotLibrary.Services.Models.OpenTriviaDbType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbType.Boolean
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbType.Boolean
+  id: Boolean
+  parent: CommonBotLibrary.Services.Models.OpenTriviaDbType
+  langs:
+  - csharp
+  - vb
+  name: Boolean
+  nameWithType: OpenTriviaDbType.Boolean
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbType.Boolean
+  type: Field
+  source:
+    id: Boolean
+    path: ''
+    startLine: 1780
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: Boolean = 1
+    return:
+      type: CommonBotLibrary.Services.Models.OpenTriviaDbType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbType
+  commentId: T:CommonBotLibrary.Services.Models.OpenTriviaDbType
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: OpenTriviaDbType
+  nameWithType: OpenTriviaDbType
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbType

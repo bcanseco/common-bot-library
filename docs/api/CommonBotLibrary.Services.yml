@@ -8,6 +8,7 @@ items:
   - CommonBotLibrary.Services.MyAnimeListService
   - CommonBotLibrary.Services.NCalcService
   - CommonBotLibrary.Services.OmdbService
+  - CommonBotLibrary.Services.OpenTriviaDbService
   - CommonBotLibrary.Services.OpenWeatherMapService
   - CommonBotLibrary.Services.RandomService
   - CommonBotLibrary.Services.RedditService
@@ -50,6 +51,12 @@ references:
   name: OmdbService
   nameWithType: OmdbService
   fullName: CommonBotLibrary.Services.OmdbService
+- uid: CommonBotLibrary.Services.OpenTriviaDbService
+  commentId: T:CommonBotLibrary.Services.OpenTriviaDbService
+  isExternal: false
+  name: OpenTriviaDbService
+  nameWithType: OpenTriviaDbService
+  fullName: CommonBotLibrary.Services.OpenTriviaDbService
 - uid: CommonBotLibrary.Services.OpenWeatherMapService
   commentId: T:CommonBotLibrary.Services.OpenWeatherMapService
   isExternal: false
