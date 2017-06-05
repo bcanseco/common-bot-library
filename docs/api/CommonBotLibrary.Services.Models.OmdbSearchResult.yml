@@ -18,7 +18,7 @@ items:
   source:
     id: OmdbSearchResult
     path: ''
-    startLine: 1591
+    startLine: 1671
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -26,7 +26,6 @@ items:
     content: 'public class OmdbSearchResult : MovieBase'
     content.vb: >-
       Public Class OmdbSearchResult
-
           Inherits MovieBase
   inheritance:
   - System.Object
@@ -52,7 +51,7 @@ items:
   source:
     id: ImdbId
     path: ''
-    startLine: 1593
+    startLine: 1673
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -83,7 +82,7 @@ items:
   source:
     id: Poster
     path: ''
-    startLine: 1594
+    startLine: 1674
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -114,7 +113,7 @@ items:
   source:
     id: Type
     path: ''
-    startLine: 1595
+    startLine: 1675
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

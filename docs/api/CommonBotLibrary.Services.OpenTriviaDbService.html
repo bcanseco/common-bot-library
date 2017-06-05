@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ISearchable&lt;T&gt;
+    <title>Class OpenTriviaDbService
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ISearchable&lt;T&gt;
+    <meta name="title" content="Class OpenTriviaDbService
    ">
     <meta name="generator" content="docfx 2.18.2.0">
     
@@ -67,48 +67,36 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CommonBotLibrary.Interfaces.ISearchable`1">
+            <article class="content wrap" id="_content" data-uid="CommonBotLibrary.Services.OpenTriviaDbService">
   
   
-  <h1 id="CommonBotLibrary_Interfaces_ISearchable_1" data-uid="CommonBotLibrary.Interfaces.ISearchable`1">Interface ISearchable&lt;T&gt;
+  <h1 id="CommonBotLibrary_Services_OpenTriviaDbService" data-uid="CommonBotLibrary.Services.OpenTriviaDbService">Class OpenTriviaDbService
   </h1>
-  <div class="markdown level0 summary"><p>Defines an API for searching for data.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CommonBotLibrary.Interfaces.html">CommonBotLibrary.Interfaces</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CommonBotLibrary_Interfaces_ISearchable_1_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ISearchable&lt;T&gt;
-    where T : class</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">OpenTriviaDbService</span></div>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CommonBotLibrary.Services.html">CommonBotLibrary.Services</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CommonBotLibrary_Services_OpenTriviaDbService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class OpenTriviaDbService : ITriviaService</code></pre>
+  </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CommonBotLibrary_Interfaces_ISearchable_1_SearchAsync_" data-uid="CommonBotLibrary.Interfaces.ISearchable`1.SearchAsync*"></a>
-  <h4 id="CommonBotLibrary_Interfaces_ISearchable_1_SearchAsync_System_String_" data-uid="CommonBotLibrary.Interfaces.ISearchable`1.SearchAsync(System.String)">SearchAsync(String)</h4>
-  <div class="markdown level1 summary"><p>Searches for data matching the given query.</p>
+  <a id="CommonBotLibrary_Services_OpenTriviaDbService_GetTriviaAsync_" data-uid="CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync*"></a>
+  <h4 id="CommonBotLibrary_Services_OpenTriviaDbService_GetTriviaAsync_System_Int32_Category_System_Nullable_Difficulty__System_Nullable_Type__" data-uid="CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync(System.Int32,Category,System.Nullable{Difficulty},System.Nullable{Type})">GetTriviaAsync(Int32, Category, Nullable&lt;Difficulty&gt;, Nullable&lt;Type&gt;)</h4>
+  <div class="markdown level1 summary"><p>Searches opentdb.com for trivia.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;T&gt;&gt; SearchAsync(string query)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;OpenTriviaDbResult&gt;&gt; GetTriviaAsync(int amount = 50, Category cat = null, Difficulty? diff = null, Type? type = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -121,9 +109,27 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">query</span></td>
-        <td><p>The query to use for searching.</p>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount of results to retrieve (1 to 50).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Category</span></td>
+        <td><span class="parametername">cat</span></td>
+        <td><p>The category of questions to retrieve.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Difficulty</span>&gt;</td>
+        <td><span class="parametername">diff</span></td>
+        <td><p>The difficulty of questions to retrieve.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Type</span>&gt;</td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type of questions to retrieve.</p>
 </td>
       </tr>
     </tbody>
@@ -138,12 +144,16 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;T&gt;&gt;</td>
-        <td><p>A collection of related search results.</p>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;<span class="xref">OpenTriviaDbResult</span>&gt;&gt;</td>
+        <td><p>A collection of relevant trivia.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 id="CommonBotLibrary_Services_OpenTriviaDbService_GetTriviaAsync_System_Int32_Category_System_Nullable_Difficulty__System_Nullable_Type___seealso">See Also</h5>
+  <div class="seealso">
+      <div><span><a href="https://opentdb.com/api_config.php">API info</a></span></div>
+  </div>
 </article>
           </div>
           

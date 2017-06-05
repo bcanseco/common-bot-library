@@ -17,7 +17,7 @@ items:
   source:
     id: OpenWeatherMapService
     path: ''
-    startLine: 878
+    startLine: 965
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -25,7 +25,6 @@ items:
     content: 'public class OpenWeatherMapService : IWeatherService'
     content.vb: >-
       Public Class OpenWeatherMapService
-
           Inherits IWeatherService
   inheritance:
   - System.Object
@@ -49,7 +48,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 885
+    startLine: 972
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -81,7 +80,7 @@ items:
   source:
     id: GetCurrentWeatherAsync
     path: ''
-    startLine: 912
+    startLine: 999
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

@@ -1,67 +1,65 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CommonBotLibrary.Interfaces.IWebpageService
-  commentId: T:CommonBotLibrary.Interfaces.IWebpageService
-  id: IWebpageService
+- uid: CommonBotLibrary.Interfaces.ITriviaService
+  commentId: T:CommonBotLibrary.Interfaces.ITriviaService
+  id: ITriviaService
   parent: CommonBotLibrary.Interfaces
   children:
-  - CommonBotLibrary.Interfaces.IWebpageService.SearchAsync(System.String)
+  - CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync(System.Int32)
   langs:
   - csharp
   - vb
-  name: IWebpageService
-  nameWithType: IWebpageService
-  fullName: CommonBotLibrary.Interfaces.IWebpageService
+  name: ITriviaService
+  nameWithType: ITriviaService
+  fullName: CommonBotLibrary.Interfaces.ITriviaService
   type: Interface
   source:
-    id: IWebpageService
+    id: ITriviaService
     path: ''
-    startLine: 487
+    startLine: 450
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
-  summary: "\nDefines an API for retrieving webpages.\n"
-  example: []
   syntax:
-    content: public interface IWebpageService
-    content.vb: Public Interface IWebpageService
+    content: public interface ITriviaService
+    content.vb: Public Interface ITriviaService
   modifiers.csharp:
   - public
   - interface
   modifiers.vb:
   - Public
   - Interface
-- uid: CommonBotLibrary.Interfaces.IWebpageService.SearchAsync(System.String)
-  commentId: M:CommonBotLibrary.Interfaces.IWebpageService.SearchAsync(System.String)
-  id: SearchAsync(System.String)
-  parent: CommonBotLibrary.Interfaces.IWebpageService
+- uid: CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync(System.Int32)
+  commentId: M:CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync(System.Int32)
+  id: GetTriviaAsync(System.Int32)
+  parent: CommonBotLibrary.Interfaces.ITriviaService
   langs:
   - csharp
   - vb
-  name: SearchAsync(String)
-  nameWithType: IWebpageService.SearchAsync(String)
-  fullName: CommonBotLibrary.Interfaces.IWebpageService.SearchAsync(System.String)
+  name: GetTriviaAsync(Int32)
+  nameWithType: ITriviaService.GetTriviaAsync(Int32)
+  fullName: CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync(System.Int32)
   type: Method
   source:
-    id: SearchAsync
+    id: GetTriviaAsync
     path: ''
-    startLine: 494
+    startLine: 457
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
-  summary: "\nSearches for relevant webpages for a given query.\n"
+  summary: "\nGets trivia questions.\n"
   example: []
   syntax:
-    content: Task<IEnumerable<IWebpage>> SearchAsync(string query)
+    content: Task<IEnumerable<TriviaBase>> GetTriviaAsync(int amount)
     parameters:
-    - id: query
-      type: System.String
-      description: The search term to use.
+    - id: amount
+      type: System.Int32
+      description: The amount of results to retrieve.
     return:
-      type: Task{IEnumerable{IWebpage}}
-      description: A collection of relevant webpages.
-    content.vb: Function SearchAsync(query As String) As Task(Of IEnumerable(Of IWebpage))
-  overload: CommonBotLibrary.Interfaces.IWebpageService.SearchAsync*
+      type: Task{IEnumerable{TriviaBase}}
+      description: A collection of relevant trivia.
+    content.vb: Function GetTriviaAsync(amount As Integer) As Task(Of IEnumerable(Of TriviaBase))
+  overload: CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync*
 references:
 - uid: CommonBotLibrary.Interfaces
   commentId: N:CommonBotLibrary.Interfaces
@@ -69,28 +67,28 @@ references:
   name: CommonBotLibrary.Interfaces
   nameWithType: CommonBotLibrary.Interfaces
   fullName: CommonBotLibrary.Interfaces
-- uid: CommonBotLibrary.Interfaces.IWebpageService.SearchAsync*
-  commentId: Overload:CommonBotLibrary.Interfaces.IWebpageService.SearchAsync
+- uid: CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync*
+  commentId: Overload:CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync
   isExternal: false
-  name: SearchAsync
-  nameWithType: IWebpageService.SearchAsync
-  fullName: CommonBotLibrary.Interfaces.IWebpageService.SearchAsync
-- uid: System.String
-  commentId: T:System.String
+  name: GetTriviaAsync
+  nameWithType: ITriviaService.GetTriviaAsync
+  fullName: CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync
+- uid: System.Int32
+  commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: Task{IEnumerable{IWebpage}}
-  commentId: '!:Task{IEnumerable{IWebpage}}'
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Task{IEnumerable{TriviaBase}}
+  commentId: '!:Task{IEnumerable{TriviaBase}}'
   definition: Task`1
-  name: Task<IEnumerable<IWebpage>>
-  nameWithType: Task<IEnumerable<IWebpage>>
-  fullName: Task<IEnumerable<IWebpage>>
-  nameWithType.vb: Task(Of IEnumerable(Of IWebpage))
-  fullName.vb: Task(Of IEnumerable(Of IWebpage))
-  name.vb: Task(Of IEnumerable(Of IWebpage))
+  name: Task<IEnumerable<TriviaBase>>
+  nameWithType: Task<IEnumerable<TriviaBase>>
+  fullName: Task<IEnumerable<TriviaBase>>
+  nameWithType.vb: Task(Of IEnumerable(Of TriviaBase))
+  fullName.vb: Task(Of IEnumerable(Of TriviaBase))
+  name.vb: Task(Of IEnumerable(Of TriviaBase))
   spec.csharp:
   - uid: Task`1
     name: Task
@@ -108,10 +106,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: IWebpage
-    name: IWebpage
-    nameWithType: IWebpage
-    fullName: IWebpage
+  - uid: TriviaBase
+    name: TriviaBase
+    nameWithType: TriviaBase
+    fullName: TriviaBase
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -136,10 +134,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: IWebpage
-    name: IWebpage
-    nameWithType: IWebpage
-    fullName: IWebpage
+  - uid: TriviaBase
+    name: TriviaBase
+    nameWithType: TriviaBase
+    fullName: TriviaBase
     isExternal: true
   - name: )
     nameWithType: )

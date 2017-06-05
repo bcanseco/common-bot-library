@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ISearchable&lt;T&gt;
+    <title>Interface ITriviaService
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ISearchable&lt;T&gt;
+    <meta name="title" content="Interface ITriviaService
    ">
     <meta name="generator" content="docfx 2.18.2.0">
     
@@ -67,48 +67,31 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CommonBotLibrary.Interfaces.ISearchable`1">
+            <article class="content wrap" id="_content" data-uid="CommonBotLibrary.Interfaces.ITriviaService">
   
   
-  <h1 id="CommonBotLibrary_Interfaces_ISearchable_1" data-uid="CommonBotLibrary.Interfaces.ISearchable`1">Interface ISearchable&lt;T&gt;
+  <h1 id="CommonBotLibrary_Interfaces_ITriviaService" data-uid="CommonBotLibrary.Interfaces.ITriviaService">Interface ITriviaService
   </h1>
-  <div class="markdown level0 summary"><p>Defines an API for searching for data.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CommonBotLibrary.Interfaces.html">CommonBotLibrary.Interfaces</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CommonBotLibrary_Interfaces_ISearchable_1_syntax">Syntax</h5>
+  <h5 id="CommonBotLibrary_Interfaces_ITriviaService_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ISearchable&lt;T&gt;
-    where T : class</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ITriviaService</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CommonBotLibrary_Interfaces_ISearchable_1_SearchAsync_" data-uid="CommonBotLibrary.Interfaces.ISearchable`1.SearchAsync*"></a>
-  <h4 id="CommonBotLibrary_Interfaces_ISearchable_1_SearchAsync_System_String_" data-uid="CommonBotLibrary.Interfaces.ISearchable`1.SearchAsync(System.String)">SearchAsync(String)</h4>
-  <div class="markdown level1 summary"><p>Searches for data matching the given query.</p>
+  <a id="CommonBotLibrary_Interfaces_ITriviaService_GetTriviaAsync_" data-uid="CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync*"></a>
+  <h4 id="CommonBotLibrary_Interfaces_ITriviaService_GetTriviaAsync_System_Int32_" data-uid="CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync(System.Int32)">GetTriviaAsync(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets trivia questions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;T&gt;&gt; SearchAsync(string query)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;TriviaBase&gt;&gt; GetTriviaAsync(int amount)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -121,9 +104,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">query</span></td>
-        <td><p>The query to use for searching.</p>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount of results to retrieve.</p>
 </td>
       </tr>
     </tbody>
@@ -138,8 +121,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;T&gt;&gt;</td>
-        <td><p>A collection of related search results.</p>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;<span class="xref">TriviaBase</span>&gt;&gt;</td>
+        <td><p>A collection of relevant trivia.</p>
 </td>
       </tr>
     </tbody>

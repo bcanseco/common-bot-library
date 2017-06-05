@@ -9,6 +9,7 @@ items:
   - CommonBotLibrary.Interfaces.Models.IWebpage
   - CommonBotLibrary.Interfaces.Models.MovieBase
   - CommonBotLibrary.Interfaces.Models.SymbolBase
+  - CommonBotLibrary.Interfaces.Models.TriviaBase
   - CommonBotLibrary.Interfaces.Models.WeatherBase
   - CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
   langs:
@@ -51,6 +52,12 @@ references:
   name: SymbolBase
   nameWithType: SymbolBase
   fullName: CommonBotLibrary.Interfaces.Models.SymbolBase
+- uid: CommonBotLibrary.Interfaces.Models.TriviaBase
+  commentId: T:CommonBotLibrary.Interfaces.Models.TriviaBase
+  isExternal: false
+  name: TriviaBase
+  nameWithType: TriviaBase
+  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase
 - uid: CommonBotLibrary.Interfaces.Models.WeatherBase
   commentId: T:CommonBotLibrary.Interfaces.Models.WeatherBase
   isExternal: false

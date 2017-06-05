@@ -20,7 +20,7 @@ items:
   source:
     id: TwitterResult
     path: ''
-    startLine: 1863
+    startLine: 2012
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -28,7 +28,6 @@ items:
     content: 'public class TwitterResult : IWebpage'
     content.vb: >-
       Public Class TwitterResult
-
           Inherits IWebpage
   inheritance:
   - System.Object
@@ -52,7 +51,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1866
+    startLine: 2015
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -81,7 +80,7 @@ items:
   source:
     id: Tweet
     path: ''
-    startLine: 1877
+    startLine: 2026
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -114,7 +113,7 @@ items:
   source:
     id: Url
     path: ''
-    startLine: 1878
+    startLine: 2027
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -145,7 +144,7 @@ items:
   source:
     id: Title
     path: ''
-    startLine: 1879
+    startLine: 2028
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -176,7 +175,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 1881
+    startLine: 2030
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

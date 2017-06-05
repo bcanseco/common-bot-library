@@ -20,7 +20,7 @@ items:
   source:
     id: OpenWeatherMapResult
     path: ''
-    startLine: 1642
+    startLine: 1791
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -28,7 +28,6 @@ items:
     content: 'public class OpenWeatherMapResult : WeatherBase'
     content.vb: >-
       Public Class OpenWeatherMapResult
-
           Inherits WeatherBase
   inheritance:
   - System.Object
@@ -52,7 +51,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1644
+    startLine: 1793
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -83,7 +82,7 @@ items:
   source:
     id: Conditions
     path: ''
-    startLine: 1655
+    startLine: 1804
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -114,7 +113,7 @@ items:
   source:
     id: Humidity
     path: ''
-    startLine: 1656
+    startLine: 1805
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -145,7 +144,7 @@ items:
   source:
     id: WindSpeed
     path: ''
-    startLine: 1657
+    startLine: 1806
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -176,7 +175,7 @@ items:
   source:
     id: Location
     path: ''
-    startLine: 1658
+    startLine: 1807
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

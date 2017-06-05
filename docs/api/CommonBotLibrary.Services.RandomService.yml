@@ -7,7 +7,7 @@ items:
   children:
   - CommonBotLibrary.Services.RandomService.FlipCoin
   - CommonBotLibrary.Services.RandomService.Generator
-  - CommonBotLibrary.Services.RandomService.Roll(Die)
+  - CommonBotLibrary.Services.RandomService.Roll(System.Nullable{Die})
   langs:
   - csharp
   - vb
@@ -18,7 +18,7 @@ items:
   source:
     id: RandomService
     path: ''
-    startLine: 938
+    startLine: 1025
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -55,7 +55,7 @@ items:
   source:
     id: Generator
     path: ''
-    startLine: 940
+    startLine: 1027
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -74,21 +74,21 @@ items:
   - Public
   - Shared
   - ReadOnly
-- uid: CommonBotLibrary.Services.RandomService.Roll(Die)
-  commentId: M:CommonBotLibrary.Services.RandomService.Roll(Die)
-  id: Roll(Die)
+- uid: CommonBotLibrary.Services.RandomService.Roll(System.Nullable{Die})
+  commentId: M:CommonBotLibrary.Services.RandomService.Roll(System.Nullable{Die})
+  id: Roll(System.Nullable{Die})
   parent: CommonBotLibrary.Services.RandomService
   langs:
   - csharp
   - vb
-  name: Roll(Die)
-  nameWithType: RandomService.Roll(Die)
-  fullName: CommonBotLibrary.Services.RandomService.Roll(Die)
+  name: Roll(Nullable<Die>)
+  nameWithType: RandomService.Roll(Nullable<Die>)
+  fullName: CommonBotLibrary.Services.RandomService.Roll(System.Nullable<Die>)
   type: Method
   source:
     id: Roll
     path: ''
-    startLine: 951
+    startLine: 1038
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -96,20 +96,23 @@ items:
   remarks: "\nIf explicitly using an <xref uid=\"langword_csharp_int\" name=\"int\" href=\"\"></xref> as an argument, check the\n<xref uid=\"langword_csharp_Factory()\" name=\"Factory()\" href=\"\"></xref> method in <see cref=\"!:Die\"></see> for exception docs.\n"
   example: []
   syntax:
-    content: public int Roll(Die die)
+    content: public int Roll(Die? die = null)
     parameters:
     - id: die
-      type: Die
+      type: System.Nullable{Die}
       description: The die to roll. Six-sided if null.
     return:
       type: System.Int32
       description: The result of the roll.
-    content.vb: Public Function Roll(die As Die) As Integer
+    content.vb: Public Function Roll(die As Die? = Nothing) As Integer
   overload: CommonBotLibrary.Services.RandomService.Roll*
+  nameWithType.vb: RandomService.Roll(Nullable(Of Die))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
+  fullName.vb: CommonBotLibrary.Services.RandomService.Roll(System.Nullable(Of Die))
+  name.vb: Roll(Nullable(Of Die))
 - uid: CommonBotLibrary.Services.RandomService.FlipCoin
   commentId: M:CommonBotLibrary.Services.RandomService.FlipCoin
   id: FlipCoin
@@ -124,7 +127,7 @@ items:
   source:
     id: FlipCoin
     path: ''
-    startLine: 958
+    startLine: 1045
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -458,12 +461,50 @@ references:
   name: Roll
   nameWithType: RandomService.Roll
   fullName: CommonBotLibrary.Services.RandomService.Roll
-- uid: Die
-  commentId: '!:Die'
-  isExternal: true
-  name: Die
-  nameWithType: Die
-  fullName: Die
+- uid: System.Nullable{Die}
+  commentId: T:System.Nullable{Die}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Die>
+  nameWithType: Nullable<Die>
+  fullName: System.Nullable<Die>
+  nameWithType.vb: Nullable(Of Die)
+  fullName.vb: System.Nullable(Of Die)
+  name.vb: Nullable(Of Die)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Die
+    name: Die
+    nameWithType: Die
+    fullName: Die
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Die
+    name: Die
+    nameWithType: Die
+    fullName: Die
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -471,6 +512,45 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: CommonBotLibrary.Services.RandomService.FlipCoin*
   commentId: Overload:CommonBotLibrary.Services.RandomService.FlipCoin
   isExternal: false

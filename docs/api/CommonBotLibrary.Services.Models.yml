@@ -11,6 +11,10 @@ items:
   - CommonBotLibrary.Services.Models.OmdbDirectResult.Rating
   - CommonBotLibrary.Services.Models.OmdbSearchResult
   - CommonBotLibrary.Services.Models.OmdbType
+  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory
+  - CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  - CommonBotLibrary.Services.Models.OpenTriviaDbResult
+  - CommonBotLibrary.Services.Models.OpenTriviaDbType
   - CommonBotLibrary.Services.Models.OpenWeatherMapResult
   - CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
   - CommonBotLibrary.Services.Models.RedditResult
@@ -81,6 +85,33 @@ references:
   name: OmdbType
   nameWithType: OmdbType
   fullName: CommonBotLibrary.Services.Models.OmdbType
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult
+  commentId: T:CommonBotLibrary.Services.Models.OpenTriviaDbResult
+  isExternal: false
+  name: OpenTriviaDbResult
+  nameWithType: OpenTriviaDbResult
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
+  commentId: T:CommonBotLibrary.Services.Models.OpenTriviaDbCategory
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: OpenTriviaDbCategory
+  nameWithType: OpenTriviaDbCategory
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  commentId: T:CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: OpenTriviaDbDifficulty
+  nameWithType: OpenTriviaDbDifficulty
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbType
+  commentId: T:CommonBotLibrary.Services.Models.OpenTriviaDbType
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: OpenTriviaDbType
+  nameWithType: OpenTriviaDbType
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbType
 - uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult
   commentId: T:CommonBotLibrary.Services.Models.OpenWeatherMapResult
   isExternal: false

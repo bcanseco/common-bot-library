@@ -1,0 +1,354 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.OpenTriviaDbService
+  commentId: T:CommonBotLibrary.Services.OpenTriviaDbService
+  id: OpenTriviaDbService
+  parent: CommonBotLibrary.Services
+  children:
+  - CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync(System.Int32,Category,System.Nullable{Difficulty},System.Nullable{Type})
+  langs:
+  - csharp
+  - vb
+  name: OpenTriviaDbService
+  nameWithType: OpenTriviaDbService
+  fullName: CommonBotLibrary.Services.OpenTriviaDbService
+  type: Class
+  source:
+    id: OpenTriviaDbService
+    path: ''
+    startLine: 911
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: 'public class OpenTriviaDbService : ITriviaService'
+    content.vb: >-
+      Public Class OpenTriviaDbService
+          Inherits ITriviaService
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync(System.Int32,Category,System.Nullable{Difficulty},System.Nullable{Type})
+  commentId: M:CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync(System.Int32,Category,System.Nullable{Difficulty},System.Nullable{Type})
+  id: GetTriviaAsync(System.Int32,Category,System.Nullable{Difficulty},System.Nullable{Type})
+  parent: CommonBotLibrary.Services.OpenTriviaDbService
+  langs:
+  - csharp
+  - vb
+  name: GetTriviaAsync(Int32, Category, Nullable<Difficulty>, Nullable<Type>)
+  nameWithType: OpenTriviaDbService.GetTriviaAsync(Int32, Category, Nullable<Difficulty>, Nullable<Type>)
+  fullName: CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync(System.Int32, Category, System.Nullable<Difficulty>, System.Nullable<Type>)
+  type: Method
+  source:
+    id: GetTriviaAsync
+    path: ''
+    startLine: 925
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nSearches opentdb.com for trivia.\n"
+  example: []
+  syntax:
+    content: public Task<IEnumerable<OpenTriviaDbResult>> GetTriviaAsync(int amount = 50, Category cat = null, Difficulty? diff = null, Type? type = null)
+    parameters:
+    - id: amount
+      type: System.Int32
+      description: The amount of results to retrieve (1 to 50).
+    - id: cat
+      type: Category
+      description: The category of questions to retrieve.
+    - id: diff
+      type: System.Nullable{Difficulty}
+      description: The difficulty of questions to retrieve.
+    - id: type
+      type: System.Nullable{Type}
+      description: The type of questions to retrieve.
+    return:
+      type: Task{IEnumerable{OpenTriviaDbResult}}
+      description: A collection of relevant trivia.
+    content.vb: Public Function GetTriviaAsync(amount As Integer = 50, cat As Category = Nothing, diff As Difficulty? = Nothing, type As Type? = Nothing) As Task(Of IEnumerable(Of OpenTriviaDbResult))
+  overload: CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync*
+  seealso:
+  - linkType: HRef
+    linkId: https://opentdb.com/api_config.php
+    altText: API info
+  nameWithType.vb: OpenTriviaDbService.GetTriviaAsync(Int32, Category, Nullable(Of Difficulty), Nullable(Of Type))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync(System.Int32, Category, System.Nullable(Of Difficulty), System.Nullable(Of Type))
+  name.vb: GetTriviaAsync(Int32, Category, Nullable(Of Difficulty), Nullable(Of Type))
+references:
+- uid: CommonBotLibrary.Services
+  commentId: N:CommonBotLibrary.Services
+  isExternal: false
+  name: CommonBotLibrary.Services
+  nameWithType: CommonBotLibrary.Services
+  fullName: CommonBotLibrary.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync*
+  commentId: Overload:CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync
+  isExternal: false
+  name: GetTriviaAsync
+  nameWithType: OpenTriviaDbService.GetTriviaAsync
+  fullName: CommonBotLibrary.Services.OpenTriviaDbService.GetTriviaAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Category
+  isExternal: true
+  name: Category
+  nameWithType: Category
+  fullName: Category
+- uid: System.Nullable{Difficulty}
+  commentId: T:System.Nullable{Difficulty}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Difficulty>
+  nameWithType: Nullable<Difficulty>
+  fullName: System.Nullable<Difficulty>
+  nameWithType.vb: Nullable(Of Difficulty)
+  fullName.vb: System.Nullable(Of Difficulty)
+  name.vb: Nullable(Of Difficulty)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Difficulty
+    name: Difficulty
+    nameWithType: Difficulty
+    fullName: Difficulty
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Difficulty
+    name: Difficulty
+    nameWithType: Difficulty
+    fullName: Difficulty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{Type}
+  commentId: T:System.Nullable{Type}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Type>
+  nameWithType: Nullable<Type>
+  fullName: System.Nullable<Type>
+  nameWithType.vb: Nullable(Of Type)
+  fullName.vb: System.Nullable(Of Type)
+  name.vb: Nullable(Of Type)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Type
+    name: Type
+    nameWithType: Type
+    fullName: Type
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Type
+    name: Type
+    nameWithType: Type
+    fullName: Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task{IEnumerable{OpenTriviaDbResult}}
+  commentId: '!:Task{IEnumerable{OpenTriviaDbResult}}'
+  definition: Task`1
+  name: Task<IEnumerable<OpenTriviaDbResult>>
+  nameWithType: Task<IEnumerable<OpenTriviaDbResult>>
+  fullName: Task<IEnumerable<OpenTriviaDbResult>>
+  nameWithType.vb: Task(Of IEnumerable(Of OpenTriviaDbResult))
+  fullName.vb: Task(Of IEnumerable(Of OpenTriviaDbResult))
+  name.vb: Task(Of IEnumerable(Of OpenTriviaDbResult))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTriviaDbResult
+    name: OpenTriviaDbResult
+    nameWithType: OpenTriviaDbResult
+    fullName: OpenTriviaDbResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTriviaDbResult
+    name: OpenTriviaDbResult
+    nameWithType: OpenTriviaDbResult
+    fullName: OpenTriviaDbResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

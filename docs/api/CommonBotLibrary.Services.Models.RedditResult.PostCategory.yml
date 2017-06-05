@@ -20,7 +20,7 @@ items:
   source:
     id: PostCategory
     path: ''
-    startLine: 1702
+    startLine: 1851
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -47,7 +47,7 @@ items:
   source:
     id: New
     path: ''
-    startLine: 1704
+    startLine: 1853
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -75,7 +75,7 @@ items:
   source:
     id: Controversial
     path: ''
-    startLine: 1705
+    startLine: 1854
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -103,7 +103,7 @@ items:
   source:
     id: Rising
     path: ''
-    startLine: 1706
+    startLine: 1855
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -131,7 +131,7 @@ items:
   source:
     id: Hot
     path: ''
-    startLine: 1707
+    startLine: 1856
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -159,7 +159,7 @@ items:
   source:
     id: Top
     path: ''
-    startLine: 1708
+    startLine: 1857
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

@@ -1,0 +1,300 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult
+  commentId: T:CommonBotLibrary.Services.Models.OpenTriviaDbResult
+  id: OpenTriviaDbResult
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.OpenTriviaDbResult.CorrectAnswer
+  - CommonBotLibrary.Services.Models.OpenTriviaDbResult.Difficulty
+  - CommonBotLibrary.Services.Models.OpenTriviaDbResult.IncorrectAnswers
+  - CommonBotLibrary.Services.Models.OpenTriviaDbResult.Type
+  langs:
+  - csharp
+  - vb
+  name: OpenTriviaDbResult
+  nameWithType: OpenTriviaDbResult
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult
+  type: Class
+  source:
+    id: OpenTriviaDbResult
+    path: ''
+    startLine: 1726
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  summary: "\nA model for OpenTriviaDb responses. Question and answer strings are HTML encoded.\n"
+  example: []
+  syntax:
+    content: 'public class OpenTriviaDbResult : TriviaBase'
+    content.vb: >-
+      Public Class OpenTriviaDbResult
+          Inherits TriviaBase
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Type
+  commentId: P:CommonBotLibrary.Services.Models.OpenTriviaDbResult.Type
+  id: Type
+  parent: CommonBotLibrary.Services.Models.OpenTriviaDbResult
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: OpenTriviaDbResult.Type
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Type
+  type: Property
+  source:
+    id: Type
+    path: ''
+    startLine: 1729
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  summary: "\"multiple\" for multiple choice or \"boolean\" for true/false "
+  example: []
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Difficulty
+  commentId: P:CommonBotLibrary.Services.Models.OpenTriviaDbResult.Difficulty
+  id: Difficulty
+  parent: CommonBotLibrary.Services.Models.OpenTriviaDbResult
+  langs:
+  - csharp
+  - vb
+  name: Difficulty
+  nameWithType: OpenTriviaDbResult.Difficulty
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Difficulty
+  type: Property
+  source:
+    id: Difficulty
+    path: ''
+    startLine: 1731
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  summary: "\"easy\", \"medium\", or \"hard\" "
+  example: []
+  syntax:
+    content: public string Difficulty { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Difficulty As String
+  overload: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Difficulty*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult.CorrectAnswer
+  commentId: P:CommonBotLibrary.Services.Models.OpenTriviaDbResult.CorrectAnswer
+  id: CorrectAnswer
+  parent: CommonBotLibrary.Services.Models.OpenTriviaDbResult
+  langs:
+  - csharp
+  - vb
+  name: CorrectAnswer
+  nameWithType: OpenTriviaDbResult.CorrectAnswer
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult.CorrectAnswer
+  type: Property
+  source:
+    id: CorrectAnswer
+    path: ''
+    startLine: 1732
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string CorrectAnswer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CorrectAnswer As String
+  overload: CommonBotLibrary.Services.Models.OpenTriviaDbResult.CorrectAnswer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult.IncorrectAnswers
+  commentId: P:CommonBotLibrary.Services.Models.OpenTriviaDbResult.IncorrectAnswers
+  id: IncorrectAnswers
+  parent: CommonBotLibrary.Services.Models.OpenTriviaDbResult
+  langs:
+  - csharp
+  - vb
+  name: IncorrectAnswers
+  nameWithType: OpenTriviaDbResult.IncorrectAnswers
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult.IncorrectAnswers
+  type: Property
+  source:
+    id: IncorrectAnswers
+    path: ''
+    startLine: 1734
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public IList<string> IncorrectAnswers { get; set; }
+    parameters: []
+    return:
+      type: IList{System.String}
+    content.vb: Public Property IncorrectAnswers As IList(Of String)
+  overload: CommonBotLibrary.Services.Models.OpenTriviaDbResult.IncorrectAnswers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Type*
+  commentId: Overload:CommonBotLibrary.Services.Models.OpenTriviaDbResult.Type
+  isExternal: false
+  name: Type
+  nameWithType: OpenTriviaDbResult.Type
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Difficulty*
+  commentId: Overload:CommonBotLibrary.Services.Models.OpenTriviaDbResult.Difficulty
+  isExternal: false
+  name: Difficulty
+  nameWithType: OpenTriviaDbResult.Difficulty
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult.Difficulty
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult.CorrectAnswer*
+  commentId: Overload:CommonBotLibrary.Services.Models.OpenTriviaDbResult.CorrectAnswer
+  isExternal: false
+  name: CorrectAnswer
+  nameWithType: OpenTriviaDbResult.CorrectAnswer
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult.CorrectAnswer
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbResult.IncorrectAnswers*
+  commentId: Overload:CommonBotLibrary.Services.Models.OpenTriviaDbResult.IncorrectAnswers
+  isExternal: false
+  name: IncorrectAnswers
+  nameWithType: OpenTriviaDbResult.IncorrectAnswers
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbResult.IncorrectAnswers
+- uid: IList{System.String}
+  commentId: '!:IList{System.String}'
+  definition: IList`1
+  name: IList<String>
+  nameWithType: IList<String>
+  fullName: IList<System.String>
+  nameWithType.vb: IList(Of String)
+  fullName.vb: IList(Of System.String)
+  name.vb: IList(Of String)
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
