@@ -32,7 +32,7 @@ namespace CommonBotLibrary.Services.Models
         ///   Unique MyAnimeList anime identifier.
         /// </summary>
         public int Id { get; }
-        public string Url => "$https://myanimelist.net/anime/{Id}";
+        public string Url => $"https://myanimelist.net/anime/{Id}";
 
         #region IEquatable members
         public bool Equals(MyAnimeListResult other)
