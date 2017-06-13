@@ -16,7 +16,7 @@ namespace CommonBotLibrary
         /// <exception cref="JsonReaderException">
         ///   Thrown if the file is found but has a syntax error.
         /// </exception>
-        public static Task LoadAsync(string keysPath = "../tokens.json")
+        public static Task LoadAsync(string keysPath = "../../tokens.json")
             => LoadAsync<Tokens>(keysPath);
 
         /// <summary>
@@ -32,7 +32,7 @@ namespace CommonBotLibrary
         /// <exception cref="JsonReaderException">
         ///   Thrown if the file is found but has a syntax error.
         /// </exception>
-        public static Task LoadAsync<T>(string keysPath = "../tokens.json") where T : Tokens
+        public static Task LoadAsync<T>(string keysPath = "../../tokens.json") where T : Tokens
         {
             JsonConvert.DeserializeObject<T>(File.ReadAllText(keysPath));
             return Task.CompletedTask;
