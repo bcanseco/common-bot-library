@@ -2,15 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.1.1</PackageVersion>
     <PackageId>CommonBotLibrary</PackageId>
     <Description>An asynchronous library of API wrappers designed to help with typical bot commands.</Description>
     <Authors>Borja Canseco</Authors>
     <PackageProjectUrl>https://github.com/bcanseco/common-bot-library</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/bcanseco/common-bot-library</RepositoryUrl>
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <Copyright>Copyright 2017 Borja Canseco</Copyright>
-    <PackageTags>bot;chatbot;chat bot;api wrapper;openweathermap;omdb;urbandictionary</PackageTags>
+    <PackageTags>bot;chatbot;chat bot;api wrapper;openweathermap;omdb;urbandictionary;opentdb</PackageTags>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 

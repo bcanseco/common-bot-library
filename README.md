@@ -1,4 +1,4 @@
-# Common Bot Library [![NuGet](https://img.shields.io/nuget/v/CommonBotLibrary.svg?maxAge=2592000)](https://www.nuget.org/packages/CommonBotLibrary) [![Build status](https://ci.appveyor.com/api/projects/status/mcli9fa0refvotfm?svg=true)](https://ci.appveyor.com/project/bcanseco/common-bot-library)
+# Common Bot Library [![NuGet](https://img.shields.io/nuget/v/CommonBotLibrary.svg?maxAge=43200)](https://www.nuget.org/packages/CommonBotLibrary) [![Build status](https://ci.appveyor.com/api/projects/status/mcli9fa0refvotfm?svg=true)](https://ci.appveyor.com/project/bcanseco/common-bot-library)
 
 > Tired of rewriting the same code for all your bots? *The Common Bot Library* (CBL) is for you.
 
@@ -47,7 +47,7 @@ You can take advantage of the CBL token system by subclassing the [Tokens](src/C
 public class MyCustomTokens : Tokens
 {
     [JsonProperty]
-    public string MyCustomDatabaseString { get; set; }
+    public string MyCustomDatabaseString { get; set; } // don't forget the setter!
 }
 ```
 Then, instead of calling `LoadAsync("mytokens.json")` normally, you would use your custom token class as a typeparam:
@@ -70,6 +70,8 @@ Now you can use all the CBL services plus your own custom services without havin
 * **Omdb Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.OmdbService.html)**
    * Searches https://omdbapi.com for movies.
    * Requires an [API key](http://www.omdbapi.com/apikey.aspx).
+* **OpenTriviaDb Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.OpenTriviaDbService.html)**
+   * Searches https://opentdb.com for trivia.
 * **OpenWeatherMap Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.OpenWeatherMapService.html)**
    * Searches https://openweathermap.org for weather data.
    * Requires an [API key](https://openweathermap.org/appid).

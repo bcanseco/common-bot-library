@@ -6,14 +6,14 @@ namespace CommonBotLibrary.Services.Models
     ///   Wrapper for a real die's side count.
     ///   Implicitly typed as an <see langword="int"/>.
     /// </summary>
-    public struct Die : IEquatable<Die>
+    public class Die : IEquatable<Die>
     {
         private Die(int sides) => Sides = sides;
 
         public int Sides { get; }
 
         /// <summary>
-        ///   Creates a new instance of the <see cref="Die"/> struct.
+        ///   Creates a new instance of the <see cref="Die"/> class.
         /// </summary>
         /// <param name="sides">
         ///   The number of sides to use. May have a 'd' before the number.
@@ -38,7 +38,7 @@ namespace CommonBotLibrary.Services.Models
         }
 
         /// <summary>
-        ///   Creates a new instance of the <see cref="Die"/> struct.
+        ///   Creates a new instance of the <see cref="Die"/> class.
         /// </summary>
         /// <param name="sides">
         ///   The number of sides to use.

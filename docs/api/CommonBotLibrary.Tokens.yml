@@ -66,14 +66,14 @@ items:
   summary: "\nInitializes all static references to third-party API keys.\n"
   example: []
   syntax:
-    content: public static Task LoadAsync(string keysPath = "../tokens.json")
+    content: public static Task LoadAsync(string keysPath = "../../tokens.json")
     parameters:
     - id: keysPath
       type: System.String
       description: The path to a tokens.json file.
     return:
       type: Task
-    content.vb: Public Shared Function LoadAsync(keysPath As String = "../tokens.json") As Task
+    content.vb: Public Shared Function LoadAsync(keysPath As String = "../../tokens.json") As Task
   overload: CommonBotLibrary.Tokens.LoadAsync*
   modifiers.csharp:
   - public
@@ -102,7 +102,7 @@ items:
   summary: "\nInitializes all static references to third-party API keys\ninto the provided type T. Use this if you have a class with \nadditional static API keys that subclasses <xref href=\"CommonBotLibrary.Tokens\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example: []
   syntax:
-    content: 'public static Task LoadAsync<T>(string keysPath = "../tokens.json")where T : Tokens'
+    content: 'public static Task LoadAsync<T>(string keysPath = "../../tokens.json")where T : Tokens'
     parameters:
     - id: keysPath
       type: System.String
@@ -112,7 +112,7 @@ items:
       description: The class to deserialize into.
     return:
       type: Task
-    content.vb: Public Shared Function LoadAsync(Of T As Tokens)(keysPath As String = "../tokens.json") As Task
+    content.vb: Public Shared Function LoadAsync(Of T As Tokens)(keysPath As String = "../../tokens.json") As Task
   overload: CommonBotLibrary.Tokens.LoadAsync*
   nameWithType.vb: Tokens.LoadAsync(Of T)(String)
   modifiers.csharp:

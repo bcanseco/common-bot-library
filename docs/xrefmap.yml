@@ -3183,15 +3183,12 @@ references:
   commentId: Overload:CommonBotLibrary.Services.RandomService.Generator
   fullName: CommonBotLibrary.Services.RandomService.Generator
   nameWithType: RandomService.Generator
-- uid: CommonBotLibrary.Services.RandomService.Roll(System.Nullable{Die})
-  name: Roll(Nullable<Die>)
-  href: api/CommonBotLibrary.Services.RandomService.html#CommonBotLibrary_Services_RandomService_Roll_System_Nullable_Die__
-  commentId: M:CommonBotLibrary.Services.RandomService.Roll(System.Nullable{Die})
-  name.vb: Roll(Nullable(Of Die))
-  fullName: CommonBotLibrary.Services.RandomService.Roll(System.Nullable<Die>)
-  fullName.vb: CommonBotLibrary.Services.RandomService.Roll(System.Nullable(Of Die))
-  nameWithType: RandomService.Roll(Nullable<Die>)
-  nameWithType.vb: RandomService.Roll(Nullable(Of Die))
+- uid: CommonBotLibrary.Services.RandomService.Roll(Die)
+  name: Roll(Die)
+  href: api/CommonBotLibrary.Services.RandomService.html#CommonBotLibrary_Services_RandomService_Roll_Die_
+  commentId: M:CommonBotLibrary.Services.RandomService.Roll(Die)
+  fullName: CommonBotLibrary.Services.RandomService.Roll(Die)
+  nameWithType: RandomService.Roll(Die)
 - uid: CommonBotLibrary.Services.RandomService.Roll*
   name: Roll
   href: api/CommonBotLibrary.Services.RandomService.html#CommonBotLibrary_Services_RandomService_Roll_
