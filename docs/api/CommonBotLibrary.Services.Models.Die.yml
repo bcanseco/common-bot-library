@@ -23,7 +23,7 @@ items:
   name: Die
   nameWithType: Die
   fullName: CommonBotLibrary.Services.Models.Die
-  type: Struct
+  type: Class
   source:
     id: Die
     path: ''
@@ -34,22 +34,18 @@ items:
   summary: "\nWrapper for a real die's side count.\nImplicitly typed as an <xref uid=\"langword_csharp_int\" name=\"int\" href=\"\"></xref>.\n"
   example: []
   syntax:
-    content: 'public struct Die : IEquatable<Die>'
+    content: 'public class Die : IEquatable<Die>'
     content.vb: >-
-      Public Structure Die
-          Implements IEquatable(Of Die)
-  implements:
-  - IEquatable{CommonBotLibrary.Services.Models.Die}
-  inheritedMembers:
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetType
+      Public Class Die
+          Inherits IEquatable(Of Die)
+  inheritance:
+  - System.Object
   modifiers.csharp:
   - public
-  - struct
+  - class
   modifiers.vb:
   - Public
-  - Structure
+  - Class
 - uid: CommonBotLibrary.Services.Models.Die.Sides
   commentId: P:CommonBotLibrary.Services.Models.Die.Sides
   id: Sides
@@ -99,7 +95,7 @@ items:
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
-  summary: "\nCreates a new instance of the <xref href=\"CommonBotLibrary.Services.Models.Die\" data-throw-if-not-resolved=\"false\"></xref> struct.\n"
+  summary: "\nCreates a new instance of the <xref href=\"CommonBotLibrary.Services.Models.Die\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
   example: []
   syntax:
     content: public static Die Factory(string sides)
@@ -136,7 +132,7 @@ items:
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
-  summary: "\nCreates a new instance of the <xref href=\"CommonBotLibrary.Services.Models.Die\" data-throw-if-not-resolved=\"false\"></xref> struct.\n"
+  summary: "\nCreates a new instance of the <xref href=\"CommonBotLibrary.Services.Models.Die\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
   example: []
   syntax:
     content: public static Die Factory(int sides = 6)
@@ -245,7 +241,6 @@ items:
     return:
       type: System.Boolean
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
-  overridden: System.ValueType.Equals(System.Object)
   overload: CommonBotLibrary.Services.Models.Die.Equals*
   modifiers.csharp:
   - public
@@ -276,7 +271,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Overrides Function GetHashCode As Integer
-  overridden: System.ValueType.GetHashCode
   overload: CommonBotLibrary.Services.Models.Die.GetHashCode*
   modifiers.csharp:
   - public
@@ -307,7 +301,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.ValueType.ToString
   overload: CommonBotLibrary.Services.Models.Die.ToString*
   modifiers.csharp:
   - public
@@ -464,230 +457,6 @@ references:
   name: CommonBotLibrary.Services.Models
   nameWithType: CommonBotLibrary.Services.Models
   fullName: CommonBotLibrary.Services.Models
-- uid: IEquatable{CommonBotLibrary.Services.Models.Die}
-  commentId: '!:IEquatable{CommonBotLibrary.Services.Models.Die}'
-  definition: IEquatable`1
-  name: IEquatable<Die>
-  nameWithType: IEquatable<Die>
-  fullName: IEquatable<CommonBotLibrary.Services.Models.Die>
-  nameWithType.vb: IEquatable(Of Die)
-  fullName.vb: IEquatable(Of CommonBotLibrary.Services.Models.Die)
-  name.vb: IEquatable(Of Die)
-  spec.csharp:
-  - uid: IEquatable`1
-    name: IEquatable
-    nameWithType: IEquatable
-    fullName: IEquatable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: CommonBotLibrary.Services.Models.Die
-    name: Die
-    nameWithType: Die
-    fullName: CommonBotLibrary.Services.Models.Die
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: IEquatable`1
-    name: IEquatable
-    nameWithType: IEquatable
-    fullName: IEquatable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: CommonBotLibrary.Services.Models.Die
-    name: Die
-    nameWithType: Die
-    fullName: CommonBotLibrary.Services.Models.Die
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: IEquatable`1
-  isExternal: true
-  name: IEquatable<>
-  nameWithType: IEquatable<>
-  fullName: IEquatable<>
-  nameWithType.vb: IEquatable(Of )
-  fullName.vb: IEquatable(Of )
-  name.vb: IEquatable(Of )
-  spec.csharp:
-  - uid: IEquatable`1
-    name: IEquatable
-    nameWithType: IEquatable
-    fullName: IEquatable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: IEquatable`1
-    name: IEquatable
-    nameWithType: IEquatable
-    fullName: IEquatable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -755,122 +524,12 @@ references:
   name: Equals
   nameWithType: Die.Equals
   fullName: CommonBotLibrary.Services.Models.Die.Equals
-- uid: System.ValueType.Equals(System.Object)
-  commentId: M:System.ValueType.Equals(System.Object)
-  parent: System.ValueType
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: ValueType.Equals(Object)
-  fullName: System.ValueType.Equals(System.Object)
-  spec.csharp:
-  - uid: System.ValueType.Equals(System.Object)
-    name: Equals
-    nameWithType: ValueType.Equals
-    fullName: System.ValueType.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.ValueType.Equals(System.Object)
-    name: Equals
-    nameWithType: ValueType.Equals
-    fullName: System.ValueType.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.ValueType
-  commentId: T:System.ValueType
-  parent: System
-  isExternal: true
-  name: ValueType
-  nameWithType: ValueType
-  fullName: System.ValueType
-- uid: System.ValueType.GetHashCode
-  commentId: M:System.ValueType.GetHashCode
-  parent: System.ValueType
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: ValueType.GetHashCode()
-  fullName: System.ValueType.GetHashCode()
-  spec.csharp:
-  - uid: System.ValueType.GetHashCode
-    name: GetHashCode
-    nameWithType: ValueType.GetHashCode
-    fullName: System.ValueType.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.ValueType.GetHashCode
-    name: GetHashCode
-    nameWithType: ValueType.GetHashCode
-    fullName: System.ValueType.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: CommonBotLibrary.Services.Models.Die.GetHashCode*
   commentId: Overload:CommonBotLibrary.Services.Models.Die.GetHashCode
   isExternal: false
   name: GetHashCode
   nameWithType: Die.GetHashCode
   fullName: CommonBotLibrary.Services.Models.Die.GetHashCode
-- uid: System.ValueType.ToString
-  commentId: M:System.ValueType.ToString
-  parent: System.ValueType
-  isExternal: true
-  name: ToString()
-  nameWithType: ValueType.ToString()
-  fullName: System.ValueType.ToString()
-  spec.csharp:
-  - uid: System.ValueType.ToString
-    name: ToString
-    nameWithType: ValueType.ToString
-    fullName: System.ValueType.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.ValueType.ToString
-    name: ToString
-    nameWithType: ValueType.ToString
-    fullName: System.ValueType.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: CommonBotLibrary.Services.Models.Die.ToString*
   commentId: Overload:CommonBotLibrary.Services.Models.Die.ToString
   isExternal: false
