@@ -68,7 +68,7 @@ Now you can use all the CBL services plus your own custom services without havin
 * **NCalc Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.NCalcService.html)**
    * Evaluates mathematical expressions.
 * **Omdb Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.OmdbService.html)**
-   * Searches https://omdbapi.com for movies.
+   * Searches https://omdbapi.com for media.
    * Requires an [API key](http://www.omdbapi.com/apikey.aspx).
 * **OpenTriviaDb Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.OpenTriviaDbService.html)**
    * Searches https://opentdb.com for trivia.
