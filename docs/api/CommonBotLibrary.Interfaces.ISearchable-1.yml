@@ -25,6 +25,7 @@ items:
   syntax:
     content: >-
       public interface ISearchable<T>
+
           where T : class
     typeParameters:
     - id: T

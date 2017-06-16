@@ -4,7 +4,7 @@ using CommonBotLibrary.Interfaces.Models;
 
 namespace CommonBotLibrary.Services.Models
 {
-    public class OmdbSearchResult : MovieBase
+    public class OmdbSearchResult : MediaBase
     {
         public string ImdbId { get; set; }
         public string Poster { get; set; }

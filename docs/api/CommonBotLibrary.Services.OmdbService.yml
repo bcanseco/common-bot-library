@@ -23,15 +23,17 @@ items:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
   syntax:
-    content: 'public class OmdbService : IMovieService, ISearchable<MovieBase>'
+    content: 'public class OmdbService : IMediaService, ISearchable<MediaBase>'
     content.vb: >-
       Public Class OmdbService
-          Inherits IMovieService
-          Implements ISearchable(Of MovieBase)
+
+          Inherits IMediaService
+
+          Implements ISearchable(Of MediaBase)
   inheritance:
   - System.Object
   implements:
-  - ISearchable{MovieBase}
+  - ISearchable{MediaBase}
   modifiers.csharp:
   - public
   - class
@@ -56,7 +58,7 @@ items:
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
-  summary: "\nConstructs an <see cref=\"!:IMovieService\"></see> implementation that searches OMDb.\n"
+  summary: "\nConstructs an <see cref=\"!:IMediaService\"></see> implementation that searches OMDb.\n"
   example: []
   syntax:
     content: public OmdbService(string apiKey = null)
@@ -183,15 +185,15 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: ISearchable{MovieBase}
-  commentId: '!:ISearchable{MovieBase}'
+- uid: ISearchable{MediaBase}
+  commentId: '!:ISearchable{MediaBase}'
   definition: ISearchable`1
-  name: ISearchable<MovieBase>
-  nameWithType: ISearchable<MovieBase>
-  fullName: ISearchable<MovieBase>
-  nameWithType.vb: ISearchable(Of MovieBase)
-  fullName.vb: ISearchable(Of MovieBase)
-  name.vb: ISearchable(Of MovieBase)
+  name: ISearchable<MediaBase>
+  nameWithType: ISearchable<MediaBase>
+  fullName: ISearchable<MediaBase>
+  nameWithType.vb: ISearchable(Of MediaBase)
+  fullName.vb: ISearchable(Of MediaBase)
+  name.vb: ISearchable(Of MediaBase)
   spec.csharp:
   - uid: ISearchable`1
     name: ISearchable
@@ -201,10 +203,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: MovieBase
-    name: MovieBase
-    nameWithType: MovieBase
-    fullName: MovieBase
+  - uid: MediaBase
+    name: MediaBase
+    nameWithType: MediaBase
+    fullName: MediaBase
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -218,10 +220,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: MovieBase
-    name: MovieBase
-    nameWithType: MovieBase
-    fullName: MovieBase
+  - uid: MediaBase
+    name: MediaBase
+    nameWithType: MediaBase
+    fullName: MediaBase
     isExternal: true
   - name: )
     nameWithType: )

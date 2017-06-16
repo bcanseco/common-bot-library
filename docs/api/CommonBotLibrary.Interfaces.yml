@@ -7,7 +7,7 @@ items:
   - CommonBotLibrary.Interfaces.IAnimeService
   - CommonBotLibrary.Interfaces.ICalculatorService
   - CommonBotLibrary.Interfaces.IDictionaryService
-  - CommonBotLibrary.Interfaces.IMovieService
+  - CommonBotLibrary.Interfaces.IMediaService
   - CommonBotLibrary.Interfaces.ISearchable`1
   - CommonBotLibrary.Interfaces.IStockService
   - CommonBotLibrary.Interfaces.ITriviaService
@@ -41,12 +41,12 @@ references:
   name: IDictionaryService
   nameWithType: IDictionaryService
   fullName: CommonBotLibrary.Interfaces.IDictionaryService
-- uid: CommonBotLibrary.Interfaces.IMovieService
-  commentId: T:CommonBotLibrary.Interfaces.IMovieService
+- uid: CommonBotLibrary.Interfaces.IMediaService
+  commentId: T:CommonBotLibrary.Interfaces.IMediaService
   isExternal: false
-  name: IMovieService
-  nameWithType: IMovieService
-  fullName: CommonBotLibrary.Interfaces.IMovieService
+  name: IMediaService
+  nameWithType: IMediaService
+  fullName: CommonBotLibrary.Interfaces.IMediaService
 - uid: CommonBotLibrary.Interfaces.ISearchable`1
   commentId: T:CommonBotLibrary.Interfaces.ISearchable`1
   isExternal: false

@@ -1,34 +1,33 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
-  commentId: T:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
-  id: OpenWeatherMapResult.Coordinates
-  parent: CommonBotLibrary.Services.Models
+- uid: CommonBotLibrary.Interfaces.Models.MediaBase
+  commentId: T:CommonBotLibrary.Interfaces.Models.MediaBase
+  id: MediaBase
+  parent: CommonBotLibrary.Interfaces.Models
   children:
-  - CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.#ctor(JToken,JToken)
-  - CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Latitude
-  - CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude
+  - CommonBotLibrary.Interfaces.Models.MediaBase.Title
+  - CommonBotLibrary.Interfaces.Models.MediaBase.ToString
+  - CommonBotLibrary.Interfaces.Models.MediaBase.Year
   langs:
   - csharp
   - vb
-  name: OpenWeatherMapResult.Coordinates
-  nameWithType: OpenWeatherMapResult.Coordinates
-  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
+  name: MediaBase
+  nameWithType: MediaBase
+  fullName: CommonBotLibrary.Interfaces.Models.MediaBase
   type: Class
   source:
-    id: Coordinates
+    id: MediaBase
     path: ''
-    startLine: 1808
+    startLine: 545
   assemblies:
   - cs.temp.dll
-  namespace: CommonBotLibrary.Services.Models
+  namespace: CommonBotLibrary.Interfaces.Models
   syntax:
-    content: public class Coordinates
-    content.vb: Public Class Coordinates
+    content: public abstract class MediaBase
+    content.vb: Public MustInherit Class MediaBase
   inheritance:
   - System.Object
   inheritedMembers:
-  - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.ReferenceEquals(System.Object,System.Object)
@@ -37,110 +36,112 @@ items:
   - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
+  - abstract
   - class
   modifiers.vb:
   - Public
+  - MustInherit
   - Class
-- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Latitude
-  commentId: P:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Latitude
-  id: Latitude
-  parent: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
+- uid: CommonBotLibrary.Interfaces.Models.MediaBase.Title
+  commentId: P:CommonBotLibrary.Interfaces.Models.MediaBase.Title
+  id: Title
+  parent: CommonBotLibrary.Interfaces.Models.MediaBase
   langs:
   - csharp
   - vb
-  name: Latitude
-  nameWithType: OpenWeatherMapResult.Coordinates.Latitude
-  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Latitude
+  name: Title
+  nameWithType: MediaBase.Title
+  fullName: CommonBotLibrary.Interfaces.Models.MediaBase.Title
   type: Property
   source:
-    id: Latitude
+    id: Title
     path: ''
-    startLine: 1811
+    startLine: 547
   assemblies:
   - cs.temp.dll
-  namespace: CommonBotLibrary.Services.Models
+  namespace: CommonBotLibrary.Interfaces.Models
   syntax:
-    content: public double Latitude { get; set; }
+    content: public string Title { get; set; }
     parameters: []
     return:
-      type: System.Double
-    content.vb: Public Property Latitude As Double
-  overload: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Latitude*
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: CommonBotLibrary.Interfaces.Models.MediaBase.Title*
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude
-  commentId: P:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude
-  id: Longitude
-  parent: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
+- uid: CommonBotLibrary.Interfaces.Models.MediaBase.Year
+  commentId: P:CommonBotLibrary.Interfaces.Models.MediaBase.Year
+  id: Year
+  parent: CommonBotLibrary.Interfaces.Models.MediaBase
   langs:
   - csharp
   - vb
-  name: Longitude
-  nameWithType: OpenWeatherMapResult.Coordinates.Longitude
-  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude
+  name: Year
+  nameWithType: MediaBase.Year
+  fullName: CommonBotLibrary.Interfaces.Models.MediaBase.Year
   type: Property
   source:
-    id: Longitude
+    id: Year
     path: ''
-    startLine: 1812
+    startLine: 548
   assemblies:
   - cs.temp.dll
-  namespace: CommonBotLibrary.Services.Models
+  namespace: CommonBotLibrary.Interfaces.Models
   syntax:
-    content: public double Longitude { get; set; }
+    content: public string Year { get; set; }
     parameters: []
     return:
-      type: System.Double
-    content.vb: Public Property Longitude As Double
-  overload: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude*
+      type: System.String
+    content.vb: Public Property Year As String
+  overload: CommonBotLibrary.Interfaces.Models.MediaBase.Year*
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.#ctor(JToken,JToken)
-  commentId: M:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.#ctor(JToken,JToken)
-  id: '#ctor(JToken,JToken)'
-  parent: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
+- uid: CommonBotLibrary.Interfaces.Models.MediaBase.ToString
+  commentId: M:CommonBotLibrary.Interfaces.Models.MediaBase.ToString
+  id: ToString
+  parent: CommonBotLibrary.Interfaces.Models.MediaBase
   langs:
   - csharp
   - vb
-  name: Coordinates(JToken, JToken)
-  nameWithType: OpenWeatherMapResult.Coordinates.Coordinates(JToken, JToken)
-  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Coordinates(JToken, JToken)
-  type: Constructor
+  name: ToString()
+  nameWithType: MediaBase.ToString()
+  fullName: CommonBotLibrary.Interfaces.Models.MediaBase.ToString()
+  type: Method
   source:
-    id: .ctor
+    id: ToString
     path: ''
-    startLine: 1814
+    startLine: 550
   assemblies:
   - cs.temp.dll
-  namespace: CommonBotLibrary.Services.Models
+  namespace: CommonBotLibrary.Interfaces.Models
   syntax:
-    content: public Coordinates(JToken lat, JToken lon)
-    parameters:
-    - id: lat
-      type: JToken
-    - id: lon
-      type: JToken
-    content.vb: Public Sub New(lat As JToken, lon As JToken)
-  overload: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.#ctor*
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: CommonBotLibrary.Interfaces.Models.MediaBase.ToString*
   modifiers.csharp:
   - public
+  - override
   modifiers.vb:
   - Public
+  - Overrides
 references:
-- uid: CommonBotLibrary.Services.Models
-  commentId: N:CommonBotLibrary.Services.Models
+- uid: CommonBotLibrary.Interfaces.Models
+  commentId: N:CommonBotLibrary.Interfaces.Models
   isExternal: false
-  name: CommonBotLibrary.Services.Models
-  nameWithType: CommonBotLibrary.Services.Models
-  fullName: CommonBotLibrary.Services.Models
+  name: CommonBotLibrary.Interfaces.Models
+  nameWithType: CommonBotLibrary.Interfaces.Models
+  fullName: CommonBotLibrary.Interfaces.Models
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -148,37 +149,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -433,33 +403,59 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Latitude*
-  commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Latitude
+- uid: CommonBotLibrary.Interfaces.Models.MediaBase.Title*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.MediaBase.Title
   isExternal: false
-  name: Latitude
-  nameWithType: OpenWeatherMapResult.Coordinates.Latitude
-  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Latitude
-- uid: System.Double
-  commentId: T:System.Double
+  name: Title
+  nameWithType: MediaBase.Title
+  fullName: CommonBotLibrary.Interfaces.Models.MediaBase.Title
+- uid: System.String
+  commentId: T:System.String
   parent: System
   isExternal: true
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
-- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude*
-  commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Interfaces.Models.MediaBase.Year*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.MediaBase.Year
   isExternal: false
-  name: Longitude
-  nameWithType: OpenWeatherMapResult.Coordinates.Longitude
-  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude
-- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.#ctor*
-  commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.#ctor
-  isExternal: false
-  name: Coordinates
-  nameWithType: OpenWeatherMapResult.Coordinates.Coordinates
-  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Coordinates
-- uid: JToken
+  name: Year
+  nameWithType: MediaBase.Year
+  fullName: CommonBotLibrary.Interfaces.Models.MediaBase.Year
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: JToken
-  nameWithType: JToken
-  fullName: JToken
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Interfaces.Models.MediaBase.ToString*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.MediaBase.ToString
+  isExternal: false
+  name: ToString
+  nameWithType: MediaBase.ToString
+  fullName: CommonBotLibrary.Interfaces.Models.MediaBase.ToString

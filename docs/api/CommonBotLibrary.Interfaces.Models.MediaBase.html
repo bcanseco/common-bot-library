@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class OmdbSearchResult
+    <title>Class MediaBase
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class OmdbSearchResult
+    <meta name="title" content="Class MediaBase
    ">
     <meta name="generator" content="docfx 2.18.2.0">
     
@@ -67,36 +67,56 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CommonBotLibrary.Services.Models.OmdbSearchResult">
+            <article class="content wrap" id="_content" data-uid="CommonBotLibrary.Interfaces.Models.MediaBase">
   
   
-  <h1 id="CommonBotLibrary_Services_Models_OmdbSearchResult" data-uid="CommonBotLibrary.Services.Models.OmdbSearchResult">Class OmdbSearchResult
+  <h1 id="CommonBotLibrary_Interfaces_Models_MediaBase" data-uid="CommonBotLibrary.Interfaces.Models.MediaBase">Class MediaBase
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">OmdbSearchResult</span></div>
+    <div class="level1"><span class="xref">MediaBase</span></div>
   </div>
-      <div class="level2"><a class="xref" href="CommonBotLibrary.Services.Models.OmdbDirectResult.html">OmdbDirectResult</a></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CommonBotLibrary.Services.Models.html">CommonBotLibrary.Services.Models</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CommonBotLibrary.Interfaces.Models.html">CommonBotLibrary.Interfaces.Models</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CommonBotLibrary_Services_Models_OmdbSearchResult_syntax">Syntax</h5>
+  <h5 id="CommonBotLibrary_Interfaces_Models_MediaBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class OmdbSearchResult : MediaBase</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class MediaBase</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="CommonBotLibrary_Services_Models_OmdbSearchResult_ImdbId_" data-uid="CommonBotLibrary.Services.Models.OmdbSearchResult.ImdbId*"></a>
-  <h4 id="CommonBotLibrary_Services_Models_OmdbSearchResult_ImdbId" data-uid="CommonBotLibrary.Services.Models.OmdbSearchResult.ImdbId">ImdbId</h4>
+  <a id="CommonBotLibrary_Interfaces_Models_MediaBase_Title_" data-uid="CommonBotLibrary.Interfaces.Models.MediaBase.Title*"></a>
+  <h4 id="CommonBotLibrary_Interfaces_Models_MediaBase_Title" data-uid="CommonBotLibrary.Interfaces.Models.MediaBase.Title">Title</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ImdbId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Title { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -115,13 +135,13 @@
   </table>
   
   
-  <a id="CommonBotLibrary_Services_Models_OmdbSearchResult_Poster_" data-uid="CommonBotLibrary.Services.Models.OmdbSearchResult.Poster*"></a>
-  <h4 id="CommonBotLibrary_Services_Models_OmdbSearchResult_Poster" data-uid="CommonBotLibrary.Services.Models.OmdbSearchResult.Poster">Poster</h4>
+  <a id="CommonBotLibrary_Interfaces_Models_MediaBase_Year_" data-uid="CommonBotLibrary.Interfaces.Models.MediaBase.Year*"></a>
+  <h4 id="CommonBotLibrary_Interfaces_Models_MediaBase_Year" data-uid="CommonBotLibrary.Interfaces.Models.MediaBase.Year">Year</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Poster { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Year { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,17 +158,19 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <a id="CommonBotLibrary_Services_Models_OmdbSearchResult_Type_" data-uid="CommonBotLibrary.Services.Models.OmdbSearchResult.Type*"></a>
-  <h4 id="CommonBotLibrary_Services_Models_OmdbSearchResult_Type" data-uid="CommonBotLibrary.Services.Models.OmdbSearchResult.Type">Type</h4>
+  <a id="CommonBotLibrary_Interfaces_Models_MediaBase_ToString_" data-uid="CommonBotLibrary.Interfaces.Models.MediaBase.ToString*"></a>
+  <h4 id="CommonBotLibrary_Interfaces_Models_MediaBase_ToString" data-uid="CommonBotLibrary.Interfaces.Models.MediaBase.ToString">ToString()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OmdbType Type { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -158,11 +180,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CommonBotLibrary.Services.Models.OmdbType.html">OmdbType</a></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
 </article>
           </div>
           

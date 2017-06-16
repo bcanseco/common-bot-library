@@ -17,7 +17,7 @@ items:
   source:
     id: YahooFinanceService
     path: ''
-    startLine: 1353
+    startLine: 1352
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -25,7 +25,9 @@ items:
     content: 'public class YahooFinanceService : IStockService, ISearchable<SymbolBase>'
     content.vb: >-
       Public Class YahooFinanceService
+
           Inherits IStockService
+
           Implements ISearchable(Of SymbolBase)
   inheritance:
   - System.Object
@@ -51,7 +53,7 @@ items:
   source:
     id: SearchSymbolsAsync
     path: ''
-    startLine: 1362
+    startLine: 1361
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -90,7 +92,7 @@ items:
   source:
     id: GetQuoteAsync
     path: ''
-    startLine: 1388
+    startLine: 1387
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

@@ -25,7 +25,9 @@ items:
     content: 'public class GoogleService : IWebpageService, ISearchable<IWebpage>'
     content.vb: >-
       Public Class GoogleService
+
           Inherits IWebpageService
+
           Implements ISearchable(Of IWebpage)
   inheritance:
   - System.Object

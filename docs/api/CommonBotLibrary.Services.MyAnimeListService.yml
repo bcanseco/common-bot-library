@@ -25,7 +25,9 @@ items:
     content: 'public class MyAnimeListService : IAnimeService, IWebpageService, ISearchable<AnimeBase>'
     content.vb: >-
       Public Class MyAnimeListService
+
           Inherits IAnimeService
+
           Implements IWebpageService, ISearchable(Of AnimeBase)
   inheritance:
   - System.Object

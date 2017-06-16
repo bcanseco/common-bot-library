@@ -18,15 +18,16 @@ items:
   source:
     id: OmdbSearchResult
     path: ''
-    startLine: 1671
+    startLine: 1670
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: 'public class OmdbSearchResult : MovieBase'
+    content: 'public class OmdbSearchResult : MediaBase'
     content.vb: >-
       Public Class OmdbSearchResult
-          Inherits MovieBase
+
+          Inherits MediaBase
   inheritance:
   - System.Object
   derivedClasses:
@@ -51,7 +52,7 @@ items:
   source:
     id: ImdbId
     path: ''
-    startLine: 1673
+    startLine: 1672
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -82,7 +83,7 @@ items:
   source:
     id: Poster
     path: ''
-    startLine: 1674
+    startLine: 1673
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -113,7 +114,7 @@ items:
   source:
     id: Type
     path: ''
-    startLine: 1675
+    startLine: 1674
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

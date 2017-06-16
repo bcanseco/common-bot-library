@@ -290,6 +290,36 @@ references:
   commentId: Overload:CommonBotLibrary.Interfaces.IDictionaryService.GetDefinitionsAsync
   fullName: CommonBotLibrary.Interfaces.IDictionaryService.GetDefinitionsAsync
   nameWithType: IDictionaryService.GetDefinitionsAsync
+- uid: CommonBotLibrary.Interfaces.IMediaService
+  name: IMediaService
+  href: api/CommonBotLibrary.Interfaces.IMediaService.html
+  commentId: T:CommonBotLibrary.Interfaces.IMediaService
+  fullName: CommonBotLibrary.Interfaces.IMediaService
+  nameWithType: IMediaService
+- uid: CommonBotLibrary.Interfaces.IMediaService.DirectAsync(System.String)
+  name: DirectAsync(String)
+  href: api/CommonBotLibrary.Interfaces.IMediaService.html#CommonBotLibrary_Interfaces_IMediaService_DirectAsync_System_String_
+  commentId: M:CommonBotLibrary.Interfaces.IMediaService.DirectAsync(System.String)
+  fullName: CommonBotLibrary.Interfaces.IMediaService.DirectAsync(System.String)
+  nameWithType: IMediaService.DirectAsync(String)
+- uid: CommonBotLibrary.Interfaces.IMediaService.DirectAsync*
+  name: DirectAsync
+  href: api/CommonBotLibrary.Interfaces.IMediaService.html#CommonBotLibrary_Interfaces_IMediaService_DirectAsync_
+  commentId: Overload:CommonBotLibrary.Interfaces.IMediaService.DirectAsync
+  fullName: CommonBotLibrary.Interfaces.IMediaService.DirectAsync
+  nameWithType: IMediaService.DirectAsync
+- uid: CommonBotLibrary.Interfaces.IMediaService.SearchAsync(System.String)
+  name: SearchAsync(String)
+  href: api/CommonBotLibrary.Interfaces.IMediaService.html#CommonBotLibrary_Interfaces_IMediaService_SearchAsync_System_String_
+  commentId: M:CommonBotLibrary.Interfaces.IMediaService.SearchAsync(System.String)
+  fullName: CommonBotLibrary.Interfaces.IMediaService.SearchAsync(System.String)
+  nameWithType: IMediaService.SearchAsync(String)
+- uid: CommonBotLibrary.Interfaces.IMediaService.SearchAsync*
+  name: SearchAsync
+  href: api/CommonBotLibrary.Interfaces.IMediaService.html#CommonBotLibrary_Interfaces_IMediaService_SearchAsync_
+  commentId: Overload:CommonBotLibrary.Interfaces.IMediaService.SearchAsync
+  fullName: CommonBotLibrary.Interfaces.IMediaService.SearchAsync
+  nameWithType: IMediaService.SearchAsync
 - uid: CommonBotLibrary.Interfaces.IMovieService
   name: IMovieService
   href: api/CommonBotLibrary.Interfaces.IMovieService.html
@@ -657,6 +687,48 @@ references:
   commentId: Overload:CommonBotLibrary.Interfaces.Models.IWebpage.Url
   fullName: CommonBotLibrary.Interfaces.Models.IWebpage.Url
   nameWithType: IWebpage.Url
+- uid: CommonBotLibrary.Interfaces.Models.MediaBase
+  name: MediaBase
+  href: api/CommonBotLibrary.Interfaces.Models.MediaBase.html
+  commentId: T:CommonBotLibrary.Interfaces.Models.MediaBase
+  fullName: CommonBotLibrary.Interfaces.Models.MediaBase
+  nameWithType: MediaBase
+- uid: CommonBotLibrary.Interfaces.Models.MediaBase.Title
+  name: Title
+  href: api/CommonBotLibrary.Interfaces.Models.MediaBase.html#CommonBotLibrary_Interfaces_Models_MediaBase_Title
+  commentId: P:CommonBotLibrary.Interfaces.Models.MediaBase.Title
+  fullName: CommonBotLibrary.Interfaces.Models.MediaBase.Title
+  nameWithType: MediaBase.Title
+- uid: CommonBotLibrary.Interfaces.Models.MediaBase.Title*
+  name: Title
+  href: api/CommonBotLibrary.Interfaces.Models.MediaBase.html#CommonBotLibrary_Interfaces_Models_MediaBase_Title_
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.MediaBase.Title
+  fullName: CommonBotLibrary.Interfaces.Models.MediaBase.Title
+  nameWithType: MediaBase.Title
+- uid: CommonBotLibrary.Interfaces.Models.MediaBase.ToString
+  name: ToString()
+  href: api/CommonBotLibrary.Interfaces.Models.MediaBase.html#CommonBotLibrary_Interfaces_Models_MediaBase_ToString
+  commentId: M:CommonBotLibrary.Interfaces.Models.MediaBase.ToString
+  fullName: CommonBotLibrary.Interfaces.Models.MediaBase.ToString()
+  nameWithType: MediaBase.ToString()
+- uid: CommonBotLibrary.Interfaces.Models.MediaBase.ToString*
+  name: ToString
+  href: api/CommonBotLibrary.Interfaces.Models.MediaBase.html#CommonBotLibrary_Interfaces_Models_MediaBase_ToString_
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.MediaBase.ToString
+  fullName: CommonBotLibrary.Interfaces.Models.MediaBase.ToString
+  nameWithType: MediaBase.ToString
+- uid: CommonBotLibrary.Interfaces.Models.MediaBase.Year
+  name: Year
+  href: api/CommonBotLibrary.Interfaces.Models.MediaBase.html#CommonBotLibrary_Interfaces_Models_MediaBase_Year
+  commentId: P:CommonBotLibrary.Interfaces.Models.MediaBase.Year
+  fullName: CommonBotLibrary.Interfaces.Models.MediaBase.Year
+  nameWithType: MediaBase.Year
+- uid: CommonBotLibrary.Interfaces.Models.MediaBase.Year*
+  name: Year
+  href: api/CommonBotLibrary.Interfaces.Models.MediaBase.html#CommonBotLibrary_Interfaces_Models_MediaBase_Year_
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.MediaBase.Year
+  fullName: CommonBotLibrary.Interfaces.Models.MediaBase.Year
+  nameWithType: MediaBase.Year
 - uid: CommonBotLibrary.Interfaces.Models.MovieBase
   name: MovieBase
   href: api/CommonBotLibrary.Interfaces.Models.MovieBase.html

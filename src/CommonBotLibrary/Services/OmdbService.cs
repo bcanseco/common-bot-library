@@ -14,10 +14,10 @@ using Type = CommonBotLibrary.Services.Models.OmdbType;
 
 namespace CommonBotLibrary.Services
 {
-    public class OmdbService : IMovieService, ISearchable<MovieBase>
+    public class OmdbService : IMediaService, ISearchable<MediaBase>
     {
         /// <summary>
-        ///   Constructs an <see cref="IMovieService"/> implementation that searches OMDb.
+        ///   Constructs an <see cref="IMediaService"/> implementation that searches OMDb.
         /// </summary>
         /// <param name="apiKey">Defaults to API key in <see cref="Tokens"/> if null.</param>
         /// <exception cref="InvalidCredentialsException"></exception>
@@ -46,7 +46,7 @@ namespace CommonBotLibrary.Services
         /// <exception cref="InvalidCredentialsException"></exception>
         /// <seealso href="http://www.omdbapi.com/legal.htm">API TOS</seealso>
         public async Task<IEnumerable<OmdbSearchResult>> SearchAsync(
-            string title, Type type = Type.Movie, int? year = null, string plot = "short")
+            string title, Type type = default(Type), int? year = null, string plot = "short")
         {
             using (var client = new RestClient("https://omdbapi.com"))
             {
@@ -76,7 +76,7 @@ namespace CommonBotLibrary.Services
         /// <exception cref="ResultNotFoundException"></exception>
         /// <seealso href="http://www.omdbapi.com/legal.htm">API TOS</seealso>
         public async Task<OmdbDirectResult> DirectAsync(
-            string title, Type type = Type.Movie, int? year = null)
+            string title, Type type = default(Type), int? year = null)
         {
             using (var client = new RestClient("https://omdbapi.com"))
             {
@@ -87,19 +87,19 @@ namespace CommonBotLibrary.Services
                 var parsed = JObject.Parse(response.Content);
 
                 if (parsed["Response"].ToString() != "True")
-                    throw new ResultNotFoundException($"No movie was found matching `{title}`.");
+                    throw new ResultNotFoundException($"No media was found matching `{title}`.");
 
                 return JsonConvert.DeserializeObject<OmdbDirectResult>(response.Content);
             }
         }
 
-        async Task<IEnumerable<MovieBase>> IMovieService.SearchAsync(string title)
+        async Task<IEnumerable<MediaBase>> IMediaService.SearchAsync(string title)
             => await SearchAsync(title);
 
-        async Task<IEnumerable<MovieBase>> ISearchable<MovieBase>.SearchAsync(string title)
+        async Task<IEnumerable<MediaBase>> ISearchable<MediaBase>.SearchAsync(string title)
             => await SearchAsync(title);
 
-        async Task<MovieBase> IMovieService.DirectAsync(string title)
+        async Task<MediaBase> IMediaService.DirectAsync(string title)
             => await DirectAsync(title);
     }
 }

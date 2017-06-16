@@ -17,7 +17,7 @@ items:
   source:
     id: YouTubeService
     path: ''
-    startLine: 1434
+    startLine: 1433
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -25,7 +25,9 @@ items:
     content: 'public class YouTubeService : IWebpageService, ISearchable<IWebpage>'
     content.vb: >-
       Public Class YouTubeService
+
           Inherits IWebpageService
+
           Implements ISearchable(Of IWebpage)
   inheritance:
   - System.Object
@@ -51,7 +53,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1441
+    startLine: 1440
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -83,7 +85,7 @@ items:
   source:
     id: SearchAsync
     path: ''
-    startLine: 1467
+    startLine: 1466
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
