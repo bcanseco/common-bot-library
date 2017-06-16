@@ -25,7 +25,9 @@ items:
     content: 'public class TwitterService : IWebpageService, ISearchable<IWebpage>'
     content.vb: >-
       Public Class TwitterService
+
           Inherits IWebpageService
+
           Implements ISearchable(Of IWebpage)
   inheritance:
   - System.Object

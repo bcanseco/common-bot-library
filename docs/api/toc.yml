@@ -41,8 +41,8 @@
     name: ICalculatorService
   - uid: CommonBotLibrary.Interfaces.IDictionaryService
     name: IDictionaryService
-  - uid: CommonBotLibrary.Interfaces.IMovieService
-    name: IMovieService
+  - uid: CommonBotLibrary.Interfaces.IMediaService
+    name: IMediaService
   - uid: CommonBotLibrary.Interfaces.ISearchable`1
     name: ISearchable<T>
     name.vb: ISearchable(Of T)
@@ -63,8 +63,8 @@
     name: DefinitionBase
   - uid: CommonBotLibrary.Interfaces.Models.IWebpage
     name: IWebpage
-  - uid: CommonBotLibrary.Interfaces.Models.MovieBase
-    name: MovieBase
+  - uid: CommonBotLibrary.Interfaces.Models.MediaBase
+    name: MediaBase
   - uid: CommonBotLibrary.Interfaces.Models.SymbolBase
     name: SymbolBase
   - uid: CommonBotLibrary.Interfaces.Models.TriviaBase

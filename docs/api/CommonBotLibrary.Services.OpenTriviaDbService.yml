@@ -24,6 +24,7 @@ items:
     content: 'public class OpenTriviaDbService : ITriviaService'
     content.vb: >-
       Public Class OpenTriviaDbService
+
           Inherits ITriviaService
   inheritance:
   - System.Object

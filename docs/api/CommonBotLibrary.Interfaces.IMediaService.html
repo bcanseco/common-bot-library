@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class OmdbSearchResult
+    <title>Interface IMediaService
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class OmdbSearchResult
+    <meta name="title" content="Interface IMediaService
    ">
     <meta name="generator" content="docfx 2.18.2.0">
     
@@ -67,88 +67,112 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CommonBotLibrary.Services.Models.OmdbSearchResult">
+            <article class="content wrap" id="_content" data-uid="CommonBotLibrary.Interfaces.IMediaService">
   
   
-  <h1 id="CommonBotLibrary_Services_Models_OmdbSearchResult" data-uid="CommonBotLibrary.Services.Models.OmdbSearchResult">Class OmdbSearchResult
+  <h1 id="CommonBotLibrary_Interfaces_IMediaService" data-uid="CommonBotLibrary.Interfaces.IMediaService">Interface IMediaService
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Defines an API for working with digital media.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">OmdbSearchResult</span></div>
-  </div>
-      <div class="level2"><a class="xref" href="CommonBotLibrary.Services.Models.OmdbDirectResult.html">OmdbDirectResult</a></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CommonBotLibrary.Services.Models.html">CommonBotLibrary.Services.Models</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CommonBotLibrary.Interfaces.html">CommonBotLibrary.Interfaces</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CommonBotLibrary_Services_Models_OmdbSearchResult_syntax">Syntax</h5>
+  <h5 id="CommonBotLibrary_Interfaces_IMediaService_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class OmdbSearchResult : MediaBase</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IMediaService</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="CommonBotLibrary_Services_Models_OmdbSearchResult_ImdbId_" data-uid="CommonBotLibrary.Services.Models.OmdbSearchResult.ImdbId*"></a>
-  <h4 id="CommonBotLibrary_Services_Models_OmdbSearchResult_ImdbId" data-uid="CommonBotLibrary.Services.Models.OmdbSearchResult.ImdbId">ImdbId</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CommonBotLibrary_Interfaces_IMediaService_DirectAsync_" data-uid="CommonBotLibrary.Interfaces.IMediaService.DirectAsync*"></a>
+  <h4 id="CommonBotLibrary_Interfaces_IMediaService_DirectAsync_System_String_" data-uid="CommonBotLibrary.Interfaces.IMediaService.DirectAsync(System.String)">DirectAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Gets full information about a particular piece of media.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ImdbId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;MediaBase&gt; DirectAsync(string title)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>The media title to match against.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">MediaBase</span>&gt;</td>
+        <td><p>The most relevant media for the given title.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CommonBotLibrary.Exceptions.ResultNotFoundException.html">ResultNotFoundException</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CommonBotLibrary_Services_Models_OmdbSearchResult_Poster_" data-uid="CommonBotLibrary.Services.Models.OmdbSearchResult.Poster*"></a>
-  <h4 id="CommonBotLibrary_Services_Models_OmdbSearchResult_Poster" data-uid="CommonBotLibrary.Services.Models.OmdbSearchResult.Poster">Poster</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CommonBotLibrary_Interfaces_IMediaService_SearchAsync_" data-uid="CommonBotLibrary.Interfaces.IMediaService.SearchAsync*"></a>
+  <h4 id="CommonBotLibrary_Interfaces_IMediaService_SearchAsync_System_String_" data-uid="CommonBotLibrary.Interfaces.IMediaService.SearchAsync(System.String)">SearchAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Searches for all media matching a given query.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Poster { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;MediaBase&gt;&gt; SearchAsync(string title)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>The media title to search with.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="CommonBotLibrary_Services_Models_OmdbSearchResult_Type_" data-uid="CommonBotLibrary.Services.Models.OmdbSearchResult.Type*"></a>
-  <h4 id="CommonBotLibrary_Services_Models_OmdbSearchResult_Type" data-uid="CommonBotLibrary.Services.Models.OmdbSearchResult.Type">Type</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OmdbType Type { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -158,8 +182,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CommonBotLibrary.Services.Models.OmdbType.html">OmdbType</a></td>
-        <td></td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;<span class="xref">MediaBase</span>&gt;&gt;</td>
+        <td><p>A collection of relevant media.</p>
+</td>
       </tr>
     </tbody>
   </table>

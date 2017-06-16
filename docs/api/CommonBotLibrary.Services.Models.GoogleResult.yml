@@ -20,7 +20,7 @@ items:
   source:
     id: GoogleResult
     path: ''
-    startLine: 1579
+    startLine: 1578
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -28,6 +28,7 @@ items:
     content: 'public class GoogleResult : IWebpage'
     content.vb: >-
       Public Class GoogleResult
+
           Inherits IWebpage
   inheritance:
   - System.Object
@@ -51,7 +52,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1582
+    startLine: 1581
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -80,7 +81,7 @@ items:
   source:
     id: ApiResult
     path: ''
-    startLine: 1593
+    startLine: 1592
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -113,7 +114,7 @@ items:
   source:
     id: Url
     path: ''
-    startLine: 1594
+    startLine: 1593
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -144,7 +145,7 @@ items:
   source:
     id: Title
     path: ''
-    startLine: 1595
+    startLine: 1594
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -175,7 +176,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 1597
+    startLine: 1596
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

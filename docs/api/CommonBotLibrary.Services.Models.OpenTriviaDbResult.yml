@@ -19,7 +19,7 @@ items:
   source:
     id: OpenTriviaDbResult
     path: ''
-    startLine: 1726
+    startLine: 1725
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -29,6 +29,7 @@ items:
     content: 'public class OpenTriviaDbResult : TriviaBase'
     content.vb: >-
       Public Class OpenTriviaDbResult
+
           Inherits TriviaBase
   inheritance:
   - System.Object
@@ -52,7 +53,7 @@ items:
   source:
     id: Type
     path: ''
-    startLine: 1729
+    startLine: 1728
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -85,7 +86,7 @@ items:
   source:
     id: Difficulty
     path: ''
-    startLine: 1731
+    startLine: 1730
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -118,7 +119,7 @@ items:
   source:
     id: CorrectAnswer
     path: ''
-    startLine: 1732
+    startLine: 1731
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -149,7 +150,7 @@ items:
   source:
     id: IncorrectAnswers
     path: ''
-    startLine: 1734
+    startLine: 1733
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

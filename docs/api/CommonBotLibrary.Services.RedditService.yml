@@ -24,7 +24,9 @@ items:
     content: 'public class RedditService : IWebpageService, ISearchable<IWebpage>'
     content.vb: >-
       Public Class RedditService
+
           Inherits IWebpageService
+
           Implements ISearchable(Of IWebpage)
   inheritance:
   - System.Object

@@ -20,7 +20,7 @@ items:
   source:
     id: YouTubeResult
     path: ''
-    startLine: 2104
+    startLine: 2103
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -28,6 +28,7 @@ items:
     content: 'public class YouTubeResult : IWebpage'
     content.vb: >-
       Public Class YouTubeResult
+
           Inherits IWebpage
   inheritance:
   - System.Object
@@ -51,7 +52,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2107
+    startLine: 2106
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -80,7 +81,7 @@ items:
   source:
     id: ApiResult
     path: ''
-    startLine: 2118
+    startLine: 2117
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -113,7 +114,7 @@ items:
   source:
     id: Url
     path: ''
-    startLine: 2119
+    startLine: 2118
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -144,7 +145,7 @@ items:
   source:
     id: Title
     path: ''
-    startLine: 2120
+    startLine: 2119
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -175,7 +176,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 2122
+    startLine: 2121
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

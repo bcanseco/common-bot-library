@@ -21,7 +21,7 @@ items:
   source:
     id: UrbanDictionaryResult
     path: ''
-    startLine: 2040
+    startLine: 2039
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -29,6 +29,7 @@ items:
     content: 'public class UrbanDictionaryResult : DefinitionBase'
     content.vb: >-
       Public Class UrbanDictionaryResult
+
           Inherits DefinitionBase
   inheritance:
   - System.Object
@@ -52,7 +53,7 @@ items:
   source:
     id: DefId
     path: ''
-    startLine: 2042
+    startLine: 2041
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -83,7 +84,7 @@ items:
   source:
     id: Permalink
     path: ''
-    startLine: 2043
+    startLine: 2042
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -114,7 +115,7 @@ items:
   source:
     id: Example
     path: ''
-    startLine: 2044
+    startLine: 2043
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -145,7 +146,7 @@ items:
   source:
     id: Author
     path: ''
-    startLine: 2045
+    startLine: 2044
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -176,7 +177,7 @@ items:
   source:
     id: ThumbsUp
     path: ''
-    startLine: 2046
+    startLine: 2045
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -207,7 +208,7 @@ items:
   source:
     id: ThumbsDown
     path: ''
-    startLine: 2048
+    startLine: 2047
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

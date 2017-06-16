@@ -23,7 +23,7 @@ items:
   source:
     id: MyAnimeListResult
     path: ''
-    startLine: 1610
+    startLine: 1609
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -31,7 +31,9 @@ items:
     content: 'public class MyAnimeListResult : AnimeBase, IWebpage, IEquatable<MyAnimeListResult>'
     content.vb: >-
       Public Class MyAnimeListResult
+
           Inherits AnimeBase
+
           Implements IWebpage, IEquatable(Of MyAnimeListResult)
   inheritance:
   - System.Object
@@ -58,7 +60,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1612
+    startLine: 1611
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -87,7 +89,7 @@ items:
   source:
     id: Id
     path: ''
-    startLine: 1635
+    startLine: 1634
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -120,7 +122,7 @@ items:
   source:
     id: Url
     path: ''
-    startLine: 1636
+    startLine: 1635
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -151,7 +153,7 @@ items:
   source:
     id: Equals
     path: ''
-    startLine: 1639
+    startLine: 1638
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -182,7 +184,7 @@ items:
   source:
     id: Equals
     path: ''
-    startLine: 1646
+    startLine: 1645
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -215,7 +217,7 @@ items:
   source:
     id: GetHashCode
     path: ''
-    startLine: 1654
+    startLine: 1653
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -245,7 +247,7 @@ items:
   source:
     id: op_Equality
     path: ''
-    startLine: 1656
+    startLine: 1655
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -280,7 +282,7 @@ items:
   source:
     id: op_Inequality
     path: ''
-    startLine: 1659
+    startLine: 1658
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

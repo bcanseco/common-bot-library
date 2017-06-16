@@ -7,7 +7,7 @@ items:
   - CommonBotLibrary.Interfaces.Models.AnimeBase
   - CommonBotLibrary.Interfaces.Models.DefinitionBase
   - CommonBotLibrary.Interfaces.Models.IWebpage
-  - CommonBotLibrary.Interfaces.Models.MovieBase
+  - CommonBotLibrary.Interfaces.Models.MediaBase
   - CommonBotLibrary.Interfaces.Models.SymbolBase
   - CommonBotLibrary.Interfaces.Models.TriviaBase
   - CommonBotLibrary.Interfaces.Models.WeatherBase
@@ -40,12 +40,12 @@ references:
   name: IWebpage
   nameWithType: IWebpage
   fullName: CommonBotLibrary.Interfaces.Models.IWebpage
-- uid: CommonBotLibrary.Interfaces.Models.MovieBase
-  commentId: T:CommonBotLibrary.Interfaces.Models.MovieBase
+- uid: CommonBotLibrary.Interfaces.Models.MediaBase
+  commentId: T:CommonBotLibrary.Interfaces.Models.MediaBase
   isExternal: false
-  name: MovieBase
-  nameWithType: MovieBase
-  fullName: CommonBotLibrary.Interfaces.Models.MovieBase
+  name: MediaBase
+  nameWithType: MediaBase
+  fullName: CommonBotLibrary.Interfaces.Models.MediaBase
 - uid: CommonBotLibrary.Interfaces.Models.SymbolBase
   commentId: T:CommonBotLibrary.Interfaces.Models.SymbolBase
   isExternal: false

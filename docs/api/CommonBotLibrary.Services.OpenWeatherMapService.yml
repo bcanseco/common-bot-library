@@ -25,6 +25,7 @@ items:
     content: 'public class OpenWeatherMapService : IWeatherService'
     content.vb: >-
       Public Class OpenWeatherMapService
+
           Inherits IWeatherService
   inheritance:
   - System.Object
