@@ -37,7 +37,7 @@ namespace CommonBotLibrary.Services
         /// <param name="includeRTs">Include retweets in response or not.</param>
         /// <param name="includeReplies">Include replies in response or not.</param>
         /// <returns>A collection of relevant tweets.</returns>
-        /// <exception cref="AggregateException">
+        /// <exception cref="Exception">
         ///   Thrown if a network connection cannot be made, if credentials are invalid,
         ///    or if a user for the given handle cannot be found.
         /// </exception>
@@ -53,8 +53,7 @@ namespace CommonBotLibrary.Services
             if (user == null)
             {
                 var msg = $"Either Twitter tokens are invalid or no user was found with handle \"{handle}\".";
-                throw new AggregateException(
-                    new ResultNotFoundException(msg), new InvalidCredentialsException(msg));
+                throw new Exception(msg);
             }
 
             var timelineOptions = new UserTimelineParameters

@@ -28,7 +28,7 @@ namespace CommonBotLibrary.Tests.Services
         }
 
         [TestMethod]
-        [ExpectedException(typeof(AggregateException))]
+        [ExpectedException(typeof(Exception))]
         public async Task Should_Fail_With_Invalid_Credentials()
         {
             var credentials = new TwitterCredentials("?", "?", "?", "?");
@@ -37,7 +37,7 @@ namespace CommonBotLibrary.Tests.Services
         }
 
         [TestMethod]
-        [ExpectedException(typeof(AggregateException))]
+        [ExpectedException(typeof(Exception))]
         public async Task Should_Throw_Exception_When_Handle_Not_Found()
         {
             // Get valid Twitter tokens
