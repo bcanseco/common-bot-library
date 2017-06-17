@@ -27,10 +27,10 @@ namespace CommonBotLibrary.Services.Models
 
         public enum PostCategory
         {
+            Hot,
             New,
             Controversial,
             Rising,
-            Hot,
             Top
         }
     }
