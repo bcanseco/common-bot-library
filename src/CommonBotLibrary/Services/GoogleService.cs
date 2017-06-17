@@ -56,10 +56,12 @@ namespace CommonBotLibrary.Services
             var searchListRequest = googleService.Cse.List(query);
             searchListRequest.Cx = EngineId;
             searchListRequest.Safe = safeSearch;
+            searchListRequest.Num = 10; // max allowed by google; also the default
 
             var results = await searchListRequest.ExecuteAsync();
 
-            return results.Items ?? Enumerable.Empty<Result>();
+            return results.Items?.Where(i => i.Kind == "customsearch#result")
+                   ?? Enumerable.Empty<Result>();
         }
 
         async Task<IEnumerable<IWebpage>> IWebpageService.SearchAsync(string query)
