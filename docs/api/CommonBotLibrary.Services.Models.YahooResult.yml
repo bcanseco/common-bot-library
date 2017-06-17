@@ -19,7 +19,7 @@ items:
   source:
     id: YahooResult
     path: ''
-    startLine: 2058
+    startLine: 2068
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -27,7 +27,6 @@ items:
     content: 'public class YahooResult : SymbolBase'
     content.vb: >-
       Public Class YahooResult
-
           Inherits SymbolBase
   inheritance:
   - System.Object
@@ -53,7 +52,7 @@ items:
   source:
     id: StockExchange
     path: ''
-    startLine: 2060
+    startLine: 2070
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -84,7 +83,7 @@ items:
   source:
     id: ExchangeDisplay
     path: ''
-    startLine: 2062
+    startLine: 2072
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -115,7 +114,7 @@ items:
   source:
     id: Type
     path: ''
-    startLine: 2064
+    startLine: 2074
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -146,7 +145,7 @@ items:
   source:
     id: TypeDisplay
     path: ''
-    startLine: 2065
+    startLine: 2075
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

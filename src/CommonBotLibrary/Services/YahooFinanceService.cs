@@ -26,7 +26,7 @@ namespace CommonBotLibrary.Services
         {
             using (var client = new RestClient("http://d.yimg.com"))
             {
-                var resource = $"aq/autoc?query={companyName}&region=US&lang=en-US";
+                var resource = $"aq/autoc?query={companyName.NoPunctuation()}&region=US&lang=en-US";
                 var request = new RestRequest(resource, Method.GET);
                 var response = await client.ExecuteAsync(request);
 

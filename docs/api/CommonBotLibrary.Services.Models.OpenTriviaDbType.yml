@@ -17,7 +17,7 @@ items:
   source:
     id: OpenTriviaDbType
     path: ''
-    startLine: 1775
+    startLine: 1785
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -44,7 +44,7 @@ items:
   source:
     id: Multiple
     path: ''
-    startLine: 1778
+    startLine: 1788
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -72,7 +72,7 @@ items:
   source:
     id: Boolean
     path: ''
-    startLine: 1779
+    startLine: 1789
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

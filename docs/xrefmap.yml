@@ -230,6 +230,24 @@ references:
   commentId: Overload:CommonBotLibrary.Extensions.SteamServiceExtensions.GetSteamSpyDataAsync
   fullName: CommonBotLibrary.Extensions.SteamServiceExtensions.GetSteamSpyDataAsync
   nameWithType: SteamServiceExtensions.GetSteamSpyDataAsync
+- uid: CommonBotLibrary.Extensions.StringExtensions
+  name: StringExtensions
+  href: api/CommonBotLibrary.Extensions.StringExtensions.html
+  commentId: T:CommonBotLibrary.Extensions.StringExtensions
+  fullName: CommonBotLibrary.Extensions.StringExtensions
+  nameWithType: StringExtensions
+- uid: CommonBotLibrary.Extensions.StringExtensions.NoPunctuation(System.String)
+  name: NoPunctuation(String)
+  href: api/CommonBotLibrary.Extensions.StringExtensions.html#CommonBotLibrary_Extensions_StringExtensions_NoPunctuation_System_String_
+  commentId: M:CommonBotLibrary.Extensions.StringExtensions.NoPunctuation(System.String)
+  fullName: CommonBotLibrary.Extensions.StringExtensions.NoPunctuation(System.String)
+  nameWithType: StringExtensions.NoPunctuation(String)
+- uid: CommonBotLibrary.Extensions.StringExtensions.NoPunctuation*
+  name: NoPunctuation
+  href: api/CommonBotLibrary.Extensions.StringExtensions.html#CommonBotLibrary_Extensions_StringExtensions_NoPunctuation_
+  commentId: Overload:CommonBotLibrary.Extensions.StringExtensions.NoPunctuation
+  fullName: CommonBotLibrary.Extensions.StringExtensions.NoPunctuation
+  nameWithType: StringExtensions.NoPunctuation
 - uid: CommonBotLibrary.Interfaces
   name: CommonBotLibrary.Interfaces
   href: api/CommonBotLibrary.Interfaces.html

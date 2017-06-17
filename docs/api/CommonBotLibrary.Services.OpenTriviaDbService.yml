@@ -16,7 +16,7 @@ items:
   source:
     id: OpenTriviaDbService
     path: ''
-    startLine: 911
+    startLine: 922
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -24,7 +24,6 @@ items:
     content: 'public class OpenTriviaDbService : ITriviaService'
     content.vb: >-
       Public Class OpenTriviaDbService
-
           Inherits ITriviaService
   inheritance:
   - System.Object
@@ -48,7 +47,7 @@ items:
   source:
     id: GetTriviaAsync
     path: ''
-    startLine: 925
+    startLine: 936
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

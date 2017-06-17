@@ -32,6 +32,8 @@
     name: RestClientExtensions
   - uid: CommonBotLibrary.Extensions.SteamServiceExtensions
     name: SteamServiceExtensions
+  - uid: CommonBotLibrary.Extensions.StringExtensions
+    name: StringExtensions
 - uid: CommonBotLibrary.Interfaces
   name: CommonBotLibrary.Interfaces
   items:

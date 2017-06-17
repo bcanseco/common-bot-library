@@ -16,7 +16,7 @@ items:
   source:
     id: ITriviaService
     path: ''
-    startLine: 450
+    startLine: 461
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
@@ -43,7 +43,7 @@ items:
   source:
     id: GetTriviaAsync
     path: ''
-    startLine: 457
+    startLine: 468
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces

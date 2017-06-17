@@ -1,30 +1,28 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
-  commentId: T:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
-  id: OpenWeatherMapResult.Coordinates
-  parent: CommonBotLibrary.Services.Models
+- uid: CommonBotLibrary.Extensions.StringExtensions
+  commentId: T:CommonBotLibrary.Extensions.StringExtensions
+  id: StringExtensions
+  parent: CommonBotLibrary.Extensions
   children:
-  - CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.#ctor(JToken,JToken)
-  - CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Latitude
-  - CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude
+  - CommonBotLibrary.Extensions.StringExtensions.NoPunctuation(System.String)
   langs:
   - csharp
   - vb
-  name: OpenWeatherMapResult.Coordinates
-  nameWithType: OpenWeatherMapResult.Coordinates
-  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
+  name: StringExtensions
+  nameWithType: StringExtensions
+  fullName: CommonBotLibrary.Extensions.StringExtensions
   type: Class
   source:
-    id: Coordinates
+    id: StringExtensions
     path: ''
-    startLine: 1818
+    startLine: 314
   assemblies:
   - cs.temp.dll
-  namespace: CommonBotLibrary.Services.Models
+  namespace: CommonBotLibrary.Extensions
   syntax:
-    content: public class Coordinates
-    content.vb: Public Class Coordinates
+    content: public static class StringExtensions
+    content.vb: Public Module StringExtensions
   inheritance:
   - System.Object
   inheritedMembers:
@@ -37,110 +35,55 @@ items:
   - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
+  - static
   - class
   modifiers.vb:
   - Public
-  - Class
-- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Latitude
-  commentId: P:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Latitude
-  id: Latitude
-  parent: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
+  - Module
+- uid: CommonBotLibrary.Extensions.StringExtensions.NoPunctuation(System.String)
+  commentId: M:CommonBotLibrary.Extensions.StringExtensions.NoPunctuation(System.String)
+  id: NoPunctuation(System.String)
+  isExtensionMethod: true
+  parent: CommonBotLibrary.Extensions.StringExtensions
   langs:
   - csharp
   - vb
-  name: Latitude
-  nameWithType: OpenWeatherMapResult.Coordinates.Latitude
-  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Latitude
-  type: Property
+  name: NoPunctuation(String)
+  nameWithType: StringExtensions.NoPunctuation(String)
+  fullName: CommonBotLibrary.Extensions.StringExtensions.NoPunctuation(System.String)
+  type: Method
   source:
-    id: Latitude
+    id: NoPunctuation
     path: ''
-    startLine: 1821
+    startLine: 316
   assemblies:
   - cs.temp.dll
-  namespace: CommonBotLibrary.Services.Models
+  namespace: CommonBotLibrary.Extensions
   syntax:
-    content: public double Latitude { get; set; }
-    parameters: []
-    return:
-      type: System.Double
-    content.vb: Public Property Latitude As Double
-  overload: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Latitude*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude
-  commentId: P:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude
-  id: Longitude
-  parent: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
-  langs:
-  - csharp
-  - vb
-  name: Longitude
-  nameWithType: OpenWeatherMapResult.Coordinates.Longitude
-  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude
-  type: Property
-  source:
-    id: Longitude
-    path: ''
-    startLine: 1822
-  assemblies:
-  - cs.temp.dll
-  namespace: CommonBotLibrary.Services.Models
-  syntax:
-    content: public double Longitude { get; set; }
-    parameters: []
-    return:
-      type: System.Double
-    content.vb: Public Property Longitude As Double
-  overload: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.#ctor(JToken,JToken)
-  commentId: M:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.#ctor(JToken,JToken)
-  id: '#ctor(JToken,JToken)'
-  parent: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates
-  langs:
-  - csharp
-  - vb
-  name: Coordinates(JToken, JToken)
-  nameWithType: OpenWeatherMapResult.Coordinates.Coordinates(JToken, JToken)
-  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Coordinates(JToken, JToken)
-  type: Constructor
-  source:
-    id: .ctor
-    path: ''
-    startLine: 1824
-  assemblies:
-  - cs.temp.dll
-  namespace: CommonBotLibrary.Services.Models
-  syntax:
-    content: public Coordinates(JToken lat, JToken lon)
+    content: public static string NoPunctuation(this string s)
     parameters:
-    - id: lat
-      type: JToken
-    - id: lon
-      type: JToken
-    content.vb: Public Sub New(lat As JToken, lon As JToken)
-  overload: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.#ctor*
+    - id: s
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function NoPunctuation(s As String) As String
+  overload: CommonBotLibrary.Extensions.StringExtensions.NoPunctuation*
   modifiers.csharp:
   - public
+  - static
   modifiers.vb:
   - Public
+  - Shared
 references:
-- uid: CommonBotLibrary.Services.Models
-  commentId: N:CommonBotLibrary.Services.Models
+- uid: CommonBotLibrary.Extensions
+  commentId: N:CommonBotLibrary.Extensions
   isExternal: false
-  name: CommonBotLibrary.Services.Models
-  nameWithType: CommonBotLibrary.Services.Models
-  fullName: CommonBotLibrary.Services.Models
+  name: CommonBotLibrary.Extensions
+  nameWithType: CommonBotLibrary.Extensions
+  fullName: CommonBotLibrary.Extensions
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -433,33 +376,16 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Latitude*
-  commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Latitude
+- uid: CommonBotLibrary.Extensions.StringExtensions.NoPunctuation*
+  commentId: Overload:CommonBotLibrary.Extensions.StringExtensions.NoPunctuation
   isExternal: false
-  name: Latitude
-  nameWithType: OpenWeatherMapResult.Coordinates.Latitude
-  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Latitude
-- uid: System.Double
-  commentId: T:System.Double
+  name: NoPunctuation
+  nameWithType: StringExtensions.NoPunctuation
+  fullName: CommonBotLibrary.Extensions.StringExtensions.NoPunctuation
+- uid: System.String
+  commentId: T:System.String
   parent: System
   isExternal: true
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
-- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude*
-  commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude
-  isExternal: false
-  name: Longitude
-  nameWithType: OpenWeatherMapResult.Coordinates.Longitude
-  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude
-- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.#ctor*
-  commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.#ctor
-  isExternal: false
-  name: Coordinates
-  nameWithType: OpenWeatherMapResult.Coordinates.Coordinates
-  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Coordinates
-- uid: JToken
-  isExternal: true
-  name: JToken
-  nameWithType: JToken
-  fullName: JToken
+  name: String
+  nameWithType: String
+  fullName: System.String

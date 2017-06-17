@@ -20,7 +20,7 @@ items:
   source:
     id: PostCategory
     path: ''
-    startLine: 1850
+    startLine: 1860
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -33,6 +33,34 @@ items:
   modifiers.vb:
   - Public
   - Enum
+- uid: CommonBotLibrary.Services.Models.RedditResult.PostCategory.Hot
+  commentId: F:CommonBotLibrary.Services.Models.RedditResult.PostCategory.Hot
+  id: Hot
+  parent: CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  langs:
+  - csharp
+  - vb
+  name: Hot
+  nameWithType: RedditResult.PostCategory.Hot
+  fullName: CommonBotLibrary.Services.Models.RedditResult.PostCategory.Hot
+  type: Field
+  source:
+    id: Hot
+    path: ''
+    startLine: 1862
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: Hot = 0
+    return:
+      type: CommonBotLibrary.Services.Models.RedditResult.PostCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: CommonBotLibrary.Services.Models.RedditResult.PostCategory.New
   commentId: F:CommonBotLibrary.Services.Models.RedditResult.PostCategory.New
   id: New
@@ -47,12 +75,12 @@ items:
   source:
     id: New
     path: ''
-    startLine: 1852
+    startLine: 1863
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: New = 0
+    content: New = 1
     return:
       type: CommonBotLibrary.Services.Models.RedditResult.PostCategory
   modifiers.csharp:
@@ -75,12 +103,12 @@ items:
   source:
     id: Controversial
     path: ''
-    startLine: 1853
+    startLine: 1864
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: Controversial = 1
+    content: Controversial = 2
     return:
       type: CommonBotLibrary.Services.Models.RedditResult.PostCategory
   modifiers.csharp:
@@ -103,40 +131,12 @@ items:
   source:
     id: Rising
     path: ''
-    startLine: 1854
+    startLine: 1865
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: Rising = 2
-    return:
-      type: CommonBotLibrary.Services.Models.RedditResult.PostCategory
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
-- uid: CommonBotLibrary.Services.Models.RedditResult.PostCategory.Hot
-  commentId: F:CommonBotLibrary.Services.Models.RedditResult.PostCategory.Hot
-  id: Hot
-  parent: CommonBotLibrary.Services.Models.RedditResult.PostCategory
-  langs:
-  - csharp
-  - vb
-  name: Hot
-  nameWithType: RedditResult.PostCategory.Hot
-  fullName: CommonBotLibrary.Services.Models.RedditResult.PostCategory.Hot
-  type: Field
-  source:
-    id: Hot
-    path: ''
-    startLine: 1855
-  assemblies:
-  - cs.temp.dll
-  namespace: CommonBotLibrary.Services.Models
-  syntax:
-    content: Hot = 3
+    content: Rising = 3
     return:
       type: CommonBotLibrary.Services.Models.RedditResult.PostCategory
   modifiers.csharp:
@@ -159,7 +159,7 @@ items:
   source:
     id: Top
     path: ''
-    startLine: 1856
+    startLine: 1866
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

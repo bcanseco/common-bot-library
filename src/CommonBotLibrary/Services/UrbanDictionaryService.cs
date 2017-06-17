@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CommonBotLibrary.Exceptions;
 using CommonBotLibrary.Extensions;
 using CommonBotLibrary.Interfaces;
 using CommonBotLibrary.Interfaces.Models;

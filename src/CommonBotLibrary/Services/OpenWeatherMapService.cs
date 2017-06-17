@@ -45,7 +45,7 @@ namespace CommonBotLibrary.Services
         ///   Thrown if the city name is not found.
         /// </exception>
         /// <seealso href="https://openweathermap.org/price">API Info</seealso>
-        public async Task<OpenWeatherMapResult> GetCurrentWeatherAsync(string city, Unit units = Unit.Imperial)
+        public async Task<OpenWeatherMapResult> GetCurrentWeatherAsync(string city, Unit units = default(Unit))
         {
             using (var client = new RestClient("http://api.openweathermap.org"))
             {
