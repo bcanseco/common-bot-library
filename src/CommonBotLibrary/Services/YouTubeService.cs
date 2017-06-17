@@ -55,6 +55,7 @@ namespace CommonBotLibrary.Services
             var searchListRequest = youtubeService.Search.List("snippet");
             searchListRequest.Q = query;
             searchListRequest.SafeSearch = safeSearch;
+            searchListRequest.MaxResults = 50; // default is 5; 50 is the maximum allowed
 
             var results = await searchListRequest.ExecuteAsync();
 
