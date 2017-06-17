@@ -31,7 +31,7 @@ namespace CommonBotLibrary.Services
         /// <exception cref="ArgumentException"></exception>
         /// <seealso href="https://opentdb.com/api_config.php">API info</seealso>
         public async Task<IEnumerable<OpenTriviaDbResult>> GetTriviaAsync(
-            int amount = 50, Category cat = Category.Any, Difficulty? diff = null, Type? type = null)
+            int amount = 50, Category cat = default(Category), Difficulty? diff = null, Type? type = null)
         {
             using (var client = new RestClient("https://opentdb.com"))
             {

@@ -28,7 +28,7 @@ namespace CommonBotLibrary.Services
         /// </exception>
         /// <seealso href="https://github.com/reddit/reddit/wiki/API">TOS</seealso>
         public async Task<IEnumerable<Post>> GetPostsAsync(
-            string subredditName = null, Category category = Category.Hot, int limit = 50)
+            string subredditName = null, Category category = default(Category), int limit = 50)
         {
             var reddit = new Reddit();
 
