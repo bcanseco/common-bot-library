@@ -26,7 +26,6 @@ items:
     content: 'public class ResultNotFoundException : FileNotFoundException'
     content.vb: >-
       Public Class ResultNotFoundException
-
           Inherits FileNotFoundException
   inheritance:
   - System.Object

@@ -27,7 +27,7 @@ items:
   source:
     id: AnimeBase
     path: ''
-    startLine: 500
+    startLine: 511
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -65,7 +65,7 @@ items:
   source:
     id: Title
     path: ''
-    startLine: 502
+    startLine: 513
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -96,7 +96,7 @@ items:
   source:
     id: English
     path: ''
-    startLine: 503
+    startLine: 514
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -127,7 +127,7 @@ items:
   source:
     id: Synonyms
     path: ''
-    startLine: 504
+    startLine: 515
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -158,7 +158,7 @@ items:
   source:
     id: Episodes
     path: ''
-    startLine: 505
+    startLine: 516
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -189,7 +189,7 @@ items:
   source:
     id: Score
     path: ''
-    startLine: 506
+    startLine: 517
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -220,7 +220,7 @@ items:
   source:
     id: Type
     path: ''
-    startLine: 507
+    startLine: 518
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -251,7 +251,7 @@ items:
   source:
     id: Status
     path: ''
-    startLine: 508
+    startLine: 519
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -282,7 +282,7 @@ items:
   source:
     id: StartDate
     path: ''
-    startLine: 509
+    startLine: 520
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -313,7 +313,7 @@ items:
   source:
     id: EndDate
     path: ''
-    startLine: 510
+    startLine: 521
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -344,7 +344,7 @@ items:
   source:
     id: Image
     path: ''
-    startLine: 511
+    startLine: 522
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -375,7 +375,7 @@ items:
   source:
     id: Synopsis
     path: ''
-    startLine: 512
+    startLine: 523
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -406,7 +406,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 514
+    startLine: 525
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models

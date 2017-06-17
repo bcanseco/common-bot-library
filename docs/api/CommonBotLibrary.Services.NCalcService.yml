@@ -16,7 +16,7 @@ items:
   source:
     id: NCalcService
     path: ''
-    startLine: 766
+    startLine: 777
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -24,7 +24,6 @@ items:
     content: 'public class NCalcService : ICalculatorService'
     content.vb: >-
       Public Class NCalcService
-
           Inherits ICalculatorService
   inheritance:
   - System.Object
@@ -48,7 +47,7 @@ items:
   source:
     id: EvaluateAsync
     path: ''
-    startLine: 779
+    startLine: 790
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

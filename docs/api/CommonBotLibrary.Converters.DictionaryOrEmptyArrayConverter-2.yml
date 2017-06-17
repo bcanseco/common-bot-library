@@ -34,7 +34,6 @@ items:
       description: Dictionary value type.
     content.vb: >-
       Public Class DictionaryOrEmptyArrayConverter(Of T, TF)
-
           Inherits JsonConverter
   seealso:
   - linkType: HRef

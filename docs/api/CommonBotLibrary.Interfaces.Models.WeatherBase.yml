@@ -19,7 +19,7 @@ items:
   source:
     id: WeatherBase
     path: ''
-    startLine: 581
+    startLine: 592
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -58,7 +58,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 584
+    startLine: 595
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -89,7 +89,7 @@ items:
   source:
     id: Temperature
     path: ''
-    startLine: 585
+    startLine: 596
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -120,7 +120,7 @@ items:
   source:
     id: UnitFormat
     path: ''
-    startLine: 586
+    startLine: 597
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -151,7 +151,7 @@ items:
   source:
     id: TemperatureDisplay
     path: ''
-    startLine: 588
+    startLine: 599
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
