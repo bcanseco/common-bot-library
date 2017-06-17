@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
-    <PackageVersion>1.1.2</PackageVersion>
+    <PackageVersion>1.1.3</PackageVersion>
     <PackageId>CommonBotLibrary</PackageId>
     <Description>An asynchronous library of API wrappers designed to help with typical bot commands.</Description>
     <Authors>Borja Canseco</Authors>
