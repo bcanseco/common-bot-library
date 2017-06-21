@@ -17,7 +17,7 @@ items:
   source:
     id: OpenWeatherMapService
     path: ''
-    startLine: 976
+    startLine: 978
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -48,7 +48,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 983
+    startLine: 985
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -80,7 +80,7 @@ items:
   source:
     id: GetCurrentWeatherAsync
     path: ''
-    startLine: 1010
+    startLine: 1012
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

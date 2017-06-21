@@ -20,7 +20,7 @@ items:
   source:
     id: GoogleResult
     path: ''
-    startLine: 1588
+    startLine: 1591
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -51,7 +51,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1591
+    startLine: 1594
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -80,7 +80,7 @@ items:
   source:
     id: ApiResult
     path: ''
-    startLine: 1602
+    startLine: 1605
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -113,7 +113,7 @@ items:
   source:
     id: Url
     path: ''
-    startLine: 1603
+    startLine: 1606
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -144,7 +144,7 @@ items:
   source:
     id: Title
     path: ''
-    startLine: 1604
+    startLine: 1607
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -175,7 +175,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 1606
+    startLine: 1609
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

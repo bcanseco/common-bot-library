@@ -18,7 +18,7 @@ items:
   source:
     id: RandomService
     path: ''
-    startLine: 1036
+    startLine: 1038
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -55,7 +55,7 @@ items:
   source:
     id: Generator
     path: ''
-    startLine: 1038
+    startLine: 1040
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -88,7 +88,7 @@ items:
   source:
     id: Roll
     path: ''
-    startLine: 1049
+    startLine: 1051
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -124,7 +124,7 @@ items:
   source:
     id: FlipCoin
     path: ''
-    startLine: 1056
+    startLine: 1058
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

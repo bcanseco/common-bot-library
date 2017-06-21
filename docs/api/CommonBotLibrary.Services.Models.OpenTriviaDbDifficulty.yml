@@ -18,7 +18,7 @@ items:
   source:
     id: OpenTriviaDbDifficulty
     path: ''
-    startLine: 1777
+    startLine: 1780
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -45,7 +45,7 @@ items:
   source:
     id: Easy
     path: ''
-    startLine: 1780
+    startLine: 1783
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -73,7 +73,7 @@ items:
   source:
     id: Medium
     path: ''
-    startLine: 1781
+    startLine: 1784
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -101,7 +101,7 @@ items:
   source:
     id: Hard
     path: ''
-    startLine: 1782
+    startLine: 1785
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

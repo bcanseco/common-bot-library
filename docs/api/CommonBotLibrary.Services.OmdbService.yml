@@ -18,7 +18,7 @@ items:
   source:
     id: OmdbService
     path: ''
-    startLine: 814
+    startLine: 816
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -52,7 +52,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 821
+    startLine: 823
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -84,7 +84,7 @@ items:
   source:
     id: SearchAsync
     path: ''
-    startLine: 845
+    startLine: 847
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -135,7 +135,7 @@ items:
   source:
     id: DirectAsync
     path: ''
-    startLine: 875
+    startLine: 877
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
