@@ -11,12 +11,14 @@ namespace CommonBotLibrary.Services.Models
             Name = (string) json["name"];
             Temperature = (double) json["main"]["temp"];
             UnitFormat = units;
+            CountryInitials = (string) json["sys"]["country"];
             Conditions = (string) json["weather"][0]["description"];
             Humidity = (int) json["main"]["humidity"];
             WindSpeed = (double) json["wind"]["speed"];
             Location = new Coordinates(json["coord"]["lat"], json["coord"]["lon"]);
         }
         
+        public string CountryInitials { get; set; }
         public string Conditions { get; set; }
         public int Humidity { get; set; }
         public double WindSpeed { get; set; }
