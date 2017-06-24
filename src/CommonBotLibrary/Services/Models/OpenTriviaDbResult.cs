@@ -25,16 +25,16 @@ namespace CommonBotLibrary.Services.Models
     {
         Any = 0,
         GeneralKnowledge = 9,
-        Books = 10,
-        Film = 11,
-        Music = 12,
-        MusicalsTheatres = 13,
-        Television = 14,
-        VideoGames = 15,
-        BoardGames = 16,
+        EntertainmentBooks = 10,
+        EntertainmentFilm = 11,
+        EntertainmentMusic = 12,
+        EntertainmentMusicalsTheatres = 13,
+        EntertainmentTelevision = 14,
+        EntertainmentVideoGames = 15,
+        EntertainmentBoardGames = 16,
         ScienceNature = 17,
-        Computers = 18,
-        Mathematics = 19,
+        ScienceComputers = 18,
+        ScienceMathematics = 19,
         Mythology = 20,
         Sports = 21,
         Geography = 22,
@@ -44,10 +44,10 @@ namespace CommonBotLibrary.Services.Models
         Celebrities = 26,
         Animals = 27,
         Vehicles = 28,
-        Comics = 29,
-        Gadgets = 30,
-        AnimeManga = 31,
-        CartoonAnimations = 32
+        EntertainmentComics = 29,
+        ScienceGadgets = 30,
+        EntertainmentJapaneseAnimeManga = 31,
+        EntertainmentCartoonAnimations = 32
     }
 
     [SuppressMessage("ReSharper", "InconsistentNaming")]
