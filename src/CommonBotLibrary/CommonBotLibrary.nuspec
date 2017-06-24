@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>CommonBotLibrary</id>
-    <version>1.1.5</version>
+    <version>1.1.6</version>
     <description>
       An asynchronous library of API wrappers designed to help with typical bot commands.
 
