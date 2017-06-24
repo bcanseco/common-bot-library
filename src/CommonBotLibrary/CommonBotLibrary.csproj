@@ -2,6 +2,37 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
+    <PackageId>CommonBotLibrary</PackageId>
+    <PackageVersion>$(Version)</PackageVersion>
+    <Authors>Borja Canseco</Authors>
+    <Title>CommonBotLibrary</Title>
+    <Description>
+      An asynchronous library of API wrappers designed to help with typical bot commands.
+
+      Features:
+      -Google Service: Searches https://google.com for webpages.
+      -MyAnimeList Service: Searches https://myanimelist.net for anime.
+      -NCalc Service: Evaluates mathematical expressions.
+      -Omdb Service: Searches https://omdbapi.com for movies.
+      -OpenTriviaDb Service: Searches https://opentdb.com for trivia.
+      -OpenWeatherMap Service: Searches https://openweathermap.org for weather data.
+      -Random Service: Flips coins and rolls dice. Die side counts are validated.
+      -Reddit Service: Gets posts from https://reddit.com.
+      -Steam Service: Searches https://store.steampowered.com for games.
+      -Twitter Service: Searches https://twitter.com for tweets.
+      -UrbanDictionary Service: Searches https://www.urbandictionary.com for definitions.
+      -Yahoo Finance Service: Searches https://finance.yahoo.com/ for stock information.
+      -YouTube Service: Searches https://youtube.com for videos.
+    </Description>
+    <Copyright>Copyright 2017 Borja Canseco</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://github.com/bcanseco/common-bot-library/blob/dev/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/bcanseco/common-bot-library</PackageProjectUrl>
+    <PackageIconUrl>https://borja.io/images/cbl.png</PackageIconUrl>
+    <PackageTags>bot;chatbot;chat bot;api wrapper;openweathermap;omdb;urbandictionary;opentdb</PackageTags>
+    <PackageReleaseNotes>View changelogs here: https://github.com/bcanseco/common-bot-library/releases</PackageReleaseNotes>
+    <RepositoryUrl>git://github.com/bcanseco/common-bot-library</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
