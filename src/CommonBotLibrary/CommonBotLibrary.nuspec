@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CommonBotLibrary</id>
+    <version>1.1.5</version>
+    <description>
+      An asynchronous library of API wrappers designed to help with typical bot commands.
+
+      Features:
+      -Google Service: Searches https://google.com for webpages.
+      -MyAnimeList Service: Searches https://myanimelist.net for anime.
+      -NCalc Service: Evaluates mathematical expressions.
+      -Omdb Service: Searches https://omdbapi.com for movies.
+      -OpenTriviaDb Service: Searches https://opentdb.com for trivia.
+      -OpenWeatherMap Service: Searches https://openweathermap.org for weather data.
+      -Random Service: Flips coins and rolls dice. Die side counts are validated.
+      -Reddit Service: Gets posts from https://reddit.com.
+      -Steam Service: Searches https://store.steampowered.com for games.
+      -Twitter Service: Searches https://twitter.com for tweets.
+      -UrbanDictionary Service: Searches https://www.urbandictionary.com for definitions.
+      -Yahoo Finance Service: Searches https://finance.yahoo.com/ for stock information.
+      -YouTube Service: Searches https://youtube.com for videos.
+    </description>
+    <authors>Borja Canseco</authors>
+    <title>CommonBotLibrary</title>
+    <owners>bcanseco</owners>
+    <projectUrl>https://github.com/bcanseco/common-bot-library</projectUrl>
+    <licenseUrl>https://github.com/bcanseco/common-bot-library/blob/dev/LICENSE</licenseUrl>
+    <iconUrl>https://borja.io/images/cbl.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>false</developmentDependency>
+    <summary>
+      CBL is an asynchronous .NET library of API wrappers designed to help with typical bot commands. Things like weather, definitions, movie information, etc. are all readily available for your projects.
+    </summary>
+    <releaseNotes><!-- Filled in by Cake script --></releaseNotes>
+    <copyright>Copyright 2017 Borja Canseco</copyright>
+    <language>en-US</language>
+    <tags>bot;chatbot;chat bot;api wrapper;openweathermap;omdb;urbandictionary;opentdb</tags>
+  </metadata>
+</package>
