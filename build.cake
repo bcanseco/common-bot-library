@@ -1,6 +1,8 @@
 #addin nuget:?package=NuGet.Core&version=2.14.0
 #addin "Cake.ExtendedNuGet"
 
+var version = Argument<string>("r");
+
 Task("Restore")
     .Does(() =>
 {
@@ -19,7 +21,7 @@ Task("Build")
         Configuration = "Release",
         OutputDirectory = "./artifacts/",
         EnvironmentVariables = new Dictionary<string, string> {
-            { "ReleaseNotes", "Testing..." },
+            { "Version", version }
         },
     };
     DotNetCorePack("./src/CommonBotLibrary/", settings);
@@ -27,7 +29,6 @@ Task("Build")
 });
 
 Task("Deploy")
-    .WithCriteria(Branch == "dev")
     .Does(() =>
 {
     var settings = new NuGetPushSettings
@@ -39,13 +40,20 @@ Task("Deploy")
     NuGetPush(packages, settings);
 });
 
+Task("Clean")
+    .Does(() =>
+{
+    CleanDirectory("./artifacts");
+});
+
 Task("Default")
     .IsDependentOn("Restore")
     .IsDependentOn("Build")
     .IsDependentOn("Deploy")
-    .Does(() => 
+    .IsDependentOn("Clean")
+    .Does(() =>
 {
-    Information("Successfully pushed to NuGet.");
+    Information($"Successfully published {version} to NuGet.");
 });
 
 RunTarget("Default");
