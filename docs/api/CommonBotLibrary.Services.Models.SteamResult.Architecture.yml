@@ -19,7 +19,7 @@ items:
   source:
     id: Architecture
     path: ''
-    startLine: 1943
+    startLine: 1945
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -55,7 +55,7 @@ items:
   source:
     id: Windows
     path: ''
-    startLine: 1947
+    startLine: 1949
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -86,7 +86,7 @@ items:
   source:
     id: Mac
     path: ''
-    startLine: 1948
+    startLine: 1950
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -117,7 +117,7 @@ items:
   source:
     id: Linux
     path: ''
-    startLine: 1949
+    startLine: 1951
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -148,7 +148,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 1951
+    startLine: 1953
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
