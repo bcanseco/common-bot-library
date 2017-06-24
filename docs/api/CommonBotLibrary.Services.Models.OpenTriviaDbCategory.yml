@@ -6,30 +6,30 @@ items:
   parent: CommonBotLibrary.Services.Models
   children:
   - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Animals
-  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.AnimeManga
   - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Any
   - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Art
-  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.BoardGames
-  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Books
-  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.CartoonAnimations
   - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Celebrities
-  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Comics
-  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Computers
-  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Film
-  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Gadgets
+  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentBoardGames
+  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentBooks
+  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentCartoonAnimations
+  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentComics
+  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentFilm
+  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentJapaneseAnimeManga
+  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentMusic
+  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentMusicalsTheatres
+  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentTelevision
+  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentVideoGames
   - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.GeneralKnowledge
   - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Geography
   - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.History
-  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Mathematics
-  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Music
-  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.MusicalsTheatres
   - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Mythology
   - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Politics
+  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceComputers
+  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceGadgets
+  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceMathematics
   - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceNature
   - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Sports
-  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Television
   - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Vehicles
-  - CommonBotLibrary.Services.Models.OpenTriviaDbCategory.VideoGames
   langs:
   - csharp
   - vb
@@ -109,26 +109,26 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Books
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Books
-  id: Books
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentBooks
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentBooks
+  id: EntertainmentBooks
   parent: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   langs:
   - csharp
   - vb
-  name: Books
-  nameWithType: OpenTriviaDbCategory.Books
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Books
+  name: EntertainmentBooks
+  nameWithType: OpenTriviaDbCategory.EntertainmentBooks
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentBooks
   type: Field
   source:
-    id: Books
+    id: EntertainmentBooks
     path: ''
     startLine: 1755
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: Books = 10
+    content: EntertainmentBooks = 10
     return:
       type: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   modifiers.csharp:
@@ -137,26 +137,26 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Film
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Film
-  id: Film
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentFilm
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentFilm
+  id: EntertainmentFilm
   parent: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   langs:
   - csharp
   - vb
-  name: Film
-  nameWithType: OpenTriviaDbCategory.Film
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Film
+  name: EntertainmentFilm
+  nameWithType: OpenTriviaDbCategory.EntertainmentFilm
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentFilm
   type: Field
   source:
-    id: Film
+    id: EntertainmentFilm
     path: ''
     startLine: 1756
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: Film = 11
+    content: EntertainmentFilm = 11
     return:
       type: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   modifiers.csharp:
@@ -165,26 +165,26 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Music
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Music
-  id: Music
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentMusic
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentMusic
+  id: EntertainmentMusic
   parent: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   langs:
   - csharp
   - vb
-  name: Music
-  nameWithType: OpenTriviaDbCategory.Music
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Music
+  name: EntertainmentMusic
+  nameWithType: OpenTriviaDbCategory.EntertainmentMusic
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentMusic
   type: Field
   source:
-    id: Music
+    id: EntertainmentMusic
     path: ''
     startLine: 1757
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: Music = 12
+    content: EntertainmentMusic = 12
     return:
       type: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   modifiers.csharp:
@@ -193,26 +193,26 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.MusicalsTheatres
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.MusicalsTheatres
-  id: MusicalsTheatres
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentMusicalsTheatres
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentMusicalsTheatres
+  id: EntertainmentMusicalsTheatres
   parent: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   langs:
   - csharp
   - vb
-  name: MusicalsTheatres
-  nameWithType: OpenTriviaDbCategory.MusicalsTheatres
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.MusicalsTheatres
+  name: EntertainmentMusicalsTheatres
+  nameWithType: OpenTriviaDbCategory.EntertainmentMusicalsTheatres
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentMusicalsTheatres
   type: Field
   source:
-    id: MusicalsTheatres
+    id: EntertainmentMusicalsTheatres
     path: ''
     startLine: 1758
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: MusicalsTheatres = 13
+    content: EntertainmentMusicalsTheatres = 13
     return:
       type: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   modifiers.csharp:
@@ -221,26 +221,26 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Television
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Television
-  id: Television
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentTelevision
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentTelevision
+  id: EntertainmentTelevision
   parent: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   langs:
   - csharp
   - vb
-  name: Television
-  nameWithType: OpenTriviaDbCategory.Television
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Television
+  name: EntertainmentTelevision
+  nameWithType: OpenTriviaDbCategory.EntertainmentTelevision
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentTelevision
   type: Field
   source:
-    id: Television
+    id: EntertainmentTelevision
     path: ''
     startLine: 1759
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: Television = 14
+    content: EntertainmentTelevision = 14
     return:
       type: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   modifiers.csharp:
@@ -249,26 +249,26 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.VideoGames
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.VideoGames
-  id: VideoGames
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentVideoGames
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentVideoGames
+  id: EntertainmentVideoGames
   parent: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   langs:
   - csharp
   - vb
-  name: VideoGames
-  nameWithType: OpenTriviaDbCategory.VideoGames
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.VideoGames
+  name: EntertainmentVideoGames
+  nameWithType: OpenTriviaDbCategory.EntertainmentVideoGames
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentVideoGames
   type: Field
   source:
-    id: VideoGames
+    id: EntertainmentVideoGames
     path: ''
     startLine: 1760
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: VideoGames = 15
+    content: EntertainmentVideoGames = 15
     return:
       type: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   modifiers.csharp:
@@ -277,26 +277,26 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.BoardGames
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.BoardGames
-  id: BoardGames
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentBoardGames
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentBoardGames
+  id: EntertainmentBoardGames
   parent: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   langs:
   - csharp
   - vb
-  name: BoardGames
-  nameWithType: OpenTriviaDbCategory.BoardGames
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.BoardGames
+  name: EntertainmentBoardGames
+  nameWithType: OpenTriviaDbCategory.EntertainmentBoardGames
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentBoardGames
   type: Field
   source:
-    id: BoardGames
+    id: EntertainmentBoardGames
     path: ''
     startLine: 1761
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: BoardGames = 16
+    content: EntertainmentBoardGames = 16
     return:
       type: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   modifiers.csharp:
@@ -333,26 +333,26 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Computers
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Computers
-  id: Computers
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceComputers
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceComputers
+  id: ScienceComputers
   parent: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   langs:
   - csharp
   - vb
-  name: Computers
-  nameWithType: OpenTriviaDbCategory.Computers
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Computers
+  name: ScienceComputers
+  nameWithType: OpenTriviaDbCategory.ScienceComputers
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceComputers
   type: Field
   source:
-    id: Computers
+    id: ScienceComputers
     path: ''
     startLine: 1763
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: Computers = 18
+    content: ScienceComputers = 18
     return:
       type: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   modifiers.csharp:
@@ -361,26 +361,26 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Mathematics
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Mathematics
-  id: Mathematics
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceMathematics
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceMathematics
+  id: ScienceMathematics
   parent: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   langs:
   - csharp
   - vb
-  name: Mathematics
-  nameWithType: OpenTriviaDbCategory.Mathematics
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Mathematics
+  name: ScienceMathematics
+  nameWithType: OpenTriviaDbCategory.ScienceMathematics
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceMathematics
   type: Field
   source:
-    id: Mathematics
+    id: ScienceMathematics
     path: ''
     startLine: 1764
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: Mathematics = 19
+    content: ScienceMathematics = 19
     return:
       type: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   modifiers.csharp:
@@ -641,26 +641,26 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Comics
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Comics
-  id: Comics
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentComics
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentComics
+  id: EntertainmentComics
   parent: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   langs:
   - csharp
   - vb
-  name: Comics
-  nameWithType: OpenTriviaDbCategory.Comics
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Comics
+  name: EntertainmentComics
+  nameWithType: OpenTriviaDbCategory.EntertainmentComics
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentComics
   type: Field
   source:
-    id: Comics
+    id: EntertainmentComics
     path: ''
     startLine: 1774
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: Comics = 29
+    content: EntertainmentComics = 29
     return:
       type: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   modifiers.csharp:
@@ -669,26 +669,26 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Gadgets
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Gadgets
-  id: Gadgets
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceGadgets
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceGadgets
+  id: ScienceGadgets
   parent: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   langs:
   - csharp
   - vb
-  name: Gadgets
-  nameWithType: OpenTriviaDbCategory.Gadgets
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Gadgets
+  name: ScienceGadgets
+  nameWithType: OpenTriviaDbCategory.ScienceGadgets
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceGadgets
   type: Field
   source:
-    id: Gadgets
+    id: ScienceGadgets
     path: ''
     startLine: 1775
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: Gadgets = 30
+    content: ScienceGadgets = 30
     return:
       type: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   modifiers.csharp:
@@ -697,26 +697,26 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.AnimeManga
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.AnimeManga
-  id: AnimeManga
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentJapaneseAnimeManga
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentJapaneseAnimeManga
+  id: EntertainmentJapaneseAnimeManga
   parent: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   langs:
   - csharp
   - vb
-  name: AnimeManga
-  nameWithType: OpenTriviaDbCategory.AnimeManga
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.AnimeManga
+  name: EntertainmentJapaneseAnimeManga
+  nameWithType: OpenTriviaDbCategory.EntertainmentJapaneseAnimeManga
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentJapaneseAnimeManga
   type: Field
   source:
-    id: AnimeManga
+    id: EntertainmentJapaneseAnimeManga
     path: ''
     startLine: 1776
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: AnimeManga = 31
+    content: EntertainmentJapaneseAnimeManga = 31
     return:
       type: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   modifiers.csharp:
@@ -725,26 +725,26 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.CartoonAnimations
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.CartoonAnimations
-  id: CartoonAnimations
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentCartoonAnimations
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentCartoonAnimations
+  id: EntertainmentCartoonAnimations
   parent: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   langs:
   - csharp
   - vb
-  name: CartoonAnimations
-  nameWithType: OpenTriviaDbCategory.CartoonAnimations
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.CartoonAnimations
+  name: EntertainmentCartoonAnimations
+  nameWithType: OpenTriviaDbCategory.EntertainmentCartoonAnimations
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentCartoonAnimations
   type: Field
   source:
-    id: CartoonAnimations
+    id: EntertainmentCartoonAnimations
     path: ''
     startLine: 1777
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: CartoonAnimations = 32
+    content: EntertainmentCartoonAnimations = 32
     return:
       type: CommonBotLibrary.Services.Models.OpenTriviaDbCategory
   modifiers.csharp:

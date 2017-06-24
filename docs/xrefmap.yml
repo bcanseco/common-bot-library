@@ -1644,12 +1644,6 @@ references:
   commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Animals
   fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Animals
   nameWithType: OpenTriviaDbCategory.Animals
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.AnimeManga
-  name: AnimeManga
-  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_AnimeManga
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.AnimeManga
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.AnimeManga
-  nameWithType: OpenTriviaDbCategory.AnimeManga
 - uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Any
   name: Any
   href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Any
@@ -1662,54 +1656,72 @@ references:
   commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Art
   fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Art
   nameWithType: OpenTriviaDbCategory.Art
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.BoardGames
-  name: BoardGames
-  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_BoardGames
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.BoardGames
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.BoardGames
-  nameWithType: OpenTriviaDbCategory.BoardGames
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Books
-  name: Books
-  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Books
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Books
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Books
-  nameWithType: OpenTriviaDbCategory.Books
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.CartoonAnimations
-  name: CartoonAnimations
-  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_CartoonAnimations
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.CartoonAnimations
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.CartoonAnimations
-  nameWithType: OpenTriviaDbCategory.CartoonAnimations
 - uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Celebrities
   name: Celebrities
   href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Celebrities
   commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Celebrities
   fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Celebrities
   nameWithType: OpenTriviaDbCategory.Celebrities
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Comics
-  name: Comics
-  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Comics
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Comics
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Comics
-  nameWithType: OpenTriviaDbCategory.Comics
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Computers
-  name: Computers
-  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Computers
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Computers
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Computers
-  nameWithType: OpenTriviaDbCategory.Computers
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Film
-  name: Film
-  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Film
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Film
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Film
-  nameWithType: OpenTriviaDbCategory.Film
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Gadgets
-  name: Gadgets
-  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Gadgets
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Gadgets
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Gadgets
-  nameWithType: OpenTriviaDbCategory.Gadgets
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentBoardGames
+  name: EntertainmentBoardGames
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_EntertainmentBoardGames
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentBoardGames
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentBoardGames
+  nameWithType: OpenTriviaDbCategory.EntertainmentBoardGames
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentBooks
+  name: EntertainmentBooks
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_EntertainmentBooks
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentBooks
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentBooks
+  nameWithType: OpenTriviaDbCategory.EntertainmentBooks
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentCartoonAnimations
+  name: EntertainmentCartoonAnimations
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_EntertainmentCartoonAnimations
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentCartoonAnimations
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentCartoonAnimations
+  nameWithType: OpenTriviaDbCategory.EntertainmentCartoonAnimations
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentComics
+  name: EntertainmentComics
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_EntertainmentComics
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentComics
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentComics
+  nameWithType: OpenTriviaDbCategory.EntertainmentComics
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentFilm
+  name: EntertainmentFilm
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_EntertainmentFilm
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentFilm
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentFilm
+  nameWithType: OpenTriviaDbCategory.EntertainmentFilm
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentJapaneseAnimeManga
+  name: EntertainmentJapaneseAnimeManga
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_EntertainmentJapaneseAnimeManga
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentJapaneseAnimeManga
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentJapaneseAnimeManga
+  nameWithType: OpenTriviaDbCategory.EntertainmentJapaneseAnimeManga
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentMusic
+  name: EntertainmentMusic
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_EntertainmentMusic
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentMusic
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentMusic
+  nameWithType: OpenTriviaDbCategory.EntertainmentMusic
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentMusicalsTheatres
+  name: EntertainmentMusicalsTheatres
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_EntertainmentMusicalsTheatres
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentMusicalsTheatres
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentMusicalsTheatres
+  nameWithType: OpenTriviaDbCategory.EntertainmentMusicalsTheatres
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentTelevision
+  name: EntertainmentTelevision
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_EntertainmentTelevision
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentTelevision
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentTelevision
+  nameWithType: OpenTriviaDbCategory.EntertainmentTelevision
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentVideoGames
+  name: EntertainmentVideoGames
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_EntertainmentVideoGames
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentVideoGames
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.EntertainmentVideoGames
+  nameWithType: OpenTriviaDbCategory.EntertainmentVideoGames
 - uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.GeneralKnowledge
   name: GeneralKnowledge
   href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_GeneralKnowledge
@@ -1728,24 +1740,6 @@ references:
   commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.History
   fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.History
   nameWithType: OpenTriviaDbCategory.History
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Mathematics
-  name: Mathematics
-  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Mathematics
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Mathematics
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Mathematics
-  nameWithType: OpenTriviaDbCategory.Mathematics
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Music
-  name: Music
-  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Music
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Music
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Music
-  nameWithType: OpenTriviaDbCategory.Music
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.MusicalsTheatres
-  name: MusicalsTheatres
-  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_MusicalsTheatres
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.MusicalsTheatres
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.MusicalsTheatres
-  nameWithType: OpenTriviaDbCategory.MusicalsTheatres
 - uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Mythology
   name: Mythology
   href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Mythology
@@ -1758,6 +1752,24 @@ references:
   commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Politics
   fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Politics
   nameWithType: OpenTriviaDbCategory.Politics
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceComputers
+  name: ScienceComputers
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_ScienceComputers
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceComputers
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceComputers
+  nameWithType: OpenTriviaDbCategory.ScienceComputers
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceGadgets
+  name: ScienceGadgets
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_ScienceGadgets
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceGadgets
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceGadgets
+  nameWithType: OpenTriviaDbCategory.ScienceGadgets
+- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceMathematics
+  name: ScienceMathematics
+  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_ScienceMathematics
+  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceMathematics
+  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceMathematics
+  nameWithType: OpenTriviaDbCategory.ScienceMathematics
 - uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.ScienceNature
   name: ScienceNature
   href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_ScienceNature
@@ -1770,24 +1782,12 @@ references:
   commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Sports
   fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Sports
   nameWithType: OpenTriviaDbCategory.Sports
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Television
-  name: Television
-  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Television
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Television
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Television
-  nameWithType: OpenTriviaDbCategory.Television
 - uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Vehicles
   name: Vehicles
   href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_Vehicles
   commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Vehicles
   fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.Vehicles
   nameWithType: OpenTriviaDbCategory.Vehicles
-- uid: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.VideoGames
-  name: VideoGames
-  href: api/CommonBotLibrary.Services.Models.OpenTriviaDbCategory.html#CommonBotLibrary_Services_Models_OpenTriviaDbCategory_VideoGames
-  commentId: F:CommonBotLibrary.Services.Models.OpenTriviaDbCategory.VideoGames
-  fullName: CommonBotLibrary.Services.Models.OpenTriviaDbCategory.VideoGames
-  nameWithType: OpenTriviaDbCategory.VideoGames
 - uid: CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty
   name: OpenTriviaDbDifficulty
   href: api/CommonBotLibrary.Services.Models.OpenTriviaDbDifficulty.html
@@ -1956,6 +1956,18 @@ references:
   commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude
   fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Coordinates.Longitude
   nameWithType: OpenWeatherMapResult.Coordinates.Longitude
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.CountryInitials
+  name: CountryInitials
+  href: api/CommonBotLibrary.Services.Models.OpenWeatherMapResult.html#CommonBotLibrary_Services_Models_OpenWeatherMapResult_CountryInitials
+  commentId: P:CommonBotLibrary.Services.Models.OpenWeatherMapResult.CountryInitials
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.CountryInitials
+  nameWithType: OpenWeatherMapResult.CountryInitials
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.CountryInitials*
+  name: CountryInitials
+  href: api/CommonBotLibrary.Services.Models.OpenWeatherMapResult.html#CommonBotLibrary_Services_Models_OpenWeatherMapResult_CountryInitials_
+  commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.CountryInitials
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.CountryInitials
+  nameWithType: OpenWeatherMapResult.CountryInitials
 - uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Humidity
   name: Humidity
   href: api/CommonBotLibrary.Services.Models.OpenWeatherMapResult.html#CommonBotLibrary_Services_Models_OpenWeatherMapResult_Humidity

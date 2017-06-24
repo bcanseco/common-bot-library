@@ -7,6 +7,7 @@ items:
   children:
   - CommonBotLibrary.Services.Models.OpenWeatherMapResult.#ctor(JToken,Unit)
   - CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions
+  - CommonBotLibrary.Services.Models.OpenWeatherMapResult.CountryInitials
   - CommonBotLibrary.Services.Models.OpenWeatherMapResult.Humidity
   - CommonBotLibrary.Services.Models.OpenWeatherMapResult.Location
   - CommonBotLibrary.Services.Models.OpenWeatherMapResult.WindSpeed
@@ -68,6 +69,37 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.CountryInitials
+  commentId: P:CommonBotLibrary.Services.Models.OpenWeatherMapResult.CountryInitials
+  id: CountryInitials
+  parent: CommonBotLibrary.Services.Models.OpenWeatherMapResult
+  langs:
+  - csharp
+  - vb
+  name: CountryInitials
+  nameWithType: OpenWeatherMapResult.CountryInitials
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.CountryInitials
+  type: Property
+  source:
+    id: CountryInitials
+    path: ''
+    startLine: 1817
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string CountryInitials { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CountryInitials As String
+  overload: CommonBotLibrary.Services.Models.OpenWeatherMapResult.CountryInitials*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions
   commentId: P:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions
   id: Conditions
@@ -82,7 +114,7 @@ items:
   source:
     id: Conditions
     path: ''
-    startLine: 1816
+    startLine: 1818
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -113,7 +145,7 @@ items:
   source:
     id: Humidity
     path: ''
-    startLine: 1817
+    startLine: 1819
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -144,7 +176,7 @@ items:
   source:
     id: WindSpeed
     path: ''
-    startLine: 1818
+    startLine: 1820
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -175,7 +207,7 @@ items:
   source:
     id: Location
     path: ''
-    startLine: 1819
+    startLine: 1821
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -228,12 +260,12 @@ references:
   name: Unit
   nameWithType: Unit
   fullName: Unit
-- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions*
-  commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.CountryInitials*
+  commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.CountryInitials
   isExternal: false
-  name: Conditions
-  nameWithType: OpenWeatherMapResult.Conditions
-  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions
+  name: CountryInitials
+  nameWithType: OpenWeatherMapResult.CountryInitials
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.CountryInitials
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -241,6 +273,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions*
+  commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions
+  isExternal: false
+  name: Conditions
+  nameWithType: OpenWeatherMapResult.Conditions
+  fullName: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Conditions
 - uid: CommonBotLibrary.Services.Models.OpenWeatherMapResult.Humidity*
   commentId: Overload:CommonBotLibrary.Services.Models.OpenWeatherMapResult.Humidity
   isExternal: false
