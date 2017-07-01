@@ -11,6 +11,7 @@
 
       Features:
       -Google Service: Searches https://google.com for webpages.
+      -Imgur Service: Searches https://imgur.com for images.
       -MyAnimeList Service: Searches https://myanimelist.net for anime.
       -NCalc Service: Evaluates mathematical expressions.
       -Omdb Service: Searches https://omdbapi.com for movies.

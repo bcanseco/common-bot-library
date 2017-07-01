@@ -62,6 +62,9 @@ Now you can use all the CBL services plus your own custom services without havin
    * Searches https://google.com for webpages
    * Requires a [Cloud Platform API key](https://support.google.com/cloud/answer/6158862?hl=en) and a [Custom Search Engine ID](https://support.google.com/customsearch/answer/2649143?hl=en).
    * To search all of Google, set your engine to ["search the entire web"](https://support.google.com/customsearch/answer/2631040?hl=en) but don't add any emphasized sites.
+* **Imgur Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.ImgurService.html)**
+   * Searches https://imgur.com for images.
+   * Requires a [client ID](https://api.imgur.com/oauth2/addclient).
 * **MyAnimeList Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.MyAnimeListService.html)**
    * Searches https://myanimelist.net for anime.
    * Requires a [MAL account](https://myanimelist.net/register.php) username and password.
