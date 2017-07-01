@@ -14,7 +14,7 @@ namespace CommonBotLibrary.Tests.Services
         public void Should_Fail_Without_Credentials()
         {
             Tokens.Imgur = null;
-            var service = new GoogleService();
+            var service = new ImgurService();
         }
 
         [TestMethod]
