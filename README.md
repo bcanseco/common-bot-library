@@ -58,6 +58,9 @@ var databaseConnection = MyCustomTokens.MyCustomDatabaseString;
 Now you can use all the CBL services plus your own custom services without having to worry about API keys.
 
 ### Services
+* **Github Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.GithubService.html)**
+   * Posts issues to a https://github.com repository.
+   * Requires an [access token](https://github.com/settings/tokens).
 * **Google Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.GoogleService.html)**
    * Searches https://google.com for webpages
    * Requires a [Cloud Platform API key](https://support.google.com/cloud/answer/6158862?hl=en) and a [Custom Search Engine ID](https://support.google.com/customsearch/answer/2649143?hl=en).

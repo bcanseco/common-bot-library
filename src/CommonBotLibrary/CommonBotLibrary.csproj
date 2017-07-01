@@ -10,6 +10,7 @@
       An asynchronous library of API wrappers designed to help with typical bot commands.
 
       Features:
+      -Github Service: Posts issues to https://github.com.
       -Google Service: Searches https://google.com for webpages.
       -Imgur Service: Searches https://imgur.com for images.
       -MyAnimeList Service: Searches https://myanimelist.net for anime.

@@ -73,5 +73,11 @@ namespace CommonBotLibrary
         /// </summary>
         [JsonProperty]
         public static MyAnimeListCredentials MyAnimeList { get; set; }
+
+        /// <summary>
+        ///   Contains Github repository and authentication credentials.
+        /// </summary>
+        [JsonProperty]
+        public static GithubCredentials Github { get; set; }
     }
 }

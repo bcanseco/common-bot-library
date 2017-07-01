@@ -24,6 +24,17 @@ namespace CommonBotLibrary
             public string Password { internal get; set; }
         }
 
+        public class GithubCredentials
+        {
+            [JsonConstructor]
+            public GithubCredentials(string username, string repository, string oauth)
+                => (Username, Repository, OAuth) = (username, repository, oauth);
+
+            public string Username { internal get; set; }
+            public string Repository { internal get; set; }
+            public string OAuth { internal get; set; }
+        }
+
         public class TwitterCredentials : Tweetinvi.Models.TwitterCredentials
         {
             public new string ConsumerKey
