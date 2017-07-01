@@ -4,6 +4,8 @@
   items:
   - uid: CommonBotLibrary.Tokens
     name: Tokens
+  - uid: CommonBotLibrary.Tokens.GithubCredentials
+    name: Tokens.GithubCredentials
   - uid: CommonBotLibrary.Tokens.GoogleCredentials
     name: Tokens.GoogleCredentials
   - uid: CommonBotLibrary.Tokens.MyAnimeListCredentials
@@ -52,6 +54,8 @@
     name: IStockService
   - uid: CommonBotLibrary.Interfaces.ITriviaService
     name: ITriviaService
+  - uid: CommonBotLibrary.Interfaces.IVersionControlService
+    name: IVersionControlService
   - uid: CommonBotLibrary.Interfaces.IWeatherService
     name: IWeatherService
   - uid: CommonBotLibrary.Interfaces.IWebpageService
@@ -78,8 +82,12 @@
 - uid: CommonBotLibrary.Services
   name: CommonBotLibrary.Services
   items:
+  - uid: CommonBotLibrary.Services.GithubService
+    name: GithubService
   - uid: CommonBotLibrary.Services.GoogleService
     name: GoogleService
+  - uid: CommonBotLibrary.Services.ImgurService
+    name: ImgurService
   - uid: CommonBotLibrary.Services.MyAnimeListService
     name: MyAnimeListService
   - uid: CommonBotLibrary.Services.NCalcService
@@ -111,6 +119,8 @@
     name: Die
   - uid: CommonBotLibrary.Services.Models.GoogleResult
     name: GoogleResult
+  - uid: CommonBotLibrary.Services.Models.ImgurResult
+    name: ImgurResult
   - uid: CommonBotLibrary.Services.Models.MyAnimeListResult
     name: MyAnimeListResult
   - uid: CommonBotLibrary.Services.Models.OmdbDirectResult

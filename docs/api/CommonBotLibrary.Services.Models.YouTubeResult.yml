@@ -20,7 +20,7 @@ items:
   source:
     id: YouTubeResult
     path: ''
-    startLine: 2118
+    startLine: 2319
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -51,7 +51,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2121
+    startLine: 2322
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -80,7 +80,7 @@ items:
   source:
     id: ApiResult
     path: ''
-    startLine: 2132
+    startLine: 2333
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -113,7 +113,7 @@ items:
   source:
     id: Url
     path: ''
-    startLine: 2133
+    startLine: 2334
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -144,7 +144,7 @@ items:
   source:
     id: Title
     path: ''
-    startLine: 2134
+    startLine: 2335
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -175,7 +175,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 2136
+    startLine: 2337
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

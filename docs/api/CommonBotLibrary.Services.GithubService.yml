@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.GithubService
+  commentId: T:CommonBotLibrary.Services.GithubService
+  id: GithubService
+  parent: CommonBotLibrary.Services
+  children:
+  - CommonBotLibrary.Services.GithubService.#ctor(System.String,System.String,System.String)
+  - CommonBotLibrary.Services.GithubService.CreateIssueAsync(System.String,System.String,System.String[])
+  langs:
+  - csharp
+  - vb
+  name: GithubService
+  nameWithType: GithubService
+  fullName: CommonBotLibrary.Services.GithubService
+  type: Class
+  source:
+    id: GithubService
+    path: ''
+    startLine: 677
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: 'public class GithubService : IVersionControlService'
+    content.vb: >-
+      Public Class GithubService
+          Inherits IVersionControlService
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.GithubService.#ctor(System.String,System.String,System.String)
+  commentId: M:CommonBotLibrary.Services.GithubService.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: CommonBotLibrary.Services.GithubService
+  langs:
+  - csharp
+  - vb
+  name: GithubService(String, String, String)
+  nameWithType: GithubService.GithubService(String, String, String)
+  fullName: CommonBotLibrary.Services.GithubService.GithubService(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 686
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nConstructs an <see cref=\"!:IVersionControlService\"></see> implementation that accesses Github.\n"
+  example: []
+  syntax:
+    content: public GithubService(string username = null, string repository = null, string oauth = null)
+    parameters:
+    - id: username
+      type: System.String
+      description: Defaults to username in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
+    - id: repository
+      type: System.String
+      description: Defaults to repository in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
+    - id: oauth
+      type: System.String
+      description: Defaults to oauth in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
+    content.vb: Public Sub New(username As String = Nothing, repository As String = Nothing, oauth As String = Nothing)
+  overload: CommonBotLibrary.Services.GithubService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.GithubService.CreateIssueAsync(System.String,System.String,System.String[])
+  commentId: M:CommonBotLibrary.Services.GithubService.CreateIssueAsync(System.String,System.String,System.String[])
+  id: CreateIssueAsync(System.String,System.String,System.String[])
+  parent: CommonBotLibrary.Services.GithubService
+  langs:
+  - csharp
+  - vb
+  name: CreateIssueAsync(String, String, String[])
+  nameWithType: GithubService.CreateIssueAsync(String, String, String[])
+  fullName: CommonBotLibrary.Services.GithubService.CreateIssueAsync(System.String, System.String, System.String[])
+  type: Method
+  source:
+    id: CreateIssueAsync
+    path: ''
+    startLine: 718
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nCreates a new issue.\n"
+  example: []
+  syntax:
+    content: public Task<bool> CreateIssueAsync(string title, string body = null, string[] labels = null)
+    parameters:
+    - id: title
+      type: System.String
+      description: The title of the issue (required).
+    - id: body
+      type: System.String
+      description: The body of the issue.
+    - id: labels
+      type: System.String[]
+      description: A collection of labels to attempt to apply to the issue.
+    return:
+      type: Task{System.Boolean}
+      description: True if the issue was successfully created, false otherwise.
+    content.vb: Public Function CreateIssueAsync(title As String, body As String = Nothing, labels As String() = Nothing) As Task(Of Boolean)
+  overload: CommonBotLibrary.Services.GithubService.CreateIssueAsync*
+  seealso:
+  - linkType: HRef
+    linkId: https://help.github.com/articles/github-terms-of-service/
+    altText: TOS
+  nameWithType.vb: GithubService.CreateIssueAsync(String, String, String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CommonBotLibrary.Services.GithubService.CreateIssueAsync(System.String, System.String, System.String())
+  name.vb: CreateIssueAsync(String, String, String())
+references:
+- uid: CommonBotLibrary.Services
+  commentId: N:CommonBotLibrary.Services
+  isExternal: false
+  name: CommonBotLibrary.Services
+  nameWithType: CommonBotLibrary.Services
+  fullName: CommonBotLibrary.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Tokens
+  commentId: T:CommonBotLibrary.Tokens
+  isExternal: false
+  name: Tokens
+  nameWithType: Tokens
+  fullName: CommonBotLibrary.Tokens
+- uid: CommonBotLibrary.Services.GithubService.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.GithubService.#ctor
+  isExternal: false
+  name: GithubService
+  nameWithType: GithubService.GithubService
+  fullName: CommonBotLibrary.Services.GithubService.GithubService
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.GithubService.CreateIssueAsync*
+  commentId: Overload:CommonBotLibrary.Services.GithubService.CreateIssueAsync
+  isExternal: false
+  name: CreateIssueAsync
+  nameWithType: GithubService.CreateIssueAsync
+  fullName: CommonBotLibrary.Services.GithubService.CreateIssueAsync
+- uid: System.String[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Task{System.Boolean}
+  commentId: '!:Task{System.Boolean}'
+  definition: Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

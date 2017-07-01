@@ -21,7 +21,7 @@ items:
   source:
     id: UrbanDictionaryResult
     path: ''
-    startLine: 2054
+    startLine: 2255
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -52,7 +52,7 @@ items:
   source:
     id: DefId
     path: ''
-    startLine: 2056
+    startLine: 2257
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -83,7 +83,7 @@ items:
   source:
     id: Permalink
     path: ''
-    startLine: 2057
+    startLine: 2258
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -114,7 +114,7 @@ items:
   source:
     id: Example
     path: ''
-    startLine: 2058
+    startLine: 2259
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -145,7 +145,7 @@ items:
   source:
     id: Author
     path: ''
-    startLine: 2059
+    startLine: 2260
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -176,7 +176,7 @@ items:
   source:
     id: ThumbsUp
     path: ''
-    startLine: 2060
+    startLine: 2261
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -207,7 +207,7 @@ items:
   source:
     id: ThumbsDown
     path: ''
-    startLine: 2062
+    startLine: 2263
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

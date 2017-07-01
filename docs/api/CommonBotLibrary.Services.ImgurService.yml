@@ -1,30 +1,30 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CommonBotLibrary.Services.GoogleService
-  commentId: T:CommonBotLibrary.Services.GoogleService
-  id: GoogleService
+- uid: CommonBotLibrary.Services.ImgurService
+  commentId: T:CommonBotLibrary.Services.ImgurService
+  id: ImgurService
   parent: CommonBotLibrary.Services
   children:
-  - CommonBotLibrary.Services.GoogleService.#ctor(System.String,System.String)
-  - CommonBotLibrary.Services.GoogleService.SearchAsync(System.String,SafeEnum)
+  - CommonBotLibrary.Services.ImgurService.#ctor(System.String)
+  - CommonBotLibrary.Services.ImgurService.SearchAsync(System.String)
   langs:
   - csharp
   - vb
-  name: GoogleService
-  nameWithType: GoogleService
-  fullName: CommonBotLibrary.Services.GoogleService
+  name: ImgurService
+  nameWithType: ImgurService
+  fullName: CommonBotLibrary.Services.ImgurService
   type: Class
   source:
-    id: GoogleService
+    id: ImgurService
     path: ''
-    startLine: 748
+    startLine: 822
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
   syntax:
-    content: 'public class GoogleService : IWebpageService, ISearchable<IWebpage>'
+    content: 'public class ImgurService : IWebpageService, ISearchable<IWebpage>'
     content.vb: >-
-      Public Class GoogleService
+      Public Class ImgurService
           Inherits IWebpageService
           Implements ISearchable(Of IWebpage)
   inheritance:
@@ -37,79 +37,73 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: CommonBotLibrary.Services.GoogleService.#ctor(System.String,System.String)
-  commentId: M:CommonBotLibrary.Services.GoogleService.#ctor(System.String,System.String)
-  id: '#ctor(System.String,System.String)'
-  parent: CommonBotLibrary.Services.GoogleService
+- uid: CommonBotLibrary.Services.ImgurService.#ctor(System.String)
+  commentId: M:CommonBotLibrary.Services.ImgurService.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: CommonBotLibrary.Services.ImgurService
   langs:
   - csharp
   - vb
-  name: GoogleService(String, String)
-  nameWithType: GoogleService.GoogleService(String, String)
-  fullName: CommonBotLibrary.Services.GoogleService.GoogleService(System.String, System.String)
+  name: ImgurService(String)
+  nameWithType: ImgurService.ImgurService(String)
+  fullName: CommonBotLibrary.Services.ImgurService.ImgurService(System.String)
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 756
+    startLine: 829
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
-  summary: "\nConstructs an <see cref=\"!:IWebpageService\"></see> implementation that searches Google.\n"
+  summary: "\nConstructs an <see cref=\"!:IWebpageService\"></see> implementation that searches Imgur.\n"
   example: []
   syntax:
-    content: public GoogleService(string platformKey = null, string engineId = null)
+    content: public ImgurService(string imgur = null)
     parameters:
-    - id: platformKey
+    - id: imgur
       type: System.String
-      description: Defaults to platform key in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
-    - id: engineId
-      type: System.String
-      description: Defaults to engine ID in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
-    content.vb: Public Sub New(platformKey As String = Nothing, engineId As String = Nothing)
-  overload: CommonBotLibrary.Services.GoogleService.#ctor*
+      description: Defaults to Imgur client ID in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
+    content.vb: Public Sub New(imgur As String = Nothing)
+  overload: CommonBotLibrary.Services.ImgurService.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: CommonBotLibrary.Services.GoogleService.SearchAsync(System.String,SafeEnum)
-  commentId: M:CommonBotLibrary.Services.GoogleService.SearchAsync(System.String,SafeEnum)
-  id: SearchAsync(System.String,SafeEnum)
-  parent: CommonBotLibrary.Services.GoogleService
+- uid: CommonBotLibrary.Services.ImgurService.SearchAsync(System.String)
+  commentId: M:CommonBotLibrary.Services.ImgurService.SearchAsync(System.String)
+  id: SearchAsync(System.String)
+  parent: CommonBotLibrary.Services.ImgurService
   langs:
   - csharp
   - vb
-  name: SearchAsync(String, SafeEnum)
-  nameWithType: GoogleService.SearchAsync(String, SafeEnum)
-  fullName: CommonBotLibrary.Services.GoogleService.SearchAsync(System.String, SafeEnum)
+  name: SearchAsync(String)
+  nameWithType: ImgurService.SearchAsync(String)
+  fullName: CommonBotLibrary.Services.ImgurService.SearchAsync(System.String)
   type: Method
   source:
     id: SearchAsync
     path: ''
-    startLine: 782
+    startLine: 850
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
-  summary: "\nSearches google.com for webpages relevant to the given search term(s).\n"
+  summary: "\nSearches imgur.com for images relevant to the given search term(s).\n"
   example: []
   syntax:
-    content: public Task<IEnumerable<Result>> SearchAsync(string query, SafeEnum safeSearch = null)
+    content: public Task<IEnumerable<ImgurResult>> SearchAsync(string query)
     parameters:
     - id: query
       type: System.String
       description: The query to search for.
-    - id: safeSearch
-      type: SafeEnum
-      description: Safe search configuration.
     return:
-      type: Task{IEnumerable{Result}}
-      description: A collection of relevant webpages indexed on Google.
-    content.vb: Public Function SearchAsync(query As String, safeSearch As SafeEnum = Nothing) As Task(Of IEnumerable(Of Result))
-  overload: CommonBotLibrary.Services.GoogleService.SearchAsync*
+      type: Task{IEnumerable{ImgurResult}}
+      description: A collection of relevant images indexed on Imgur.
+    content.vb: Public Function SearchAsync(query As String) As Task(Of IEnumerable(Of ImgurResult))
+  overload: CommonBotLibrary.Services.ImgurService.SearchAsync*
   seealso:
   - linkType: HRef
-    linkId: https://cse.google.com
-    altText: Custom Search Engine info
+    linkId: https://imgur.com/tos
+    altText: TOS
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -221,12 +215,12 @@ references:
   name: Tokens
   nameWithType: Tokens
   fullName: CommonBotLibrary.Tokens
-- uid: CommonBotLibrary.Services.GoogleService.#ctor*
-  commentId: Overload:CommonBotLibrary.Services.GoogleService.#ctor
+- uid: CommonBotLibrary.Services.ImgurService.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.ImgurService.#ctor
   isExternal: false
-  name: GoogleService
-  nameWithType: GoogleService.GoogleService
-  fullName: CommonBotLibrary.Services.GoogleService.GoogleService
+  name: ImgurService
+  nameWithType: ImgurService.ImgurService
+  fullName: CommonBotLibrary.Services.ImgurService.ImgurService
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -234,27 +228,21 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: CommonBotLibrary.Services.GoogleService.SearchAsync*
-  commentId: Overload:CommonBotLibrary.Services.GoogleService.SearchAsync
+- uid: CommonBotLibrary.Services.ImgurService.SearchAsync*
+  commentId: Overload:CommonBotLibrary.Services.ImgurService.SearchAsync
   isExternal: false
   name: SearchAsync
-  nameWithType: GoogleService.SearchAsync
-  fullName: CommonBotLibrary.Services.GoogleService.SearchAsync
-- uid: SafeEnum
-  commentId: '!:SafeEnum'
-  isExternal: true
-  name: SafeEnum
-  nameWithType: SafeEnum
-  fullName: SafeEnum
-- uid: Task{IEnumerable{Result}}
-  commentId: '!:Task{IEnumerable{Result}}'
+  nameWithType: ImgurService.SearchAsync
+  fullName: CommonBotLibrary.Services.ImgurService.SearchAsync
+- uid: Task{IEnumerable{ImgurResult}}
+  commentId: '!:Task{IEnumerable{ImgurResult}}'
   definition: Task`1
-  name: Task<IEnumerable<Result>>
-  nameWithType: Task<IEnumerable<Result>>
-  fullName: Task<IEnumerable<Result>>
-  nameWithType.vb: Task(Of IEnumerable(Of Result))
-  fullName.vb: Task(Of IEnumerable(Of Result))
-  name.vb: Task(Of IEnumerable(Of Result))
+  name: Task<IEnumerable<ImgurResult>>
+  nameWithType: Task<IEnumerable<ImgurResult>>
+  fullName: Task<IEnumerable<ImgurResult>>
+  nameWithType.vb: Task(Of IEnumerable(Of ImgurResult))
+  fullName.vb: Task(Of IEnumerable(Of ImgurResult))
+  name.vb: Task(Of IEnumerable(Of ImgurResult))
   spec.csharp:
   - uid: Task`1
     name: Task
@@ -272,10 +260,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: Result
-    name: Result
-    nameWithType: Result
-    fullName: Result
+  - uid: ImgurResult
+    name: ImgurResult
+    nameWithType: ImgurResult
+    fullName: ImgurResult
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -300,10 +288,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: Result
-    name: Result
-    nameWithType: Result
-    fullName: Result
+  - uid: ImgurResult
+    name: ImgurResult
+    nameWithType: ImgurResult
+    fullName: ImgurResult
     isExternal: true
   - name: )
     nameWithType: )
