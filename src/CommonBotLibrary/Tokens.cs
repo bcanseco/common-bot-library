@@ -50,6 +50,12 @@ namespace CommonBotLibrary
         [JsonProperty]
         public static string Omdb { internal get; set; }
 
+        /// <summary>
+        ///   Imgur client ID.
+        /// </summary>
+        [JsonProperty]
+        public static string Imgur { internal get; set; }
+
         /// <summary> 
         ///   Contains Google Cloud Platform API key and Custom Search Engine ID.
         /// </summary>
