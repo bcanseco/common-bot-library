@@ -16,7 +16,7 @@ items:
   source:
     id: OpenTriviaDbService
     path: ''
-    startLine: 924
+    startLine: 1109
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -47,7 +47,7 @@ items:
   source:
     id: GetTriviaAsync
     path: ''
-    startLine: 938
+    startLine: 1123
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

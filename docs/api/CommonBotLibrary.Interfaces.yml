@@ -11,6 +11,7 @@ items:
   - CommonBotLibrary.Interfaces.ISearchable`1
   - CommonBotLibrary.Interfaces.IStockService
   - CommonBotLibrary.Interfaces.ITriviaService
+  - CommonBotLibrary.Interfaces.IVersionControlService
   - CommonBotLibrary.Interfaces.IWeatherService
   - CommonBotLibrary.Interfaces.IWebpageService
   langs:
@@ -96,6 +97,12 @@ references:
   name: ITriviaService
   nameWithType: ITriviaService
   fullName: CommonBotLibrary.Interfaces.ITriviaService
+- uid: CommonBotLibrary.Interfaces.IVersionControlService
+  commentId: T:CommonBotLibrary.Interfaces.IVersionControlService
+  isExternal: false
+  name: IVersionControlService
+  nameWithType: IVersionControlService
+  fullName: CommonBotLibrary.Interfaces.IVersionControlService
 - uid: CommonBotLibrary.Interfaces.IWeatherService
   commentId: T:CommonBotLibrary.Interfaces.IWeatherService
   isExternal: false

@@ -10,7 +10,9 @@
       An asynchronous library of API wrappers designed to help with typical bot commands.
 
       Features:
+      -Github Service: Posts issues to https://github.com.
       -Google Service: Searches https://google.com for webpages.
+      -Imgur Service: Searches https://imgur.com for images.
       -MyAnimeList Service: Searches https://myanimelist.net for anime.
       -NCalc Service: Evaluates mathematical expressions.
       -Omdb Service: Searches https://omdbapi.com for movies.
@@ -29,7 +31,7 @@
     <PackageLicenseUrl>https://github.com/bcanseco/common-bot-library/blob/dev/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/bcanseco/common-bot-library</PackageProjectUrl>
     <PackageIconUrl>https://borja.io/images/cbl.png</PackageIconUrl>
-    <PackageTags>bot;chatbot;chat bot;api wrapper;openweathermap;omdb;urbandictionary;opentdb</PackageTags>
+    <PackageTags>cbl;bot;chatbot;chat bot;api wrapper;openweathermap;omdb;urbandictionary;opentdb</PackageTags>
     <PackageReleaseNotes>View changelogs here: https://github.com/bcanseco/common-bot-library/releases</PackageReleaseNotes>
     <RepositoryUrl>git://github.com/bcanseco/common-bot-library</RepositoryUrl>
     <RepositoryType>git</RepositoryType>

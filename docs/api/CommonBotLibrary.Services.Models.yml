@@ -6,6 +6,7 @@ items:
   children:
   - CommonBotLibrary.Services.Models.Die
   - CommonBotLibrary.Services.Models.GoogleResult
+  - CommonBotLibrary.Services.Models.ImgurResult
   - CommonBotLibrary.Services.Models.MyAnimeListResult
   - CommonBotLibrary.Services.Models.OmdbDirectResult
   - CommonBotLibrary.Services.Models.OmdbDirectResult.Rating
@@ -52,6 +53,12 @@ references:
   name: GoogleResult
   nameWithType: GoogleResult
   fullName: CommonBotLibrary.Services.Models.GoogleResult
+- uid: CommonBotLibrary.Services.Models.ImgurResult
+  commentId: T:CommonBotLibrary.Services.Models.ImgurResult
+  isExternal: false
+  name: ImgurResult
+  nameWithType: ImgurResult
+  fullName: CommonBotLibrary.Services.Models.ImgurResult
 - uid: CommonBotLibrary.Services.Models.MyAnimeListResult
   commentId: T:CommonBotLibrary.Services.Models.MyAnimeListResult
   parent: CommonBotLibrary.Services.Models

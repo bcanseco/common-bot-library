@@ -17,7 +17,7 @@ items:
   source:
     id: IWebpage
     path: ''
-    startLine: 547
+    startLine: 595
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -46,7 +46,7 @@ items:
   source:
     id: Url
     path: ''
-    startLine: 549
+    startLine: 597
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -75,7 +75,7 @@ items:
   source:
     id: Title
     path: ''
-    startLine: 550
+    startLine: 598
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models

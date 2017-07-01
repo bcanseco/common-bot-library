@@ -16,7 +16,7 @@ items:
   source:
     id: IWebpageService
     path: ''
-    startLine: 498
+    startLine: 546
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
@@ -45,7 +45,7 @@ items:
   source:
     id: SearchAsync
     path: ''
-    startLine: 505
+    startLine: 553
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces

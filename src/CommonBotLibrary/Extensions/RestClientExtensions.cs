@@ -24,6 +24,11 @@ namespace CommonBotLibrary.Extensions
                 const string msg = "401 was returned for the given username and password.";
                 throw new InvalidCredentialsException(msg, ex);
             }
+            catch (HttpRequestException ex) when (ex.Message.Contains("403"))
+            {
+                const string msg = "403 was returned for the given request.";
+                throw new InvalidCredentialsException(msg, ex);
+            }
             catch (HttpRequestException ex) when (ex.Message.Contains("404"))
             {
                 const string msg = "404 was returned for the given query.";

@@ -5,6 +5,7 @@ items:
   id: CommonBotLibrary
   children:
   - CommonBotLibrary.Tokens
+  - CommonBotLibrary.Tokens.GithubCredentials
   - CommonBotLibrary.Tokens.GoogleCredentials
   - CommonBotLibrary.Tokens.MyAnimeListCredentials
   - CommonBotLibrary.Tokens.TwitterCredentials
@@ -38,6 +39,13 @@ references:
   name: Tokens.MyAnimeListCredentials
   nameWithType: Tokens.MyAnimeListCredentials
   fullName: CommonBotLibrary.Tokens.MyAnimeListCredentials
+- uid: CommonBotLibrary.Tokens.GithubCredentials
+  commentId: T:CommonBotLibrary.Tokens.GithubCredentials
+  parent: CommonBotLibrary
+  isExternal: false
+  name: Tokens.GithubCredentials
+  nameWithType: Tokens.GithubCredentials
+  fullName: CommonBotLibrary.Tokens.GithubCredentials
 - uid: CommonBotLibrary.Tokens.TwitterCredentials
   commentId: T:CommonBotLibrary.Tokens.TwitterCredentials
   parent: CommonBotLibrary

@@ -5,7 +5,9 @@ items:
   id: Tokens
   parent: CommonBotLibrary
   children:
+  - CommonBotLibrary.Tokens.Github
   - CommonBotLibrary.Tokens.Google
+  - CommonBotLibrary.Tokens.Imgur
   - CommonBotLibrary.Tokens.LoadAsync(System.String)
   - CommonBotLibrary.Tokens.LoadAsync``1(System.String)
   - CommonBotLibrary.Tokens.MyAnimeList
@@ -22,7 +24,7 @@ items:
   source:
     id: Tokens
     path: ''
-    startLine: 61
+    startLine: 72
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -59,7 +61,7 @@ items:
   source:
     id: LoadAsync
     path: ''
-    startLine: 73
+    startLine: 84
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -95,7 +97,7 @@ items:
   source:
     id: LoadAsync
     path: ''
-    startLine: 89
+    startLine: 100
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -137,7 +139,7 @@ items:
   source:
     id: OpenWeatherMap
     path: ''
-    startLine: 98
+    startLine: 109
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -172,7 +174,7 @@ items:
   source:
     id: Omdb
     path: ''
-    startLine: 104
+    startLine: 115
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -185,6 +187,41 @@ items:
       type: System.String
     content.vb: Public Shared WriteOnly Property Omdb As String
   overload: CommonBotLibrary.Tokens.Omdb*
+  modifiers.csharp:
+  - public
+  - static
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+  - WriteOnly
+- uid: CommonBotLibrary.Tokens.Imgur
+  commentId: P:CommonBotLibrary.Tokens.Imgur
+  id: Imgur
+  parent: CommonBotLibrary.Tokens
+  langs:
+  - csharp
+  - vb
+  name: Imgur
+  nameWithType: Tokens.Imgur
+  fullName: CommonBotLibrary.Tokens.Imgur
+  type: Property
+  source:
+    id: Imgur
+    path: ''
+    startLine: 121
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary
+  summary: "\nImgur client ID.\n"
+  example: []
+  syntax:
+    content: public static string Imgur { set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared WriteOnly Property Imgur As String
+  overload: CommonBotLibrary.Tokens.Imgur*
   modifiers.csharp:
   - public
   - static
@@ -207,7 +244,7 @@ items:
   source:
     id: Google
     path: ''
-    startLine: 110
+    startLine: 127
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -242,7 +279,7 @@ items:
   source:
     id: Twitter
     path: ''
-    startLine: 116
+    startLine: 133
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -277,7 +314,7 @@ items:
   source:
     id: MyAnimeList
     path: ''
-    startLine: 122
+    startLine: 139
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -290,6 +327,41 @@ items:
       type: CommonBotLibrary.Tokens.MyAnimeListCredentials
     content.vb: Public Shared Property MyAnimeList As Tokens.MyAnimeListCredentials
   overload: CommonBotLibrary.Tokens.MyAnimeList*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CommonBotLibrary.Tokens.Github
+  commentId: P:CommonBotLibrary.Tokens.Github
+  id: Github
+  parent: CommonBotLibrary.Tokens
+  langs:
+  - csharp
+  - vb
+  name: Github
+  nameWithType: Tokens.Github
+  fullName: CommonBotLibrary.Tokens.Github
+  type: Property
+  source:
+    id: Github
+    path: ''
+    startLine: 145
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary
+  summary: "\nContains Github repository and authentication credentials.\n"
+  example: []
+  syntax:
+    content: public static Tokens.GithubCredentials Github { get; set; }
+    parameters: []
+    return:
+      type: CommonBotLibrary.Tokens.GithubCredentials
+    content.vb: Public Shared Property Github As Tokens.GithubCredentials
+  overload: CommonBotLibrary.Tokens.Github*
   modifiers.csharp:
   - public
   - static
@@ -633,6 +705,12 @@ references:
   name: Omdb
   nameWithType: Tokens.Omdb
   fullName: CommonBotLibrary.Tokens.Omdb
+- uid: CommonBotLibrary.Tokens.Imgur*
+  commentId: Overload:CommonBotLibrary.Tokens.Imgur
+  isExternal: false
+  name: Imgur
+  nameWithType: Tokens.Imgur
+  fullName: CommonBotLibrary.Tokens.Imgur
 - uid: CommonBotLibrary.Tokens.Google*
   commentId: Overload:CommonBotLibrary.Tokens.Google
   isExternal: false
@@ -672,3 +750,16 @@ references:
   name: Tokens.MyAnimeListCredentials
   nameWithType: Tokens.MyAnimeListCredentials
   fullName: CommonBotLibrary.Tokens.MyAnimeListCredentials
+- uid: CommonBotLibrary.Tokens.Github*
+  commentId: Overload:CommonBotLibrary.Tokens.Github
+  isExternal: false
+  name: Github
+  nameWithType: Tokens.Github
+  fullName: CommonBotLibrary.Tokens.Github
+- uid: CommonBotLibrary.Tokens.GithubCredentials
+  commentId: T:CommonBotLibrary.Tokens.GithubCredentials
+  parent: CommonBotLibrary
+  isExternal: false
+  name: Tokens.GithubCredentials
+  nameWithType: Tokens.GithubCredentials
+  fullName: CommonBotLibrary.Tokens.GithubCredentials

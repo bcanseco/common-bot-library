@@ -18,7 +18,7 @@ items:
   source:
     id: SteamServiceExtensions
     path: ''
-    startLine: 285
+    startLine: 313
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Extensions
@@ -57,7 +57,7 @@ items:
   source:
     id: GetSteamSpyDataAsync
     path: ''
-    startLine: 291
+    startLine: 319
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Extensions
@@ -98,7 +98,7 @@ items:
   source:
     id: GetCurrentPlayersAsync
     path: ''
-    startLine: 298
+    startLine: 326
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Extensions
@@ -139,7 +139,7 @@ items:
   source:
     id: GetCurrentPlayersAsync
     path: ''
-    startLine: 305
+    startLine: 333
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Extensions

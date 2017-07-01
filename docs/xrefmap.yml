@@ -441,6 +441,27 @@ references:
   commentId: Overload:CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync
   fullName: CommonBotLibrary.Interfaces.ITriviaService.GetTriviaAsync
   nameWithType: ITriviaService.GetTriviaAsync
+- uid: CommonBotLibrary.Interfaces.IVersionControlService
+  name: IVersionControlService
+  href: api/CommonBotLibrary.Interfaces.IVersionControlService.html
+  commentId: T:CommonBotLibrary.Interfaces.IVersionControlService
+  fullName: CommonBotLibrary.Interfaces.IVersionControlService
+  nameWithType: IVersionControlService
+- uid: CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync(System.String,System.String,System.String[])
+  name: CreateIssueAsync(String, String, String[])
+  href: api/CommonBotLibrary.Interfaces.IVersionControlService.html#CommonBotLibrary_Interfaces_IVersionControlService_CreateIssueAsync_System_String_System_String_System_String___
+  commentId: M:CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync(System.String,System.String,System.String[])
+  name.vb: CreateIssueAsync(String, String, String())
+  fullName: CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync(System.String, System.String, System.String[])
+  fullName.vb: CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync(System.String, System.String, System.String())
+  nameWithType: IVersionControlService.CreateIssueAsync(String, String, String[])
+  nameWithType.vb: IVersionControlService.CreateIssueAsync(String, String, String())
+- uid: CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync*
+  name: CreateIssueAsync
+  href: api/CommonBotLibrary.Interfaces.IVersionControlService.html#CommonBotLibrary_Interfaces_IVersionControlService_CreateIssueAsync_
+  commentId: Overload:CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync
+  fullName: CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync
+  nameWithType: IVersionControlService.CreateIssueAsync
 - uid: CommonBotLibrary.Interfaces.IWeatherService
   name: IWeatherService
   href: api/CommonBotLibrary.Interfaces.IWeatherService.html
@@ -957,6 +978,39 @@ references:
   commentId: N:CommonBotLibrary.Services
   fullName: CommonBotLibrary.Services
   nameWithType: CommonBotLibrary.Services
+- uid: CommonBotLibrary.Services.GithubService
+  name: GithubService
+  href: api/CommonBotLibrary.Services.GithubService.html
+  commentId: T:CommonBotLibrary.Services.GithubService
+  fullName: CommonBotLibrary.Services.GithubService
+  nameWithType: GithubService
+- uid: CommonBotLibrary.Services.GithubService.#ctor(System.String,System.String,System.String)
+  name: GithubService(String, String, String)
+  href: api/CommonBotLibrary.Services.GithubService.html#CommonBotLibrary_Services_GithubService__ctor_System_String_System_String_System_String_
+  commentId: M:CommonBotLibrary.Services.GithubService.#ctor(System.String,System.String,System.String)
+  fullName: CommonBotLibrary.Services.GithubService.GithubService(System.String, System.String, System.String)
+  nameWithType: GithubService.GithubService(String, String, String)
+- uid: CommonBotLibrary.Services.GithubService.#ctor*
+  name: GithubService
+  href: api/CommonBotLibrary.Services.GithubService.html#CommonBotLibrary_Services_GithubService__ctor_
+  commentId: Overload:CommonBotLibrary.Services.GithubService.#ctor
+  fullName: CommonBotLibrary.Services.GithubService.GithubService
+  nameWithType: GithubService.GithubService
+- uid: CommonBotLibrary.Services.GithubService.CreateIssueAsync(System.String,System.String,System.String[])
+  name: CreateIssueAsync(String, String, String[])
+  href: api/CommonBotLibrary.Services.GithubService.html#CommonBotLibrary_Services_GithubService_CreateIssueAsync_System_String_System_String_System_String___
+  commentId: M:CommonBotLibrary.Services.GithubService.CreateIssueAsync(System.String,System.String,System.String[])
+  name.vb: CreateIssueAsync(String, String, String())
+  fullName: CommonBotLibrary.Services.GithubService.CreateIssueAsync(System.String, System.String, System.String[])
+  fullName.vb: CommonBotLibrary.Services.GithubService.CreateIssueAsync(System.String, System.String, System.String())
+  nameWithType: GithubService.CreateIssueAsync(String, String, String[])
+  nameWithType.vb: GithubService.CreateIssueAsync(String, String, String())
+- uid: CommonBotLibrary.Services.GithubService.CreateIssueAsync*
+  name: CreateIssueAsync
+  href: api/CommonBotLibrary.Services.GithubService.html#CommonBotLibrary_Services_GithubService_CreateIssueAsync_
+  commentId: Overload:CommonBotLibrary.Services.GithubService.CreateIssueAsync
+  fullName: CommonBotLibrary.Services.GithubService.CreateIssueAsync
+  nameWithType: GithubService.CreateIssueAsync
 - uid: CommonBotLibrary.Services.GoogleService
   name: GoogleService
   href: api/CommonBotLibrary.Services.GoogleService.html
@@ -987,6 +1041,36 @@ references:
   commentId: Overload:CommonBotLibrary.Services.GoogleService.SearchAsync
   fullName: CommonBotLibrary.Services.GoogleService.SearchAsync
   nameWithType: GoogleService.SearchAsync
+- uid: CommonBotLibrary.Services.ImgurService
+  name: ImgurService
+  href: api/CommonBotLibrary.Services.ImgurService.html
+  commentId: T:CommonBotLibrary.Services.ImgurService
+  fullName: CommonBotLibrary.Services.ImgurService
+  nameWithType: ImgurService
+- uid: CommonBotLibrary.Services.ImgurService.#ctor(System.String)
+  name: ImgurService(String)
+  href: api/CommonBotLibrary.Services.ImgurService.html#CommonBotLibrary_Services_ImgurService__ctor_System_String_
+  commentId: M:CommonBotLibrary.Services.ImgurService.#ctor(System.String)
+  fullName: CommonBotLibrary.Services.ImgurService.ImgurService(System.String)
+  nameWithType: ImgurService.ImgurService(String)
+- uid: CommonBotLibrary.Services.ImgurService.#ctor*
+  name: ImgurService
+  href: api/CommonBotLibrary.Services.ImgurService.html#CommonBotLibrary_Services_ImgurService__ctor_
+  commentId: Overload:CommonBotLibrary.Services.ImgurService.#ctor
+  fullName: CommonBotLibrary.Services.ImgurService.ImgurService
+  nameWithType: ImgurService.ImgurService
+- uid: CommonBotLibrary.Services.ImgurService.SearchAsync(System.String)
+  name: SearchAsync(String)
+  href: api/CommonBotLibrary.Services.ImgurService.html#CommonBotLibrary_Services_ImgurService_SearchAsync_System_String_
+  commentId: M:CommonBotLibrary.Services.ImgurService.SearchAsync(System.String)
+  fullName: CommonBotLibrary.Services.ImgurService.SearchAsync(System.String)
+  nameWithType: ImgurService.SearchAsync(String)
+- uid: CommonBotLibrary.Services.ImgurService.SearchAsync*
+  name: SearchAsync
+  href: api/CommonBotLibrary.Services.ImgurService.html#CommonBotLibrary_Services_ImgurService_SearchAsync_
+  commentId: Overload:CommonBotLibrary.Services.ImgurService.SearchAsync
+  fullName: CommonBotLibrary.Services.ImgurService.SearchAsync
+  nameWithType: ImgurService.SearchAsync
 - uid: CommonBotLibrary.Services.Models
   name: CommonBotLibrary.Services.Models
   href: api/CommonBotLibrary.Services.Models.html
@@ -1206,6 +1290,60 @@ references:
   commentId: Overload:CommonBotLibrary.Services.Models.GoogleResult.Url
   fullName: CommonBotLibrary.Services.Models.GoogleResult.Url
   nameWithType: GoogleResult.Url
+- uid: CommonBotLibrary.Services.Models.ImgurResult
+  name: ImgurResult
+  href: api/CommonBotLibrary.Services.Models.ImgurResult.html
+  commentId: T:CommonBotLibrary.Services.Models.ImgurResult
+  fullName: CommonBotLibrary.Services.Models.ImgurResult
+  nameWithType: ImgurResult
+- uid: CommonBotLibrary.Services.Models.ImgurResult.Description
+  name: Description
+  href: api/CommonBotLibrary.Services.Models.ImgurResult.html#CommonBotLibrary_Services_Models_ImgurResult_Description
+  commentId: P:CommonBotLibrary.Services.Models.ImgurResult.Description
+  fullName: CommonBotLibrary.Services.Models.ImgurResult.Description
+  nameWithType: ImgurResult.Description
+- uid: CommonBotLibrary.Services.Models.ImgurResult.Description*
+  name: Description
+  href: api/CommonBotLibrary.Services.Models.ImgurResult.html#CommonBotLibrary_Services_Models_ImgurResult_Description_
+  commentId: Overload:CommonBotLibrary.Services.Models.ImgurResult.Description
+  fullName: CommonBotLibrary.Services.Models.ImgurResult.Description
+  nameWithType: ImgurResult.Description
+- uid: CommonBotLibrary.Services.Models.ImgurResult.IsAlbum
+  name: IsAlbum
+  href: api/CommonBotLibrary.Services.Models.ImgurResult.html#CommonBotLibrary_Services_Models_ImgurResult_IsAlbum
+  commentId: P:CommonBotLibrary.Services.Models.ImgurResult.IsAlbum
+  fullName: CommonBotLibrary.Services.Models.ImgurResult.IsAlbum
+  nameWithType: ImgurResult.IsAlbum
+- uid: CommonBotLibrary.Services.Models.ImgurResult.IsAlbum*
+  name: IsAlbum
+  href: api/CommonBotLibrary.Services.Models.ImgurResult.html#CommonBotLibrary_Services_Models_ImgurResult_IsAlbum_
+  commentId: Overload:CommonBotLibrary.Services.Models.ImgurResult.IsAlbum
+  fullName: CommonBotLibrary.Services.Models.ImgurResult.IsAlbum
+  nameWithType: ImgurResult.IsAlbum
+- uid: CommonBotLibrary.Services.Models.ImgurResult.Title
+  name: Title
+  href: api/CommonBotLibrary.Services.Models.ImgurResult.html#CommonBotLibrary_Services_Models_ImgurResult_Title
+  commentId: P:CommonBotLibrary.Services.Models.ImgurResult.Title
+  fullName: CommonBotLibrary.Services.Models.ImgurResult.Title
+  nameWithType: ImgurResult.Title
+- uid: CommonBotLibrary.Services.Models.ImgurResult.Title*
+  name: Title
+  href: api/CommonBotLibrary.Services.Models.ImgurResult.html#CommonBotLibrary_Services_Models_ImgurResult_Title_
+  commentId: Overload:CommonBotLibrary.Services.Models.ImgurResult.Title
+  fullName: CommonBotLibrary.Services.Models.ImgurResult.Title
+  nameWithType: ImgurResult.Title
+- uid: CommonBotLibrary.Services.Models.ImgurResult.Url
+  name: Url
+  href: api/CommonBotLibrary.Services.Models.ImgurResult.html#CommonBotLibrary_Services_Models_ImgurResult_Url
+  commentId: P:CommonBotLibrary.Services.Models.ImgurResult.Url
+  fullName: CommonBotLibrary.Services.Models.ImgurResult.Url
+  nameWithType: ImgurResult.Url
+- uid: CommonBotLibrary.Services.Models.ImgurResult.Url*
+  name: Url
+  href: api/CommonBotLibrary.Services.Models.ImgurResult.html#CommonBotLibrary_Services_Models_ImgurResult_Url_
+  commentId: Overload:CommonBotLibrary.Services.Models.ImgurResult.Url
+  fullName: CommonBotLibrary.Services.Models.ImgurResult.Url
+  nameWithType: ImgurResult.Url
 - uid: CommonBotLibrary.Services.Models.MyAnimeListResult
   name: MyAnimeListResult
   href: api/CommonBotLibrary.Services.Models.MyAnimeListResult.html
@@ -3471,6 +3609,72 @@ references:
   commentId: T:CommonBotLibrary.Tokens
   fullName: CommonBotLibrary.Tokens
   nameWithType: Tokens
+- uid: CommonBotLibrary.Tokens.Github
+  name: Github
+  href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_Github
+  commentId: P:CommonBotLibrary.Tokens.Github
+  fullName: CommonBotLibrary.Tokens.Github
+  nameWithType: Tokens.Github
+- uid: CommonBotLibrary.Tokens.Github*
+  name: Github
+  href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_Github_
+  commentId: Overload:CommonBotLibrary.Tokens.Github
+  fullName: CommonBotLibrary.Tokens.Github
+  nameWithType: Tokens.Github
+- uid: CommonBotLibrary.Tokens.GithubCredentials
+  name: Tokens.GithubCredentials
+  href: api/CommonBotLibrary.Tokens.GithubCredentials.html
+  commentId: T:CommonBotLibrary.Tokens.GithubCredentials
+  fullName: CommonBotLibrary.Tokens.GithubCredentials
+  nameWithType: Tokens.GithubCredentials
+- uid: CommonBotLibrary.Tokens.GithubCredentials.#ctor(System.String,System.String,System.String)
+  name: GithubCredentials(String, String, String)
+  href: api/CommonBotLibrary.Tokens.GithubCredentials.html#CommonBotLibrary_Tokens_GithubCredentials__ctor_System_String_System_String_System_String_
+  commentId: M:CommonBotLibrary.Tokens.GithubCredentials.#ctor(System.String,System.String,System.String)
+  fullName: CommonBotLibrary.Tokens.GithubCredentials.GithubCredentials(System.String, System.String, System.String)
+  nameWithType: Tokens.GithubCredentials.GithubCredentials(String, String, String)
+- uid: CommonBotLibrary.Tokens.GithubCredentials.#ctor*
+  name: GithubCredentials
+  href: api/CommonBotLibrary.Tokens.GithubCredentials.html#CommonBotLibrary_Tokens_GithubCredentials__ctor_
+  commentId: Overload:CommonBotLibrary.Tokens.GithubCredentials.#ctor
+  fullName: CommonBotLibrary.Tokens.GithubCredentials.GithubCredentials
+  nameWithType: Tokens.GithubCredentials.GithubCredentials
+- uid: CommonBotLibrary.Tokens.GithubCredentials.OAuth
+  name: OAuth
+  href: api/CommonBotLibrary.Tokens.GithubCredentials.html#CommonBotLibrary_Tokens_GithubCredentials_OAuth
+  commentId: P:CommonBotLibrary.Tokens.GithubCredentials.OAuth
+  fullName: CommonBotLibrary.Tokens.GithubCredentials.OAuth
+  nameWithType: Tokens.GithubCredentials.OAuth
+- uid: CommonBotLibrary.Tokens.GithubCredentials.OAuth*
+  name: OAuth
+  href: api/CommonBotLibrary.Tokens.GithubCredentials.html#CommonBotLibrary_Tokens_GithubCredentials_OAuth_
+  commentId: Overload:CommonBotLibrary.Tokens.GithubCredentials.OAuth
+  fullName: CommonBotLibrary.Tokens.GithubCredentials.OAuth
+  nameWithType: Tokens.GithubCredentials.OAuth
+- uid: CommonBotLibrary.Tokens.GithubCredentials.Repository
+  name: Repository
+  href: api/CommonBotLibrary.Tokens.GithubCredentials.html#CommonBotLibrary_Tokens_GithubCredentials_Repository
+  commentId: P:CommonBotLibrary.Tokens.GithubCredentials.Repository
+  fullName: CommonBotLibrary.Tokens.GithubCredentials.Repository
+  nameWithType: Tokens.GithubCredentials.Repository
+- uid: CommonBotLibrary.Tokens.GithubCredentials.Repository*
+  name: Repository
+  href: api/CommonBotLibrary.Tokens.GithubCredentials.html#CommonBotLibrary_Tokens_GithubCredentials_Repository_
+  commentId: Overload:CommonBotLibrary.Tokens.GithubCredentials.Repository
+  fullName: CommonBotLibrary.Tokens.GithubCredentials.Repository
+  nameWithType: Tokens.GithubCredentials.Repository
+- uid: CommonBotLibrary.Tokens.GithubCredentials.Username
+  name: Username
+  href: api/CommonBotLibrary.Tokens.GithubCredentials.html#CommonBotLibrary_Tokens_GithubCredentials_Username
+  commentId: P:CommonBotLibrary.Tokens.GithubCredentials.Username
+  fullName: CommonBotLibrary.Tokens.GithubCredentials.Username
+  nameWithType: Tokens.GithubCredentials.Username
+- uid: CommonBotLibrary.Tokens.GithubCredentials.Username*
+  name: Username
+  href: api/CommonBotLibrary.Tokens.GithubCredentials.html#CommonBotLibrary_Tokens_GithubCredentials_Username_
+  commentId: Overload:CommonBotLibrary.Tokens.GithubCredentials.Username
+  fullName: CommonBotLibrary.Tokens.GithubCredentials.Username
+  nameWithType: Tokens.GithubCredentials.Username
 - uid: CommonBotLibrary.Tokens.Google
   name: Google
   href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_Google
@@ -3525,6 +3729,18 @@ references:
   commentId: Overload:CommonBotLibrary.Tokens.GoogleCredentials.PlatformKey
   fullName: CommonBotLibrary.Tokens.GoogleCredentials.PlatformKey
   nameWithType: Tokens.GoogleCredentials.PlatformKey
+- uid: CommonBotLibrary.Tokens.Imgur
+  name: Imgur
+  href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_Imgur
+  commentId: P:CommonBotLibrary.Tokens.Imgur
+  fullName: CommonBotLibrary.Tokens.Imgur
+  nameWithType: Tokens.Imgur
+- uid: CommonBotLibrary.Tokens.Imgur*
+  name: Imgur
+  href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_Imgur_
+  commentId: Overload:CommonBotLibrary.Tokens.Imgur
+  fullName: CommonBotLibrary.Tokens.Imgur
+  nameWithType: Tokens.Imgur
 - uid: CommonBotLibrary.Tokens.LoadAsync(System.String)
   name: LoadAsync(String)
   href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_LoadAsync_System_String_

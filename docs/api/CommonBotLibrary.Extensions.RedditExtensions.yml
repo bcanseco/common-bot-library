@@ -16,7 +16,7 @@ items:
   source:
     id: RedditExtensions
     path: ''
-    startLine: 226
+    startLine: 249
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Extensions
@@ -55,7 +55,7 @@ items:
   source:
     id: GetSubredditOrRAllAsync
     path: ''
-    startLine: 232
+    startLine: 255
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Extensions

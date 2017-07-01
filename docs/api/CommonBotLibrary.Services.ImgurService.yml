@@ -1,0 +1,339 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.ImgurService
+  commentId: T:CommonBotLibrary.Services.ImgurService
+  id: ImgurService
+  parent: CommonBotLibrary.Services
+  children:
+  - CommonBotLibrary.Services.ImgurService.#ctor(System.String)
+  - CommonBotLibrary.Services.ImgurService.SearchAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ImgurService
+  nameWithType: ImgurService
+  fullName: CommonBotLibrary.Services.ImgurService
+  type: Class
+  source:
+    id: ImgurService
+    path: ''
+    startLine: 822
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: 'public class ImgurService : IWebpageService, ISearchable<IWebpage>'
+    content.vb: >-
+      Public Class ImgurService
+          Inherits IWebpageService
+          Implements ISearchable(Of IWebpage)
+  inheritance:
+  - System.Object
+  implements:
+  - ISearchable{IWebpage}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.ImgurService.#ctor(System.String)
+  commentId: M:CommonBotLibrary.Services.ImgurService.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: CommonBotLibrary.Services.ImgurService
+  langs:
+  - csharp
+  - vb
+  name: ImgurService(String)
+  nameWithType: ImgurService.ImgurService(String)
+  fullName: CommonBotLibrary.Services.ImgurService.ImgurService(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 829
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nConstructs an <see cref=\"!:IWebpageService\"></see> implementation that searches Imgur.\n"
+  example: []
+  syntax:
+    content: public ImgurService(string imgur = null)
+    parameters:
+    - id: imgur
+      type: System.String
+      description: Defaults to Imgur client ID in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
+    content.vb: Public Sub New(imgur As String = Nothing)
+  overload: CommonBotLibrary.Services.ImgurService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.ImgurService.SearchAsync(System.String)
+  commentId: M:CommonBotLibrary.Services.ImgurService.SearchAsync(System.String)
+  id: SearchAsync(System.String)
+  parent: CommonBotLibrary.Services.ImgurService
+  langs:
+  - csharp
+  - vb
+  name: SearchAsync(String)
+  nameWithType: ImgurService.SearchAsync(String)
+  fullName: CommonBotLibrary.Services.ImgurService.SearchAsync(System.String)
+  type: Method
+  source:
+    id: SearchAsync
+    path: ''
+    startLine: 850
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nSearches imgur.com for images relevant to the given search term(s).\n"
+  example: []
+  syntax:
+    content: public Task<IEnumerable<ImgurResult>> SearchAsync(string query)
+    parameters:
+    - id: query
+      type: System.String
+      description: The query to search for.
+    return:
+      type: Task{IEnumerable{ImgurResult}}
+      description: A collection of relevant images indexed on Imgur.
+    content.vb: Public Function SearchAsync(query As String) As Task(Of IEnumerable(Of ImgurResult))
+  overload: CommonBotLibrary.Services.ImgurService.SearchAsync*
+  seealso:
+  - linkType: HRef
+    linkId: https://imgur.com/tos
+    altText: TOS
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services
+  commentId: N:CommonBotLibrary.Services
+  isExternal: false
+  name: CommonBotLibrary.Services
+  nameWithType: CommonBotLibrary.Services
+  fullName: CommonBotLibrary.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: ISearchable{IWebpage}
+  commentId: '!:ISearchable{IWebpage}'
+  definition: ISearchable`1
+  name: ISearchable<IWebpage>
+  nameWithType: ISearchable<IWebpage>
+  fullName: ISearchable<IWebpage>
+  nameWithType.vb: ISearchable(Of IWebpage)
+  fullName.vb: ISearchable(Of IWebpage)
+  name.vb: ISearchable(Of IWebpage)
+  spec.csharp:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IWebpage
+    name: IWebpage
+    nameWithType: IWebpage
+    fullName: IWebpage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IWebpage
+    name: IWebpage
+    nameWithType: IWebpage
+    fullName: IWebpage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ISearchable`1
+  isExternal: true
+  name: ISearchable<>
+  nameWithType: ISearchable<>
+  fullName: ISearchable<>
+  nameWithType.vb: ISearchable(Of )
+  fullName.vb: ISearchable(Of )
+  name.vb: ISearchable(Of )
+  spec.csharp:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ISearchable`1
+    name: ISearchable
+    nameWithType: ISearchable
+    fullName: ISearchable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Tokens
+  commentId: T:CommonBotLibrary.Tokens
+  isExternal: false
+  name: Tokens
+  nameWithType: Tokens
+  fullName: CommonBotLibrary.Tokens
+- uid: CommonBotLibrary.Services.ImgurService.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.ImgurService.#ctor
+  isExternal: false
+  name: ImgurService
+  nameWithType: ImgurService.ImgurService
+  fullName: CommonBotLibrary.Services.ImgurService.ImgurService
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.ImgurService.SearchAsync*
+  commentId: Overload:CommonBotLibrary.Services.ImgurService.SearchAsync
+  isExternal: false
+  name: SearchAsync
+  nameWithType: ImgurService.SearchAsync
+  fullName: CommonBotLibrary.Services.ImgurService.SearchAsync
+- uid: Task{IEnumerable{ImgurResult}}
+  commentId: '!:Task{IEnumerable{ImgurResult}}'
+  definition: Task`1
+  name: Task<IEnumerable<ImgurResult>>
+  nameWithType: Task<IEnumerable<ImgurResult>>
+  fullName: Task<IEnumerable<ImgurResult>>
+  nameWithType.vb: Task(Of IEnumerable(Of ImgurResult))
+  fullName.vb: Task(Of IEnumerable(Of ImgurResult))
+  name.vb: Task(Of IEnumerable(Of ImgurResult))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ImgurResult
+    name: ImgurResult
+    nameWithType: ImgurResult
+    fullName: ImgurResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ImgurResult
+    name: ImgurResult
+    nameWithType: ImgurResult
+    fullName: ImgurResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

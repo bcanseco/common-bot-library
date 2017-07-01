@@ -1,0 +1,205 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces.IVersionControlService
+  commentId: T:CommonBotLibrary.Interfaces.IVersionControlService
+  id: IVersionControlService
+  parent: CommonBotLibrary.Interfaces
+  children:
+  - CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync(System.String,System.String,System.String[])
+  langs:
+  - csharp
+  - vb
+  name: IVersionControlService
+  nameWithType: IVersionControlService
+  fullName: CommonBotLibrary.Interfaces.IVersionControlService
+  type: Interface
+  source:
+    id: IVersionControlService
+    path: ''
+    startLine: 507
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nDefines an API for working with version control software.\n"
+  example: []
+  syntax:
+    content: public interface IVersionControlService
+    content.vb: Public Interface IVersionControlService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync(System.String,System.String,System.String[])
+  commentId: M:CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync(System.String,System.String,System.String[])
+  id: CreateIssueAsync(System.String,System.String,System.String[])
+  parent: CommonBotLibrary.Interfaces.IVersionControlService
+  langs:
+  - csharp
+  - vb
+  name: CreateIssueAsync(String, String, String[])
+  nameWithType: IVersionControlService.CreateIssueAsync(String, String, String[])
+  fullName: CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync(System.String, System.String, System.String[])
+  type: Method
+  source:
+    id: CreateIssueAsync
+    path: ''
+    startLine: 516
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nCreates a repository issue.\n"
+  example: []
+  syntax:
+    content: Task<bool> CreateIssueAsync(string title, string body, string[] labels)
+    parameters:
+    - id: title
+      type: System.String
+      description: The title to use.
+    - id: body
+      type: System.String
+      description: The body to use.
+    - id: labels
+      type: System.String[]
+      description: A collection of labels to apply.
+    return:
+      type: Task{System.Boolean}
+      description: True if the issue was successfully created, false otherwise.
+    content.vb: Function CreateIssueAsync(title As String, body As String, labels As String()) As Task(Of Boolean)
+  overload: CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync*
+  nameWithType.vb: IVersionControlService.CreateIssueAsync(String, String, String())
+  fullName.vb: CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync(System.String, System.String, System.String())
+  name.vb: CreateIssueAsync(String, String, String())
+references:
+- uid: CommonBotLibrary.Interfaces
+  commentId: N:CommonBotLibrary.Interfaces
+  isExternal: false
+  name: CommonBotLibrary.Interfaces
+  nameWithType: CommonBotLibrary.Interfaces
+  fullName: CommonBotLibrary.Interfaces
+- uid: CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync*
+  commentId: Overload:CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync
+  isExternal: false
+  name: CreateIssueAsync
+  nameWithType: IVersionControlService.CreateIssueAsync
+  fullName: CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Task{System.Boolean}
+  commentId: '!:Task{System.Boolean}'
+  definition: Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

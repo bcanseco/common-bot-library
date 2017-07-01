@@ -4,7 +4,9 @@ items:
   commentId: N:CommonBotLibrary.Services
   id: CommonBotLibrary.Services
   children:
+  - CommonBotLibrary.Services.GithubService
   - CommonBotLibrary.Services.GoogleService
+  - CommonBotLibrary.Services.ImgurService
   - CommonBotLibrary.Services.MyAnimeListService
   - CommonBotLibrary.Services.NCalcService
   - CommonBotLibrary.Services.OmdbService
@@ -27,12 +29,24 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: CommonBotLibrary.Services.GithubService
+  commentId: T:CommonBotLibrary.Services.GithubService
+  isExternal: false
+  name: GithubService
+  nameWithType: GithubService
+  fullName: CommonBotLibrary.Services.GithubService
 - uid: CommonBotLibrary.Services.GoogleService
   commentId: T:CommonBotLibrary.Services.GoogleService
   isExternal: false
   name: GoogleService
   nameWithType: GoogleService
   fullName: CommonBotLibrary.Services.GoogleService
+- uid: CommonBotLibrary.Services.ImgurService
+  commentId: T:CommonBotLibrary.Services.ImgurService
+  isExternal: false
+  name: ImgurService
+  nameWithType: ImgurService
+  fullName: CommonBotLibrary.Services.ImgurService
 - uid: CommonBotLibrary.Services.MyAnimeListService
   commentId: T:CommonBotLibrary.Services.MyAnimeListService
   isExternal: false
