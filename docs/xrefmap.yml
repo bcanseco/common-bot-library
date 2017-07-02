@@ -1308,6 +1308,18 @@ references:
   commentId: Overload:CommonBotLibrary.Services.Models.ImgurResult.Description
   fullName: CommonBotLibrary.Services.Models.ImgurResult.Description
   nameWithType: ImgurResult.Description
+- uid: CommonBotLibrary.Services.Models.ImgurResult.Id
+  name: Id
+  href: api/CommonBotLibrary.Services.Models.ImgurResult.html#CommonBotLibrary_Services_Models_ImgurResult_Id
+  commentId: P:CommonBotLibrary.Services.Models.ImgurResult.Id
+  fullName: CommonBotLibrary.Services.Models.ImgurResult.Id
+  nameWithType: ImgurResult.Id
+- uid: CommonBotLibrary.Services.Models.ImgurResult.Id*
+  name: Id
+  href: api/CommonBotLibrary.Services.Models.ImgurResult.html#CommonBotLibrary_Services_Models_ImgurResult_Id_
+  commentId: Overload:CommonBotLibrary.Services.Models.ImgurResult.Id
+  fullName: CommonBotLibrary.Services.Models.ImgurResult.Id
+  nameWithType: ImgurResult.Id
 - uid: CommonBotLibrary.Services.Models.ImgurResult.IsAlbum
   name: IsAlbum
   href: api/CommonBotLibrary.Services.Models.ImgurResult.html#CommonBotLibrary_Services_Models_ImgurResult_IsAlbum
