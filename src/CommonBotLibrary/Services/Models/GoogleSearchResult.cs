@@ -5,9 +5,9 @@ using Google.Apis.Customsearch.v1.Data;
 namespace CommonBotLibrary.Services.Models
 {
     [DebuggerDisplay("{Url, nq}")]
-    public class GoogleResult : IWebpage
+    public class GoogleSearchResult : IWebpage
     {
-        public GoogleResult(Result apiResult)
+        public GoogleSearchResult(Result apiResult)
         {
             Title = apiResult.Title;
             Url = apiResult.FormattedUrl;
@@ -22,7 +22,7 @@ namespace CommonBotLibrary.Services.Models
         public string Url { get; set; }
         public string Title { get; set; }
 
-        public static implicit operator Result(GoogleResult googleResult)
-            => googleResult.ApiResult;
+        public static implicit operator Result(GoogleSearchResult googleSearchResult)
+            => googleSearchResult.ApiResult;
     }
 }

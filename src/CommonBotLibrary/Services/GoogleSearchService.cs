@@ -12,7 +12,7 @@ using SafeEnum = Google.Apis.Customsearch.v1.CseResource.ListRequest.SafeEnum;
 
 namespace CommonBotLibrary.Services
 {
-    public class GoogleService : IWebpageService, ISearchable<IWebpage>
+    public class GoogleSearchService : IWebpageService, ISearchable<IWebpage>
     {
         /// <summary>
         ///   Constructs an <see cref="IWebpageService"/> implementation that searches Google.
@@ -20,7 +20,7 @@ namespace CommonBotLibrary.Services
         /// <param name="platformKey">Defaults to platform key in <see cref="Tokens"/> if null.</param>
         /// <param name="engineId">Defaults to engine ID in <see cref="Tokens"/> if null.</param>
         /// <exception cref="InvalidCredentialsException"></exception>
-        public GoogleService(string platformKey = null, string engineId = null)
+        public GoogleSearchService(string platformKey = null, string engineId = null)
         {
             PlatformKey = platformKey ?? Tokens.Google?.PlatformKey;
             EngineId = engineId ?? Tokens.Google?.EngineId;
@@ -65,9 +65,9 @@ namespace CommonBotLibrary.Services
         }
 
         async Task<IEnumerable<IWebpage>> IWebpageService.SearchAsync(string query)
-            => (await SearchAsync(query)).Select(r => new GoogleResult(r));
+            => (await SearchAsync(query)).Select(r => new GoogleSearchResult(r));
 
         async Task<IEnumerable<IWebpage>> ISearchable<IWebpage>.SearchAsync(string query)
-            => (await SearchAsync(query)).Select(r => new GoogleResult(r));
+            => (await SearchAsync(query)).Select(r => new GoogleSearchResult(r));
     }
 }
