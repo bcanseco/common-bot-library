@@ -6,6 +6,7 @@ items:
   parent: CommonBotLibrary.Services.Models
   children:
   - CommonBotLibrary.Services.Models.ImgurResult.Description
+  - CommonBotLibrary.Services.Models.ImgurResult.Id
   - CommonBotLibrary.Services.Models.ImgurResult.IsAlbum
   - CommonBotLibrary.Services.Models.ImgurResult.Title
   - CommonBotLibrary.Services.Models.ImgurResult.Url
@@ -36,6 +37,37 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: CommonBotLibrary.Services.Models.ImgurResult.Id
+  commentId: P:CommonBotLibrary.Services.Models.ImgurResult.Id
+  id: Id
+  parent: CommonBotLibrary.Services.Models.ImgurResult
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ImgurResult.Id
+  fullName: CommonBotLibrary.Services.Models.ImgurResult.Id
+  type: Property
+  source:
+    id: Id
+    path: ''
+    startLine: 1806
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: CommonBotLibrary.Services.Models.ImgurResult.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: CommonBotLibrary.Services.Models.ImgurResult.Url
   commentId: P:CommonBotLibrary.Services.Models.ImgurResult.Url
   id: Url
@@ -50,7 +82,7 @@ items:
   source:
     id: Url
     path: ''
-    startLine: 1806
+    startLine: 1807
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -81,7 +113,7 @@ items:
   source:
     id: Title
     path: ''
-    startLine: 1808
+    startLine: 1809
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -112,7 +144,7 @@ items:
   source:
     id: Description
     path: ''
-    startLine: 1809
+    startLine: 1810
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -143,7 +175,7 @@ items:
   source:
     id: IsAlbum
     path: ''
-    startLine: 1810
+    startLine: 1811
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -180,12 +212,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CommonBotLibrary.Services.Models.ImgurResult.Url*
-  commentId: Overload:CommonBotLibrary.Services.Models.ImgurResult.Url
+- uid: CommonBotLibrary.Services.Models.ImgurResult.Id*
+  commentId: Overload:CommonBotLibrary.Services.Models.ImgurResult.Id
   isExternal: false
-  name: Url
-  nameWithType: ImgurResult.Url
-  fullName: CommonBotLibrary.Services.Models.ImgurResult.Url
+  name: Id
+  nameWithType: ImgurResult.Id
+  fullName: CommonBotLibrary.Services.Models.ImgurResult.Id
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -193,6 +225,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: CommonBotLibrary.Services.Models.ImgurResult.Url*
+  commentId: Overload:CommonBotLibrary.Services.Models.ImgurResult.Url
+  isExternal: false
+  name: Url
+  nameWithType: ImgurResult.Url
+  fullName: CommonBotLibrary.Services.Models.ImgurResult.Url
 - uid: CommonBotLibrary.Services.Models.ImgurResult.Title*
   commentId: Overload:CommonBotLibrary.Services.Models.ImgurResult.Title
   isExternal: false

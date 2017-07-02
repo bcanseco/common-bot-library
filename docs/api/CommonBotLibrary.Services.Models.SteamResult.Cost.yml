@@ -19,7 +19,7 @@ items:
   source:
     id: Cost
     path: ''
-    startLine: 2168
+    startLine: 2169
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -56,7 +56,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2171
+    startLine: 2172
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -87,7 +87,7 @@ items:
   source:
     id: Regular
     path: ''
-    startLine: 2178
+    startLine: 2179
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -118,7 +118,7 @@ items:
   source:
     id: Sale
     path: ''
-    startLine: 2179
+    startLine: 2180
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -149,7 +149,7 @@ items:
   source:
     id: IsOnSale
     path: ''
-    startLine: 2181
+    startLine: 2182
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

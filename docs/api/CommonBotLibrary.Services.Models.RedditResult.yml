@@ -20,7 +20,7 @@ items:
   source:
     id: RedditResult
     path: ''
-    startLine: 2045
+    startLine: 2046
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -51,7 +51,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2048
+    startLine: 2049
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -80,7 +80,7 @@ items:
   source:
     id: Post
     path: ''
-    startLine: 2059
+    startLine: 2060
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -113,7 +113,7 @@ items:
   source:
     id: Url
     path: ''
-    startLine: 2060
+    startLine: 2061
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -144,7 +144,7 @@ items:
   source:
     id: Title
     path: ''
-    startLine: 2061
+    startLine: 2062
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -175,7 +175,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 2063
+    startLine: 2064
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

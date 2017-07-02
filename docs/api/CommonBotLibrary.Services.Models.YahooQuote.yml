@@ -33,7 +33,7 @@ items:
   source:
     id: YahooQuote
     path: ''
-    startLine: 2285
+    startLine: 2286
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -69,7 +69,7 @@ items:
   source:
     id: StockExchange
     path: ''
-    startLine: 2288
+    startLine: 2289
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -100,7 +100,7 @@ items:
   source:
     id: Currency
     path: ''
-    startLine: 2293
+    startLine: 2294
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -131,7 +131,7 @@ items:
   source:
     id: Open
     path: ''
-    startLine: 2294
+    startLine: 2295
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -162,7 +162,7 @@ items:
   source:
     id: PreviousClose
     path: ''
-    startLine: 2295
+    startLine: 2296
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -193,7 +193,7 @@ items:
   source:
     id: Ask
     path: ''
-    startLine: 2296
+    startLine: 2297
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -224,7 +224,7 @@ items:
   source:
     id: Bid
     path: ''
-    startLine: 2297
+    startLine: 2298
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -255,7 +255,7 @@ items:
   source:
     id: DaysLow
     path: ''
-    startLine: 2298
+    startLine: 2299
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -286,7 +286,7 @@ items:
   source:
     id: DaysHigh
     path: ''
-    startLine: 2299
+    startLine: 2300
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -317,7 +317,7 @@ items:
   source:
     id: YearLow
     path: ''
-    startLine: 2300
+    startLine: 2301
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -348,7 +348,7 @@ items:
   source:
     id: YearHigh
     path: ''
-    startLine: 2301
+    startLine: 2302
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -379,7 +379,7 @@ items:
   source:
     id: Change
     path: ''
-    startLine: 2302
+    startLine: 2303
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -410,7 +410,7 @@ items:
   source:
     id: PercentChange
     path: ''
-    startLine: 2303
+    startLine: 2304
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -441,7 +441,7 @@ items:
   source:
     id: AverageDailyVolume
     path: ''
-    startLine: 2304
+    startLine: 2305
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -472,7 +472,7 @@ items:
   source:
     id: MarketCapitalization
     path: ''
-    startLine: 2305
+    startLine: 2306
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -503,7 +503,7 @@ items:
   source:
     id: EarningsShare
     path: ''
-    startLine: 2306
+    startLine: 2307
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -534,7 +534,7 @@ items:
   source:
     id: Volume
     path: ''
-    startLine: 2307
+    startLine: 2308
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -565,7 +565,7 @@ items:
   source:
     id: Notes
     path: ''
-    startLine: 2308
+    startLine: 2309
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -596,7 +596,7 @@ items:
   source:
     id: LastTradeDate
     path: ''
-    startLine: 2309
+    startLine: 2310
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
