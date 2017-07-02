@@ -11,7 +11,8 @@
 
       Features:
       -Github Service: Posts issues to https://github.com.
-      -Google Service: Searches https://google.com for webpages.
+      -Google Search Service: Searches https://google.com for webpages.
+      -Google Vision Service: Uses Google Cloud Vision to analyze images.
       -Imgur Service: Searches https://imgur.com for images.
       -MyAnimeList Service: Searches https://myanimelist.net for anime.
       -NCalc Service: Evaluates mathematical expressions.
@@ -41,6 +42,7 @@
     <PackageReference Include="CoreCLR-NCalc" Version="2.1.3" />
     <PackageReference Include="FubarCoder.RestSharp.Portable.HttpClient" Version="4.0.8" />
     <PackageReference Include="Google.Apis.Customsearch.v1" Version="1.27.0.466" />
+    <PackageReference Include="Google.Apis.Vision.v1" Version="1.27.1.887" />
     <PackageReference Include="Google.Apis.YouTube.v3" Version="1.27.0.760" />
     <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
     <PackageReference Include="RedditSharp" Version="2.0.0-CI00004" />

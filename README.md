@@ -61,10 +61,13 @@ Now you can use all the CBL services plus your own custom services without havin
 * **Github Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.GithubService.html)**
    * Posts issues to a https://github.com repository.
    * Requires an [access token](https://github.com/settings/tokens).
-* **Google Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.GoogleService.html)**
+* **Google Search Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.GoogleSearchService.html)**
    * Searches https://google.com for webpages
    * Requires a [Cloud Platform API key](https://support.google.com/cloud/answer/6158862?hl=en) and a [Custom Search Engine ID](https://support.google.com/customsearch/answer/2649143?hl=en).
    * To search all of Google, set your engine to ["search the entire web"](https://support.google.com/customsearch/answer/2631040?hl=en) but don't add any emphasized sites.
+* **Google Vision Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.GoogleVisionService.html)**
+   * Uses Google Cloud Vision to analyze images.
+   * Requires a [Cloud Platform API key](https://support.google.com/cloud/answer/6158862?hl=en).
 * **Imgur Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.ImgurService.html)**
    * Searches https://imgur.com for images.
    * Requires a [client ID](https://api.imgur.com/oauth2/addclient).
