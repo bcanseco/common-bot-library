@@ -98,6 +98,9 @@ Now you can use all the CBL services plus your own custom services without havin
    * Searches https://www.urbandictionary.com for definitions.
 * **Yahoo Finance Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.YahooFinanceService.html)**
    * Searches https://finance.yahoo.com/ for stock information.
+* **Yandex Translate Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.YandexTranslateService.html)**
+   * Translates text using https://translate.yandex.com/.
+   * Requires an [API key](https://tech.yandex.com/keys/get/?service=trnsl).
 * **YouTube Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.YouTubeService.html)**
    * Searches https://youtube.com for videos.
    * Requires a [Google Cloud Platform API key](https://support.google.com/cloud/answer/6158862?hl=en).

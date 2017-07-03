@@ -25,6 +25,7 @@
       -Twitter Service: Searches https://twitter.com for tweets.
       -UrbanDictionary Service: Searches https://www.urbandictionary.com for definitions.
       -Yahoo Finance Service: Searches https://finance.yahoo.com/ for stock information.
+      -Yandex Translate Service: Translates text using https://translate.yandex.com/.
       -YouTube Service: Searches https://youtube.com for videos.
     </Description>
     <Copyright>Copyright 2017 Borja Canseco</Copyright>

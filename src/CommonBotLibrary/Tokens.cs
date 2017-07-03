@@ -56,6 +56,12 @@ namespace CommonBotLibrary
         [JsonProperty]
         public static string Imgur { internal get; set; }
 
+        /// <summary>
+        ///   Yandex Translate API key.
+        /// </summary>
+        [JsonProperty]
+        public static string Yandex { internal get; set; }
+
         /// <summary> 
         ///   Contains Google Cloud Platform API key and Custom Search Engine ID.
         /// </summary>
