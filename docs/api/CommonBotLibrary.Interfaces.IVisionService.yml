@@ -52,15 +52,15 @@ items:
   summary: "\nUses computer vision to analyze an image.\n"
   example: []
   syntax:
-    content: Task<ImageAnalysisBase> AnalyzeAsync(string imageUrl)
+    content: Task<ImageAnalysisBase> AnalyzeAsync(string image)
     parameters:
-    - id: imageUrl
+    - id: image
       type: System.String
-      description: A direct link to an image.
+      description: An image to analyze.
     return:
       type: Task{ImageAnalysisBase}
       description: The analysis results.
-    content.vb: Function AnalyzeAsync(imageUrl As String) As Task(Of ImageAnalysisBase)
+    content.vb: Function AnalyzeAsync(image As String) As Task(Of ImageAnalysisBase)
   overload: CommonBotLibrary.Interfaces.IVisionService.AnalyzeAsync*
 references:
 - uid: CommonBotLibrary.Interfaces

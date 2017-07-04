@@ -87,15 +87,15 @@ items:
   summary: "\nUses Google Cloud Vision to analyze an image.\n"
   example: []
   syntax:
-    content: public Task<AnnotateImageResponse> AnalyzeAsync(string imageUrl)
+    content: public Task<AnnotateImageResponse> AnalyzeAsync(string base64Image)
     parameters:
-    - id: imageUrl
+    - id: base64Image
       type: System.String
-      description: A direct link to an image.
+      description: An image encoded as a base 64 string.
     return:
       type: Task{AnnotateImageResponse}
       description: Analysis results.
-    content.vb: Public Function AnalyzeAsync(imageUrl As String) As Task(Of AnnotateImageResponse)
+    content.vb: Public Function AnalyzeAsync(base64Image As String) As Task(Of AnnotateImageResponse)
   overload: CommonBotLibrary.Services.GoogleVisionService.AnalyzeAsync*
   seealso:
   - linkType: HRef
