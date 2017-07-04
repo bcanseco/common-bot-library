@@ -17,7 +17,7 @@ items:
   source:
     id: WatsonPersonalityService
     path: ''
-    startLine: 1732
+    startLine: 1733
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -48,7 +48,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1740
+    startLine: 1741
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -83,7 +83,7 @@ items:
   source:
     id: AnalyzeAsync
     path: ''
-    startLine: 1767
+    startLine: 1768
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

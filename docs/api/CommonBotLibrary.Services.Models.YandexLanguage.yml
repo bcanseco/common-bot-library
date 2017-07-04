@@ -1,30 +1,32 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CommonBotLibrary.Interfaces.Models.TriviaBase
-  commentId: T:CommonBotLibrary.Interfaces.Models.TriviaBase
-  id: TriviaBase
-  parent: CommonBotLibrary.Interfaces.Models
+- uid: CommonBotLibrary.Services.Models.YandexLanguage
+  commentId: T:CommonBotLibrary.Services.Models.YandexLanguage
+  id: YandexLanguage
+  parent: CommonBotLibrary.Services.Models
   children:
-  - CommonBotLibrary.Interfaces.Models.TriviaBase.Category
-  - CommonBotLibrary.Interfaces.Models.TriviaBase.Question
-  - CommonBotLibrary.Interfaces.Models.TriviaBase.ToString
+  - CommonBotLibrary.Services.Models.YandexLanguage.#ctor(System.String)
+  - CommonBotLibrary.Services.Models.YandexLanguage.Code
+  - CommonBotLibrary.Services.Models.YandexLanguage.LanguageCodes
+  - CommonBotLibrary.Services.Models.YandexLanguage.Name
+  - CommonBotLibrary.Services.Models.YandexLanguage.ToString
   langs:
   - csharp
   - vb
-  name: TriviaBase
-  nameWithType: TriviaBase
-  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase
+  name: YandexLanguage
+  nameWithType: YandexLanguage
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage
   type: Class
   source:
-    id: TriviaBase
+    id: YandexLanguage
     path: ''
-    startLine: 727
+    startLine: 2742
   assemblies:
   - cs.temp.dll
-  namespace: CommonBotLibrary.Interfaces.Models
+  namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: public abstract class TriviaBase
-    content.vb: Public MustInherit Class TriviaBase
+    content: public class YandexLanguage
+    content.vb: Public Class YandexLanguage
   inheritance:
   - System.Object
   inheritedMembers:
@@ -36,112 +38,175 @@ items:
   - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
-  - abstract
   - class
   modifiers.vb:
   - Public
-  - MustInherit
   - Class
-- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.Category
-  commentId: P:CommonBotLibrary.Interfaces.Models.TriviaBase.Category
-  id: Category
-  parent: CommonBotLibrary.Interfaces.Models.TriviaBase
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.#ctor(System.String)
+  commentId: M:CommonBotLibrary.Services.Models.YandexLanguage.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: CommonBotLibrary.Services.Models.YandexLanguage
   langs:
   - csharp
   - vb
-  name: Category
-  nameWithType: TriviaBase.Category
-  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.Category
-  type: Property
+  name: YandexLanguage(String)
+  nameWithType: YandexLanguage.YandexLanguage(String)
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.YandexLanguage(System.String)
+  type: Constructor
   source:
-    id: Category
+    id: .ctor
     path: ''
-    startLine: 729
+    startLine: 2752
   assemblies:
   - cs.temp.dll
-  namespace: CommonBotLibrary.Interfaces.Models
+  namespace: CommonBotLibrary.Services.Models
+  summary: "\nA model wrapping a language supported by Yandex Translate.\n"
+  example: []
   syntax:
-    content: public string Category { get; set; }
-    parameters: []
-    return:
+    content: public YandexLanguage(string input)
+    parameters:
+    - id: input
       type: System.String
-    content.vb: Public Property Category As String
-  overload: CommonBotLibrary.Interfaces.Models.TriviaBase.Category*
+      description: A language name or code.
+    content.vb: Public Sub New(input As String)
+  overload: CommonBotLibrary.Services.Models.YandexLanguage.#ctor*
   modifiers.csharp:
   - public
-  - get
-  - set
   modifiers.vb:
   - Public
-- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.Question
-  commentId: P:CommonBotLibrary.Interfaces.Models.TriviaBase.Question
-  id: Question
-  parent: CommonBotLibrary.Interfaces.Models.TriviaBase
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.Name
+  commentId: P:CommonBotLibrary.Services.Models.YandexLanguage.Name
+  id: Name
+  parent: CommonBotLibrary.Services.Models.YandexLanguage
   langs:
   - csharp
   - vb
-  name: Question
-  nameWithType: TriviaBase.Question
-  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.Question
+  name: Name
+  nameWithType: YandexLanguage.Name
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.Name
   type: Property
   source:
-    id: Question
+    id: Name
     path: ''
-    startLine: 730
+    startLine: 2772
   assemblies:
   - cs.temp.dll
-  namespace: CommonBotLibrary.Interfaces.Models
+  namespace: CommonBotLibrary.Services.Models
   syntax:
-    content: public string Question { get; set; }
+    content: public string Name { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Question As String
-  overload: CommonBotLibrary.Interfaces.Models.TriviaBase.Question*
+    content.vb: Public ReadOnly Property Name As String
+  overload: CommonBotLibrary.Services.Models.YandexLanguage.Name*
   modifiers.csharp:
   - public
   - get
-  - set
   modifiers.vb:
   - Public
-- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.ToString
-  commentId: M:CommonBotLibrary.Interfaces.Models.TriviaBase.ToString
+  - ReadOnly
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.Code
+  commentId: P:CommonBotLibrary.Services.Models.YandexLanguage.Code
+  id: Code
+  parent: CommonBotLibrary.Services.Models.YandexLanguage
+  langs:
+  - csharp
+  - vb
+  name: Code
+  nameWithType: YandexLanguage.Code
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.Code
+  type: Property
+  source:
+    id: Code
+    path: ''
+    startLine: 2773
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Code { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Code As String
+  overload: CommonBotLibrary.Services.Models.YandexLanguage.Code*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.ToString
+  commentId: M:CommonBotLibrary.Services.Models.YandexLanguage.ToString
   id: ToString
-  parent: CommonBotLibrary.Interfaces.Models.TriviaBase
+  parent: CommonBotLibrary.Services.Models.YandexLanguage
   langs:
   - csharp
   - vb
   name: ToString()
-  nameWithType: TriviaBase.ToString()
-  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.ToString()
+  nameWithType: YandexLanguage.ToString()
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.ToString()
   type: Method
   source:
     id: ToString
     path: ''
-    startLine: 732
+    startLine: 2775
   assemblies:
   - cs.temp.dll
-  namespace: CommonBotLibrary.Interfaces.Models
+  namespace: CommonBotLibrary.Services.Models
   syntax:
     content: public override string ToString()
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
   overridden: System.Object.ToString
-  overload: CommonBotLibrary.Interfaces.Models.TriviaBase.ToString*
+  overload: CommonBotLibrary.Services.Models.YandexLanguage.ToString*
   modifiers.csharp:
   - public
   - override
   modifiers.vb:
   - Public
   - Overrides
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.LanguageCodes
+  commentId: P:CommonBotLibrary.Services.Models.YandexLanguage.LanguageCodes
+  id: LanguageCodes
+  parent: CommonBotLibrary.Services.Models.YandexLanguage
+  langs:
+  - csharp
+  - vb
+  name: LanguageCodes
+  nameWithType: YandexLanguage.LanguageCodes
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.LanguageCodes
+  type: Property
+  source:
+    id: LanguageCodes
+    path: ''
+    startLine: 2778
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public static IDictionary<string, string> LanguageCodes { get; }
+    parameters: []
+    return:
+      type: IDictionary{System.String,System.String}
+    content.vb: Public Shared ReadOnly Property LanguageCodes As IDictionary(Of String, String)
+  overload: CommonBotLibrary.Services.Models.YandexLanguage.LanguageCodes*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 references:
-- uid: CommonBotLibrary.Interfaces.Models
-  commentId: N:CommonBotLibrary.Interfaces.Models
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
   isExternal: false
-  name: CommonBotLibrary.Interfaces.Models
-  nameWithType: CommonBotLibrary.Interfaces.Models
-  fullName: CommonBotLibrary.Interfaces.Models
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -403,12 +468,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.Category*
-  commentId: Overload:CommonBotLibrary.Interfaces.Models.TriviaBase.Category
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexLanguage.#ctor
   isExternal: false
-  name: Category
-  nameWithType: TriviaBase.Category
-  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.Category
+  name: YandexLanguage
+  nameWithType: YandexLanguage.YandexLanguage
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.YandexLanguage
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -416,12 +481,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.Question*
-  commentId: Overload:CommonBotLibrary.Interfaces.Models.TriviaBase.Question
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.Name*
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexLanguage.Name
   isExternal: false
-  name: Question
-  nameWithType: TriviaBase.Question
-  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.Question
+  name: Name
+  nameWithType: YandexLanguage.Name
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.Name
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.Code*
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexLanguage.Code
+  isExternal: false
+  name: Code
+  nameWithType: YandexLanguage.Code
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.Code
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -453,9 +524,124 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CommonBotLibrary.Interfaces.Models.TriviaBase.ToString*
-  commentId: Overload:CommonBotLibrary.Interfaces.Models.TriviaBase.ToString
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.ToString*
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexLanguage.ToString
   isExternal: false
   name: ToString
-  nameWithType: TriviaBase.ToString
-  fullName: CommonBotLibrary.Interfaces.Models.TriviaBase.ToString
+  nameWithType: YandexLanguage.ToString
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.ToString
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.LanguageCodes*
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexLanguage.LanguageCodes
+  isExternal: false
+  name: LanguageCodes
+  nameWithType: YandexLanguage.LanguageCodes
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.LanguageCodes
+- uid: IDictionary{System.String,System.String}
+  commentId: '!:IDictionary{System.String,System.String}'
+  definition: IDictionary`2
+  name: IDictionary<String, String>
+  nameWithType: IDictionary<String, String>
+  fullName: IDictionary<System.String, System.String>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullName.vb: IDictionary(Of System.String, System.String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IDictionary`2
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

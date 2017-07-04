@@ -960,6 +960,18 @@ references:
   commentId: T:CommonBotLibrary.Interfaces.Models.TranslationBase
   fullName: CommonBotLibrary.Interfaces.Models.TranslationBase
   nameWithType: TranslationBase
+- uid: CommonBotLibrary.Interfaces.Models.TranslationBase.InputText
+  name: InputText
+  href: api/CommonBotLibrary.Interfaces.Models.TranslationBase.html#CommonBotLibrary_Interfaces_Models_TranslationBase_InputText
+  commentId: P:CommonBotLibrary.Interfaces.Models.TranslationBase.InputText
+  fullName: CommonBotLibrary.Interfaces.Models.TranslationBase.InputText
+  nameWithType: TranslationBase.InputText
+- uid: CommonBotLibrary.Interfaces.Models.TranslationBase.InputText*
+  name: InputText
+  href: api/CommonBotLibrary.Interfaces.Models.TranslationBase.html#CommonBotLibrary_Interfaces_Models_TranslationBase_InputText_
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.TranslationBase.InputText
+  fullName: CommonBotLibrary.Interfaces.Models.TranslationBase.InputText
+  nameWithType: TranslationBase.InputText
 - uid: CommonBotLibrary.Interfaces.Models.TranslationBase.OutputText
   name: OutputText
   href: api/CommonBotLibrary.Interfaces.Models.TranslationBase.html#CommonBotLibrary_Interfaces_Models_TranslationBase_OutputText
@@ -3750,48 +3762,126 @@ references:
   commentId: Overload:CommonBotLibrary.Services.Models.YahooResult.TypeDisplay
   fullName: CommonBotLibrary.Services.Models.YahooResult.TypeDisplay
   nameWithType: YahooResult.TypeDisplay
+- uid: CommonBotLibrary.Services.Models.YandexLanguage
+  name: YandexLanguage
+  href: api/CommonBotLibrary.Services.Models.YandexLanguage.html
+  commentId: T:CommonBotLibrary.Services.Models.YandexLanguage
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage
+  nameWithType: YandexLanguage
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.#ctor(System.String)
+  name: YandexLanguage(String)
+  href: api/CommonBotLibrary.Services.Models.YandexLanguage.html#CommonBotLibrary_Services_Models_YandexLanguage__ctor_System_String_
+  commentId: M:CommonBotLibrary.Services.Models.YandexLanguage.#ctor(System.String)
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.YandexLanguage(System.String)
+  nameWithType: YandexLanguage.YandexLanguage(String)
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.#ctor*
+  name: YandexLanguage
+  href: api/CommonBotLibrary.Services.Models.YandexLanguage.html#CommonBotLibrary_Services_Models_YandexLanguage__ctor_
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexLanguage.#ctor
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.YandexLanguage
+  nameWithType: YandexLanguage.YandexLanguage
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.Code
+  name: Code
+  href: api/CommonBotLibrary.Services.Models.YandexLanguage.html#CommonBotLibrary_Services_Models_YandexLanguage_Code
+  commentId: P:CommonBotLibrary.Services.Models.YandexLanguage.Code
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.Code
+  nameWithType: YandexLanguage.Code
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.Code*
+  name: Code
+  href: api/CommonBotLibrary.Services.Models.YandexLanguage.html#CommonBotLibrary_Services_Models_YandexLanguage_Code_
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexLanguage.Code
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.Code
+  nameWithType: YandexLanguage.Code
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.LanguageCodes
+  name: LanguageCodes
+  href: api/CommonBotLibrary.Services.Models.YandexLanguage.html#CommonBotLibrary_Services_Models_YandexLanguage_LanguageCodes
+  commentId: P:CommonBotLibrary.Services.Models.YandexLanguage.LanguageCodes
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.LanguageCodes
+  nameWithType: YandexLanguage.LanguageCodes
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.LanguageCodes*
+  name: LanguageCodes
+  href: api/CommonBotLibrary.Services.Models.YandexLanguage.html#CommonBotLibrary_Services_Models_YandexLanguage_LanguageCodes_
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexLanguage.LanguageCodes
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.LanguageCodes
+  nameWithType: YandexLanguage.LanguageCodes
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.Name
+  name: Name
+  href: api/CommonBotLibrary.Services.Models.YandexLanguage.html#CommonBotLibrary_Services_Models_YandexLanguage_Name
+  commentId: P:CommonBotLibrary.Services.Models.YandexLanguage.Name
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.Name
+  nameWithType: YandexLanguage.Name
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.Name*
+  name: Name
+  href: api/CommonBotLibrary.Services.Models.YandexLanguage.html#CommonBotLibrary_Services_Models_YandexLanguage_Name_
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexLanguage.Name
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.Name
+  nameWithType: YandexLanguage.Name
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.ToString
+  name: ToString()
+  href: api/CommonBotLibrary.Services.Models.YandexLanguage.html#CommonBotLibrary_Services_Models_YandexLanguage_ToString
+  commentId: M:CommonBotLibrary.Services.Models.YandexLanguage.ToString
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.ToString()
+  nameWithType: YandexLanguage.ToString()
+- uid: CommonBotLibrary.Services.Models.YandexLanguage.ToString*
+  name: ToString
+  href: api/CommonBotLibrary.Services.Models.YandexLanguage.html#CommonBotLibrary_Services_Models_YandexLanguage_ToString_
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexLanguage.ToString
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage.ToString
+  nameWithType: YandexLanguage.ToString
 - uid: CommonBotLibrary.Services.Models.YandexResult
   name: YandexResult
   href: api/CommonBotLibrary.Services.Models.YandexResult.html
   commentId: T:CommonBotLibrary.Services.Models.YandexResult
   fullName: CommonBotLibrary.Services.Models.YandexResult
   nameWithType: YandexResult
-- uid: CommonBotLibrary.Services.Models.YandexResult.#ctor(JToken)
-  name: YandexResult(JToken)
-  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult__ctor_JToken_
-  commentId: M:CommonBotLibrary.Services.Models.YandexResult.#ctor(JToken)
-  fullName: CommonBotLibrary.Services.Models.YandexResult.YandexResult(JToken)
-  nameWithType: YandexResult.YandexResult(JToken)
+- uid: CommonBotLibrary.Services.Models.YandexResult.#ctor(System.String,CommonBotLibrary.Services.Models.YandexLanguage,CommonBotLibrary.Services.Models.YandexLanguage,JToken)
+  name: YandexResult(String, YandexLanguage, YandexLanguage, JToken)
+  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult__ctor_System_String_CommonBotLibrary_Services_Models_YandexLanguage_CommonBotLibrary_Services_Models_YandexLanguage_JToken_
+  commentId: M:CommonBotLibrary.Services.Models.YandexResult.#ctor(System.String,CommonBotLibrary.Services.Models.YandexLanguage,CommonBotLibrary.Services.Models.YandexLanguage,JToken)
+  fullName: CommonBotLibrary.Services.Models.YandexResult.YandexResult(System.String, CommonBotLibrary.Services.Models.YandexLanguage, CommonBotLibrary.Services.Models.YandexLanguage, JToken)
+  nameWithType: YandexResult.YandexResult(String, YandexLanguage, YandexLanguage, JToken)
 - uid: CommonBotLibrary.Services.Models.YandexResult.#ctor*
   name: YandexResult
   href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult__ctor_
   commentId: Overload:CommonBotLibrary.Services.Models.YandexResult.#ctor
   fullName: CommonBotLibrary.Services.Models.YandexResult.YandexResult
   nameWithType: YandexResult.YandexResult
-- uid: CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage
-  name: DetectedLanguage
-  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult_DetectedLanguage
-  commentId: P:CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage
-  fullName: CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage
-  nameWithType: YandexResult.DetectedLanguage
-- uid: CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage*
-  name: DetectedLanguage
-  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult_DetectedLanguage_
-  commentId: Overload:CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage
-  fullName: CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage
-  nameWithType: YandexResult.DetectedLanguage
-- uid: CommonBotLibrary.Services.Models.YandexResult.LanguageFlow
-  name: LanguageFlow
-  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult_LanguageFlow
-  commentId: P:CommonBotLibrary.Services.Models.YandexResult.LanguageFlow
-  fullName: CommonBotLibrary.Services.Models.YandexResult.LanguageFlow
-  nameWithType: YandexResult.LanguageFlow
-- uid: CommonBotLibrary.Services.Models.YandexResult.LanguageFlow*
-  name: LanguageFlow
-  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult_LanguageFlow_
-  commentId: Overload:CommonBotLibrary.Services.Models.YandexResult.LanguageFlow
-  fullName: CommonBotLibrary.Services.Models.YandexResult.LanguageFlow
-  nameWithType: YandexResult.LanguageFlow
+- uid: CommonBotLibrary.Services.Models.YandexResult.IsSourceDetected
+  name: IsSourceDetected
+  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult_IsSourceDetected
+  commentId: P:CommonBotLibrary.Services.Models.YandexResult.IsSourceDetected
+  fullName: CommonBotLibrary.Services.Models.YandexResult.IsSourceDetected
+  nameWithType: YandexResult.IsSourceDetected
+- uid: CommonBotLibrary.Services.Models.YandexResult.IsSourceDetected*
+  name: IsSourceDetected
+  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult_IsSourceDetected_
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexResult.IsSourceDetected
+  fullName: CommonBotLibrary.Services.Models.YandexResult.IsSourceDetected
+  nameWithType: YandexResult.IsSourceDetected
+- uid: CommonBotLibrary.Services.Models.YandexResult.SourceLanguage
+  name: SourceLanguage
+  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult_SourceLanguage
+  commentId: P:CommonBotLibrary.Services.Models.YandexResult.SourceLanguage
+  fullName: CommonBotLibrary.Services.Models.YandexResult.SourceLanguage
+  nameWithType: YandexResult.SourceLanguage
+- uid: CommonBotLibrary.Services.Models.YandexResult.SourceLanguage*
+  name: SourceLanguage
+  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult_SourceLanguage_
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexResult.SourceLanguage
+  fullName: CommonBotLibrary.Services.Models.YandexResult.SourceLanguage
+  nameWithType: YandexResult.SourceLanguage
+- uid: CommonBotLibrary.Services.Models.YandexResult.TargetLanguage
+  name: TargetLanguage
+  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult_TargetLanguage
+  commentId: P:CommonBotLibrary.Services.Models.YandexResult.TargetLanguage
+  fullName: CommonBotLibrary.Services.Models.YandexResult.TargetLanguage
+  nameWithType: YandexResult.TargetLanguage
+- uid: CommonBotLibrary.Services.Models.YandexResult.TargetLanguage*
+  name: TargetLanguage
+  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult_TargetLanguage_
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexResult.TargetLanguage
+  fullName: CommonBotLibrary.Services.Models.YandexResult.TargetLanguage
+  nameWithType: YandexResult.TargetLanguage
 - uid: CommonBotLibrary.Services.Models.YouTubeResult
   name: YouTubeResult
   href: api/CommonBotLibrary.Services.Models.YouTubeResult.html
@@ -4239,24 +4329,12 @@ references:
   commentId: Overload:CommonBotLibrary.Services.YandexTranslateService.#ctor
   fullName: CommonBotLibrary.Services.YandexTranslateService.YandexTranslateService
   nameWithType: YandexTranslateService.YandexTranslateService
-- uid: CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
-  name: LanguageCodes
-  href: api/CommonBotLibrary.Services.YandexTranslateService.html#CommonBotLibrary_Services_YandexTranslateService_LanguageCodes
-  commentId: P:CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
-  fullName: CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
-  nameWithType: YandexTranslateService.LanguageCodes
-- uid: CommonBotLibrary.Services.YandexTranslateService.LanguageCodes*
-  name: LanguageCodes
-  href: api/CommonBotLibrary.Services.YandexTranslateService.html#CommonBotLibrary_Services_YandexTranslateService_LanguageCodes_
-  commentId: Overload:CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
-  fullName: CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
-  nameWithType: YandexTranslateService.LanguageCodes
-- uid: CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String,System.String,System.String)
-  name: TranslateAsync(String, String, String)
-  href: api/CommonBotLibrary.Services.YandexTranslateService.html#CommonBotLibrary_Services_YandexTranslateService_TranslateAsync_System_String_System_String_System_String_
-  commentId: M:CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String,System.String,System.String)
-  fullName: CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String, System.String, System.String)
-  nameWithType: YandexTranslateService.TranslateAsync(String, String, String)
+- uid: CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String,YandexLanguage,YandexLanguage)
+  name: TranslateAsync(String, YandexLanguage, YandexLanguage)
+  href: api/CommonBotLibrary.Services.YandexTranslateService.html#CommonBotLibrary_Services_YandexTranslateService_TranslateAsync_System_String_YandexLanguage_YandexLanguage_
+  commentId: M:CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String,YandexLanguage,YandexLanguage)
+  fullName: CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String, YandexLanguage, YandexLanguage)
+  nameWithType: YandexTranslateService.TranslateAsync(String, YandexLanguage, YandexLanguage)
 - uid: CommonBotLibrary.Services.YandexTranslateService.TranslateAsync*
   name: TranslateAsync
   href: api/CommonBotLibrary.Services.YandexTranslateService.html#CommonBotLibrary_Services_YandexTranslateService_TranslateAsync_

@@ -17,7 +17,7 @@ items:
   source:
     id: GithubService
     path: ''
-    startLine: 777
+    startLine: 778
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -48,7 +48,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 786
+    startLine: 787
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -86,7 +86,7 @@ items:
   source:
     id: CreateIssueAsync
     path: ''
-    startLine: 818
+    startLine: 819
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

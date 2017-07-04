@@ -116,45 +116,18 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="CommonBotLibrary_Services_YandexTranslateService_LanguageCodes_" data-uid="CommonBotLibrary.Services.YandexTranslateService.LanguageCodes*"></a>
-  <h4 id="CommonBotLibrary_Services_YandexTranslateService_LanguageCodes" data-uid="CommonBotLibrary.Services.YandexTranslateService.LanguageCodes">LanguageCodes</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDictionary&lt;string, string&gt; LanguageCodes { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="CommonBotLibrary_Services_YandexTranslateService_TranslateAsync_" data-uid="CommonBotLibrary.Services.YandexTranslateService.TranslateAsync*"></a>
-  <h4 id="CommonBotLibrary_Services_YandexTranslateService_TranslateAsync_System_String_System_String_System_String_" data-uid="CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String,System.String,System.String)">TranslateAsync(String, String, String)</h4>
+  <h4 id="CommonBotLibrary_Services_YandexTranslateService_TranslateAsync_System_String_YandexLanguage_YandexLanguage_" data-uid="CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String,YandexLanguage,YandexLanguage)">TranslateAsync(String, YandexLanguage, YandexLanguage)</h4>
   <div class="markdown level1 summary"><p>Uses Yandex Translate to translate text to another language.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;YandexResult&gt; TranslateAsync(string text, string target, string source = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;YandexResult&gt; TranslateAsync(string text, YandexLanguage target, YandexLanguage source = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -173,13 +146,13 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">YandexLanguage</span></td>
         <td><span class="parametername">target</span></td>
         <td><p>The language to translate to.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">YandexLanguage</span></td>
         <td><span class="parametername">source</span></td>
         <td><p>The language to translate from. Autodetected if null.</p>
 </td>
@@ -201,10 +174,7 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="CommonBotLibrary_Services_YandexTranslateService_TranslateAsync_System_String_System_String_System_String__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Language params can be in code (&quot;en&quot;) or name (&quot;English&quot;) form.</p>
-</div>
-  <h5 id="CommonBotLibrary_Services_YandexTranslateService_TranslateAsync_System_String_System_String_System_String__seealso">See Also</h5>
+  <h5 id="CommonBotLibrary_Services_YandexTranslateService_TranslateAsync_System_String_YandexLanguage_YandexLanguage__seealso">See Also</h5>
   <div class="seealso">
       <div><span><a href="https://yandex.com/legal/translate_api/">TOS</a></span></div>
   </div>

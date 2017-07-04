@@ -19,7 +19,7 @@ items:
   source:
     id: YahooResult
     path: ''
-    startLine: 2852
+    startLine: 2697
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -52,7 +52,7 @@ items:
   source:
     id: StockExchange
     path: ''
-    startLine: 2854
+    startLine: 2699
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -83,7 +83,7 @@ items:
   source:
     id: ExchangeDisplay
     path: ''
-    startLine: 2856
+    startLine: 2701
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -114,7 +114,7 @@ items:
   source:
     id: Type
     path: ''
-    startLine: 2858
+    startLine: 2703
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -145,7 +145,7 @@ items:
   source:
     id: TypeDisplay
     path: ''
-    startLine: 2859
+    startLine: 2704
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

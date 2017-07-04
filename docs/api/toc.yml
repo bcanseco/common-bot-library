@@ -191,6 +191,8 @@
     name: YahooQuote
   - uid: CommonBotLibrary.Services.Models.YahooResult
     name: YahooResult
+  - uid: CommonBotLibrary.Services.Models.YandexLanguage
+    name: YandexLanguage
   - uid: CommonBotLibrary.Services.Models.YandexResult
     name: YandexResult
   - uid: CommonBotLibrary.Services.Models.YouTubeResult

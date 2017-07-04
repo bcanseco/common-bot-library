@@ -33,6 +33,7 @@ items:
   - CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
   - CommonBotLibrary.Services.Models.YahooQuote
   - CommonBotLibrary.Services.Models.YahooResult
+  - CommonBotLibrary.Services.Models.YandexLanguage
   - CommonBotLibrary.Services.Models.YandexResult
   - CommonBotLibrary.Services.Models.YouTubeResult
   langs:
@@ -236,6 +237,13 @@ references:
   name: YahooQuote
   nameWithType: YahooQuote
   fullName: CommonBotLibrary.Services.Models.YahooQuote
+- uid: CommonBotLibrary.Services.Models.YandexLanguage
+  commentId: T:CommonBotLibrary.Services.Models.YandexLanguage
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: YandexLanguage
+  nameWithType: YandexLanguage
+  fullName: CommonBotLibrary.Services.Models.YandexLanguage
 - uid: CommonBotLibrary.Services.Models.YandexResult
   commentId: T:CommonBotLibrary.Services.Models.YandexResult
   isExternal: false
