@@ -8,7 +8,7 @@ namespace CommonBotLibrary.Extensions
     public static class RestClientExtensions
     {
         /// <summary>
-        ///   Executes an HTTP request that will throw custom exceptions for 401 and 404.
+        ///   Executes an HTTP request that will throw custom exceptions for 401, 403 and 404.
         /// </summary>
         /// <exception cref="InvalidCredentialsException"></exception>
         /// <exception cref="ResultNotFoundException"></exception>

@@ -78,7 +78,13 @@ namespace CommonBotLibrary
         ///   Contains MyAnimeList account username and password.
         /// </summary>
         [JsonProperty]
-        public static MyAnimeListCredentials MyAnimeList { get; set; }
+        public static BasicAuthCredentials MyAnimeList { get; set; }
+
+        /// <summary>
+        ///   Contains Watson account username and password.
+        /// </summary>
+        [JsonProperty]
+        public static BasicAuthCredentials Watson { get; set; }
 
         /// <summary>
         ///   Contains Github repository and authentication credentials.

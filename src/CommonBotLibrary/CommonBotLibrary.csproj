@@ -24,6 +24,7 @@
       -Steam Service: Searches https://store.steampowered.com for games.
       -Twitter Service: Searches https://twitter.com for tweets.
       -UrbanDictionary Service: Searches https://www.urbandictionary.com for definitions.
+      -Watson Personality Service: Uses IBM Watson to create a personality profile based on a user's text.
       -Yahoo Finance Service: Searches https://finance.yahoo.com/ for stock information.
       -Yandex Translate Service: Translates text using https://translate.yandex.com/.
       -YouTube Service: Searches https://youtube.com for videos.
