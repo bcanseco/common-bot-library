@@ -5,9 +5,9 @@ items:
   id: CommonBotLibrary
   children:
   - CommonBotLibrary.Tokens
+  - CommonBotLibrary.Tokens.BasicAuthCredentials
   - CommonBotLibrary.Tokens.GithubCredentials
   - CommonBotLibrary.Tokens.GoogleCredentials
-  - CommonBotLibrary.Tokens.MyAnimeListCredentials
   - CommonBotLibrary.Tokens.TwitterCredentials
   langs:
   - csharp
@@ -32,13 +32,13 @@ references:
   name: Tokens.GoogleCredentials
   nameWithType: Tokens.GoogleCredentials
   fullName: CommonBotLibrary.Tokens.GoogleCredentials
-- uid: CommonBotLibrary.Tokens.MyAnimeListCredentials
-  commentId: T:CommonBotLibrary.Tokens.MyAnimeListCredentials
+- uid: CommonBotLibrary.Tokens.BasicAuthCredentials
+  commentId: T:CommonBotLibrary.Tokens.BasicAuthCredentials
   parent: CommonBotLibrary
   isExternal: false
-  name: Tokens.MyAnimeListCredentials
-  nameWithType: Tokens.MyAnimeListCredentials
-  fullName: CommonBotLibrary.Tokens.MyAnimeListCredentials
+  name: Tokens.BasicAuthCredentials
+  nameWithType: Tokens.BasicAuthCredentials
+  fullName: CommonBotLibrary.Tokens.BasicAuthCredentials
 - uid: CommonBotLibrary.Tokens.GithubCredentials
   commentId: T:CommonBotLibrary.Tokens.GithubCredentials
   parent: CommonBotLibrary

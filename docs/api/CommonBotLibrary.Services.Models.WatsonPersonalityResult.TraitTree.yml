@@ -1,0 +1,697 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  commentId: T:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  id: WatsonPersonalityResult.TraitTree
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Category
+  - CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Children
+  - CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Name
+  - CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Percentile
+  - CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.RawScore
+  - CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.ToString
+  - CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.TraitId
+  langs:
+  - csharp
+  - vb
+  name: WatsonPersonalityResult.TraitTree
+  nameWithType: WatsonPersonalityResult.TraitTree
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  type: Class
+  source:
+    id: TraitTree
+    path: ''
+    startLine: 2808
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public class TraitTree
+    content.vb: Public Class TraitTree
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.TraitId
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.TraitId
+  id: TraitId
+  parent: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  langs:
+  - csharp
+  - vb
+  name: TraitId
+  nameWithType: WatsonPersonalityResult.TraitTree.TraitId
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.TraitId
+  type: Property
+  source:
+    id: TraitId
+    path: ''
+    startLine: 2810
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string TraitId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TraitId As String
+  overload: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.TraitId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Name
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Name
+  id: Name
+  parent: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: WatsonPersonalityResult.TraitTree.Name
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 2812
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Category
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Category
+  id: Category
+  parent: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: WatsonPersonalityResult.TraitTree.Category
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Category
+  type: Property
+  source:
+    id: Category
+    path: ''
+    startLine: 2813
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Category { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Category As String
+  overload: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Category*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Percentile
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Percentile
+  id: Percentile
+  parent: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  langs:
+  - csharp
+  - vb
+  name: Percentile
+  nameWithType: WatsonPersonalityResult.TraitTree.Percentile
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Percentile
+  type: Property
+  source:
+    id: Percentile
+    path: ''
+    startLine: 2814
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public double Percentile { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Percentile As Double
+  overload: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Percentile*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.RawScore
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.RawScore
+  id: RawScore
+  parent: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  langs:
+  - csharp
+  - vb
+  name: RawScore
+  nameWithType: WatsonPersonalityResult.TraitTree.RawScore
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.RawScore
+  type: Property
+  source:
+    id: RawScore
+    path: ''
+    startLine: 2815
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public double RawScore { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property RawScore As Double
+  overload: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.RawScore*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Children
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Children
+  id: Children
+  parent: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: WatsonPersonalityResult.TraitTree.Children
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Children
+  type: Property
+  source:
+    id: Children
+    path: ''
+    startLine: 2817
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public List<WatsonPersonalityResult.TraitTree> Children { get; set; }
+    parameters: []
+    return:
+      type: List{CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree}
+    content.vb: Public Property Children As List(Of WatsonPersonalityResult.TraitTree)
+  overload: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Children*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.ToString
+  commentId: M:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.ToString
+  id: ToString
+  parent: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WatsonPersonalityResult.TraitTree.ToString()
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 2819
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.TraitId*
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.TraitId
+  isExternal: false
+  name: TraitId
+  nameWithType: WatsonPersonalityResult.TraitTree.TraitId
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.TraitId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Name*
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Name
+  isExternal: false
+  name: Name
+  nameWithType: WatsonPersonalityResult.TraitTree.Name
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Name
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Category*
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Category
+  isExternal: false
+  name: Category
+  nameWithType: WatsonPersonalityResult.TraitTree.Category
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Category
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Percentile*
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Percentile
+  isExternal: false
+  name: Percentile
+  nameWithType: WatsonPersonalityResult.TraitTree.Percentile
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Percentile
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.RawScore*
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.RawScore
+  isExternal: false
+  name: RawScore
+  nameWithType: WatsonPersonalityResult.TraitTree.RawScore
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.RawScore
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Children*
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Children
+  isExternal: false
+  name: Children
+  nameWithType: WatsonPersonalityResult.TraitTree.Children
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Children
+- uid: List{CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree}
+  commentId: '!:List{CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree}'
+  definition: List`1
+  name: List<WatsonPersonalityResult.TraitTree>
+  nameWithType: List<WatsonPersonalityResult.TraitTree>
+  fullName: List<CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree>
+  nameWithType.vb: List(Of WatsonPersonalityResult.TraitTree)
+  fullName.vb: List(Of CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree)
+  name.vb: List(Of WatsonPersonalityResult.TraitTree)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+    name: WatsonPersonalityResult.TraitTree
+    nameWithType: WatsonPersonalityResult.TraitTree
+    fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+    name: WatsonPersonalityResult.TraitTree
+    nameWithType: WatsonPersonalityResult.TraitTree
+    fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.ToString*
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.ToString
+  isExternal: false
+  name: ToString
+  nameWithType: WatsonPersonalityResult.TraitTree.ToString
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.ToString

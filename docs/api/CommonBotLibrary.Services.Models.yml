@@ -5,7 +5,8 @@ items:
   id: CommonBotLibrary.Services.Models
   children:
   - CommonBotLibrary.Services.Models.Die
-  - CommonBotLibrary.Services.Models.GoogleResult
+  - CommonBotLibrary.Services.Models.GoogleSearchResult
+  - CommonBotLibrary.Services.Models.GoogleVisionResult
   - CommonBotLibrary.Services.Models.ImgurResult
   - CommonBotLibrary.Services.Models.MyAnimeListResult
   - CommonBotLibrary.Services.Models.OmdbDirectResult
@@ -26,8 +27,13 @@ items:
   - CommonBotLibrary.Services.Models.SteamSpyData
   - CommonBotLibrary.Services.Models.TwitterResult
   - CommonBotLibrary.Services.Models.UrbanDictionaryResult
+  - CommonBotLibrary.Services.Models.WatsonPersonalityResult
+  - CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference
+  - CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory
+  - CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
   - CommonBotLibrary.Services.Models.YahooQuote
   - CommonBotLibrary.Services.Models.YahooResult
+  - CommonBotLibrary.Services.Models.YandexResult
   - CommonBotLibrary.Services.Models.YouTubeResult
   langs:
   - csharp
@@ -46,13 +52,20 @@ references:
   name: Die
   nameWithType: Die
   fullName: CommonBotLibrary.Services.Models.Die
-- uid: CommonBotLibrary.Services.Models.GoogleResult
-  commentId: T:CommonBotLibrary.Services.Models.GoogleResult
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult
+  commentId: T:CommonBotLibrary.Services.Models.GoogleSearchResult
   parent: CommonBotLibrary.Services.Models
   isExternal: false
-  name: GoogleResult
-  nameWithType: GoogleResult
-  fullName: CommonBotLibrary.Services.Models.GoogleResult
+  name: GoogleSearchResult
+  nameWithType: GoogleSearchResult
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult
+  commentId: T:CommonBotLibrary.Services.Models.GoogleVisionResult
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: GoogleVisionResult
+  nameWithType: GoogleVisionResult
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult
 - uid: CommonBotLibrary.Services.Models.ImgurResult
   commentId: T:CommonBotLibrary.Services.Models.ImgurResult
   isExternal: false
@@ -186,6 +199,30 @@ references:
   name: UrbanDictionaryResult
   nameWithType: UrbanDictionaryResult
   fullName: CommonBotLibrary.Services.Models.UrbanDictionaryResult
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult
+  commentId: T:CommonBotLibrary.Services.Models.WatsonPersonalityResult
+  isExternal: false
+  name: WatsonPersonalityResult
+  nameWithType: WatsonPersonalityResult
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  commentId: T:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  isExternal: false
+  name: WatsonPersonalityResult.TraitTree
+  nameWithType: WatsonPersonalityResult.TraitTree
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory
+  commentId: T:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory
+  isExternal: false
+  name: WatsonPersonalityResult.ConsumptionPreferencesCategory
+  nameWithType: WatsonPersonalityResult.ConsumptionPreferencesCategory
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference
+  commentId: T:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference
+  isExternal: false
+  name: WatsonPersonalityResult.ConsumptionPreference
+  nameWithType: WatsonPersonalityResult.ConsumptionPreference
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference
 - uid: CommonBotLibrary.Services.Models.YahooResult
   commentId: T:CommonBotLibrary.Services.Models.YahooResult
   parent: CommonBotLibrary.Services.Models
@@ -199,6 +236,12 @@ references:
   name: YahooQuote
   nameWithType: YahooQuote
   fullName: CommonBotLibrary.Services.Models.YahooQuote
+- uid: CommonBotLibrary.Services.Models.YandexResult
+  commentId: T:CommonBotLibrary.Services.Models.YandexResult
+  isExternal: false
+  name: YandexResult
+  nameWithType: YandexResult
+  fullName: CommonBotLibrary.Services.Models.YandexResult
 - uid: CommonBotLibrary.Services.Models.YouTubeResult
   commentId: T:CommonBotLibrary.Services.Models.YouTubeResult
   parent: CommonBotLibrary.Services.Models

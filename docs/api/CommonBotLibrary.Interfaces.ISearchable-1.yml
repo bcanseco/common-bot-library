@@ -16,7 +16,7 @@ items:
   source:
     id: ISearchable
     path: ''
-    startLine: 446
+    startLine: 458
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
@@ -52,7 +52,7 @@ items:
   source:
     id: SearchAsync
     path: ''
-    startLine: 454
+    startLine: 466
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces

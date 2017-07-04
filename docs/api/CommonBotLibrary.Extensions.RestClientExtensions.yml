@@ -16,7 +16,7 @@ items:
   source:
     id: RestClientExtensions
     path: ''
-    startLine: 274
+    startLine: 286
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Extensions
@@ -55,11 +55,11 @@ items:
   source:
     id: ExecuteAsync
     path: ''
-    startLine: 281
+    startLine: 293
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Extensions
-  summary: "\nExecutes an HTTP request that will throw custom exceptions for 401 and 404.\n"
+  summary: "\nExecutes an HTTP request that will throw custom exceptions for 401, 403 and 404.\n"
   example: []
   syntax:
     content: public static Task<IRestResponse> ExecuteAsync(this RestClientBase client, IRestRequest request)

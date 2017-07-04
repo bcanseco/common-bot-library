@@ -5,7 +5,8 @@ items:
   id: CommonBotLibrary.Services
   children:
   - CommonBotLibrary.Services.GithubService
-  - CommonBotLibrary.Services.GoogleService
+  - CommonBotLibrary.Services.GoogleSearchService
+  - CommonBotLibrary.Services.GoogleVisionService
   - CommonBotLibrary.Services.ImgurService
   - CommonBotLibrary.Services.MyAnimeListService
   - CommonBotLibrary.Services.NCalcService
@@ -17,7 +18,9 @@ items:
   - CommonBotLibrary.Services.SteamService
   - CommonBotLibrary.Services.TwitterService
   - CommonBotLibrary.Services.UrbanDictionaryService
+  - CommonBotLibrary.Services.WatsonPersonalityService
   - CommonBotLibrary.Services.YahooFinanceService
+  - CommonBotLibrary.Services.YandexTranslateService
   - CommonBotLibrary.Services.YouTubeService
   langs:
   - csharp
@@ -35,12 +38,18 @@ references:
   name: GithubService
   nameWithType: GithubService
   fullName: CommonBotLibrary.Services.GithubService
-- uid: CommonBotLibrary.Services.GoogleService
-  commentId: T:CommonBotLibrary.Services.GoogleService
+- uid: CommonBotLibrary.Services.GoogleSearchService
+  commentId: T:CommonBotLibrary.Services.GoogleSearchService
   isExternal: false
-  name: GoogleService
-  nameWithType: GoogleService
-  fullName: CommonBotLibrary.Services.GoogleService
+  name: GoogleSearchService
+  nameWithType: GoogleSearchService
+  fullName: CommonBotLibrary.Services.GoogleSearchService
+- uid: CommonBotLibrary.Services.GoogleVisionService
+  commentId: T:CommonBotLibrary.Services.GoogleVisionService
+  isExternal: false
+  name: GoogleVisionService
+  nameWithType: GoogleVisionService
+  fullName: CommonBotLibrary.Services.GoogleVisionService
 - uid: CommonBotLibrary.Services.ImgurService
   commentId: T:CommonBotLibrary.Services.ImgurService
   isExternal: false
@@ -107,12 +116,24 @@ references:
   name: UrbanDictionaryService
   nameWithType: UrbanDictionaryService
   fullName: CommonBotLibrary.Services.UrbanDictionaryService
+- uid: CommonBotLibrary.Services.WatsonPersonalityService
+  commentId: T:CommonBotLibrary.Services.WatsonPersonalityService
+  isExternal: false
+  name: WatsonPersonalityService
+  nameWithType: WatsonPersonalityService
+  fullName: CommonBotLibrary.Services.WatsonPersonalityService
 - uid: CommonBotLibrary.Services.YahooFinanceService
   commentId: T:CommonBotLibrary.Services.YahooFinanceService
   isExternal: false
   name: YahooFinanceService
   nameWithType: YahooFinanceService
   fullName: CommonBotLibrary.Services.YahooFinanceService
+- uid: CommonBotLibrary.Services.YandexTranslateService
+  commentId: T:CommonBotLibrary.Services.YandexTranslateService
+  isExternal: false
+  name: YandexTranslateService
+  nameWithType: YandexTranslateService
+  fullName: CommonBotLibrary.Services.YandexTranslateService
 - uid: CommonBotLibrary.Services.YouTubeService
   commentId: T:CommonBotLibrary.Services.YouTubeService
   isExternal: false

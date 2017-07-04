@@ -6,9 +6,12 @@ items:
   children:
   - CommonBotLibrary.Interfaces.Models.AnimeBase
   - CommonBotLibrary.Interfaces.Models.DefinitionBase
+  - CommonBotLibrary.Interfaces.Models.ImageAnalysisBase
   - CommonBotLibrary.Interfaces.Models.IWebpage
   - CommonBotLibrary.Interfaces.Models.MediaBase
   - CommonBotLibrary.Interfaces.Models.SymbolBase
+  - CommonBotLibrary.Interfaces.Models.TextAnalysisBase
+  - CommonBotLibrary.Interfaces.Models.TranslationBase
   - CommonBotLibrary.Interfaces.Models.TriviaBase
   - CommonBotLibrary.Interfaces.Models.WeatherBase
   - CommonBotLibrary.Interfaces.Models.WeatherBase.Unit
@@ -34,6 +37,12 @@ references:
   name: DefinitionBase
   nameWithType: DefinitionBase
   fullName: CommonBotLibrary.Interfaces.Models.DefinitionBase
+- uid: CommonBotLibrary.Interfaces.Models.ImageAnalysisBase
+  commentId: T:CommonBotLibrary.Interfaces.Models.ImageAnalysisBase
+  isExternal: false
+  name: ImageAnalysisBase
+  nameWithType: ImageAnalysisBase
+  fullName: CommonBotLibrary.Interfaces.Models.ImageAnalysisBase
 - uid: CommonBotLibrary.Interfaces.Models.IWebpage
   commentId: T:CommonBotLibrary.Interfaces.Models.IWebpage
   isExternal: false
@@ -52,6 +61,18 @@ references:
   name: SymbolBase
   nameWithType: SymbolBase
   fullName: CommonBotLibrary.Interfaces.Models.SymbolBase
+- uid: CommonBotLibrary.Interfaces.Models.TextAnalysisBase
+  commentId: T:CommonBotLibrary.Interfaces.Models.TextAnalysisBase
+  isExternal: false
+  name: TextAnalysisBase
+  nameWithType: TextAnalysisBase
+  fullName: CommonBotLibrary.Interfaces.Models.TextAnalysisBase
+- uid: CommonBotLibrary.Interfaces.Models.TranslationBase
+  commentId: T:CommonBotLibrary.Interfaces.Models.TranslationBase
+  isExternal: false
+  name: TranslationBase
+  nameWithType: TranslationBase
+  fullName: CommonBotLibrary.Interfaces.Models.TranslationBase
 - uid: CommonBotLibrary.Interfaces.Models.TriviaBase
   commentId: T:CommonBotLibrary.Interfaces.Models.TriviaBase
   isExternal: false

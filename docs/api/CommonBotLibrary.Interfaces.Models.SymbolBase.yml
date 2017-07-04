@@ -18,7 +18,7 @@ items:
   source:
     id: SymbolBase
     path: ''
-    startLine: 615
+    startLine: 694
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -56,7 +56,7 @@ items:
   source:
     id: Symbol
     path: ''
-    startLine: 617
+    startLine: 696
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -87,7 +87,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 618
+    startLine: 697
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -118,7 +118,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 620
+    startLine: 699
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models

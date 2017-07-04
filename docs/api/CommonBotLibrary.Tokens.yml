@@ -14,6 +14,8 @@ items:
   - CommonBotLibrary.Tokens.Omdb
   - CommonBotLibrary.Tokens.OpenWeatherMap
   - CommonBotLibrary.Tokens.Twitter
+  - CommonBotLibrary.Tokens.Watson
+  - CommonBotLibrary.Tokens.Yandex
   langs:
   - csharp
   - vb
@@ -230,6 +232,41 @@ items:
   - Public
   - Shared
   - WriteOnly
+- uid: CommonBotLibrary.Tokens.Yandex
+  commentId: P:CommonBotLibrary.Tokens.Yandex
+  id: Yandex
+  parent: CommonBotLibrary.Tokens
+  langs:
+  - csharp
+  - vb
+  name: Yandex
+  nameWithType: Tokens.Yandex
+  fullName: CommonBotLibrary.Tokens.Yandex
+  type: Property
+  source:
+    id: Yandex
+    path: ''
+    startLine: 127
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary
+  summary: "\nYandex Translate API key.\n"
+  example: []
+  syntax:
+    content: public static string Yandex { set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared WriteOnly Property Yandex As String
+  overload: CommonBotLibrary.Tokens.Yandex*
+  modifiers.csharp:
+  - public
+  - static
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+  - WriteOnly
 - uid: CommonBotLibrary.Tokens.Google
   commentId: P:CommonBotLibrary.Tokens.Google
   id: Google
@@ -244,7 +281,7 @@ items:
   source:
     id: Google
     path: ''
-    startLine: 127
+    startLine: 133
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -279,7 +316,7 @@ items:
   source:
     id: Twitter
     path: ''
-    startLine: 133
+    startLine: 139
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -314,19 +351,54 @@ items:
   source:
     id: MyAnimeList
     path: ''
-    startLine: 139
+    startLine: 145
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
   summary: "\nContains MyAnimeList account username and password.\n"
   example: []
   syntax:
-    content: public static Tokens.MyAnimeListCredentials MyAnimeList { get; set; }
+    content: public static Tokens.BasicAuthCredentials MyAnimeList { get; set; }
     parameters: []
     return:
-      type: CommonBotLibrary.Tokens.MyAnimeListCredentials
-    content.vb: Public Shared Property MyAnimeList As Tokens.MyAnimeListCredentials
+      type: CommonBotLibrary.Tokens.BasicAuthCredentials
+    content.vb: Public Shared Property MyAnimeList As Tokens.BasicAuthCredentials
   overload: CommonBotLibrary.Tokens.MyAnimeList*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CommonBotLibrary.Tokens.Watson
+  commentId: P:CommonBotLibrary.Tokens.Watson
+  id: Watson
+  parent: CommonBotLibrary.Tokens
+  langs:
+  - csharp
+  - vb
+  name: Watson
+  nameWithType: Tokens.Watson
+  fullName: CommonBotLibrary.Tokens.Watson
+  type: Property
+  source:
+    id: Watson
+    path: ''
+    startLine: 151
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary
+  summary: "\nContains Watson account username and password.\n"
+  example: []
+  syntax:
+    content: public static Tokens.BasicAuthCredentials Watson { get; set; }
+    parameters: []
+    return:
+      type: CommonBotLibrary.Tokens.BasicAuthCredentials
+    content.vb: Public Shared Property Watson As Tokens.BasicAuthCredentials
+  overload: CommonBotLibrary.Tokens.Watson*
   modifiers.csharp:
   - public
   - static
@@ -349,7 +421,7 @@ items:
   source:
     id: Github
     path: ''
-    startLine: 145
+    startLine: 157
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -711,6 +783,12 @@ references:
   name: Imgur
   nameWithType: Tokens.Imgur
   fullName: CommonBotLibrary.Tokens.Imgur
+- uid: CommonBotLibrary.Tokens.Yandex*
+  commentId: Overload:CommonBotLibrary.Tokens.Yandex
+  isExternal: false
+  name: Yandex
+  nameWithType: Tokens.Yandex
+  fullName: CommonBotLibrary.Tokens.Yandex
 - uid: CommonBotLibrary.Tokens.Google*
   commentId: Overload:CommonBotLibrary.Tokens.Google
   isExternal: false
@@ -743,13 +821,19 @@ references:
   name: MyAnimeList
   nameWithType: Tokens.MyAnimeList
   fullName: CommonBotLibrary.Tokens.MyAnimeList
-- uid: CommonBotLibrary.Tokens.MyAnimeListCredentials
-  commentId: T:CommonBotLibrary.Tokens.MyAnimeListCredentials
+- uid: CommonBotLibrary.Tokens.BasicAuthCredentials
+  commentId: T:CommonBotLibrary.Tokens.BasicAuthCredentials
   parent: CommonBotLibrary
   isExternal: false
-  name: Tokens.MyAnimeListCredentials
-  nameWithType: Tokens.MyAnimeListCredentials
-  fullName: CommonBotLibrary.Tokens.MyAnimeListCredentials
+  name: Tokens.BasicAuthCredentials
+  nameWithType: Tokens.BasicAuthCredentials
+  fullName: CommonBotLibrary.Tokens.BasicAuthCredentials
+- uid: CommonBotLibrary.Tokens.Watson*
+  commentId: Overload:CommonBotLibrary.Tokens.Watson
+  isExternal: false
+  name: Watson
+  nameWithType: Tokens.Watson
+  fullName: CommonBotLibrary.Tokens.Watson
 - uid: CommonBotLibrary.Tokens.Github*
   commentId: Overload:CommonBotLibrary.Tokens.Github
   isExternal: false

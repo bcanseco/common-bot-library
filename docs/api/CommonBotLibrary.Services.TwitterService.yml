@@ -17,7 +17,7 @@ items:
   source:
     id: TwitterService
     path: ''
-    startLine: 1419
+    startLine: 1603
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -51,7 +51,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1426
+    startLine: 1610
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -83,7 +83,7 @@ items:
   source:
     id: GetRecentTweetsAsync
     path: ''
-    startLine: 1452
+    startLine: 1636
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

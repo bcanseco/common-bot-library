@@ -423,6 +423,42 @@ references:
   commentId: Overload:CommonBotLibrary.Interfaces.IStockService.SearchSymbolsAsync
   fullName: CommonBotLibrary.Interfaces.IStockService.SearchSymbolsAsync
   nameWithType: IStockService.SearchSymbolsAsync
+- uid: CommonBotLibrary.Interfaces.ITextAnalysisService
+  name: ITextAnalysisService
+  href: api/CommonBotLibrary.Interfaces.ITextAnalysisService.html
+  commentId: T:CommonBotLibrary.Interfaces.ITextAnalysisService
+  fullName: CommonBotLibrary.Interfaces.ITextAnalysisService
+  nameWithType: ITextAnalysisService
+- uid: CommonBotLibrary.Interfaces.ITextAnalysisService.AnalyzeAsync(System.String)
+  name: AnalyzeAsync(String)
+  href: api/CommonBotLibrary.Interfaces.ITextAnalysisService.html#CommonBotLibrary_Interfaces_ITextAnalysisService_AnalyzeAsync_System_String_
+  commentId: M:CommonBotLibrary.Interfaces.ITextAnalysisService.AnalyzeAsync(System.String)
+  fullName: CommonBotLibrary.Interfaces.ITextAnalysisService.AnalyzeAsync(System.String)
+  nameWithType: ITextAnalysisService.AnalyzeAsync(String)
+- uid: CommonBotLibrary.Interfaces.ITextAnalysisService.AnalyzeAsync*
+  name: AnalyzeAsync
+  href: api/CommonBotLibrary.Interfaces.ITextAnalysisService.html#CommonBotLibrary_Interfaces_ITextAnalysisService_AnalyzeAsync_
+  commentId: Overload:CommonBotLibrary.Interfaces.ITextAnalysisService.AnalyzeAsync
+  fullName: CommonBotLibrary.Interfaces.ITextAnalysisService.AnalyzeAsync
+  nameWithType: ITextAnalysisService.AnalyzeAsync
+- uid: CommonBotLibrary.Interfaces.ITranslationService
+  name: ITranslationService
+  href: api/CommonBotLibrary.Interfaces.ITranslationService.html
+  commentId: T:CommonBotLibrary.Interfaces.ITranslationService
+  fullName: CommonBotLibrary.Interfaces.ITranslationService
+  nameWithType: ITranslationService
+- uid: CommonBotLibrary.Interfaces.ITranslationService.TranslateAsync(System.String,System.String,System.String)
+  name: TranslateAsync(String, String, String)
+  href: api/CommonBotLibrary.Interfaces.ITranslationService.html#CommonBotLibrary_Interfaces_ITranslationService_TranslateAsync_System_String_System_String_System_String_
+  commentId: M:CommonBotLibrary.Interfaces.ITranslationService.TranslateAsync(System.String,System.String,System.String)
+  fullName: CommonBotLibrary.Interfaces.ITranslationService.TranslateAsync(System.String, System.String, System.String)
+  nameWithType: ITranslationService.TranslateAsync(String, String, String)
+- uid: CommonBotLibrary.Interfaces.ITranslationService.TranslateAsync*
+  name: TranslateAsync
+  href: api/CommonBotLibrary.Interfaces.ITranslationService.html#CommonBotLibrary_Interfaces_ITranslationService_TranslateAsync_
+  commentId: Overload:CommonBotLibrary.Interfaces.ITranslationService.TranslateAsync
+  fullName: CommonBotLibrary.Interfaces.ITranslationService.TranslateAsync
+  nameWithType: ITranslationService.TranslateAsync
 - uid: CommonBotLibrary.Interfaces.ITriviaService
   name: ITriviaService
   href: api/CommonBotLibrary.Interfaces.ITriviaService.html
@@ -462,6 +498,24 @@ references:
   commentId: Overload:CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync
   fullName: CommonBotLibrary.Interfaces.IVersionControlService.CreateIssueAsync
   nameWithType: IVersionControlService.CreateIssueAsync
+- uid: CommonBotLibrary.Interfaces.IVisionService
+  name: IVisionService
+  href: api/CommonBotLibrary.Interfaces.IVisionService.html
+  commentId: T:CommonBotLibrary.Interfaces.IVisionService
+  fullName: CommonBotLibrary.Interfaces.IVisionService
+  nameWithType: IVisionService
+- uid: CommonBotLibrary.Interfaces.IVisionService.AnalyzeAsync(System.String)
+  name: AnalyzeAsync(String)
+  href: api/CommonBotLibrary.Interfaces.IVisionService.html#CommonBotLibrary_Interfaces_IVisionService_AnalyzeAsync_System_String_
+  commentId: M:CommonBotLibrary.Interfaces.IVisionService.AnalyzeAsync(System.String)
+  fullName: CommonBotLibrary.Interfaces.IVisionService.AnalyzeAsync(System.String)
+  nameWithType: IVisionService.AnalyzeAsync(String)
+- uid: CommonBotLibrary.Interfaces.IVisionService.AnalyzeAsync*
+  name: AnalyzeAsync
+  href: api/CommonBotLibrary.Interfaces.IVisionService.html#CommonBotLibrary_Interfaces_IVisionService_AnalyzeAsync_
+  commentId: Overload:CommonBotLibrary.Interfaces.IVisionService.AnalyzeAsync
+  fullName: CommonBotLibrary.Interfaces.IVisionService.AnalyzeAsync
+  nameWithType: IVisionService.AnalyzeAsync
 - uid: CommonBotLibrary.Interfaces.IWeatherService
   name: IWeatherService
   href: api/CommonBotLibrary.Interfaces.IWeatherService.html
@@ -696,6 +750,24 @@ references:
   commentId: Overload:CommonBotLibrary.Interfaces.Models.DefinitionBase.Word
   fullName: CommonBotLibrary.Interfaces.Models.DefinitionBase.Word
   nameWithType: DefinitionBase.Word
+- uid: CommonBotLibrary.Interfaces.Models.ImageAnalysisBase
+  name: ImageAnalysisBase
+  href: api/CommonBotLibrary.Interfaces.Models.ImageAnalysisBase.html
+  commentId: T:CommonBotLibrary.Interfaces.Models.ImageAnalysisBase
+  fullName: CommonBotLibrary.Interfaces.Models.ImageAnalysisBase
+  nameWithType: ImageAnalysisBase
+- uid: CommonBotLibrary.Interfaces.Models.ImageAnalysisBase.Text
+  name: Text
+  href: api/CommonBotLibrary.Interfaces.Models.ImageAnalysisBase.html#CommonBotLibrary_Interfaces_Models_ImageAnalysisBase_Text
+  commentId: P:CommonBotLibrary.Interfaces.Models.ImageAnalysisBase.Text
+  fullName: CommonBotLibrary.Interfaces.Models.ImageAnalysisBase.Text
+  nameWithType: ImageAnalysisBase.Text
+- uid: CommonBotLibrary.Interfaces.Models.ImageAnalysisBase.Text*
+  name: Text
+  href: api/CommonBotLibrary.Interfaces.Models.ImageAnalysisBase.html#CommonBotLibrary_Interfaces_Models_ImageAnalysisBase_Text_
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.ImageAnalysisBase.Text
+  fullName: CommonBotLibrary.Interfaces.Models.ImageAnalysisBase.Text
+  nameWithType: ImageAnalysisBase.Text
 - uid: CommonBotLibrary.Interfaces.Models.IWebpage
   name: IWebpage
   href: api/CommonBotLibrary.Interfaces.Models.IWebpage.html
@@ -852,6 +924,54 @@ references:
   commentId: Overload:CommonBotLibrary.Interfaces.Models.SymbolBase.ToString
   fullName: CommonBotLibrary.Interfaces.Models.SymbolBase.ToString
   nameWithType: SymbolBase.ToString
+- uid: CommonBotLibrary.Interfaces.Models.TextAnalysisBase
+  name: TextAnalysisBase
+  href: api/CommonBotLibrary.Interfaces.Models.TextAnalysisBase.html
+  commentId: T:CommonBotLibrary.Interfaces.Models.TextAnalysisBase
+  fullName: CommonBotLibrary.Interfaces.Models.TextAnalysisBase
+  nameWithType: TextAnalysisBase
+- uid: CommonBotLibrary.Interfaces.Models.TextAnalysisBase.ProcessedLanguage
+  name: ProcessedLanguage
+  href: api/CommonBotLibrary.Interfaces.Models.TextAnalysisBase.html#CommonBotLibrary_Interfaces_Models_TextAnalysisBase_ProcessedLanguage
+  commentId: P:CommonBotLibrary.Interfaces.Models.TextAnalysisBase.ProcessedLanguage
+  fullName: CommonBotLibrary.Interfaces.Models.TextAnalysisBase.ProcessedLanguage
+  nameWithType: TextAnalysisBase.ProcessedLanguage
+- uid: CommonBotLibrary.Interfaces.Models.TextAnalysisBase.ProcessedLanguage*
+  name: ProcessedLanguage
+  href: api/CommonBotLibrary.Interfaces.Models.TextAnalysisBase.html#CommonBotLibrary_Interfaces_Models_TextAnalysisBase_ProcessedLanguage_
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.TextAnalysisBase.ProcessedLanguage
+  fullName: CommonBotLibrary.Interfaces.Models.TextAnalysisBase.ProcessedLanguage
+  nameWithType: TextAnalysisBase.ProcessedLanguage
+- uid: CommonBotLibrary.Interfaces.Models.TextAnalysisBase.WordCount
+  name: WordCount
+  href: api/CommonBotLibrary.Interfaces.Models.TextAnalysisBase.html#CommonBotLibrary_Interfaces_Models_TextAnalysisBase_WordCount
+  commentId: P:CommonBotLibrary.Interfaces.Models.TextAnalysisBase.WordCount
+  fullName: CommonBotLibrary.Interfaces.Models.TextAnalysisBase.WordCount
+  nameWithType: TextAnalysisBase.WordCount
+- uid: CommonBotLibrary.Interfaces.Models.TextAnalysisBase.WordCount*
+  name: WordCount
+  href: api/CommonBotLibrary.Interfaces.Models.TextAnalysisBase.html#CommonBotLibrary_Interfaces_Models_TextAnalysisBase_WordCount_
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.TextAnalysisBase.WordCount
+  fullName: CommonBotLibrary.Interfaces.Models.TextAnalysisBase.WordCount
+  nameWithType: TextAnalysisBase.WordCount
+- uid: CommonBotLibrary.Interfaces.Models.TranslationBase
+  name: TranslationBase
+  href: api/CommonBotLibrary.Interfaces.Models.TranslationBase.html
+  commentId: T:CommonBotLibrary.Interfaces.Models.TranslationBase
+  fullName: CommonBotLibrary.Interfaces.Models.TranslationBase
+  nameWithType: TranslationBase
+- uid: CommonBotLibrary.Interfaces.Models.TranslationBase.OutputText
+  name: OutputText
+  href: api/CommonBotLibrary.Interfaces.Models.TranslationBase.html#CommonBotLibrary_Interfaces_Models_TranslationBase_OutputText
+  commentId: P:CommonBotLibrary.Interfaces.Models.TranslationBase.OutputText
+  fullName: CommonBotLibrary.Interfaces.Models.TranslationBase.OutputText
+  nameWithType: TranslationBase.OutputText
+- uid: CommonBotLibrary.Interfaces.Models.TranslationBase.OutputText*
+  name: OutputText
+  href: api/CommonBotLibrary.Interfaces.Models.TranslationBase.html#CommonBotLibrary_Interfaces_Models_TranslationBase_OutputText_
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.TranslationBase.OutputText
+  fullName: CommonBotLibrary.Interfaces.Models.TranslationBase.OutputText
+  nameWithType: TranslationBase.OutputText
 - uid: CommonBotLibrary.Interfaces.Models.TriviaBase
   name: TriviaBase
   href: api/CommonBotLibrary.Interfaces.Models.TriviaBase.html
@@ -1011,6 +1131,36 @@ references:
   commentId: Overload:CommonBotLibrary.Services.GithubService.CreateIssueAsync
   fullName: CommonBotLibrary.Services.GithubService.CreateIssueAsync
   nameWithType: GithubService.CreateIssueAsync
+- uid: CommonBotLibrary.Services.GoogleSearchService
+  name: GoogleSearchService
+  href: api/CommonBotLibrary.Services.GoogleSearchService.html
+  commentId: T:CommonBotLibrary.Services.GoogleSearchService
+  fullName: CommonBotLibrary.Services.GoogleSearchService
+  nameWithType: GoogleSearchService
+- uid: CommonBotLibrary.Services.GoogleSearchService.#ctor(System.String,System.String)
+  name: GoogleSearchService(String, String)
+  href: api/CommonBotLibrary.Services.GoogleSearchService.html#CommonBotLibrary_Services_GoogleSearchService__ctor_System_String_System_String_
+  commentId: M:CommonBotLibrary.Services.GoogleSearchService.#ctor(System.String,System.String)
+  fullName: CommonBotLibrary.Services.GoogleSearchService.GoogleSearchService(System.String, System.String)
+  nameWithType: GoogleSearchService.GoogleSearchService(String, String)
+- uid: CommonBotLibrary.Services.GoogleSearchService.#ctor*
+  name: GoogleSearchService
+  href: api/CommonBotLibrary.Services.GoogleSearchService.html#CommonBotLibrary_Services_GoogleSearchService__ctor_
+  commentId: Overload:CommonBotLibrary.Services.GoogleSearchService.#ctor
+  fullName: CommonBotLibrary.Services.GoogleSearchService.GoogleSearchService
+  nameWithType: GoogleSearchService.GoogleSearchService
+- uid: CommonBotLibrary.Services.GoogleSearchService.SearchAsync(System.String,SafeEnum)
+  name: SearchAsync(String, SafeEnum)
+  href: api/CommonBotLibrary.Services.GoogleSearchService.html#CommonBotLibrary_Services_GoogleSearchService_SearchAsync_System_String_SafeEnum_
+  commentId: M:CommonBotLibrary.Services.GoogleSearchService.SearchAsync(System.String,SafeEnum)
+  fullName: CommonBotLibrary.Services.GoogleSearchService.SearchAsync(System.String, SafeEnum)
+  nameWithType: GoogleSearchService.SearchAsync(String, SafeEnum)
+- uid: CommonBotLibrary.Services.GoogleSearchService.SearchAsync*
+  name: SearchAsync
+  href: api/CommonBotLibrary.Services.GoogleSearchService.html#CommonBotLibrary_Services_GoogleSearchService_SearchAsync_
+  commentId: Overload:CommonBotLibrary.Services.GoogleSearchService.SearchAsync
+  fullName: CommonBotLibrary.Services.GoogleSearchService.SearchAsync
+  nameWithType: GoogleSearchService.SearchAsync
 - uid: CommonBotLibrary.Services.GoogleService
   name: GoogleService
   href: api/CommonBotLibrary.Services.GoogleService.html
@@ -1041,6 +1191,36 @@ references:
   commentId: Overload:CommonBotLibrary.Services.GoogleService.SearchAsync
   fullName: CommonBotLibrary.Services.GoogleService.SearchAsync
   nameWithType: GoogleService.SearchAsync
+- uid: CommonBotLibrary.Services.GoogleVisionService
+  name: GoogleVisionService
+  href: api/CommonBotLibrary.Services.GoogleVisionService.html
+  commentId: T:CommonBotLibrary.Services.GoogleVisionService
+  fullName: CommonBotLibrary.Services.GoogleVisionService
+  nameWithType: GoogleVisionService
+- uid: CommonBotLibrary.Services.GoogleVisionService.#ctor(System.String)
+  name: GoogleVisionService(String)
+  href: api/CommonBotLibrary.Services.GoogleVisionService.html#CommonBotLibrary_Services_GoogleVisionService__ctor_System_String_
+  commentId: M:CommonBotLibrary.Services.GoogleVisionService.#ctor(System.String)
+  fullName: CommonBotLibrary.Services.GoogleVisionService.GoogleVisionService(System.String)
+  nameWithType: GoogleVisionService.GoogleVisionService(String)
+- uid: CommonBotLibrary.Services.GoogleVisionService.#ctor*
+  name: GoogleVisionService
+  href: api/CommonBotLibrary.Services.GoogleVisionService.html#CommonBotLibrary_Services_GoogleVisionService__ctor_
+  commentId: Overload:CommonBotLibrary.Services.GoogleVisionService.#ctor
+  fullName: CommonBotLibrary.Services.GoogleVisionService.GoogleVisionService
+  nameWithType: GoogleVisionService.GoogleVisionService
+- uid: CommonBotLibrary.Services.GoogleVisionService.AnalyzeAsync(System.String)
+  name: AnalyzeAsync(String)
+  href: api/CommonBotLibrary.Services.GoogleVisionService.html#CommonBotLibrary_Services_GoogleVisionService_AnalyzeAsync_System_String_
+  commentId: M:CommonBotLibrary.Services.GoogleVisionService.AnalyzeAsync(System.String)
+  fullName: CommonBotLibrary.Services.GoogleVisionService.AnalyzeAsync(System.String)
+  nameWithType: GoogleVisionService.AnalyzeAsync(String)
+- uid: CommonBotLibrary.Services.GoogleVisionService.AnalyzeAsync*
+  name: AnalyzeAsync
+  href: api/CommonBotLibrary.Services.GoogleVisionService.html#CommonBotLibrary_Services_GoogleVisionService_AnalyzeAsync_
+  commentId: Overload:CommonBotLibrary.Services.GoogleVisionService.AnalyzeAsync
+  fullName: CommonBotLibrary.Services.GoogleVisionService.AnalyzeAsync
+  nameWithType: GoogleVisionService.AnalyzeAsync
 - uid: CommonBotLibrary.Services.ImgurService
   name: ImgurService
   href: api/CommonBotLibrary.Services.ImgurService.html
@@ -1290,6 +1470,138 @@ references:
   commentId: Overload:CommonBotLibrary.Services.Models.GoogleResult.Url
   fullName: CommonBotLibrary.Services.Models.GoogleResult.Url
   nameWithType: GoogleResult.Url
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult
+  name: GoogleSearchResult
+  href: api/CommonBotLibrary.Services.Models.GoogleSearchResult.html
+  commentId: T:CommonBotLibrary.Services.Models.GoogleSearchResult
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult
+  nameWithType: GoogleSearchResult
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.#ctor(Result)
+  name: GoogleSearchResult(Result)
+  href: api/CommonBotLibrary.Services.Models.GoogleSearchResult.html#CommonBotLibrary_Services_Models_GoogleSearchResult__ctor_Result_
+  commentId: M:CommonBotLibrary.Services.Models.GoogleSearchResult.#ctor(Result)
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.GoogleSearchResult(Result)
+  nameWithType: GoogleSearchResult.GoogleSearchResult(Result)
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.#ctor*
+  name: GoogleSearchResult
+  href: api/CommonBotLibrary.Services.Models.GoogleSearchResult.html#CommonBotLibrary_Services_Models_GoogleSearchResult__ctor_
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleSearchResult.#ctor
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.GoogleSearchResult
+  nameWithType: GoogleSearchResult.GoogleSearchResult
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.ApiResult
+  name: ApiResult
+  href: api/CommonBotLibrary.Services.Models.GoogleSearchResult.html#CommonBotLibrary_Services_Models_GoogleSearchResult_ApiResult
+  commentId: P:CommonBotLibrary.Services.Models.GoogleSearchResult.ApiResult
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.ApiResult
+  nameWithType: GoogleSearchResult.ApiResult
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.ApiResult*
+  name: ApiResult
+  href: api/CommonBotLibrary.Services.Models.GoogleSearchResult.html#CommonBotLibrary_Services_Models_GoogleSearchResult_ApiResult_
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleSearchResult.ApiResult
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.ApiResult
+  nameWithType: GoogleSearchResult.ApiResult
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.op_Implicit(CommonBotLibrary.Services.Models.GoogleSearchResult)~Result
+  name: Implicit(GoogleSearchResult to Result)
+  href: api/CommonBotLibrary.Services.Models.GoogleSearchResult.html#CommonBotLibrary_Services_Models_GoogleSearchResult_op_Implicit_CommonBotLibrary_Services_Models_GoogleSearchResult__Result
+  commentId: M:CommonBotLibrary.Services.Models.GoogleSearchResult.op_Implicit(CommonBotLibrary.Services.Models.GoogleSearchResult)~Result
+  name.vb: Widening(GoogleSearchResult to Result)
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.Implicit(CommonBotLibrary.Services.Models.GoogleSearchResult to Result)
+  fullName.vb: CommonBotLibrary.Services.Models.GoogleSearchResult.Widening(CommonBotLibrary.Services.Models.GoogleSearchResult to Result)
+  nameWithType: GoogleSearchResult.Implicit(GoogleSearchResult to Result)
+  nameWithType.vb: GoogleSearchResult.Widening(GoogleSearchResult to Result)
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.op_Implicit*
+  name: Implicit
+  href: api/CommonBotLibrary.Services.Models.GoogleSearchResult.html#CommonBotLibrary_Services_Models_GoogleSearchResult_op_Implicit_
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleSearchResult.op_Implicit
+  name.vb: Widening
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.Implicit
+  fullName.vb: CommonBotLibrary.Services.Models.GoogleSearchResult.Widening
+  nameWithType: GoogleSearchResult.Implicit
+  nameWithType.vb: GoogleSearchResult.Widening
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.Title
+  name: Title
+  href: api/CommonBotLibrary.Services.Models.GoogleSearchResult.html#CommonBotLibrary_Services_Models_GoogleSearchResult_Title
+  commentId: P:CommonBotLibrary.Services.Models.GoogleSearchResult.Title
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.Title
+  nameWithType: GoogleSearchResult.Title
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.Title*
+  name: Title
+  href: api/CommonBotLibrary.Services.Models.GoogleSearchResult.html#CommonBotLibrary_Services_Models_GoogleSearchResult_Title_
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleSearchResult.Title
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.Title
+  nameWithType: GoogleSearchResult.Title
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.Url
+  name: Url
+  href: api/CommonBotLibrary.Services.Models.GoogleSearchResult.html#CommonBotLibrary_Services_Models_GoogleSearchResult_Url
+  commentId: P:CommonBotLibrary.Services.Models.GoogleSearchResult.Url
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.Url
+  nameWithType: GoogleSearchResult.Url
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.Url*
+  name: Url
+  href: api/CommonBotLibrary.Services.Models.GoogleSearchResult.html#CommonBotLibrary_Services_Models_GoogleSearchResult_Url_
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleSearchResult.Url
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.Url
+  nameWithType: GoogleSearchResult.Url
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult
+  name: GoogleVisionResult
+  href: api/CommonBotLibrary.Services.Models.GoogleVisionResult.html
+  commentId: T:CommonBotLibrary.Services.Models.GoogleVisionResult
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult
+  nameWithType: GoogleVisionResult
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult.#ctor(AnnotateImageResponse)
+  name: GoogleVisionResult(AnnotateImageResponse)
+  href: api/CommonBotLibrary.Services.Models.GoogleVisionResult.html#CommonBotLibrary_Services_Models_GoogleVisionResult__ctor_AnnotateImageResponse_
+  commentId: M:CommonBotLibrary.Services.Models.GoogleVisionResult.#ctor(AnnotateImageResponse)
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult.GoogleVisionResult(AnnotateImageResponse)
+  nameWithType: GoogleVisionResult.GoogleVisionResult(AnnotateImageResponse)
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult.#ctor*
+  name: GoogleVisionResult
+  href: api/CommonBotLibrary.Services.Models.GoogleVisionResult.html#CommonBotLibrary_Services_Models_GoogleVisionResult__ctor_
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleVisionResult.#ctor
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult.GoogleVisionResult
+  nameWithType: GoogleVisionResult.GoogleVisionResult
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult.ApiResult
+  name: ApiResult
+  href: api/CommonBotLibrary.Services.Models.GoogleVisionResult.html#CommonBotLibrary_Services_Models_GoogleVisionResult_ApiResult
+  commentId: P:CommonBotLibrary.Services.Models.GoogleVisionResult.ApiResult
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult.ApiResult
+  nameWithType: GoogleVisionResult.ApiResult
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult.ApiResult*
+  name: ApiResult
+  href: api/CommonBotLibrary.Services.Models.GoogleVisionResult.html#CommonBotLibrary_Services_Models_GoogleVisionResult_ApiResult_
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleVisionResult.ApiResult
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult.ApiResult
+  nameWithType: GoogleVisionResult.ApiResult
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult.DominantColors
+  name: DominantColors
+  href: api/CommonBotLibrary.Services.Models.GoogleVisionResult.html#CommonBotLibrary_Services_Models_GoogleVisionResult_DominantColors
+  commentId: P:CommonBotLibrary.Services.Models.GoogleVisionResult.DominantColors
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult.DominantColors
+  nameWithType: GoogleVisionResult.DominantColors
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult.DominantColors*
+  name: DominantColors
+  href: api/CommonBotLibrary.Services.Models.GoogleVisionResult.html#CommonBotLibrary_Services_Models_GoogleVisionResult_DominantColors_
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleVisionResult.DominantColors
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult.DominantColors
+  nameWithType: GoogleVisionResult.DominantColors
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult.op_Implicit(CommonBotLibrary.Services.Models.GoogleVisionResult)~AnnotateImageResponse
+  name: Implicit(GoogleVisionResult to AnnotateImageResponse)
+  href: api/CommonBotLibrary.Services.Models.GoogleVisionResult.html#CommonBotLibrary_Services_Models_GoogleVisionResult_op_Implicit_CommonBotLibrary_Services_Models_GoogleVisionResult__AnnotateImageResponse
+  commentId: M:CommonBotLibrary.Services.Models.GoogleVisionResult.op_Implicit(CommonBotLibrary.Services.Models.GoogleVisionResult)~AnnotateImageResponse
+  name.vb: Widening(GoogleVisionResult to AnnotateImageResponse)
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult.Implicit(CommonBotLibrary.Services.Models.GoogleVisionResult to AnnotateImageResponse)
+  fullName.vb: CommonBotLibrary.Services.Models.GoogleVisionResult.Widening(CommonBotLibrary.Services.Models.GoogleVisionResult to AnnotateImageResponse)
+  nameWithType: GoogleVisionResult.Implicit(GoogleVisionResult to AnnotateImageResponse)
+  nameWithType.vb: GoogleVisionResult.Widening(GoogleVisionResult to AnnotateImageResponse)
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult.op_Implicit*
+  name: Implicit
+  href: api/CommonBotLibrary.Services.Models.GoogleVisionResult.html#CommonBotLibrary_Services_Models_GoogleVisionResult_op_Implicit_
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleVisionResult.op_Implicit
+  name.vb: Widening
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult.Implicit
+  fullName.vb: CommonBotLibrary.Services.Models.GoogleVisionResult.Widening
+  nameWithType: GoogleVisionResult.Implicit
+  nameWithType.vb: GoogleVisionResult.Widening
 - uid: CommonBotLibrary.Services.Models.ImgurResult
   name: ImgurResult
   href: api/CommonBotLibrary.Services.Models.ImgurResult.html
@@ -2910,6 +3222,258 @@ references:
   commentId: Overload:CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsUp
   fullName: CommonBotLibrary.Services.Models.UrbanDictionaryResult.ThumbsUp
   nameWithType: UrbanDictionaryResult.ThumbsUp
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult
+  name: WatsonPersonalityResult
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.html
+  commentId: T:CommonBotLibrary.Services.Models.WatsonPersonalityResult
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult
+  nameWithType: WatsonPersonalityResult
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference
+  name: WatsonPersonalityResult.ConsumptionPreference
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.html
+  commentId: T:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference
+  nameWithType: WatsonPersonalityResult.ConsumptionPreference
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.ConsumptionPreferenceId
+  name: ConsumptionPreferenceId
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreference_ConsumptionPreferenceId
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.ConsumptionPreferenceId
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.ConsumptionPreferenceId
+  nameWithType: WatsonPersonalityResult.ConsumptionPreference.ConsumptionPreferenceId
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.ConsumptionPreferenceId*
+  name: ConsumptionPreferenceId
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreference_ConsumptionPreferenceId_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.ConsumptionPreferenceId
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.ConsumptionPreferenceId
+  nameWithType: WatsonPersonalityResult.ConsumptionPreference.ConsumptionPreferenceId
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.Name
+  name: Name
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreference_Name
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.Name
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.Name
+  nameWithType: WatsonPersonalityResult.ConsumptionPreference.Name
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.Name*
+  name: Name
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreference_Name_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.Name
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.Name
+  nameWithType: WatsonPersonalityResult.ConsumptionPreference.Name
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.Score
+  name: Score
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreference_Score
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.Score
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.Score
+  nameWithType: WatsonPersonalityResult.ConsumptionPreference.Score
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.Score*
+  name: Score
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreference_Score_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.Score
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.Score
+  nameWithType: WatsonPersonalityResult.ConsumptionPreference.Score
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.ToString
+  name: ToString()
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreference_ToString
+  commentId: M:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.ToString
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.ToString()
+  nameWithType: WatsonPersonalityResult.ConsumptionPreference.ToString()
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.ToString*
+  name: ToString
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreference_ToString_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.ToString
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference.ToString
+  nameWithType: WatsonPersonalityResult.ConsumptionPreference.ToString
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferences
+  name: ConsumptionPreferences
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreferences
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferences
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferences
+  nameWithType: WatsonPersonalityResult.ConsumptionPreferences
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferences*
+  name: ConsumptionPreferences
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreferences_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferences
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferences
+  nameWithType: WatsonPersonalityResult.ConsumptionPreferences
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory
+  name: WatsonPersonalityResult.ConsumptionPreferencesCategory
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.html
+  commentId: T:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory
+  nameWithType: WatsonPersonalityResult.ConsumptionPreferencesCategory
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ConsumptionPreferenceCategoryId
+  name: ConsumptionPreferenceCategoryId
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreferencesCategory_ConsumptionPreferenceCategoryId
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ConsumptionPreferenceCategoryId
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ConsumptionPreferenceCategoryId
+  nameWithType: WatsonPersonalityResult.ConsumptionPreferencesCategory.ConsumptionPreferenceCategoryId
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ConsumptionPreferenceCategoryId*
+  name: ConsumptionPreferenceCategoryId
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreferencesCategory_ConsumptionPreferenceCategoryId_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ConsumptionPreferenceCategoryId
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ConsumptionPreferenceCategoryId
+  nameWithType: WatsonPersonalityResult.ConsumptionPreferencesCategory.ConsumptionPreferenceCategoryId
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ConsumptionPreferences
+  name: ConsumptionPreferences
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreferencesCategory_ConsumptionPreferences
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ConsumptionPreferences
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ConsumptionPreferences
+  nameWithType: WatsonPersonalityResult.ConsumptionPreferencesCategory.ConsumptionPreferences
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ConsumptionPreferences*
+  name: ConsumptionPreferences
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreferencesCategory_ConsumptionPreferences_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ConsumptionPreferences
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ConsumptionPreferences
+  nameWithType: WatsonPersonalityResult.ConsumptionPreferencesCategory.ConsumptionPreferences
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.Name
+  name: Name
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreferencesCategory_Name
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.Name
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.Name
+  nameWithType: WatsonPersonalityResult.ConsumptionPreferencesCategory.Name
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.Name*
+  name: Name
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreferencesCategory_Name_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.Name
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.Name
+  nameWithType: WatsonPersonalityResult.ConsumptionPreferencesCategory.Name
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ToString
+  name: ToString()
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreferencesCategory_ToString
+  commentId: M:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ToString
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ToString()
+  nameWithType: WatsonPersonalityResult.ConsumptionPreferencesCategory.ToString()
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ToString*
+  name: ToString
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_ConsumptionPreferencesCategory_ToString_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ToString
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory.ToString
+  nameWithType: WatsonPersonalityResult.ConsumptionPreferencesCategory.ToString
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Needs
+  name: Needs
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_Needs
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.Needs
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Needs
+  nameWithType: WatsonPersonalityResult.Needs
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Needs*
+  name: Needs
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_Needs_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.Needs
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Needs
+  nameWithType: WatsonPersonalityResult.Needs
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Personality
+  name: Personality
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_Personality
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.Personality
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Personality
+  nameWithType: WatsonPersonalityResult.Personality
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Personality*
+  name: Personality
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_Personality_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.Personality
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Personality
+  nameWithType: WatsonPersonalityResult.Personality
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  name: WatsonPersonalityResult.TraitTree
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.html
+  commentId: T:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  nameWithType: WatsonPersonalityResult.TraitTree
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Category
+  name: Category
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_TraitTree_Category
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Category
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Category
+  nameWithType: WatsonPersonalityResult.TraitTree.Category
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Category*
+  name: Category
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_TraitTree_Category_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Category
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Category
+  nameWithType: WatsonPersonalityResult.TraitTree.Category
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Children
+  name: Children
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_TraitTree_Children
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Children
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Children
+  nameWithType: WatsonPersonalityResult.TraitTree.Children
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Children*
+  name: Children
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_TraitTree_Children_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Children
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Children
+  nameWithType: WatsonPersonalityResult.TraitTree.Children
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Name
+  name: Name
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_TraitTree_Name
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Name
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Name
+  nameWithType: WatsonPersonalityResult.TraitTree.Name
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Name*
+  name: Name
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_TraitTree_Name_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Name
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Name
+  nameWithType: WatsonPersonalityResult.TraitTree.Name
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Percentile
+  name: Percentile
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_TraitTree_Percentile
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Percentile
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Percentile
+  nameWithType: WatsonPersonalityResult.TraitTree.Percentile
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Percentile*
+  name: Percentile
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_TraitTree_Percentile_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Percentile
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.Percentile
+  nameWithType: WatsonPersonalityResult.TraitTree.Percentile
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.RawScore
+  name: RawScore
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_TraitTree_RawScore
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.RawScore
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.RawScore
+  nameWithType: WatsonPersonalityResult.TraitTree.RawScore
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.RawScore*
+  name: RawScore
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_TraitTree_RawScore_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.RawScore
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.RawScore
+  nameWithType: WatsonPersonalityResult.TraitTree.RawScore
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.ToString
+  name: ToString()
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_TraitTree_ToString
+  commentId: M:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.ToString
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.ToString()
+  nameWithType: WatsonPersonalityResult.TraitTree.ToString()
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.ToString*
+  name: ToString
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_TraitTree_ToString_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.ToString
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.ToString
+  nameWithType: WatsonPersonalityResult.TraitTree.ToString
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.TraitId
+  name: TraitId
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_TraitTree_TraitId
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.TraitId
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.TraitId
+  nameWithType: WatsonPersonalityResult.TraitTree.TraitId
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.TraitId*
+  name: TraitId
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_TraitTree_TraitId_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.TraitId
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree.TraitId
+  nameWithType: WatsonPersonalityResult.TraitTree.TraitId
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Values
+  name: Values
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_Values
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.Values
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Values
+  nameWithType: WatsonPersonalityResult.Values
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Values*
+  name: Values
+  href: api/CommonBotLibrary.Services.Models.WatsonPersonalityResult.html#CommonBotLibrary_Services_Models_WatsonPersonalityResult_Values_
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.Values
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Values
+  nameWithType: WatsonPersonalityResult.Values
 - uid: CommonBotLibrary.Services.Models.YahooQuote
   name: YahooQuote
   href: api/CommonBotLibrary.Services.Models.YahooQuote.html
@@ -3186,6 +3750,48 @@ references:
   commentId: Overload:CommonBotLibrary.Services.Models.YahooResult.TypeDisplay
   fullName: CommonBotLibrary.Services.Models.YahooResult.TypeDisplay
   nameWithType: YahooResult.TypeDisplay
+- uid: CommonBotLibrary.Services.Models.YandexResult
+  name: YandexResult
+  href: api/CommonBotLibrary.Services.Models.YandexResult.html
+  commentId: T:CommonBotLibrary.Services.Models.YandexResult
+  fullName: CommonBotLibrary.Services.Models.YandexResult
+  nameWithType: YandexResult
+- uid: CommonBotLibrary.Services.Models.YandexResult.#ctor(JToken)
+  name: YandexResult(JToken)
+  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult__ctor_JToken_
+  commentId: M:CommonBotLibrary.Services.Models.YandexResult.#ctor(JToken)
+  fullName: CommonBotLibrary.Services.Models.YandexResult.YandexResult(JToken)
+  nameWithType: YandexResult.YandexResult(JToken)
+- uid: CommonBotLibrary.Services.Models.YandexResult.#ctor*
+  name: YandexResult
+  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult__ctor_
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexResult.#ctor
+  fullName: CommonBotLibrary.Services.Models.YandexResult.YandexResult
+  nameWithType: YandexResult.YandexResult
+- uid: CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage
+  name: DetectedLanguage
+  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult_DetectedLanguage
+  commentId: P:CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage
+  fullName: CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage
+  nameWithType: YandexResult.DetectedLanguage
+- uid: CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage*
+  name: DetectedLanguage
+  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult_DetectedLanguage_
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage
+  fullName: CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage
+  nameWithType: YandexResult.DetectedLanguage
+- uid: CommonBotLibrary.Services.Models.YandexResult.LanguageFlow
+  name: LanguageFlow
+  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult_LanguageFlow
+  commentId: P:CommonBotLibrary.Services.Models.YandexResult.LanguageFlow
+  fullName: CommonBotLibrary.Services.Models.YandexResult.LanguageFlow
+  nameWithType: YandexResult.LanguageFlow
+- uid: CommonBotLibrary.Services.Models.YandexResult.LanguageFlow*
+  name: LanguageFlow
+  href: api/CommonBotLibrary.Services.Models.YandexResult.html#CommonBotLibrary_Services_Models_YandexResult_LanguageFlow_
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexResult.LanguageFlow
+  fullName: CommonBotLibrary.Services.Models.YandexResult.LanguageFlow
+  nameWithType: YandexResult.LanguageFlow
 - uid: CommonBotLibrary.Services.Models.YouTubeResult
   name: YouTubeResult
   href: api/CommonBotLibrary.Services.Models.YouTubeResult.html
@@ -3555,6 +4161,36 @@ references:
   commentId: Overload:CommonBotLibrary.Services.UrbanDictionaryService.GetDefinitionsAsync
   fullName: CommonBotLibrary.Services.UrbanDictionaryService.GetDefinitionsAsync
   nameWithType: UrbanDictionaryService.GetDefinitionsAsync
+- uid: CommonBotLibrary.Services.WatsonPersonalityService
+  name: WatsonPersonalityService
+  href: api/CommonBotLibrary.Services.WatsonPersonalityService.html
+  commentId: T:CommonBotLibrary.Services.WatsonPersonalityService
+  fullName: CommonBotLibrary.Services.WatsonPersonalityService
+  nameWithType: WatsonPersonalityService
+- uid: CommonBotLibrary.Services.WatsonPersonalityService.#ctor(System.String,System.String)
+  name: WatsonPersonalityService(String, String)
+  href: api/CommonBotLibrary.Services.WatsonPersonalityService.html#CommonBotLibrary_Services_WatsonPersonalityService__ctor_System_String_System_String_
+  commentId: M:CommonBotLibrary.Services.WatsonPersonalityService.#ctor(System.String,System.String)
+  fullName: CommonBotLibrary.Services.WatsonPersonalityService.WatsonPersonalityService(System.String, System.String)
+  nameWithType: WatsonPersonalityService.WatsonPersonalityService(String, String)
+- uid: CommonBotLibrary.Services.WatsonPersonalityService.#ctor*
+  name: WatsonPersonalityService
+  href: api/CommonBotLibrary.Services.WatsonPersonalityService.html#CommonBotLibrary_Services_WatsonPersonalityService__ctor_
+  commentId: Overload:CommonBotLibrary.Services.WatsonPersonalityService.#ctor
+  fullName: CommonBotLibrary.Services.WatsonPersonalityService.WatsonPersonalityService
+  nameWithType: WatsonPersonalityService.WatsonPersonalityService
+- uid: CommonBotLibrary.Services.WatsonPersonalityService.AnalyzeAsync(System.String)
+  name: AnalyzeAsync(String)
+  href: api/CommonBotLibrary.Services.WatsonPersonalityService.html#CommonBotLibrary_Services_WatsonPersonalityService_AnalyzeAsync_System_String_
+  commentId: M:CommonBotLibrary.Services.WatsonPersonalityService.AnalyzeAsync(System.String)
+  fullName: CommonBotLibrary.Services.WatsonPersonalityService.AnalyzeAsync(System.String)
+  nameWithType: WatsonPersonalityService.AnalyzeAsync(String)
+- uid: CommonBotLibrary.Services.WatsonPersonalityService.AnalyzeAsync*
+  name: AnalyzeAsync
+  href: api/CommonBotLibrary.Services.WatsonPersonalityService.html#CommonBotLibrary_Services_WatsonPersonalityService_AnalyzeAsync_
+  commentId: Overload:CommonBotLibrary.Services.WatsonPersonalityService.AnalyzeAsync
+  fullName: CommonBotLibrary.Services.WatsonPersonalityService.AnalyzeAsync
+  nameWithType: WatsonPersonalityService.AnalyzeAsync
 - uid: CommonBotLibrary.Services.YahooFinanceService
   name: YahooFinanceService
   href: api/CommonBotLibrary.Services.YahooFinanceService.html
@@ -3585,6 +4221,48 @@ references:
   commentId: Overload:CommonBotLibrary.Services.YahooFinanceService.SearchSymbolsAsync
   fullName: CommonBotLibrary.Services.YahooFinanceService.SearchSymbolsAsync
   nameWithType: YahooFinanceService.SearchSymbolsAsync
+- uid: CommonBotLibrary.Services.YandexTranslateService
+  name: YandexTranslateService
+  href: api/CommonBotLibrary.Services.YandexTranslateService.html
+  commentId: T:CommonBotLibrary.Services.YandexTranslateService
+  fullName: CommonBotLibrary.Services.YandexTranslateService
+  nameWithType: YandexTranslateService
+- uid: CommonBotLibrary.Services.YandexTranslateService.#ctor(System.String)
+  name: YandexTranslateService(String)
+  href: api/CommonBotLibrary.Services.YandexTranslateService.html#CommonBotLibrary_Services_YandexTranslateService__ctor_System_String_
+  commentId: M:CommonBotLibrary.Services.YandexTranslateService.#ctor(System.String)
+  fullName: CommonBotLibrary.Services.YandexTranslateService.YandexTranslateService(System.String)
+  nameWithType: YandexTranslateService.YandexTranslateService(String)
+- uid: CommonBotLibrary.Services.YandexTranslateService.#ctor*
+  name: YandexTranslateService
+  href: api/CommonBotLibrary.Services.YandexTranslateService.html#CommonBotLibrary_Services_YandexTranslateService__ctor_
+  commentId: Overload:CommonBotLibrary.Services.YandexTranslateService.#ctor
+  fullName: CommonBotLibrary.Services.YandexTranslateService.YandexTranslateService
+  nameWithType: YandexTranslateService.YandexTranslateService
+- uid: CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
+  name: LanguageCodes
+  href: api/CommonBotLibrary.Services.YandexTranslateService.html#CommonBotLibrary_Services_YandexTranslateService_LanguageCodes
+  commentId: P:CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
+  fullName: CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
+  nameWithType: YandexTranslateService.LanguageCodes
+- uid: CommonBotLibrary.Services.YandexTranslateService.LanguageCodes*
+  name: LanguageCodes
+  href: api/CommonBotLibrary.Services.YandexTranslateService.html#CommonBotLibrary_Services_YandexTranslateService_LanguageCodes_
+  commentId: Overload:CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
+  fullName: CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
+  nameWithType: YandexTranslateService.LanguageCodes
+- uid: CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String,System.String,System.String)
+  name: TranslateAsync(String, String, String)
+  href: api/CommonBotLibrary.Services.YandexTranslateService.html#CommonBotLibrary_Services_YandexTranslateService_TranslateAsync_System_String_System_String_System_String_
+  commentId: M:CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String,System.String,System.String)
+  fullName: CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String, System.String, System.String)
+  nameWithType: YandexTranslateService.TranslateAsync(String, String, String)
+- uid: CommonBotLibrary.Services.YandexTranslateService.TranslateAsync*
+  name: TranslateAsync
+  href: api/CommonBotLibrary.Services.YandexTranslateService.html#CommonBotLibrary_Services_YandexTranslateService_TranslateAsync_
+  commentId: Overload:CommonBotLibrary.Services.YandexTranslateService.TranslateAsync
+  fullName: CommonBotLibrary.Services.YandexTranslateService.TranslateAsync
+  nameWithType: YandexTranslateService.TranslateAsync
 - uid: CommonBotLibrary.Services.YouTubeService
   name: YouTubeService
   href: api/CommonBotLibrary.Services.YouTubeService.html
@@ -3621,6 +4299,48 @@ references:
   commentId: T:CommonBotLibrary.Tokens
   fullName: CommonBotLibrary.Tokens
   nameWithType: Tokens
+- uid: CommonBotLibrary.Tokens.BasicAuthCredentials
+  name: Tokens.BasicAuthCredentials
+  href: api/CommonBotLibrary.Tokens.BasicAuthCredentials.html
+  commentId: T:CommonBotLibrary.Tokens.BasicAuthCredentials
+  fullName: CommonBotLibrary.Tokens.BasicAuthCredentials
+  nameWithType: Tokens.BasicAuthCredentials
+- uid: CommonBotLibrary.Tokens.BasicAuthCredentials.#ctor(System.String,System.String)
+  name: BasicAuthCredentials(String, String)
+  href: api/CommonBotLibrary.Tokens.BasicAuthCredentials.html#CommonBotLibrary_Tokens_BasicAuthCredentials__ctor_System_String_System_String_
+  commentId: M:CommonBotLibrary.Tokens.BasicAuthCredentials.#ctor(System.String,System.String)
+  fullName: CommonBotLibrary.Tokens.BasicAuthCredentials.BasicAuthCredentials(System.String, System.String)
+  nameWithType: Tokens.BasicAuthCredentials.BasicAuthCredentials(String, String)
+- uid: CommonBotLibrary.Tokens.BasicAuthCredentials.#ctor*
+  name: BasicAuthCredentials
+  href: api/CommonBotLibrary.Tokens.BasicAuthCredentials.html#CommonBotLibrary_Tokens_BasicAuthCredentials__ctor_
+  commentId: Overload:CommonBotLibrary.Tokens.BasicAuthCredentials.#ctor
+  fullName: CommonBotLibrary.Tokens.BasicAuthCredentials.BasicAuthCredentials
+  nameWithType: Tokens.BasicAuthCredentials.BasicAuthCredentials
+- uid: CommonBotLibrary.Tokens.BasicAuthCredentials.Password
+  name: Password
+  href: api/CommonBotLibrary.Tokens.BasicAuthCredentials.html#CommonBotLibrary_Tokens_BasicAuthCredentials_Password
+  commentId: P:CommonBotLibrary.Tokens.BasicAuthCredentials.Password
+  fullName: CommonBotLibrary.Tokens.BasicAuthCredentials.Password
+  nameWithType: Tokens.BasicAuthCredentials.Password
+- uid: CommonBotLibrary.Tokens.BasicAuthCredentials.Password*
+  name: Password
+  href: api/CommonBotLibrary.Tokens.BasicAuthCredentials.html#CommonBotLibrary_Tokens_BasicAuthCredentials_Password_
+  commentId: Overload:CommonBotLibrary.Tokens.BasicAuthCredentials.Password
+  fullName: CommonBotLibrary.Tokens.BasicAuthCredentials.Password
+  nameWithType: Tokens.BasicAuthCredentials.Password
+- uid: CommonBotLibrary.Tokens.BasicAuthCredentials.Username
+  name: Username
+  href: api/CommonBotLibrary.Tokens.BasicAuthCredentials.html#CommonBotLibrary_Tokens_BasicAuthCredentials_Username
+  commentId: P:CommonBotLibrary.Tokens.BasicAuthCredentials.Username
+  fullName: CommonBotLibrary.Tokens.BasicAuthCredentials.Username
+  nameWithType: Tokens.BasicAuthCredentials.Username
+- uid: CommonBotLibrary.Tokens.BasicAuthCredentials.Username*
+  name: Username
+  href: api/CommonBotLibrary.Tokens.BasicAuthCredentials.html#CommonBotLibrary_Tokens_BasicAuthCredentials_Username_
+  commentId: Overload:CommonBotLibrary.Tokens.BasicAuthCredentials.Username
+  fullName: CommonBotLibrary.Tokens.BasicAuthCredentials.Username
+  nameWithType: Tokens.BasicAuthCredentials.Username
 - uid: CommonBotLibrary.Tokens.Github
   name: Github
   href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_Github
@@ -3918,3 +4638,27 @@ references:
   commentId: Overload:CommonBotLibrary.Tokens.TwitterCredentials.ConsumerSecret
   fullName: CommonBotLibrary.Tokens.TwitterCredentials.ConsumerSecret
   nameWithType: Tokens.TwitterCredentials.ConsumerSecret
+- uid: CommonBotLibrary.Tokens.Watson
+  name: Watson
+  href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_Watson
+  commentId: P:CommonBotLibrary.Tokens.Watson
+  fullName: CommonBotLibrary.Tokens.Watson
+  nameWithType: Tokens.Watson
+- uid: CommonBotLibrary.Tokens.Watson*
+  name: Watson
+  href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_Watson_
+  commentId: Overload:CommonBotLibrary.Tokens.Watson
+  fullName: CommonBotLibrary.Tokens.Watson
+  nameWithType: Tokens.Watson
+- uid: CommonBotLibrary.Tokens.Yandex
+  name: Yandex
+  href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_Yandex
+  commentId: P:CommonBotLibrary.Tokens.Yandex
+  fullName: CommonBotLibrary.Tokens.Yandex
+  nameWithType: Tokens.Yandex
+- uid: CommonBotLibrary.Tokens.Yandex*
+  name: Yandex
+  href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_Yandex_
+  commentId: Overload:CommonBotLibrary.Tokens.Yandex
+  fullName: CommonBotLibrary.Tokens.Yandex
+  nameWithType: Tokens.Yandex
