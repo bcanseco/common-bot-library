@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.YandexResult
+  commentId: T:CommonBotLibrary.Services.Models.YandexResult
+  id: YandexResult
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.YandexResult.#ctor(JToken)
+  - CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage
+  - CommonBotLibrary.Services.Models.YandexResult.LanguageFlow
+  langs:
+  - csharp
+  - vb
+  name: YandexResult
+  nameWithType: YandexResult
+  fullName: CommonBotLibrary.Services.Models.YandexResult
+  type: Class
+  source:
+    id: YandexResult
+    path: ''
+    startLine: 2896
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: 'public class YandexResult : TranslationBase'
+    content.vb: >-
+      Public Class YandexResult
+          Inherits TranslationBase
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.YandexResult.#ctor(JToken)
+  commentId: M:CommonBotLibrary.Services.Models.YandexResult.#ctor(JToken)
+  id: '#ctor(JToken)'
+  parent: CommonBotLibrary.Services.Models.YandexResult
+  langs:
+  - csharp
+  - vb
+  name: YandexResult(JToken)
+  nameWithType: YandexResult.YandexResult(JToken)
+  fullName: CommonBotLibrary.Services.Models.YandexResult.YandexResult(JToken)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2898
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public YandexResult(JToken response)
+    parameters:
+    - id: response
+      type: JToken
+    content.vb: Public Sub New(response As JToken)
+  overload: CommonBotLibrary.Services.Models.YandexResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage
+  commentId: P:CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage
+  id: DetectedLanguage
+  parent: CommonBotLibrary.Services.Models.YandexResult
+  langs:
+  - csharp
+  - vb
+  name: DetectedLanguage
+  nameWithType: YandexResult.DetectedLanguage
+  fullName: CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage
+  type: Property
+  source:
+    id: DetectedLanguage
+    path: ''
+    startLine: 2906
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string DetectedLanguage { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DetectedLanguage As String
+  overload: CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CommonBotLibrary.Services.Models.YandexResult.LanguageFlow
+  commentId: P:CommonBotLibrary.Services.Models.YandexResult.LanguageFlow
+  id: LanguageFlow
+  parent: CommonBotLibrary.Services.Models.YandexResult
+  langs:
+  - csharp
+  - vb
+  name: LanguageFlow
+  nameWithType: YandexResult.LanguageFlow
+  fullName: CommonBotLibrary.Services.Models.YandexResult.LanguageFlow
+  type: Property
+  source:
+    id: LanguageFlow
+    path: ''
+    startLine: 2907
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string LanguageFlow { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property LanguageFlow As String
+  overload: CommonBotLibrary.Services.Models.YandexResult.LanguageFlow*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.YandexResult.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexResult.#ctor
+  isExternal: false
+  name: YandexResult
+  nameWithType: YandexResult.YandexResult
+  fullName: CommonBotLibrary.Services.Models.YandexResult.YandexResult
+- uid: JToken
+  isExternal: true
+  name: JToken
+  nameWithType: JToken
+  fullName: JToken
+- uid: CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage*
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage
+  isExternal: false
+  name: DetectedLanguage
+  nameWithType: YandexResult.DetectedLanguage
+  fullName: CommonBotLibrary.Services.Models.YandexResult.DetectedLanguage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.Models.YandexResult.LanguageFlow*
+  commentId: Overload:CommonBotLibrary.Services.Models.YandexResult.LanguageFlow
+  isExternal: false
+  name: LanguageFlow
+  nameWithType: YandexResult.LanguageFlow
+  fullName: CommonBotLibrary.Services.Models.YandexResult.LanguageFlow

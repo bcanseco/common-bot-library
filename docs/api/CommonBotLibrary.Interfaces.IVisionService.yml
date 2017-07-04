@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces.IVisionService
+  commentId: T:CommonBotLibrary.Interfaces.IVisionService
+  id: IVisionService
+  parent: CommonBotLibrary.Interfaces
+  children:
+  - CommonBotLibrary.Interfaces.IVisionService.AnalyzeAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IVisionService
+  nameWithType: IVisionService
+  fullName: CommonBotLibrary.Interfaces.IVisionService
+  type: Interface
+  source:
+    id: IVisionService
+    path: ''
+    startLine: 580
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nDefines an API for analyzing images.\n"
+  example: []
+  syntax:
+    content: public interface IVisionService
+    content.vb: Public Interface IVisionService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CommonBotLibrary.Interfaces.IVisionService.AnalyzeAsync(System.String)
+  commentId: M:CommonBotLibrary.Interfaces.IVisionService.AnalyzeAsync(System.String)
+  id: AnalyzeAsync(System.String)
+  parent: CommonBotLibrary.Interfaces.IVisionService
+  langs:
+  - csharp
+  - vb
+  name: AnalyzeAsync(String)
+  nameWithType: IVisionService.AnalyzeAsync(String)
+  fullName: CommonBotLibrary.Interfaces.IVisionService.AnalyzeAsync(System.String)
+  type: Method
+  source:
+    id: AnalyzeAsync
+    path: ''
+    startLine: 587
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nUses computer vision to analyze an image.\n"
+  example: []
+  syntax:
+    content: Task<ImageAnalysisBase> AnalyzeAsync(string imageUrl)
+    parameters:
+    - id: imageUrl
+      type: System.String
+      description: A direct link to an image.
+    return:
+      type: Task{ImageAnalysisBase}
+      description: The analysis results.
+    content.vb: Function AnalyzeAsync(imageUrl As String) As Task(Of ImageAnalysisBase)
+  overload: CommonBotLibrary.Interfaces.IVisionService.AnalyzeAsync*
+references:
+- uid: CommonBotLibrary.Interfaces
+  commentId: N:CommonBotLibrary.Interfaces
+  isExternal: false
+  name: CommonBotLibrary.Interfaces
+  nameWithType: CommonBotLibrary.Interfaces
+  fullName: CommonBotLibrary.Interfaces
+- uid: CommonBotLibrary.Interfaces.IVisionService.AnalyzeAsync*
+  commentId: Overload:CommonBotLibrary.Interfaces.IVisionService.AnalyzeAsync
+  isExternal: false
+  name: AnalyzeAsync
+  nameWithType: IVisionService.AnalyzeAsync
+  fullName: CommonBotLibrary.Interfaces.IVisionService.AnalyzeAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{ImageAnalysisBase}
+  commentId: '!:Task{ImageAnalysisBase}'
+  definition: Task`1
+  name: Task<ImageAnalysisBase>
+  nameWithType: Task<ImageAnalysisBase>
+  fullName: Task<ImageAnalysisBase>
+  nameWithType.vb: Task(Of ImageAnalysisBase)
+  fullName.vb: Task(Of ImageAnalysisBase)
+  name.vb: Task(Of ImageAnalysisBase)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ImageAnalysisBase
+    name: ImageAnalysisBase
+    nameWithType: ImageAnalysisBase
+    fullName: ImageAnalysisBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ImageAnalysisBase
+    name: ImageAnalysisBase
+    nameWithType: ImageAnalysisBase
+    fullName: ImageAnalysisBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

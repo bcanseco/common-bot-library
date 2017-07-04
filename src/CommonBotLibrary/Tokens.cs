@@ -56,6 +56,12 @@ namespace CommonBotLibrary
         [JsonProperty]
         public static string Imgur { internal get; set; }
 
+        /// <summary>
+        ///   Yandex Translate API key.
+        /// </summary>
+        [JsonProperty]
+        public static string Yandex { internal get; set; }
+
         /// <summary> 
         ///   Contains Google Cloud Platform API key and Custom Search Engine ID.
         /// </summary>
@@ -72,7 +78,13 @@ namespace CommonBotLibrary
         ///   Contains MyAnimeList account username and password.
         /// </summary>
         [JsonProperty]
-        public static MyAnimeListCredentials MyAnimeList { get; set; }
+        public static BasicAuthCredentials MyAnimeList { get; set; }
+
+        /// <summary>
+        ///   Contains Watson account username and password.
+        /// </summary>
+        [JsonProperty]
+        public static BasicAuthCredentials Watson { get; set; }
 
         /// <summary>
         ///   Contains Github repository and authentication credentials.

@@ -16,7 +16,7 @@ items:
   source:
     id: IVersionControlService
     path: ''
-    startLine: 507
+    startLine: 559
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
@@ -45,7 +45,7 @@ items:
   source:
     id: CreateIssueAsync
     path: ''
-    startLine: 516
+    startLine: 568
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces

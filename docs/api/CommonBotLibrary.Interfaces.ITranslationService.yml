@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces.ITranslationService
+  commentId: T:CommonBotLibrary.Interfaces.ITranslationService
+  id: ITranslationService
+  parent: CommonBotLibrary.Interfaces
+  children:
+  - CommonBotLibrary.Interfaces.ITranslationService.TranslateAsync(System.String,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ITranslationService
+  nameWithType: ITranslationService
+  fullName: CommonBotLibrary.Interfaces.ITranslationService
+  type: Interface
+  source:
+    id: ITranslationService
+    path: ''
+    startLine: 522
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nDefines an API for translating text.\n"
+  example: []
+  syntax:
+    content: public interface ITranslationService
+    content.vb: Public Interface ITranslationService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CommonBotLibrary.Interfaces.ITranslationService.TranslateAsync(System.String,System.String,System.String)
+  commentId: M:CommonBotLibrary.Interfaces.ITranslationService.TranslateAsync(System.String,System.String,System.String)
+  id: TranslateAsync(System.String,System.String,System.String)
+  parent: CommonBotLibrary.Interfaces.ITranslationService
+  langs:
+  - csharp
+  - vb
+  name: TranslateAsync(String, String, String)
+  nameWithType: ITranslationService.TranslateAsync(String, String, String)
+  fullName: CommonBotLibrary.Interfaces.ITranslationService.TranslateAsync(System.String, System.String, System.String)
+  type: Method
+  source:
+    id: TranslateAsync
+    path: ''
+    startLine: 531
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nTranslates text to another language.\n"
+  example: []
+  syntax:
+    content: Task<TranslationBase> TranslateAsync(string text, string target, string source)
+    parameters:
+    - id: text
+      type: System.String
+      description: The text to translate.
+    - id: target
+      type: System.String
+      description: The language to translate to.
+    - id: source
+      type: System.String
+      description: The language to translate from.
+    return:
+      type: Task{TranslationBase}
+      description: A model holding the translated text.
+    content.vb: Function TranslateAsync(text As String, target As String, source As String) As Task(Of TranslationBase)
+  overload: CommonBotLibrary.Interfaces.ITranslationService.TranslateAsync*
+references:
+- uid: CommonBotLibrary.Interfaces
+  commentId: N:CommonBotLibrary.Interfaces
+  isExternal: false
+  name: CommonBotLibrary.Interfaces
+  nameWithType: CommonBotLibrary.Interfaces
+  fullName: CommonBotLibrary.Interfaces
+- uid: CommonBotLibrary.Interfaces.ITranslationService.TranslateAsync*
+  commentId: Overload:CommonBotLibrary.Interfaces.ITranslationService.TranslateAsync
+  isExternal: false
+  name: TranslateAsync
+  nameWithType: ITranslationService.TranslateAsync
+  fullName: CommonBotLibrary.Interfaces.ITranslationService.TranslateAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{TranslationBase}
+  commentId: '!:Task{TranslationBase}'
+  definition: Task`1
+  name: Task<TranslationBase>
+  nameWithType: Task<TranslationBase>
+  fullName: Task<TranslationBase>
+  nameWithType.vb: Task(Of TranslationBase)
+  fullName.vb: Task(Of TranslationBase)
+  name.vb: Task(Of TranslationBase)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TranslationBase
+    name: TranslationBase
+    nameWithType: TranslationBase
+    fullName: TranslationBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TranslationBase
+    name: TranslationBase
+    nameWithType: TranslationBase
+    fullName: TranslationBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

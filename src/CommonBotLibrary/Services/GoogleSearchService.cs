@@ -12,7 +12,7 @@ using SafeEnum = Google.Apis.Customsearch.v1.CseResource.ListRequest.SafeEnum;
 
 namespace CommonBotLibrary.Services
 {
-    public class GoogleService : IWebpageService, ISearchable<IWebpage>
+    public class GoogleSearchService : IWebpageService, ISearchable<IWebpage>
     {
         /// <summary>
         ///   Constructs an <see cref="IWebpageService"/> implementation that searches Google.
@@ -20,19 +20,21 @@ namespace CommonBotLibrary.Services
         /// <param name="platformKey">Defaults to platform key in <see cref="Tokens"/> if null.</param>
         /// <param name="engineId">Defaults to engine ID in <see cref="Tokens"/> if null.</param>
         /// <exception cref="InvalidCredentialsException"></exception>
-        public GoogleService(string platformKey = null, string engineId = null)
+        public GoogleSearchService(string platformKey = null, string engineId = null)
         {
-            PlatformKey = platformKey ?? Tokens.Google?.PlatformKey;
+            var apiKey = platformKey ?? Tokens.Google?.PlatformKey;
             EngineId = engineId ?? Tokens.Google?.EngineId;
 
-            if (string.IsNullOrWhiteSpace(PlatformKey) || string.IsNullOrWhiteSpace(EngineId))
+            if (string.IsNullOrWhiteSpace(apiKey) || string.IsNullOrWhiteSpace(EngineId))
             {
                 var msg = $"Google tokens are required. Did you call {nameof(Tokens.LoadAsync)}?";
                 throw new InvalidCredentialsException(msg);
             }
+
+            Api = new CustomsearchService(new BaseClientService.Initializer {ApiKey = apiKey});
         }
 
-        private string PlatformKey { get; }
+        private CustomsearchService Api { get; }
         private string EngineId { get; }
 
         /// <summary>
@@ -48,12 +50,8 @@ namespace CommonBotLibrary.Services
         /// <seealso href="https://cse.google.com">Custom Search Engine info</seealso>
         public async Task<IEnumerable<Result>> SearchAsync(string query, SafeEnum safeSearch = SafeEnum.Off)
         {
-            // Set up Google custom search service
-            var googleService = new CustomsearchService(
-                new BaseClientService.Initializer {ApiKey = PlatformKey});
-
             // Configure query information
-            var searchListRequest = googleService.Cse.List(query);
+            var searchListRequest = Api.Cse.List(query);
             searchListRequest.Cx = EngineId;
             searchListRequest.Safe = safeSearch;
             searchListRequest.Num = 10; // max allowed by google; also the default
@@ -65,9 +63,9 @@ namespace CommonBotLibrary.Services
         }
 
         async Task<IEnumerable<IWebpage>> IWebpageService.SearchAsync(string query)
-            => (await SearchAsync(query)).Select(r => new GoogleResult(r));
+            => (await SearchAsync(query)).Select(r => new GoogleSearchResult(r));
 
         async Task<IEnumerable<IWebpage>> ISearchable<IWebpage>.SearchAsync(string query)
-            => (await SearchAsync(query)).Select(r => new GoogleResult(r));
+            => (await SearchAsync(query)).Select(r => new GoogleSearchResult(r));
     }
 }

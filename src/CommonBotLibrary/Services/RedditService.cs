@@ -15,6 +15,8 @@ namespace CommonBotLibrary.Services
 {
     public class RedditService : IWebpageService, ISearchable<IWebpage>
     {
+        private Reddit Reddit { get; } = new Reddit();
+
         /// <summary>
         ///   Gets relevant posts from a subreddit.
         /// </summary>
@@ -30,11 +32,9 @@ namespace CommonBotLibrary.Services
         public async Task<IEnumerable<Post>> GetPostsAsync(
             string subredditName = null, Category category = default(Category), int limit = 50)
         {
-            var reddit = new Reddit();
-
             var subreddit = string.IsNullOrWhiteSpace(subredditName)
-                ? reddit.FrontPage
-                : await reddit.GetSubredditOrRAllAsync(subredditName);
+                ? Reddit.FrontPage
+                : await Reddit.GetSubredditOrRAllAsync(subredditName);
 
             if (subreddit == null)
                 throw new ResultNotFoundException($"No subreddits were found matching \"{subredditName}\".");

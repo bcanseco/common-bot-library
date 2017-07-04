@@ -4,12 +4,12 @@
   items:
   - uid: CommonBotLibrary.Tokens
     name: Tokens
+  - uid: CommonBotLibrary.Tokens.BasicAuthCredentials
+    name: Tokens.BasicAuthCredentials
   - uid: CommonBotLibrary.Tokens.GithubCredentials
     name: Tokens.GithubCredentials
   - uid: CommonBotLibrary.Tokens.GoogleCredentials
     name: Tokens.GoogleCredentials
-  - uid: CommonBotLibrary.Tokens.MyAnimeListCredentials
-    name: Tokens.MyAnimeListCredentials
   - uid: CommonBotLibrary.Tokens.TwitterCredentials
     name: Tokens.TwitterCredentials
 - uid: CommonBotLibrary.Converters
@@ -52,10 +52,16 @@
     name.vb: ISearchable(Of T)
   - uid: CommonBotLibrary.Interfaces.IStockService
     name: IStockService
+  - uid: CommonBotLibrary.Interfaces.ITextAnalysisService
+    name: ITextAnalysisService
+  - uid: CommonBotLibrary.Interfaces.ITranslationService
+    name: ITranslationService
   - uid: CommonBotLibrary.Interfaces.ITriviaService
     name: ITriviaService
   - uid: CommonBotLibrary.Interfaces.IVersionControlService
     name: IVersionControlService
+  - uid: CommonBotLibrary.Interfaces.IVisionService
+    name: IVisionService
   - uid: CommonBotLibrary.Interfaces.IWeatherService
     name: IWeatherService
   - uid: CommonBotLibrary.Interfaces.IWebpageService
@@ -67,12 +73,18 @@
     name: AnimeBase
   - uid: CommonBotLibrary.Interfaces.Models.DefinitionBase
     name: DefinitionBase
+  - uid: CommonBotLibrary.Interfaces.Models.ImageAnalysisBase
+    name: ImageAnalysisBase
   - uid: CommonBotLibrary.Interfaces.Models.IWebpage
     name: IWebpage
   - uid: CommonBotLibrary.Interfaces.Models.MediaBase
     name: MediaBase
   - uid: CommonBotLibrary.Interfaces.Models.SymbolBase
     name: SymbolBase
+  - uid: CommonBotLibrary.Interfaces.Models.TextAnalysisBase
+    name: TextAnalysisBase
+  - uid: CommonBotLibrary.Interfaces.Models.TranslationBase
+    name: TranslationBase
   - uid: CommonBotLibrary.Interfaces.Models.TriviaBase
     name: TriviaBase
   - uid: CommonBotLibrary.Interfaces.Models.WeatherBase
@@ -84,8 +96,10 @@
   items:
   - uid: CommonBotLibrary.Services.GithubService
     name: GithubService
-  - uid: CommonBotLibrary.Services.GoogleService
-    name: GoogleService
+  - uid: CommonBotLibrary.Services.GoogleSearchService
+    name: GoogleSearchService
+  - uid: CommonBotLibrary.Services.GoogleVisionService
+    name: GoogleVisionService
   - uid: CommonBotLibrary.Services.ImgurService
     name: ImgurService
   - uid: CommonBotLibrary.Services.MyAnimeListService
@@ -108,8 +122,12 @@
     name: TwitterService
   - uid: CommonBotLibrary.Services.UrbanDictionaryService
     name: UrbanDictionaryService
+  - uid: CommonBotLibrary.Services.WatsonPersonalityService
+    name: WatsonPersonalityService
   - uid: CommonBotLibrary.Services.YahooFinanceService
     name: YahooFinanceService
+  - uid: CommonBotLibrary.Services.YandexTranslateService
+    name: YandexTranslateService
   - uid: CommonBotLibrary.Services.YouTubeService
     name: YouTubeService
 - uid: CommonBotLibrary.Services.Models
@@ -117,8 +135,10 @@
   items:
   - uid: CommonBotLibrary.Services.Models.Die
     name: Die
-  - uid: CommonBotLibrary.Services.Models.GoogleResult
-    name: GoogleResult
+  - uid: CommonBotLibrary.Services.Models.GoogleSearchResult
+    name: GoogleSearchResult
+  - uid: CommonBotLibrary.Services.Models.GoogleVisionResult
+    name: GoogleVisionResult
   - uid: CommonBotLibrary.Services.Models.ImgurResult
     name: ImgurResult
   - uid: CommonBotLibrary.Services.Models.MyAnimeListResult
@@ -159,9 +179,19 @@
     name: TwitterResult
   - uid: CommonBotLibrary.Services.Models.UrbanDictionaryResult
     name: UrbanDictionaryResult
+  - uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult
+    name: WatsonPersonalityResult
+  - uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreference
+    name: WatsonPersonalityResult.ConsumptionPreference
+  - uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory
+    name: WatsonPersonalityResult.ConsumptionPreferencesCategory
+  - uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+    name: WatsonPersonalityResult.TraitTree
   - uid: CommonBotLibrary.Services.Models.YahooQuote
     name: YahooQuote
   - uid: CommonBotLibrary.Services.Models.YahooResult
     name: YahooResult
+  - uid: CommonBotLibrary.Services.Models.YandexResult
+    name: YandexResult
   - uid: CommonBotLibrary.Services.Models.YouTubeResult
     name: YouTubeResult

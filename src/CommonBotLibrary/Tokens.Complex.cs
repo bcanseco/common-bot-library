@@ -14,10 +14,10 @@ namespace CommonBotLibrary
             public string EngineId { internal get; set; }
         }
 
-        public class MyAnimeListCredentials
+        public class BasicAuthCredentials
         {
             [JsonConstructor]
-            public MyAnimeListCredentials(string username, string password)
+            public BasicAuthCredentials(string username, string password)
                 => (Username, Password) = (username, password);
 
             public string Username { internal get; set; }

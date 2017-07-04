@@ -34,7 +34,7 @@ items:
   source:
     id: OmdbDirectResult
     path: ''
-    startLine: 1892
+    startLine: 2416
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -70,7 +70,7 @@ items:
   source:
     id: Rated
     path: ''
-    startLine: 1894
+    startLine: 2418
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -101,7 +101,7 @@ items:
   source:
     id: Released
     path: ''
-    startLine: 1895
+    startLine: 2419
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -132,7 +132,7 @@ items:
   source:
     id: Runtime
     path: ''
-    startLine: 1896
+    startLine: 2420
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -163,7 +163,7 @@ items:
   source:
     id: Genre
     path: ''
-    startLine: 1897
+    startLine: 2421
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -194,7 +194,7 @@ items:
   source:
     id: Director
     path: ''
-    startLine: 1898
+    startLine: 2422
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -225,7 +225,7 @@ items:
   source:
     id: Writer
     path: ''
-    startLine: 1899
+    startLine: 2423
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -256,7 +256,7 @@ items:
   source:
     id: Actors
     path: ''
-    startLine: 1900
+    startLine: 2424
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -287,7 +287,7 @@ items:
   source:
     id: Plot
     path: ''
-    startLine: 1901
+    startLine: 2425
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -318,7 +318,7 @@ items:
   source:
     id: Language
     path: ''
-    startLine: 1902
+    startLine: 2426
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -349,7 +349,7 @@ items:
   source:
     id: Country
     path: ''
-    startLine: 1903
+    startLine: 2427
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -380,7 +380,7 @@ items:
   source:
     id: Awards
     path: ''
-    startLine: 1904
+    startLine: 2428
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -411,7 +411,7 @@ items:
   source:
     id: Metascore
     path: ''
-    startLine: 1905
+    startLine: 2429
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -442,7 +442,7 @@ items:
   source:
     id: ImdbRating
     path: ''
-    startLine: 1906
+    startLine: 2430
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -473,7 +473,7 @@ items:
   source:
     id: ImdbVotes
     path: ''
-    startLine: 1907
+    startLine: 2431
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -504,7 +504,7 @@ items:
   source:
     id: Dvd
     path: ''
-    startLine: 1908
+    startLine: 2432
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -535,7 +535,7 @@ items:
   source:
     id: BoxOffice
     path: ''
-    startLine: 1909
+    startLine: 2433
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -566,7 +566,7 @@ items:
   source:
     id: Production
     path: ''
-    startLine: 1910
+    startLine: 2434
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -597,7 +597,7 @@ items:
   source:
     id: Website
     path: ''
-    startLine: 1911
+    startLine: 2435
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -628,7 +628,7 @@ items:
   source:
     id: Ratings
     path: ''
-    startLine: 1912
+    startLine: 2436
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

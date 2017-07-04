@@ -1,0 +1,326 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult
+  commentId: T:CommonBotLibrary.Services.Models.WatsonPersonalityResult
+  id: WatsonPersonalityResult
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferences
+  - CommonBotLibrary.Services.Models.WatsonPersonalityResult.Needs
+  - CommonBotLibrary.Services.Models.WatsonPersonalityResult.Personality
+  - CommonBotLibrary.Services.Models.WatsonPersonalityResult.Values
+  langs:
+  - csharp
+  - vb
+  name: WatsonPersonalityResult
+  nameWithType: WatsonPersonalityResult
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult
+  type: Class
+  source:
+    id: WatsonPersonalityResult
+    path: ''
+    startLine: 2799
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: 'public class WatsonPersonalityResult : TextAnalysisBase'
+    content.vb: >-
+      Public Class WatsonPersonalityResult
+          Inherits TextAnalysisBase
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Personality
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.Personality
+  id: Personality
+  parent: CommonBotLibrary.Services.Models.WatsonPersonalityResult
+  langs:
+  - csharp
+  - vb
+  name: Personality
+  nameWithType: WatsonPersonalityResult.Personality
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Personality
+  type: Property
+  source:
+    id: Personality
+    path: ''
+    startLine: 2801
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public List<WatsonPersonalityResult.TraitTree> Personality { get; set; }
+    parameters: []
+    return:
+      type: List{CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree}
+    content.vb: Public Property Personality As List(Of WatsonPersonalityResult.TraitTree)
+  overload: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Personality*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Values
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.Values
+  id: Values
+  parent: CommonBotLibrary.Services.Models.WatsonPersonalityResult
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: WatsonPersonalityResult.Values
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Values
+  type: Property
+  source:
+    id: Values
+    path: ''
+    startLine: 2802
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public List<WatsonPersonalityResult.TraitTree> Values { get; set; }
+    parameters: []
+    return:
+      type: List{CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree}
+    content.vb: Public Property Values As List(Of WatsonPersonalityResult.TraitTree)
+  overload: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Values*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Needs
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.Needs
+  id: Needs
+  parent: CommonBotLibrary.Services.Models.WatsonPersonalityResult
+  langs:
+  - csharp
+  - vb
+  name: Needs
+  nameWithType: WatsonPersonalityResult.Needs
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Needs
+  type: Property
+  source:
+    id: Needs
+    path: ''
+    startLine: 2803
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public List<WatsonPersonalityResult.TraitTree> Needs { get; set; }
+    parameters: []
+    return:
+      type: List{CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree}
+    content.vb: Public Property Needs As List(Of WatsonPersonalityResult.TraitTree)
+  overload: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Needs*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferences
+  commentId: P:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferences
+  id: ConsumptionPreferences
+  parent: CommonBotLibrary.Services.Models.WatsonPersonalityResult
+  langs:
+  - csharp
+  - vb
+  name: ConsumptionPreferences
+  nameWithType: WatsonPersonalityResult.ConsumptionPreferences
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferences
+  type: Property
+  source:
+    id: ConsumptionPreferences
+    path: ''
+    startLine: 2804
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public List<WatsonPersonalityResult.ConsumptionPreferencesCategory> ConsumptionPreferences { get; set; }
+    parameters: []
+    return:
+      type: List{CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory}
+    content.vb: Public Property ConsumptionPreferences As List(Of WatsonPersonalityResult.ConsumptionPreferencesCategory)
+  overload: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferences*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Personality*
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.Personality
+  isExternal: false
+  name: Personality
+  nameWithType: WatsonPersonalityResult.Personality
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Personality
+- uid: List{CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree}
+  commentId: '!:List{CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree}'
+  definition: List`1
+  name: List<WatsonPersonalityResult.TraitTree>
+  nameWithType: List<WatsonPersonalityResult.TraitTree>
+  fullName: List<CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree>
+  nameWithType.vb: List(Of WatsonPersonalityResult.TraitTree)
+  fullName.vb: List(Of CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree)
+  name.vb: List(Of WatsonPersonalityResult.TraitTree)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+    name: WatsonPersonalityResult.TraitTree
+    nameWithType: WatsonPersonalityResult.TraitTree
+    fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+    name: WatsonPersonalityResult.TraitTree
+    nameWithType: WatsonPersonalityResult.TraitTree
+    fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.TraitTree
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Values*
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.Values
+  isExternal: false
+  name: Values
+  nameWithType: WatsonPersonalityResult.Values
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Values
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Needs*
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.Needs
+  isExternal: false
+  name: Needs
+  nameWithType: WatsonPersonalityResult.Needs
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.Needs
+- uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferences*
+  commentId: Overload:CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferences
+  isExternal: false
+  name: ConsumptionPreferences
+  nameWithType: WatsonPersonalityResult.ConsumptionPreferences
+  fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferences
+- uid: List{CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory}
+  commentId: '!:List{CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory}'
+  definition: List`1
+  name: List<WatsonPersonalityResult.ConsumptionPreferencesCategory>
+  nameWithType: List<WatsonPersonalityResult.ConsumptionPreferencesCategory>
+  fullName: List<CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory>
+  nameWithType.vb: List(Of WatsonPersonalityResult.ConsumptionPreferencesCategory)
+  fullName.vb: List(Of CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory)
+  name.vb: List(Of WatsonPersonalityResult.ConsumptionPreferencesCategory)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory
+    name: WatsonPersonalityResult.ConsumptionPreferencesCategory
+    nameWithType: WatsonPersonalityResult.ConsumptionPreferencesCategory
+    fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory
+    name: WatsonPersonalityResult.ConsumptionPreferencesCategory
+    nameWithType: WatsonPersonalityResult.ConsumptionPreferencesCategory
+    fullName: CommonBotLibrary.Services.Models.WatsonPersonalityResult.ConsumptionPreferencesCategory
+  - name: )
+    nameWithType: )
+    fullName: )

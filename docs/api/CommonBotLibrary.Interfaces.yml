@@ -10,8 +10,11 @@ items:
   - CommonBotLibrary.Interfaces.IMediaService
   - CommonBotLibrary.Interfaces.ISearchable`1
   - CommonBotLibrary.Interfaces.IStockService
+  - CommonBotLibrary.Interfaces.ITextAnalysisService
+  - CommonBotLibrary.Interfaces.ITranslationService
   - CommonBotLibrary.Interfaces.ITriviaService
   - CommonBotLibrary.Interfaces.IVersionControlService
+  - CommonBotLibrary.Interfaces.IVisionService
   - CommonBotLibrary.Interfaces.IWeatherService
   - CommonBotLibrary.Interfaces.IWebpageService
   langs:
@@ -91,6 +94,18 @@ references:
   name: IStockService
   nameWithType: IStockService
   fullName: CommonBotLibrary.Interfaces.IStockService
+- uid: CommonBotLibrary.Interfaces.ITextAnalysisService
+  commentId: T:CommonBotLibrary.Interfaces.ITextAnalysisService
+  isExternal: false
+  name: ITextAnalysisService
+  nameWithType: ITextAnalysisService
+  fullName: CommonBotLibrary.Interfaces.ITextAnalysisService
+- uid: CommonBotLibrary.Interfaces.ITranslationService
+  commentId: T:CommonBotLibrary.Interfaces.ITranslationService
+  isExternal: false
+  name: ITranslationService
+  nameWithType: ITranslationService
+  fullName: CommonBotLibrary.Interfaces.ITranslationService
 - uid: CommonBotLibrary.Interfaces.ITriviaService
   commentId: T:CommonBotLibrary.Interfaces.ITriviaService
   isExternal: false
@@ -103,6 +118,12 @@ references:
   name: IVersionControlService
   nameWithType: IVersionControlService
   fullName: CommonBotLibrary.Interfaces.IVersionControlService
+- uid: CommonBotLibrary.Interfaces.IVisionService
+  commentId: T:CommonBotLibrary.Interfaces.IVisionService
+  isExternal: false
+  name: IVisionService
+  nameWithType: IVisionService
+  fullName: CommonBotLibrary.Interfaces.IVisionService
 - uid: CommonBotLibrary.Interfaces.IWeatherService
   commentId: T:CommonBotLibrary.Interfaces.IWeatherService
   isExternal: false

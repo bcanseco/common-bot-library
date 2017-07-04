@@ -1,0 +1,305 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult
+  commentId: T:CommonBotLibrary.Services.Models.GoogleVisionResult
+  id: GoogleVisionResult
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.GoogleVisionResult.#ctor(AnnotateImageResponse)
+  - CommonBotLibrary.Services.Models.GoogleVisionResult.ApiResult
+  - CommonBotLibrary.Services.Models.GoogleVisionResult.DominantColors
+  - CommonBotLibrary.Services.Models.GoogleVisionResult.op_Implicit(CommonBotLibrary.Services.Models.GoogleVisionResult)~AnnotateImageResponse
+  langs:
+  - csharp
+  - vb
+  name: GoogleVisionResult
+  nameWithType: GoogleVisionResult
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult
+  type: Class
+  source:
+    id: GoogleVisionResult
+    path: ''
+    startLine: 2300
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: 'public class GoogleVisionResult : ImageAnalysisBase'
+    content.vb: >-
+      Public Class GoogleVisionResult
+          Inherits ImageAnalysisBase
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult.#ctor(AnnotateImageResponse)
+  commentId: M:CommonBotLibrary.Services.Models.GoogleVisionResult.#ctor(AnnotateImageResponse)
+  id: '#ctor(AnnotateImageResponse)'
+  parent: CommonBotLibrary.Services.Models.GoogleVisionResult
+  langs:
+  - csharp
+  - vb
+  name: GoogleVisionResult(AnnotateImageResponse)
+  nameWithType: GoogleVisionResult.GoogleVisionResult(AnnotateImageResponse)
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult.GoogleVisionResult(AnnotateImageResponse)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2302
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public GoogleVisionResult(AnnotateImageResponse apiResult)
+    parameters:
+    - id: apiResult
+      type: AnnotateImageResponse
+    content.vb: Public Sub New(apiResult As AnnotateImageResponse)
+  overload: CommonBotLibrary.Services.Models.GoogleVisionResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult.ApiResult
+  commentId: P:CommonBotLibrary.Services.Models.GoogleVisionResult.ApiResult
+  id: ApiResult
+  parent: CommonBotLibrary.Services.Models.GoogleVisionResult
+  langs:
+  - csharp
+  - vb
+  name: ApiResult
+  nameWithType: GoogleVisionResult.ApiResult
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult.ApiResult
+  type: Property
+  source:
+    id: ApiResult
+    path: ''
+    startLine: 2314
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  summary: "\nThe wrapped model returned by Google with more analysis properties.\n"
+  example: []
+  syntax:
+    content: public AnnotateImageResponse ApiResult { get; }
+    parameters: []
+    return:
+      type: AnnotateImageResponse
+    content.vb: Public ReadOnly Property ApiResult As AnnotateImageResponse
+  overload: CommonBotLibrary.Services.Models.GoogleVisionResult.ApiResult*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult.DominantColors
+  commentId: P:CommonBotLibrary.Services.Models.GoogleVisionResult.DominantColors
+  id: DominantColors
+  parent: CommonBotLibrary.Services.Models.GoogleVisionResult
+  langs:
+  - csharp
+  - vb
+  name: DominantColors
+  nameWithType: GoogleVisionResult.DominantColors
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult.DominantColors
+  type: Property
+  source:
+    id: DominantColors
+    path: ''
+    startLine: 2315
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public IList<> DominantColors { get; set; }
+    parameters: []
+    return:
+      type: IList{System.}
+    content.vb: Public Property DominantColors As IList(Of )
+  overload: CommonBotLibrary.Services.Models.GoogleVisionResult.DominantColors*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult.op_Implicit(CommonBotLibrary.Services.Models.GoogleVisionResult)~AnnotateImageResponse
+  commentId: M:CommonBotLibrary.Services.Models.GoogleVisionResult.op_Implicit(CommonBotLibrary.Services.Models.GoogleVisionResult)~AnnotateImageResponse
+  id: op_Implicit(CommonBotLibrary.Services.Models.GoogleVisionResult)~AnnotateImageResponse
+  parent: CommonBotLibrary.Services.Models.GoogleVisionResult
+  langs:
+  - csharp
+  - vb
+  name: Implicit(GoogleVisionResult to AnnotateImageResponse)
+  nameWithType: GoogleVisionResult.Implicit(GoogleVisionResult to AnnotateImageResponse)
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult.Implicit(CommonBotLibrary.Services.Models.GoogleVisionResult to AnnotateImageResponse)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 2317
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public static implicit operator AnnotateImageResponse(GoogleVisionResult visionResult)
+    parameters:
+    - id: visionResult
+      type: CommonBotLibrary.Services.Models.GoogleVisionResult
+    return:
+      type: AnnotateImageResponse
+    content.vb: Public Shared Widening Operator CType(visionResult As GoogleVisionResult) As AnnotateImageResponse
+  overload: CommonBotLibrary.Services.Models.GoogleVisionResult.op_Implicit*
+  nameWithType.vb: GoogleVisionResult.Widening(GoogleVisionResult to AnnotateImageResponse)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CommonBotLibrary.Services.Models.GoogleVisionResult.Widening(CommonBotLibrary.Services.Models.GoogleVisionResult to AnnotateImageResponse)
+  name.vb: Widening(GoogleVisionResult to AnnotateImageResponse)
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleVisionResult.#ctor
+  isExternal: false
+  name: GoogleVisionResult
+  nameWithType: GoogleVisionResult.GoogleVisionResult
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult.GoogleVisionResult
+- uid: AnnotateImageResponse
+  isExternal: true
+  name: AnnotateImageResponse
+  nameWithType: AnnotateImageResponse
+  fullName: AnnotateImageResponse
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult.ApiResult*
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleVisionResult.ApiResult
+  isExternal: false
+  name: ApiResult
+  nameWithType: GoogleVisionResult.ApiResult
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult.ApiResult
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult.DominantColors*
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleVisionResult.DominantColors
+  isExternal: false
+  name: DominantColors
+  nameWithType: GoogleVisionResult.DominantColors
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult.DominantColors
+- uid: IList{System.}
+  commentId: '!:IList{System.}'
+  definition: IList`1
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<System.>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of System.)
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.
+    name: ''
+    nameWithType: ''
+    fullName: System.
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.
+    name: ''
+    nameWithType: ''
+    fullName: System.
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult.op_Implicit*
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleVisionResult.op_Implicit
+  isExternal: false
+  name: Implicit
+  nameWithType: GoogleVisionResult.Implicit
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult.Implicit
+  nameWithType.vb: GoogleVisionResult.Widening
+  fullName.vb: CommonBotLibrary.Services.Models.GoogleVisionResult.Widening
+  name.vb: Widening
+- uid: CommonBotLibrary.Services.Models.GoogleVisionResult
+  commentId: T:CommonBotLibrary.Services.Models.GoogleVisionResult
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: GoogleVisionResult
+  nameWithType: GoogleVisionResult
+  fullName: CommonBotLibrary.Services.Models.GoogleVisionResult

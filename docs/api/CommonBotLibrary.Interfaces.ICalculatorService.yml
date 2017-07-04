@@ -16,7 +16,7 @@ items:
   source:
     id: ICalculatorService
     path: ''
-    startLine: 376
+    startLine: 388
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
@@ -45,7 +45,7 @@ items:
   source:
     id: EvaluateAsync
     path: ''
-    startLine: 386
+    startLine: 398
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces

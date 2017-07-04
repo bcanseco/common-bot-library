@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.GoogleVisionService
+  commentId: T:CommonBotLibrary.Services.GoogleVisionService
+  id: GoogleVisionService
+  parent: CommonBotLibrary.Services
+  children:
+  - CommonBotLibrary.Services.GoogleVisionService.#ctor(System.String)
+  - CommonBotLibrary.Services.GoogleVisionService.AnalyzeAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: GoogleVisionService
+  nameWithType: GoogleVisionService
+  fullName: CommonBotLibrary.Services.GoogleVisionService
+  type: Class
+  source:
+    id: GoogleVisionService
+    path: ''
+    startLine: 918
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: 'public class GoogleVisionService : IVisionService'
+    content.vb: >-
+      Public Class GoogleVisionService
+          Inherits IVisionService
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.GoogleVisionService.#ctor(System.String)
+  commentId: M:CommonBotLibrary.Services.GoogleVisionService.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: CommonBotLibrary.Services.GoogleVisionService
+  langs:
+  - csharp
+  - vb
+  name: GoogleVisionService(String)
+  nameWithType: GoogleVisionService.GoogleVisionService(String)
+  fullName: CommonBotLibrary.Services.GoogleVisionService.GoogleVisionService(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 925
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nConstructs an <see cref=\"!:IVisionService\"></see> implementation that uses Google Cloud Vision.\n"
+  example: []
+  syntax:
+    content: public GoogleVisionService(string platformKey = null)
+    parameters:
+    - id: platformKey
+      type: System.String
+      description: Defaults to platform key in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
+    content.vb: Public Sub New(platformKey As String = Nothing)
+  overload: CommonBotLibrary.Services.GoogleVisionService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.GoogleVisionService.AnalyzeAsync(System.String)
+  commentId: M:CommonBotLibrary.Services.GoogleVisionService.AnalyzeAsync(System.String)
+  id: AnalyzeAsync(System.String)
+  parent: CommonBotLibrary.Services.GoogleVisionService
+  langs:
+  - csharp
+  - vb
+  name: AnalyzeAsync(String)
+  nameWithType: GoogleVisionService.AnalyzeAsync(String)
+  fullName: CommonBotLibrary.Services.GoogleVisionService.AnalyzeAsync(System.String)
+  type: Method
+  source:
+    id: AnalyzeAsync
+    path: ''
+    startLine: 953
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nUses Google Cloud Vision to analyze an image.\n"
+  example: []
+  syntax:
+    content: public Task<AnnotateImageResponse> AnalyzeAsync(string imageUrl)
+    parameters:
+    - id: imageUrl
+      type: System.String
+      description: A direct link to an image.
+    return:
+      type: Task{AnnotateImageResponse}
+      description: Analysis results.
+    content.vb: Public Function AnalyzeAsync(imageUrl As String) As Task(Of AnnotateImageResponse)
+  overload: CommonBotLibrary.Services.GoogleVisionService.AnalyzeAsync*
+  seealso:
+  - linkType: HRef
+    linkId: https://cloud.google.com/terms/service-terms
+    altText: TOS
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services
+  commentId: N:CommonBotLibrary.Services
+  isExternal: false
+  name: CommonBotLibrary.Services
+  nameWithType: CommonBotLibrary.Services
+  fullName: CommonBotLibrary.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Tokens
+  commentId: T:CommonBotLibrary.Tokens
+  isExternal: false
+  name: Tokens
+  nameWithType: Tokens
+  fullName: CommonBotLibrary.Tokens
+- uid: CommonBotLibrary.Services.GoogleVisionService.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.GoogleVisionService.#ctor
+  isExternal: false
+  name: GoogleVisionService
+  nameWithType: GoogleVisionService.GoogleVisionService
+  fullName: CommonBotLibrary.Services.GoogleVisionService.GoogleVisionService
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.GoogleVisionService.AnalyzeAsync*
+  commentId: Overload:CommonBotLibrary.Services.GoogleVisionService.AnalyzeAsync
+  isExternal: false
+  name: AnalyzeAsync
+  nameWithType: GoogleVisionService.AnalyzeAsync
+  fullName: CommonBotLibrary.Services.GoogleVisionService.AnalyzeAsync
+- uid: Task{AnnotateImageResponse}
+  commentId: '!:Task{AnnotateImageResponse}'
+  definition: Task`1
+  name: Task<AnnotateImageResponse>
+  nameWithType: Task<AnnotateImageResponse>
+  fullName: Task<AnnotateImageResponse>
+  nameWithType.vb: Task(Of AnnotateImageResponse)
+  fullName.vb: Task(Of AnnotateImageResponse)
+  name.vb: Task(Of AnnotateImageResponse)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AnnotateImageResponse
+    name: AnnotateImageResponse
+    nameWithType: AnnotateImageResponse
+    fullName: AnnotateImageResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AnnotateImageResponse
+    name: AnnotateImageResponse
+    nameWithType: AnnotateImageResponse
+    fullName: AnnotateImageResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

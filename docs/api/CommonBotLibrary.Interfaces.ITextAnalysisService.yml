@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Interfaces.ITextAnalysisService
+  commentId: T:CommonBotLibrary.Interfaces.ITextAnalysisService
+  id: ITextAnalysisService
+  parent: CommonBotLibrary.Interfaces
+  children:
+  - CommonBotLibrary.Interfaces.ITextAnalysisService.AnalyzeAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ITextAnalysisService
+  nameWithType: ITextAnalysisService
+  fullName: CommonBotLibrary.Interfaces.ITextAnalysisService
+  type: Interface
+  source:
+    id: ITextAnalysisService
+    path: ''
+    startLine: 503
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nDefines an API for analyzing text.\n"
+  example: []
+  syntax:
+    content: public interface ITextAnalysisService
+    content.vb: Public Interface ITextAnalysisService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CommonBotLibrary.Interfaces.ITextAnalysisService.AnalyzeAsync(System.String)
+  commentId: M:CommonBotLibrary.Interfaces.ITextAnalysisService.AnalyzeAsync(System.String)
+  id: AnalyzeAsync(System.String)
+  parent: CommonBotLibrary.Interfaces.ITextAnalysisService
+  langs:
+  - csharp
+  - vb
+  name: AnalyzeAsync(String)
+  nameWithType: ITextAnalysisService.AnalyzeAsync(String)
+  fullName: CommonBotLibrary.Interfaces.ITextAnalysisService.AnalyzeAsync(System.String)
+  type: Method
+  source:
+    id: AnalyzeAsync
+    path: ''
+    startLine: 510
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces
+  summary: "\nAnalyzes the specified text.\n"
+  example: []
+  syntax:
+    content: Task<TextAnalysisBase> AnalyzeAsync(string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: The text to analyze.
+    return:
+      type: Task{TextAnalysisBase}
+      description: Analysis results.
+    content.vb: Function AnalyzeAsync(text As String) As Task(Of TextAnalysisBase)
+  overload: CommonBotLibrary.Interfaces.ITextAnalysisService.AnalyzeAsync*
+references:
+- uid: CommonBotLibrary.Interfaces
+  commentId: N:CommonBotLibrary.Interfaces
+  isExternal: false
+  name: CommonBotLibrary.Interfaces
+  nameWithType: CommonBotLibrary.Interfaces
+  fullName: CommonBotLibrary.Interfaces
+- uid: CommonBotLibrary.Interfaces.ITextAnalysisService.AnalyzeAsync*
+  commentId: Overload:CommonBotLibrary.Interfaces.ITextAnalysisService.AnalyzeAsync
+  isExternal: false
+  name: AnalyzeAsync
+  nameWithType: ITextAnalysisService.AnalyzeAsync
+  fullName: CommonBotLibrary.Interfaces.ITextAnalysisService.AnalyzeAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{TextAnalysisBase}
+  commentId: '!:Task{TextAnalysisBase}'
+  definition: Task`1
+  name: Task<TextAnalysisBase>
+  nameWithType: Task<TextAnalysisBase>
+  fullName: Task<TextAnalysisBase>
+  nameWithType.vb: Task(Of TextAnalysisBase)
+  fullName.vb: Task(Of TextAnalysisBase)
+  name.vb: Task(Of TextAnalysisBase)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TextAnalysisBase
+    name: TextAnalysisBase
+    nameWithType: TextAnalysisBase
+    fullName: TextAnalysisBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TextAnalysisBase
+    name: TextAnalysisBase
+    nameWithType: TextAnalysisBase
+    fullName: TextAnalysisBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

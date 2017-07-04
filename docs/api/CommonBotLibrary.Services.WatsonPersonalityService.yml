@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.WatsonPersonalityService
+  commentId: T:CommonBotLibrary.Services.WatsonPersonalityService
+  id: WatsonPersonalityService
+  parent: CommonBotLibrary.Services
+  children:
+  - CommonBotLibrary.Services.WatsonPersonalityService.#ctor(System.String,System.String)
+  - CommonBotLibrary.Services.WatsonPersonalityService.AnalyzeAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: WatsonPersonalityService
+  nameWithType: WatsonPersonalityService
+  fullName: CommonBotLibrary.Services.WatsonPersonalityService
+  type: Class
+  source:
+    id: WatsonPersonalityService
+    path: ''
+    startLine: 1732
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: 'public class WatsonPersonalityService : ITextAnalysisService'
+    content.vb: >-
+      Public Class WatsonPersonalityService
+          Inherits ITextAnalysisService
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.WatsonPersonalityService.#ctor(System.String,System.String)
+  commentId: M:CommonBotLibrary.Services.WatsonPersonalityService.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: CommonBotLibrary.Services.WatsonPersonalityService
+  langs:
+  - csharp
+  - vb
+  name: WatsonPersonalityService(String, String)
+  nameWithType: WatsonPersonalityService.WatsonPersonalityService(String, String)
+  fullName: CommonBotLibrary.Services.WatsonPersonalityService.WatsonPersonalityService(System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1740
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nConstructs an <see cref=\"!:ITextAnalysisService\"></see> implementation that uses IBM Watson.\n"
+  example: []
+  syntax:
+    content: public WatsonPersonalityService(string username = null, string password = null)
+    parameters:
+    - id: username
+      type: System.String
+      description: Defaults to username in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
+    - id: password
+      type: System.String
+      description: Defaults to password in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
+    content.vb: Public Sub New(username As String = Nothing, password As String = Nothing)
+  overload: CommonBotLibrary.Services.WatsonPersonalityService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.WatsonPersonalityService.AnalyzeAsync(System.String)
+  commentId: M:CommonBotLibrary.Services.WatsonPersonalityService.AnalyzeAsync(System.String)
+  id: AnalyzeAsync(System.String)
+  parent: CommonBotLibrary.Services.WatsonPersonalityService
+  langs:
+  - csharp
+  - vb
+  name: AnalyzeAsync(String)
+  nameWithType: WatsonPersonalityService.AnalyzeAsync(String)
+  fullName: CommonBotLibrary.Services.WatsonPersonalityService.AnalyzeAsync(System.String)
+  type: Method
+  source:
+    id: AnalyzeAsync
+    path: ''
+    startLine: 1767
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nUses IBM Watson machine learning to analyze text.\n"
+  example: []
+  syntax:
+    content: public Task<WatsonPersonalityResult> AnalyzeAsync(string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: The string of text to analyze.
+    return:
+      type: Task{WatsonPersonalityResult}
+      description: Analysis results.
+    content.vb: Public Function AnalyzeAsync(text As String) As Task(Of WatsonPersonalityResult)
+  overload: CommonBotLibrary.Services.WatsonPersonalityService.AnalyzeAsync*
+  seealso:
+  - linkType: HRef
+    linkId: https://www-03.ibm.com/software/sla/sladb.nsf/sla/bm-6838-03
+    altText: TOS
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services
+  commentId: N:CommonBotLibrary.Services
+  isExternal: false
+  name: CommonBotLibrary.Services
+  nameWithType: CommonBotLibrary.Services
+  fullName: CommonBotLibrary.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Tokens
+  commentId: T:CommonBotLibrary.Tokens
+  isExternal: false
+  name: Tokens
+  nameWithType: Tokens
+  fullName: CommonBotLibrary.Tokens
+- uid: CommonBotLibrary.Services.WatsonPersonalityService.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.WatsonPersonalityService.#ctor
+  isExternal: false
+  name: WatsonPersonalityService
+  nameWithType: WatsonPersonalityService.WatsonPersonalityService
+  fullName: CommonBotLibrary.Services.WatsonPersonalityService.WatsonPersonalityService
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.WatsonPersonalityService.AnalyzeAsync*
+  commentId: Overload:CommonBotLibrary.Services.WatsonPersonalityService.AnalyzeAsync
+  isExternal: false
+  name: AnalyzeAsync
+  nameWithType: WatsonPersonalityService.AnalyzeAsync
+  fullName: CommonBotLibrary.Services.WatsonPersonalityService.AnalyzeAsync
+- uid: Task{WatsonPersonalityResult}
+  commentId: '!:Task{WatsonPersonalityResult}'
+  definition: Task`1
+  name: Task<WatsonPersonalityResult>
+  nameWithType: Task<WatsonPersonalityResult>
+  fullName: Task<WatsonPersonalityResult>
+  nameWithType.vb: Task(Of WatsonPersonalityResult)
+  fullName.vb: Task(Of WatsonPersonalityResult)
+  name.vb: Task(Of WatsonPersonalityResult)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: WatsonPersonalityResult
+    name: WatsonPersonalityResult
+    nameWithType: WatsonPersonalityResult
+    fullName: WatsonPersonalityResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: WatsonPersonalityResult
+    name: WatsonPersonalityResult
+    nameWithType: WatsonPersonalityResult
+    fullName: WatsonPersonalityResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

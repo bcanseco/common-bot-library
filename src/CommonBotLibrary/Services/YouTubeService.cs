@@ -21,16 +21,18 @@ namespace CommonBotLibrary.Services
         /// <exception cref="InvalidCredentialsException"></exception>
         public YouTubeService(string platformKey = null)
         {
-            PlatformKey = platformKey ?? Tokens.Google?.PlatformKey;
+            var apiKey = platformKey ?? Tokens.Google?.PlatformKey;
 
-            if (string.IsNullOrWhiteSpace(PlatformKey))
+            if (string.IsNullOrWhiteSpace(apiKey))
             {
                 var msg = $"Google tokens are required. Did you call {nameof(Tokens.LoadAsync)}?";
                 throw new InvalidCredentialsException(msg);
             }
+
+            Api = new YouTubeAPI(new BaseClientService.Initializer {ApiKey = apiKey});
         }
 
-        private string PlatformKey { get; }
+        private YouTubeAPI Api { get; }
 
         /// <summary>
         ///   Searches youtube.com for videos relevant to the given search term(s).
@@ -47,12 +49,8 @@ namespace CommonBotLibrary.Services
         /// </seealso>
         public async Task<IEnumerable<SearchResult>> SearchAsync(string query, SafeSearchEnum safeSearch = SafeSearchEnum.None)
         {
-            // Set up YouTube helper service
-            var youtubeService = new YouTubeAPI(
-                new BaseClientService.Initializer { ApiKey = PlatformKey });
-
             // Configure query information
-            var searchListRequest = youtubeService.Search.List("snippet");
+            var searchListRequest = Api.Search.List("snippet");
             searchListRequest.Q = query;
             searchListRequest.SafeSearch = safeSearch;
             searchListRequest.MaxResults = 50; // default is 5; 50 is the maximum allowed

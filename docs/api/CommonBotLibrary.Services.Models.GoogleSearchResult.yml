@@ -1,0 +1,271 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult
+  commentId: T:CommonBotLibrary.Services.Models.GoogleSearchResult
+  id: GoogleSearchResult
+  parent: CommonBotLibrary.Services.Models
+  children:
+  - CommonBotLibrary.Services.Models.GoogleSearchResult.#ctor(Result)
+  - CommonBotLibrary.Services.Models.GoogleSearchResult.ApiResult
+  - CommonBotLibrary.Services.Models.GoogleSearchResult.op_Implicit(CommonBotLibrary.Services.Models.GoogleSearchResult)~Result
+  - CommonBotLibrary.Services.Models.GoogleSearchResult.Title
+  - CommonBotLibrary.Services.Models.GoogleSearchResult.Url
+  langs:
+  - csharp
+  - vb
+  name: GoogleSearchResult
+  nameWithType: GoogleSearchResult
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult
+  type: Class
+  source:
+    id: GoogleSearchResult
+    path: ''
+    startLine: 2270
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: 'public class GoogleSearchResult : IWebpage'
+    content.vb: >-
+      Public Class GoogleSearchResult
+          Inherits IWebpage
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.#ctor(Result)
+  commentId: M:CommonBotLibrary.Services.Models.GoogleSearchResult.#ctor(Result)
+  id: '#ctor(Result)'
+  parent: CommonBotLibrary.Services.Models.GoogleSearchResult
+  langs:
+  - csharp
+  - vb
+  name: GoogleSearchResult(Result)
+  nameWithType: GoogleSearchResult.GoogleSearchResult(Result)
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.GoogleSearchResult(Result)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2273
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public GoogleSearchResult(Result apiResult)
+    parameters:
+    - id: apiResult
+      type: Result
+    content.vb: Public Sub New(apiResult As Result)
+  overload: CommonBotLibrary.Services.Models.GoogleSearchResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.ApiResult
+  commentId: P:CommonBotLibrary.Services.Models.GoogleSearchResult.ApiResult
+  id: ApiResult
+  parent: CommonBotLibrary.Services.Models.GoogleSearchResult
+  langs:
+  - csharp
+  - vb
+  name: ApiResult
+  nameWithType: GoogleSearchResult.ApiResult
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.ApiResult
+  type: Property
+  source:
+    id: ApiResult
+    path: ''
+    startLine: 2284
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  summary: "\nThe wrapped model returned by Google with more webpage properties.\n"
+  example: []
+  syntax:
+    content: public Result ApiResult { get; }
+    parameters: []
+    return:
+      type: Result
+    content.vb: Public ReadOnly Property ApiResult As Result
+  overload: CommonBotLibrary.Services.Models.GoogleSearchResult.ApiResult*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.Url
+  commentId: P:CommonBotLibrary.Services.Models.GoogleSearchResult.Url
+  id: Url
+  parent: CommonBotLibrary.Services.Models.GoogleSearchResult
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: GoogleSearchResult.Url
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.Url
+  type: Property
+  source:
+    id: Url
+    path: ''
+    startLine: 2285
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: CommonBotLibrary.Services.Models.GoogleSearchResult.Url*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.Title
+  commentId: P:CommonBotLibrary.Services.Models.GoogleSearchResult.Title
+  id: Title
+  parent: CommonBotLibrary.Services.Models.GoogleSearchResult
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: GoogleSearchResult.Title
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.Title
+  type: Property
+  source:
+    id: Title
+    path: ''
+    startLine: 2286
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: CommonBotLibrary.Services.Models.GoogleSearchResult.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.op_Implicit(CommonBotLibrary.Services.Models.GoogleSearchResult)~Result
+  commentId: M:CommonBotLibrary.Services.Models.GoogleSearchResult.op_Implicit(CommonBotLibrary.Services.Models.GoogleSearchResult)~Result
+  id: op_Implicit(CommonBotLibrary.Services.Models.GoogleSearchResult)~Result
+  parent: CommonBotLibrary.Services.Models.GoogleSearchResult
+  langs:
+  - csharp
+  - vb
+  name: Implicit(GoogleSearchResult to Result)
+  nameWithType: GoogleSearchResult.Implicit(GoogleSearchResult to Result)
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.Implicit(CommonBotLibrary.Services.Models.GoogleSearchResult to Result)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 2288
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services.Models
+  syntax:
+    content: public static implicit operator Result(GoogleSearchResult googleSearchResult)
+    parameters:
+    - id: googleSearchResult
+      type: CommonBotLibrary.Services.Models.GoogleSearchResult
+    return:
+      type: Result
+    content.vb: Public Shared Widening Operator CType(googleSearchResult As GoogleSearchResult) As Result
+  overload: CommonBotLibrary.Services.Models.GoogleSearchResult.op_Implicit*
+  nameWithType.vb: GoogleSearchResult.Widening(GoogleSearchResult to Result)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: CommonBotLibrary.Services.Models.GoogleSearchResult.Widening(CommonBotLibrary.Services.Models.GoogleSearchResult to Result)
+  name.vb: Widening(GoogleSearchResult to Result)
+references:
+- uid: CommonBotLibrary.Services.Models
+  commentId: N:CommonBotLibrary.Services.Models
+  isExternal: false
+  name: CommonBotLibrary.Services.Models
+  nameWithType: CommonBotLibrary.Services.Models
+  fullName: CommonBotLibrary.Services.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleSearchResult.#ctor
+  isExternal: false
+  name: GoogleSearchResult
+  nameWithType: GoogleSearchResult.GoogleSearchResult
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.GoogleSearchResult
+- uid: Result
+  isExternal: true
+  name: Result
+  nameWithType: Result
+  fullName: Result
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.ApiResult*
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleSearchResult.ApiResult
+  isExternal: false
+  name: ApiResult
+  nameWithType: GoogleSearchResult.ApiResult
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.ApiResult
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.Url*
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleSearchResult.Url
+  isExternal: false
+  name: Url
+  nameWithType: GoogleSearchResult.Url
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.Url
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.Title*
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleSearchResult.Title
+  isExternal: false
+  name: Title
+  nameWithType: GoogleSearchResult.Title
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.Title
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult.op_Implicit*
+  commentId: Overload:CommonBotLibrary.Services.Models.GoogleSearchResult.op_Implicit
+  isExternal: false
+  name: Implicit
+  nameWithType: GoogleSearchResult.Implicit
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult.Implicit
+  nameWithType.vb: GoogleSearchResult.Widening
+  fullName.vb: CommonBotLibrary.Services.Models.GoogleSearchResult.Widening
+  name.vb: Widening
+- uid: CommonBotLibrary.Services.Models.GoogleSearchResult
+  commentId: T:CommonBotLibrary.Services.Models.GoogleSearchResult
+  parent: CommonBotLibrary.Services.Models
+  isExternal: false
+  name: GoogleSearchResult
+  nameWithType: GoogleSearchResult
+  fullName: CommonBotLibrary.Services.Models.GoogleSearchResult
