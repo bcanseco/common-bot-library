@@ -22,17 +22,19 @@ namespace CommonBotLibrary.Services
         /// <exception cref="InvalidCredentialsException"></exception>
         public GoogleSearchService(string platformKey = null, string engineId = null)
         {
-            PlatformKey = platformKey ?? Tokens.Google?.PlatformKey;
+            var apiKey = platformKey ?? Tokens.Google?.PlatformKey;
             EngineId = engineId ?? Tokens.Google?.EngineId;
 
-            if (string.IsNullOrWhiteSpace(PlatformKey) || string.IsNullOrWhiteSpace(EngineId))
+            if (string.IsNullOrWhiteSpace(apiKey) || string.IsNullOrWhiteSpace(EngineId))
             {
                 var msg = $"Google tokens are required. Did you call {nameof(Tokens.LoadAsync)}?";
                 throw new InvalidCredentialsException(msg);
             }
+
+            Api = new CustomsearchService(new BaseClientService.Initializer {ApiKey = apiKey});
         }
 
-        private string PlatformKey { get; }
+        private CustomsearchService Api { get; }
         private string EngineId { get; }
 
         /// <summary>
@@ -48,12 +50,8 @@ namespace CommonBotLibrary.Services
         /// <seealso href="https://cse.google.com">Custom Search Engine info</seealso>
         public async Task<IEnumerable<Result>> SearchAsync(string query, SafeEnum safeSearch = SafeEnum.Off)
         {
-            // Set up Google custom search service
-            var googleService = new CustomsearchService(
-                new BaseClientService.Initializer {ApiKey = PlatformKey});
-
             // Configure query information
-            var searchListRequest = googleService.Cse.List(query);
+            var searchListRequest = Api.Cse.List(query);
             searchListRequest.Cx = EngineId;
             searchListRequest.Safe = safeSearch;
             searchListRequest.Num = 10; // max allowed by google; also the default

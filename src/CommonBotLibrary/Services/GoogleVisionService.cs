@@ -19,16 +19,18 @@ namespace CommonBotLibrary.Services
         /// <exception cref="InvalidCredentialsException"></exception>
         public GoogleVisionService(string platformKey = null)
         {
-            PlatformKey = platformKey ?? Tokens.Google?.PlatformKey;
+            var apiKey = platformKey ?? Tokens.Google?.PlatformKey;
 
-            if (string.IsNullOrWhiteSpace(PlatformKey))
+            if (string.IsNullOrWhiteSpace(apiKey))
             {
                 var msg = $"Google token is required. Did you call {nameof(Tokens.LoadAsync)}?";
                 throw new InvalidCredentialsException(msg);
             }
+
+            Api = new VisionService(new BaseClientService.Initializer {ApiKey = apiKey});
         }
 
-        private string PlatformKey { get; }
+        private VisionService Api { get; }
 
         /// <summary>
         ///   Uses Google Cloud Vision to analyze an image.
@@ -45,9 +47,6 @@ namespace CommonBotLibrary.Services
         /// <seealso href="https://cloud.google.com/terms/service-terms">TOS</seealso>
         public async Task<AnnotateImageResponse> AnalyzeAsync(string imageUrl)
         {
-            var visionService = new VisionService(
-                new BaseClientService.Initializer { ApiKey = PlatformKey });
-
             var batch = new BatchAnnotateImagesRequest
             {
                 Requests = new List<AnnotateImageRequest>
@@ -72,7 +71,7 @@ namespace CommonBotLibrary.Services
                 }
             };
 
-            var result = (await visionService.Images.Annotate(batch).ExecuteAsync()).Responses[0];
+            var result = (await Api.Images.Annotate(batch).ExecuteAsync()).Responses[0];
 
             if (result.Error != null)
                 throw new ResultNotFoundException(result.Error.Message);
