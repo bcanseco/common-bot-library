@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Net.Http;
+using System.Threading.Tasks;
 using CommonBotLibrary.Exceptions;
 using CommonBotLibrary.Services;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -39,7 +41,7 @@ namespace CommonBotLibrary.Tests.Services
             await Tokens.LoadAsync("../../../../../tokens.json");
 
             var service = new GoogleVisionService();
-            var result = await service.AnalyzeAsync("https://google.com");
+            var result = await service.AnalyzeAsync(await GetBase64("https://google.com"));
         }
 
         [TestMethod]
@@ -49,9 +51,18 @@ namespace CommonBotLibrary.Tests.Services
             await Tokens.LoadAsync("../../../../../tokens.json");
 
             var service = new GoogleVisionService();
-            var result = await service.AnalyzeAsync("https://i.imgur.com/VIkoEtC.jpg");
+            var result = await service.AnalyzeAsync(await GetBase64("https://i.imgur.com/VIkoEtC.jpg"));
 
             Assert.IsNotNull(result.TextAnnotations);
+        }
+
+        public static async Task<string> GetBase64(string url)
+        {
+            using (var client = new HttpClient())
+            {
+                var bytes = await client.GetByteArrayAsync(url);
+                return Convert.ToBase64String(bytes);
+            }
         }
     }
 }
