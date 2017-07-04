@@ -11,8 +11,8 @@ namespace CommonBotLibrary.Interfaces
         /// <summary>
         ///   Uses computer vision to analyze an image.
         /// </summary>
-        /// <param name="imageUrl">A direct link to an image.</param>
+        /// <param name="image">An image to analyze.</param>
         /// <returns>The analysis results.</returns>
-        Task<ImageAnalysisBase> AnalyzeAsync(string imageUrl);
+        Task<ImageAnalysisBase> AnalyzeAsync(string image);
     }
 }

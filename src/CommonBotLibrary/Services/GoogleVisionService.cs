@@ -35,17 +35,17 @@ namespace CommonBotLibrary.Services
         /// <summary>
         ///   Uses Google Cloud Vision to analyze an image.
         /// </summary>
-        /// <param name="imageUrl">A direct link to an image.</param>
+        /// <param name="base64Image">An image encoded as a base 64 string.</param>
         /// <returns>Analysis results.</returns>
         /// <exception cref="System.Net.Http.HttpRequestException"></exception>
         /// <exception cref="Google.GoogleApiException">
         ///   Thrown if Google is down or rejects your token.
         /// </exception>
         /// <exception cref="ResultNotFoundException">
-        ///   Thrown if the image cannot be found or processed.
+        ///   Thrown if the image cannot be processed.
         /// </exception>
         /// <seealso href="https://cloud.google.com/terms/service-terms">TOS</seealso>
-        public async Task<AnnotateImageResponse> AnalyzeAsync(string imageUrl)
+        public async Task<AnnotateImageResponse> AnalyzeAsync(string base64Image)
         {
             var batch = new BatchAnnotateImagesRequest
             {
@@ -53,7 +53,7 @@ namespace CommonBotLibrary.Services
                 {
                     new AnnotateImageRequest
                     {
-                        Image = new Image {Source = new ImageSource {ImageUri = imageUrl}},
+                        Image = new Image {Content = base64Image},
                         Features = new List<Feature>
                         {
                             new Feature {Type = "FACE_DETECTION"},
@@ -79,7 +79,7 @@ namespace CommonBotLibrary.Services
             return result;
         }
 
-        async Task<ImageAnalysisBase> IVisionService.AnalyzeAsync(string imageUrl)
-            => new GoogleVisionResult(await AnalyzeAsync(imageUrl));
+        async Task<ImageAnalysisBase> IVisionService.AnalyzeAsync(string image)
+            => new GoogleVisionResult(await AnalyzeAsync(image));
     }
 }
