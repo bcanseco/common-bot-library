@@ -5,15 +5,23 @@ namespace CommonBotLibrary.Services.Models
 {
     public class YandexResult : TranslationBase
     {
-        public YandexResult(JToken response)
+        public YandexResult(
+            string originalText,
+            YandexLanguage source,
+            YandexLanguage target,
+            JToken response)
         {
+            InputText = originalText;
             OutputText = response["text"][0].Value<string>();
 
-            DetectedLanguage = response["detected"]["lang"].Value<string>();
-            LanguageFlow = response["lang"].Value<string>();
+            IsSourceDetected = source == null;
+            SourceLanguage = source ?? new YandexLanguage(response["detected"]["lang"].Value<string>());
+            TargetLanguage = target;
+            
         }
 
-        public string DetectedLanguage { get; }
-        public string LanguageFlow { get; }
+        public bool IsSourceDetected { get; }
+        public YandexLanguage SourceLanguage { get; }
+        public YandexLanguage TargetLanguage { get; }
     }
 }

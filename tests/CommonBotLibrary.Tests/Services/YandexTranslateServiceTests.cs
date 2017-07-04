@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using CommonBotLibrary.Exceptions;
 using CommonBotLibrary.Services;
+using CommonBotLibrary.Services.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace CommonBotLibrary.Tests.Services
@@ -29,7 +30,7 @@ namespace CommonBotLibrary.Tests.Services
         public async Task Should_Fail_With_Invalid_Credentials()
         {
             var service = new YandexTranslateService("?");
-            var result = await service.TranslateAsync("test", "es");
+            var result = await service.TranslateAsync("test", new YandexLanguage("es"));
         }
 
         [TestMethod]
@@ -37,7 +38,7 @@ namespace CommonBotLibrary.Tests.Services
         public async Task Should_Fail_With_Blank_Params()
         {
             var service = new YandexTranslateService("?");
-            var result = await service.TranslateAsync(null, string.Empty);
+            var result = await service.TranslateAsync(null, null);
         }
 
         [TestMethod]
@@ -45,7 +46,7 @@ namespace CommonBotLibrary.Tests.Services
         public async Task Should_Fail_With_Unsupported_Language()
         {
             var service = new YandexTranslateService("?");
-            var result = await service.TranslateAsync("test", "Pirate");
+            var result = await service.TranslateAsync("test", new YandexLanguage("Pirate"));
         }
 
         [TestMethod]
@@ -55,8 +56,9 @@ namespace CommonBotLibrary.Tests.Services
             await Tokens.LoadAsync("../../../../../tokens.json");
 
             var service = new YandexTranslateService();
-            var result = await service.TranslateAsync("Hello", "Spanish");
+            var result = await service.TranslateAsync("Hello", new YandexLanguage("spanish"));
 
+            Assert.IsTrue(result.IsSourceDetected);
             Assert.AreEqual("Hola", result.OutputText);
         }
 
@@ -67,8 +69,10 @@ namespace CommonBotLibrary.Tests.Services
             await Tokens.LoadAsync("../../../../../tokens.json");
 
             var service = new YandexTranslateService();
-            var result = await service.TranslateAsync("Hello", "es", "English");
+            var result = await service.TranslateAsync(
+                "Hello", new YandexLanguage("ES"), new YandexLanguage("eNgLiSh"));
 
+            Assert.IsFalse(result.IsSourceDetected);
             Assert.AreEqual("Hola", result.OutputText);
         }
     }

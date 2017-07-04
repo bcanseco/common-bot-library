@@ -19,7 +19,7 @@ items:
   source:
     id: ConsumptionPreference
     path: ''
-    startLine: 2833
+    startLine: 2678
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -55,7 +55,7 @@ items:
   source:
     id: ConsumptionPreferenceId
     path: ''
-    startLine: 2835
+    startLine: 2680
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -86,7 +86,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 2837
+    startLine: 2682
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -117,7 +117,7 @@ items:
   source:
     id: Score
     path: ''
-    startLine: 2838
+    startLine: 2683
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -148,7 +148,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 2840
+    startLine: 2685
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

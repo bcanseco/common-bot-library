@@ -19,7 +19,7 @@ items:
   source:
     id: OpenTriviaDbResult
     path: ''
-    startLine: 2464
+    startLine: 2309
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -52,7 +52,7 @@ items:
   source:
     id: Type
     path: ''
-    startLine: 2467
+    startLine: 2312
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -85,7 +85,7 @@ items:
   source:
     id: Difficulty
     path: ''
-    startLine: 2469
+    startLine: 2314
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -118,7 +118,7 @@ items:
   source:
     id: CorrectAnswer
     path: ''
-    startLine: 2470
+    startLine: 2315
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -149,7 +149,7 @@ items:
   source:
     id: IncorrectAnswers
     path: ''
-    startLine: 2472
+    startLine: 2317
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

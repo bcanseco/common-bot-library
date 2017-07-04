@@ -6,8 +6,7 @@ items:
   parent: CommonBotLibrary.Services
   children:
   - CommonBotLibrary.Services.YandexTranslateService.#ctor(System.String)
-  - CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
-  - CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String,System.String,System.String)
+  - CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String,YandexLanguage,YandexLanguage)
   langs:
   - csharp
   - vb
@@ -18,7 +17,7 @@ items:
   source:
     id: YandexTranslateService
     path: ''
-    startLine: 1894
+    startLine: 1893
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -49,7 +48,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1901
+    startLine: 1900
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -67,73 +66,41 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
-  commentId: P:CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
-  id: LanguageCodes
+- uid: CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String,YandexLanguage,YandexLanguage)
+  commentId: M:CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String,YandexLanguage,YandexLanguage)
+  id: TranslateAsync(System.String,YandexLanguage,YandexLanguage)
   parent: CommonBotLibrary.Services.YandexTranslateService
   langs:
   - csharp
   - vb
-  name: LanguageCodes
-  nameWithType: YandexTranslateService.LanguageCodes
-  fullName: CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
-  type: Property
-  source:
-    id: LanguageCodes
-    path: ''
-    startLine: 1915
-  assemblies:
-  - cs.temp.dll
-  namespace: CommonBotLibrary.Services
-  syntax:
-    content: public IDictionary<string, string> LanguageCodes { get; }
-    parameters: []
-    return:
-      type: IDictionary{System.String,System.String}
-    content.vb: Public ReadOnly Property LanguageCodes As IDictionary(Of String, String)
-  overload: CommonBotLibrary.Services.YandexTranslateService.LanguageCodes*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String,System.String,System.String)
-  commentId: M:CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String,System.String,System.String)
-  id: TranslateAsync(System.String,System.String,System.String)
-  parent: CommonBotLibrary.Services.YandexTranslateService
-  langs:
-  - csharp
-  - vb
-  name: TranslateAsync(String, String, String)
-  nameWithType: YandexTranslateService.TranslateAsync(String, String, String)
-  fullName: CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String, System.String, System.String)
+  name: TranslateAsync(String, YandexLanguage, YandexLanguage)
+  nameWithType: YandexTranslateService.TranslateAsync(String, YandexLanguage, YandexLanguage)
+  fullName: CommonBotLibrary.Services.YandexTranslateService.TranslateAsync(System.String, YandexLanguage, YandexLanguage)
   type: Method
   source:
     id: TranslateAsync
     path: ''
-    startLine: 2031
+    startLine: 1925
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
   summary: "\nUses Yandex Translate to translate text to another language.\n"
-  remarks: Language params can be in code ("en") or name ("English") form.
   example: []
   syntax:
-    content: public Task<YandexResult> TranslateAsync(string text, string target, string source = null)
+    content: public Task<YandexResult> TranslateAsync(string text, YandexLanguage target, YandexLanguage source = null)
     parameters:
     - id: text
       type: System.String
       description: The text to translate.
     - id: target
-      type: System.String
+      type: YandexLanguage
       description: The language to translate to.
     - id: source
-      type: System.String
+      type: YandexLanguage
       description: The language to translate from. Autodetected if null.
     return:
       type: Task{YandexResult}
-    content.vb: Public Function TranslateAsync(text As String, target As String, source As String = Nothing) As Task(Of YandexResult)
+    content.vb: Public Function TranslateAsync(text As String, target As YandexLanguage, source As YandexLanguage = Nothing) As Task(Of YandexResult)
   overload: CommonBotLibrary.Services.YandexTranslateService.TranslateAsync*
   seealso:
   - linkType: HRef
@@ -182,129 +149,17 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: CommonBotLibrary.Services.YandexTranslateService.LanguageCodes*
-  commentId: Overload:CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
-  isExternal: false
-  name: LanguageCodes
-  nameWithType: YandexTranslateService.LanguageCodes
-  fullName: CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
-- uid: IDictionary{System.String,System.String}
-  commentId: '!:IDictionary{System.String,System.String}'
-  definition: IDictionary`2
-  name: IDictionary<String, String>
-  nameWithType: IDictionary<String, String>
-  fullName: IDictionary<System.String, System.String>
-  nameWithType.vb: IDictionary(Of String, String)
-  fullName.vb: IDictionary(Of System.String, System.String)
-  name.vb: IDictionary(Of String, String)
-  spec.csharp:
-  - uid: IDictionary`2
-    name: IDictionary
-    nameWithType: IDictionary
-    fullName: IDictionary
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: IDictionary`2
-    name: IDictionary
-    nameWithType: IDictionary
-    fullName: IDictionary
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: IDictionary`2
-  isExternal: true
-  name: IDictionary<, >
-  nameWithType: IDictionary<, >
-  fullName: IDictionary<, >
-  nameWithType.vb: IDictionary(Of , )
-  fullName.vb: IDictionary(Of , )
-  name.vb: IDictionary(Of , )
-  spec.csharp:
-  - uid: IDictionary`2
-    name: IDictionary
-    nameWithType: IDictionary
-    fullName: IDictionary
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: IDictionary`2
-    name: IDictionary
-    nameWithType: IDictionary
-    fullName: IDictionary
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
-  commentId: P:CommonBotLibrary.Services.YandexTranslateService.LanguageCodes
 - uid: CommonBotLibrary.Services.YandexTranslateService.TranslateAsync*
   commentId: Overload:CommonBotLibrary.Services.YandexTranslateService.TranslateAsync
   isExternal: false
   name: TranslateAsync
   nameWithType: YandexTranslateService.TranslateAsync
   fullName: CommonBotLibrary.Services.YandexTranslateService.TranslateAsync
+- uid: YandexLanguage
+  isExternal: true
+  name: YandexLanguage
+  nameWithType: YandexLanguage
+  fullName: YandexLanguage
 - uid: Task{YandexResult}
   commentId: '!:Task{YandexResult}'
   definition: Task`1

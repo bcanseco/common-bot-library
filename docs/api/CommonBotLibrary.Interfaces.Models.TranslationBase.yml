@@ -5,6 +5,7 @@ items:
   id: TranslationBase
   parent: CommonBotLibrary.Interfaces.Models
   children:
+  - CommonBotLibrary.Interfaces.Models.TranslationBase.InputText
   - CommonBotLibrary.Interfaces.Models.TranslationBase.OutputText
   langs:
   - csharp
@@ -41,6 +42,37 @@ items:
   - Public
   - MustInherit
   - Class
+- uid: CommonBotLibrary.Interfaces.Models.TranslationBase.InputText
+  commentId: P:CommonBotLibrary.Interfaces.Models.TranslationBase.InputText
+  id: InputText
+  parent: CommonBotLibrary.Interfaces.Models.TranslationBase
+  langs:
+  - csharp
+  - vb
+  name: InputText
+  nameWithType: TranslationBase.InputText
+  fullName: CommonBotLibrary.Interfaces.Models.TranslationBase.InputText
+  type: Property
+  source:
+    id: InputText
+    path: ''
+    startLine: 720
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Interfaces.Models
+  syntax:
+    content: public string InputText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InputText As String
+  overload: CommonBotLibrary.Interfaces.Models.TranslationBase.InputText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: CommonBotLibrary.Interfaces.Models.TranslationBase.OutputText
   commentId: P:CommonBotLibrary.Interfaces.Models.TranslationBase.OutputText
   id: OutputText
@@ -55,7 +87,7 @@ items:
   source:
     id: OutputText
     path: ''
-    startLine: 720
+    startLine: 721
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -371,12 +403,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CommonBotLibrary.Interfaces.Models.TranslationBase.OutputText*
-  commentId: Overload:CommonBotLibrary.Interfaces.Models.TranslationBase.OutputText
+- uid: CommonBotLibrary.Interfaces.Models.TranslationBase.InputText*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.TranslationBase.InputText
   isExternal: false
-  name: OutputText
-  nameWithType: TranslationBase.OutputText
-  fullName: CommonBotLibrary.Interfaces.Models.TranslationBase.OutputText
+  name: InputText
+  nameWithType: TranslationBase.InputText
+  fullName: CommonBotLibrary.Interfaces.Models.TranslationBase.InputText
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -384,3 +416,9 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: CommonBotLibrary.Interfaces.Models.TranslationBase.OutputText*
+  commentId: Overload:CommonBotLibrary.Interfaces.Models.TranslationBase.OutputText
+  isExternal: false
+  name: OutputText
+  nameWithType: TranslationBase.OutputText
+  fullName: CommonBotLibrary.Interfaces.Models.TranslationBase.OutputText

@@ -17,7 +17,7 @@ items:
   source:
     id: Rating
     path: ''
-    startLine: 2438
+    startLine: 2283
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -54,7 +54,7 @@ items:
   source:
     id: Source
     path: ''
-    startLine: 2441
+    startLine: 2286
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -85,7 +85,7 @@ items:
   source:
     id: Value
     path: ''
-    startLine: 2442
+    startLine: 2287
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class YandexResult
+    <title>Class YandexLanguage
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class YandexResult
+    <meta name="title" content="Class YandexLanguage
    ">
     <meta name="generator" content="docfx 2.18.2.0">
     
@@ -67,35 +67,57 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CommonBotLibrary.Services.Models.YandexResult">
+            <article class="content wrap" id="_content" data-uid="CommonBotLibrary.Services.Models.YandexLanguage">
   
   
-  <h1 id="CommonBotLibrary_Services_Models_YandexResult" data-uid="CommonBotLibrary.Services.Models.YandexResult">Class YandexResult
+  <h1 id="CommonBotLibrary_Services_Models_YandexLanguage" data-uid="CommonBotLibrary.Services.Models.YandexLanguage">Class YandexLanguage
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">YandexResult</span></div>
+    <div class="level1"><span class="xref">YandexLanguage</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CommonBotLibrary.Services.Models.html">CommonBotLibrary.Services.Models</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CommonBotLibrary_Services_Models_YandexResult_syntax">Syntax</h5>
+  <h5 id="CommonBotLibrary_Services_Models_YandexLanguage_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class YandexResult : TranslationBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class YandexLanguage</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="CommonBotLibrary_Services_Models_YandexResult__ctor_" data-uid="CommonBotLibrary.Services.Models.YandexResult.#ctor*"></a>
-  <h4 id="CommonBotLibrary_Services_Models_YandexResult__ctor_System_String_CommonBotLibrary_Services_Models_YandexLanguage_CommonBotLibrary_Services_Models_YandexLanguage_JToken_" data-uid="CommonBotLibrary.Services.Models.YandexResult.#ctor(System.String,CommonBotLibrary.Services.Models.YandexLanguage,CommonBotLibrary.Services.Models.YandexLanguage,JToken)">YandexResult(String, YandexLanguage, YandexLanguage, JToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="CommonBotLibrary_Services_Models_YandexLanguage__ctor_" data-uid="CommonBotLibrary.Services.Models.YandexLanguage.#ctor*"></a>
+  <h4 id="CommonBotLibrary_Services_Models_YandexLanguage__ctor_System_String_" data-uid="CommonBotLibrary.Services.Models.YandexLanguage.#ctor(System.String)">YandexLanguage(String)</h4>
+  <div class="markdown level1 summary"><p>A model wrapping a language supported by Yandex Translate.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public YandexResult(string originalText, YandexLanguage source, YandexLanguage target, JToken response)</code></pre>
+    <pre><code class="lang-csharp hljs">public YandexLanguage(string input)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -109,23 +131,9 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">originalText</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CommonBotLibrary.Services.Models.YandexLanguage.html">YandexLanguage</a></td>
-        <td><span class="parametername">source</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="CommonBotLibrary.Services.Models.YandexLanguage.html">YandexLanguage</a></td>
-        <td><span class="parametername">target</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">JToken</span></td>
-        <td><span class="parametername">response</span></td>
-        <td></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>A language name or code.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -133,13 +141,13 @@
   </h3>
   
   
-  <a id="CommonBotLibrary_Services_Models_YandexResult_IsSourceDetected_" data-uid="CommonBotLibrary.Services.Models.YandexResult.IsSourceDetected*"></a>
-  <h4 id="CommonBotLibrary_Services_Models_YandexResult_IsSourceDetected" data-uid="CommonBotLibrary.Services.Models.YandexResult.IsSourceDetected">IsSourceDetected</h4>
+  <a id="CommonBotLibrary_Services_Models_YandexLanguage_Code_" data-uid="CommonBotLibrary.Services.Models.YandexLanguage.Code*"></a>
+  <h4 id="CommonBotLibrary_Services_Models_YandexLanguage_Code" data-uid="CommonBotLibrary.Services.Models.YandexLanguage.Code">Code</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsSourceDetected { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Code { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,20 +159,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CommonBotLibrary_Services_Models_YandexResult_SourceLanguage_" data-uid="CommonBotLibrary.Services.Models.YandexResult.SourceLanguage*"></a>
-  <h4 id="CommonBotLibrary_Services_Models_YandexResult_SourceLanguage" data-uid="CommonBotLibrary.Services.Models.YandexResult.SourceLanguage">SourceLanguage</h4>
+  <a id="CommonBotLibrary_Services_Models_YandexLanguage_LanguageCodes_" data-uid="CommonBotLibrary.Services.Models.YandexLanguage.LanguageCodes*"></a>
+  <h4 id="CommonBotLibrary_Services_Models_YandexLanguage_LanguageCodes" data-uid="CommonBotLibrary.Services.Models.YandexLanguage.LanguageCodes">LanguageCodes</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public YandexLanguage SourceLanguage { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static IDictionary&lt;string, string&gt; LanguageCodes { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -176,20 +184,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CommonBotLibrary.Services.Models.YandexLanguage.html">YandexLanguage</a></td>
+        <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CommonBotLibrary_Services_Models_YandexResult_TargetLanguage_" data-uid="CommonBotLibrary.Services.Models.YandexResult.TargetLanguage*"></a>
-  <h4 id="CommonBotLibrary_Services_Models_YandexResult_TargetLanguage" data-uid="CommonBotLibrary.Services.Models.YandexResult.TargetLanguage">TargetLanguage</h4>
+  <a id="CommonBotLibrary_Services_Models_YandexLanguage_Name_" data-uid="CommonBotLibrary.Services.Models.YandexLanguage.Name*"></a>
+  <h4 id="CommonBotLibrary_Services_Models_YandexLanguage_Name" data-uid="CommonBotLibrary.Services.Models.YandexLanguage.Name">Name</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public YandexLanguage TargetLanguage { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -201,11 +209,40 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CommonBotLibrary.Services.Models.YandexLanguage.html">YandexLanguage</a></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CommonBotLibrary_Services_Models_YandexLanguage_ToString_" data-uid="CommonBotLibrary.Services.Models.YandexLanguage.ToString*"></a>
+  <h4 id="CommonBotLibrary_Services_Models_YandexLanguage_ToString" data-uid="CommonBotLibrary.Services.Models.YandexLanguage.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
 </article>
           </div>
           
