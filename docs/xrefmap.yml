@@ -290,6 +290,24 @@ references:
   commentId: Overload:CommonBotLibrary.Interfaces.ICalculatorService.EvaluateAsync
   fullName: CommonBotLibrary.Interfaces.ICalculatorService.EvaluateAsync
   nameWithType: ICalculatorService.EvaluateAsync
+- uid: CommonBotLibrary.Interfaces.IChatService
+  name: IChatService
+  href: api/CommonBotLibrary.Interfaces.IChatService.html
+  commentId: T:CommonBotLibrary.Interfaces.IChatService
+  fullName: CommonBotLibrary.Interfaces.IChatService
+  nameWithType: IChatService
+- uid: CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String)
+  name: ConverseAsync(String)
+  href: api/CommonBotLibrary.Interfaces.IChatService.html#CommonBotLibrary_Interfaces_IChatService_ConverseAsync_System_String_
+  commentId: M:CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String)
+  fullName: CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String)
+  nameWithType: IChatService.ConverseAsync(String)
+- uid: CommonBotLibrary.Interfaces.IChatService.ConverseAsync*
+  name: ConverseAsync
+  href: api/CommonBotLibrary.Interfaces.IChatService.html#CommonBotLibrary_Interfaces_IChatService_ConverseAsync_
+  commentId: Overload:CommonBotLibrary.Interfaces.IChatService.ConverseAsync
+  fullName: CommonBotLibrary.Interfaces.IChatService.ConverseAsync
+  nameWithType: IChatService.ConverseAsync
 - uid: CommonBotLibrary.Interfaces.IDictionaryService
   name: IDictionaryService
   href: api/CommonBotLibrary.Interfaces.IDictionaryService.html
@@ -1110,6 +1128,36 @@ references:
   commentId: N:CommonBotLibrary.Services
   fullName: CommonBotLibrary.Services
   nameWithType: CommonBotLibrary.Services
+- uid: CommonBotLibrary.Services.BotLibreService
+  name: BotLibreService
+  href: api/CommonBotLibrary.Services.BotLibreService.html
+  commentId: T:CommonBotLibrary.Services.BotLibreService
+  fullName: CommonBotLibrary.Services.BotLibreService
+  nameWithType: BotLibreService
+- uid: CommonBotLibrary.Services.BotLibreService.#ctor(System.String,System.String)
+  name: BotLibreService(String, String)
+  href: api/CommonBotLibrary.Services.BotLibreService.html#CommonBotLibrary_Services_BotLibreService__ctor_System_String_System_String_
+  commentId: M:CommonBotLibrary.Services.BotLibreService.#ctor(System.String,System.String)
+  fullName: CommonBotLibrary.Services.BotLibreService.BotLibreService(System.String, System.String)
+  nameWithType: BotLibreService.BotLibreService(String, String)
+- uid: CommonBotLibrary.Services.BotLibreService.#ctor*
+  name: BotLibreService
+  href: api/CommonBotLibrary.Services.BotLibreService.html#CommonBotLibrary_Services_BotLibreService__ctor_
+  commentId: Overload:CommonBotLibrary.Services.BotLibreService.#ctor
+  fullName: CommonBotLibrary.Services.BotLibreService.BotLibreService
+  nameWithType: BotLibreService.BotLibreService
+- uid: CommonBotLibrary.Services.BotLibreService.ConverseAsync(System.String)
+  name: ConverseAsync(String)
+  href: api/CommonBotLibrary.Services.BotLibreService.html#CommonBotLibrary_Services_BotLibreService_ConverseAsync_System_String_
+  commentId: M:CommonBotLibrary.Services.BotLibreService.ConverseAsync(System.String)
+  fullName: CommonBotLibrary.Services.BotLibreService.ConverseAsync(System.String)
+  nameWithType: BotLibreService.ConverseAsync(String)
+- uid: CommonBotLibrary.Services.BotLibreService.ConverseAsync*
+  name: ConverseAsync
+  href: api/CommonBotLibrary.Services.BotLibreService.html#CommonBotLibrary_Services_BotLibreService_ConverseAsync_
+  commentId: Overload:CommonBotLibrary.Services.BotLibreService.ConverseAsync
+  fullName: CommonBotLibrary.Services.BotLibreService.ConverseAsync
+  nameWithType: BotLibreService.ConverseAsync
 - uid: CommonBotLibrary.Services.GithubService
   name: GithubService
   href: api/CommonBotLibrary.Services.GithubService.html
@@ -4419,6 +4467,60 @@ references:
   commentId: Overload:CommonBotLibrary.Tokens.BasicAuthCredentials.Username
   fullName: CommonBotLibrary.Tokens.BasicAuthCredentials.Username
   nameWithType: Tokens.BasicAuthCredentials.Username
+- uid: CommonBotLibrary.Tokens.BotLibre
+  name: BotLibre
+  href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_BotLibre
+  commentId: P:CommonBotLibrary.Tokens.BotLibre
+  fullName: CommonBotLibrary.Tokens.BotLibre
+  nameWithType: Tokens.BotLibre
+- uid: CommonBotLibrary.Tokens.BotLibre*
+  name: BotLibre
+  href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_BotLibre_
+  commentId: Overload:CommonBotLibrary.Tokens.BotLibre
+  fullName: CommonBotLibrary.Tokens.BotLibre
+  nameWithType: Tokens.BotLibre
+- uid: CommonBotLibrary.Tokens.BotLibreCredentials
+  name: Tokens.BotLibreCredentials
+  href: api/CommonBotLibrary.Tokens.BotLibreCredentials.html
+  commentId: T:CommonBotLibrary.Tokens.BotLibreCredentials
+  fullName: CommonBotLibrary.Tokens.BotLibreCredentials
+  nameWithType: Tokens.BotLibreCredentials
+- uid: CommonBotLibrary.Tokens.BotLibreCredentials.#ctor(System.String,System.String)
+  name: BotLibreCredentials(String, String)
+  href: api/CommonBotLibrary.Tokens.BotLibreCredentials.html#CommonBotLibrary_Tokens_BotLibreCredentials__ctor_System_String_System_String_
+  commentId: M:CommonBotLibrary.Tokens.BotLibreCredentials.#ctor(System.String,System.String)
+  fullName: CommonBotLibrary.Tokens.BotLibreCredentials.BotLibreCredentials(System.String, System.String)
+  nameWithType: Tokens.BotLibreCredentials.BotLibreCredentials(String, String)
+- uid: CommonBotLibrary.Tokens.BotLibreCredentials.#ctor*
+  name: BotLibreCredentials
+  href: api/CommonBotLibrary.Tokens.BotLibreCredentials.html#CommonBotLibrary_Tokens_BotLibreCredentials__ctor_
+  commentId: Overload:CommonBotLibrary.Tokens.BotLibreCredentials.#ctor
+  fullName: CommonBotLibrary.Tokens.BotLibreCredentials.BotLibreCredentials
+  nameWithType: Tokens.BotLibreCredentials.BotLibreCredentials
+- uid: CommonBotLibrary.Tokens.BotLibreCredentials.ApplicationId
+  name: ApplicationId
+  href: api/CommonBotLibrary.Tokens.BotLibreCredentials.html#CommonBotLibrary_Tokens_BotLibreCredentials_ApplicationId
+  commentId: P:CommonBotLibrary.Tokens.BotLibreCredentials.ApplicationId
+  fullName: CommonBotLibrary.Tokens.BotLibreCredentials.ApplicationId
+  nameWithType: Tokens.BotLibreCredentials.ApplicationId
+- uid: CommonBotLibrary.Tokens.BotLibreCredentials.ApplicationId*
+  name: ApplicationId
+  href: api/CommonBotLibrary.Tokens.BotLibreCredentials.html#CommonBotLibrary_Tokens_BotLibreCredentials_ApplicationId_
+  commentId: Overload:CommonBotLibrary.Tokens.BotLibreCredentials.ApplicationId
+  fullName: CommonBotLibrary.Tokens.BotLibreCredentials.ApplicationId
+  nameWithType: Tokens.BotLibreCredentials.ApplicationId
+- uid: CommonBotLibrary.Tokens.BotLibreCredentials.BotId
+  name: BotId
+  href: api/CommonBotLibrary.Tokens.BotLibreCredentials.html#CommonBotLibrary_Tokens_BotLibreCredentials_BotId
+  commentId: P:CommonBotLibrary.Tokens.BotLibreCredentials.BotId
+  fullName: CommonBotLibrary.Tokens.BotLibreCredentials.BotId
+  nameWithType: Tokens.BotLibreCredentials.BotId
+- uid: CommonBotLibrary.Tokens.BotLibreCredentials.BotId*
+  name: BotId
+  href: api/CommonBotLibrary.Tokens.BotLibreCredentials.html#CommonBotLibrary_Tokens_BotLibreCredentials_BotId_
+  commentId: Overload:CommonBotLibrary.Tokens.BotLibreCredentials.BotId
+  fullName: CommonBotLibrary.Tokens.BotLibreCredentials.BotId
+  nameWithType: Tokens.BotLibreCredentials.BotId
 - uid: CommonBotLibrary.Tokens.Github
   name: Github
   href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_Github

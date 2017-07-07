@@ -19,7 +19,7 @@ items:
   source:
     id: DictionaryOrEmptyArrayConverter
     path: ''
-    startLine: 175
+    startLine: 191
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Converters
@@ -64,7 +64,7 @@ items:
   source:
     id: CanWrite
     path: ''
-    startLine: 177
+    startLine: 193
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Converters
@@ -99,7 +99,7 @@ items:
   source:
     id: CanConvert
     path: ''
-    startLine: 179
+    startLine: 195
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Converters
@@ -134,7 +134,7 @@ items:
   source:
     id: ReadJson
     path: ''
-    startLine: 182
+    startLine: 198
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Converters
@@ -175,7 +175,7 @@ items:
   source:
     id: WriteJson
     path: ''
-    startLine: 211
+    startLine: 227
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Converters

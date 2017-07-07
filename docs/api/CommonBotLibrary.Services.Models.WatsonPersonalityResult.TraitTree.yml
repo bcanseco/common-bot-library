@@ -22,7 +22,7 @@ items:
   source:
     id: TraitTree
     path: ''
-    startLine: 2653
+    startLine: 2753
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -58,7 +58,7 @@ items:
   source:
     id: TraitId
     path: ''
-    startLine: 2655
+    startLine: 2755
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -89,7 +89,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 2657
+    startLine: 2757
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -120,7 +120,7 @@ items:
   source:
     id: Category
     path: ''
-    startLine: 2658
+    startLine: 2758
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -151,7 +151,7 @@ items:
   source:
     id: Percentile
     path: ''
-    startLine: 2659
+    startLine: 2759
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -182,7 +182,7 @@ items:
   source:
     id: RawScore
     path: ''
-    startLine: 2660
+    startLine: 2760
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -213,7 +213,7 @@ items:
   source:
     id: Children
     path: ''
-    startLine: 2662
+    startLine: 2762
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -244,7 +244,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 2664
+    startLine: 2764
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

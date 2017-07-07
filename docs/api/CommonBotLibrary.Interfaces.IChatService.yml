@@ -1,71 +1,67 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CommonBotLibrary.Interfaces.ICalculatorService
-  commentId: T:CommonBotLibrary.Interfaces.ICalculatorService
-  id: ICalculatorService
+- uid: CommonBotLibrary.Interfaces.IChatService
+  commentId: T:CommonBotLibrary.Interfaces.IChatService
+  id: IChatService
   parent: CommonBotLibrary.Interfaces
   children:
-  - CommonBotLibrary.Interfaces.ICalculatorService.EvaluateAsync(System.String)
+  - CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String)
   langs:
   - csharp
   - vb
-  name: ICalculatorService
-  nameWithType: ICalculatorService
-  fullName: CommonBotLibrary.Interfaces.ICalculatorService
+  name: IChatService
+  nameWithType: IChatService
+  fullName: CommonBotLibrary.Interfaces.IChatService
   type: Interface
   source:
-    id: ICalculatorService
+    id: IChatService
     path: ''
-    startLine: 404
+    startLine: 425
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
-  summary: "\nDefines an API for numeric calculations.\n"
+  summary: "\nDefines an API for chatting with AIs.\n"
   example: []
   syntax:
-    content: public interface ICalculatorService
-    content.vb: Public Interface ICalculatorService
+    content: public interface IChatService
+    content.vb: Public Interface IChatService
   modifiers.csharp:
   - public
   - interface
   modifiers.vb:
   - Public
   - Interface
-- uid: CommonBotLibrary.Interfaces.ICalculatorService.EvaluateAsync(System.String)
-  commentId: M:CommonBotLibrary.Interfaces.ICalculatorService.EvaluateAsync(System.String)
-  id: EvaluateAsync(System.String)
-  parent: CommonBotLibrary.Interfaces.ICalculatorService
+- uid: CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String)
+  commentId: M:CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String)
+  id: ConverseAsync(System.String)
+  parent: CommonBotLibrary.Interfaces.IChatService
   langs:
   - csharp
   - vb
-  name: EvaluateAsync(String)
-  nameWithType: ICalculatorService.EvaluateAsync(String)
-  fullName: CommonBotLibrary.Interfaces.ICalculatorService.EvaluateAsync(System.String)
+  name: ConverseAsync(String)
+  nameWithType: IChatService.ConverseAsync(String)
+  fullName: CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String)
   type: Method
   source:
-    id: EvaluateAsync
+    id: ConverseAsync
     path: ''
-    startLine: 414
+    startLine: 432
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
-  summary: "\nEvaluates a mathematical expression.\n"
+  summary: "\nConverses with an AI.\n"
   example: []
   syntax:
-    content: Task<string> EvaluateAsync(string expression)
+    content: Task<string> ConverseAsync(string message)
     parameters:
-    - id: expression
+    - id: message
       type: System.String
-      description: The expression to evaluate.
+      description: The message to send.
     return:
       type: Task{System.String}
-      description: The evaluated result.
-    content.vb: Function EvaluateAsync(expression As String) As Task(Of String)
-  overload: CommonBotLibrary.Interfaces.ICalculatorService.EvaluateAsync*
-  exceptions:
-  - type: System.ArgumentException
-    commentId: T:System.ArgumentException
-    description: "\nThrown if <span class=\"paramref\">expression</span> cannot be evaluated.\n"
+      description: The AI's response.
+    content.vb: Function ConverseAsync(message As String) As Task(Of String)
+  overload: CommonBotLibrary.Interfaces.IChatService.ConverseAsync*
 references:
 - uid: CommonBotLibrary.Interfaces
   commentId: N:CommonBotLibrary.Interfaces
@@ -73,14 +69,12 @@ references:
   name: CommonBotLibrary.Interfaces
   nameWithType: CommonBotLibrary.Interfaces
   fullName: CommonBotLibrary.Interfaces
-- uid: CommonBotLibrary.Interfaces.ICalculatorService.EvaluateAsync*
-  commentId: Overload:CommonBotLibrary.Interfaces.ICalculatorService.EvaluateAsync
+- uid: CommonBotLibrary.Interfaces.IChatService.ConverseAsync*
+  commentId: Overload:CommonBotLibrary.Interfaces.IChatService.ConverseAsync
   isExternal: false
-  name: EvaluateAsync
-  nameWithType: ICalculatorService.EvaluateAsync
-  fullName: CommonBotLibrary.Interfaces.ICalculatorService.EvaluateAsync
-- uid: System.ArgumentException
-  commentId: T:System.ArgumentException
+  name: ConverseAsync
+  nameWithType: IChatService.ConverseAsync
+  fullName: CommonBotLibrary.Interfaces.IChatService.ConverseAsync
 - uid: System.String
   commentId: T:System.String
   parent: System

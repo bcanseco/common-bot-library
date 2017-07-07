@@ -17,7 +17,7 @@ items:
   source:
     id: YandexTranslateService
     path: ''
-    startLine: 1893
+    startLine: 1993
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -48,7 +48,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1900
+    startLine: 2000
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -80,7 +80,7 @@ items:
   source:
     id: TranslateAsync
     path: ''
-    startLine: 1925
+    startLine: 2025
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

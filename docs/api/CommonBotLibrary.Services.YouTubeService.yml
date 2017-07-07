@@ -17,7 +17,7 @@ items:
   source:
     id: YouTubeService
     path: ''
-    startLine: 1971
+    startLine: 2071
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -51,7 +51,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1978
+    startLine: 2078
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -83,7 +83,7 @@ items:
   source:
     id: SearchAsync
     path: ''
-    startLine: 2006
+    startLine: 2106
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

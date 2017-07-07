@@ -16,7 +16,7 @@ items:
   source:
     id: IAnimeService
     path: ''
-    startLine: 370
+    startLine: 386
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
@@ -45,7 +45,7 @@ items:
   source:
     id: SearchAsync
     path: ''
-    startLine: 377
+    startLine: 393
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
