@@ -23,7 +23,7 @@ items:
   source:
     id: MyAnimeListResult
     path: ''
-    startLine: 2193
+    startLine: 2293
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -58,7 +58,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2195
+    startLine: 2295
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -87,7 +87,7 @@ items:
   source:
     id: Id
     path: ''
-    startLine: 2218
+    startLine: 2318
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -120,7 +120,7 @@ items:
   source:
     id: Url
     path: ''
-    startLine: 2219
+    startLine: 2319
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -151,7 +151,7 @@ items:
   source:
     id: Equals
     path: ''
-    startLine: 2222
+    startLine: 2322
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -182,7 +182,7 @@ items:
   source:
     id: Equals
     path: ''
-    startLine: 2229
+    startLine: 2329
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -215,7 +215,7 @@ items:
   source:
     id: GetHashCode
     path: ''
-    startLine: 2237
+    startLine: 2337
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -245,7 +245,7 @@ items:
   source:
     id: op_Equality
     path: ''
-    startLine: 2239
+    startLine: 2339
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -280,7 +280,7 @@ items:
   source:
     id: op_Inequality
     path: ''
-    startLine: 2242
+    startLine: 2342
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

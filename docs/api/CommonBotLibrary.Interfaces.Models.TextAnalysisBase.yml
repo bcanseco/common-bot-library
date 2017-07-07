@@ -17,7 +17,7 @@ items:
   source:
     id: TextAnalysisBase
     path: ''
-    startLine: 707
+    startLine: 741
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -56,7 +56,7 @@ items:
   source:
     id: WordCount
     path: ''
-    startLine: 709
+    startLine: 743
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -87,7 +87,7 @@ items:
   source:
     id: ProcessedLanguage
     path: ''
-    startLine: 711
+    startLine: 745
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models

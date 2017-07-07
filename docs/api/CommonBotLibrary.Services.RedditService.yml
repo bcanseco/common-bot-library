@@ -16,7 +16,7 @@ items:
   source:
     id: RedditService
     path: ''
-    startLine: 1448
+    startLine: 1548
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -50,7 +50,7 @@ items:
   source:
     id: GetPostsAsync
     path: ''
-    startLine: 1464
+    startLine: 1564
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

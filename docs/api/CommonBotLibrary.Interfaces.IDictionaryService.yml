@@ -16,7 +16,7 @@ items:
   source:
     id: IDictionaryService
     path: ''
-    startLine: 411
+    startLine: 445
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
@@ -45,7 +45,7 @@ items:
   source:
     id: GetDefinitionsAsync
     path: ''
-    startLine: 418
+    startLine: 452
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces

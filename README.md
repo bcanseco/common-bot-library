@@ -58,6 +58,9 @@ var databaseConnection = MyCustomTokens.MyCustomDatabaseString;
 Now you can use all the CBL services plus your own custom services without having to worry about API keys.
 
 ### Services
+* **BotLibre Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.BotLibreService.html)**
+   * Converses with a Cleverbot-like chatbot. 
+   * Requires a [BotLibre account](https://www.botlibre.com/login?sign-up=true) and [bot instance](https://www.botlibre.com/browse?browse-type=Bot&create=true).
 * **Github Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.GithubService.html)**
    * Posts issues to a https://github.com repository.
    * Requires an [access token](https://github.com/settings/tokens).

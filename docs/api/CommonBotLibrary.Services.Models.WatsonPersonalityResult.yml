@@ -19,7 +19,7 @@ items:
   source:
     id: WatsonPersonalityResult
     path: ''
-    startLine: 2644
+    startLine: 2744
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -50,7 +50,7 @@ items:
   source:
     id: Personality
     path: ''
-    startLine: 2646
+    startLine: 2746
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -81,7 +81,7 @@ items:
   source:
     id: Values
     path: ''
-    startLine: 2647
+    startLine: 2747
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -112,7 +112,7 @@ items:
   source:
     id: Needs
     path: ''
-    startLine: 2648
+    startLine: 2748
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -143,7 +143,7 @@ items:
   source:
     id: ConsumptionPreferences
     path: ''
-    startLine: 2649
+    startLine: 2749
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

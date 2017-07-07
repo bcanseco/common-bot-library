@@ -17,7 +17,7 @@ items:
   source:
     id: ImgurService
     path: ''
-    startLine: 1007
+    startLine: 1107
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -51,7 +51,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1014
+    startLine: 1114
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -83,7 +83,7 @@ items:
   source:
     id: SearchAsync
     path: ''
-    startLine: 1035
+    startLine: 1135
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

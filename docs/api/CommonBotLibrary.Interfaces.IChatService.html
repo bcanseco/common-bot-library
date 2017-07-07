@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace CommonBotLibrary.Services
+    <title>Interface IChatService
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace CommonBotLibrary.Services
+    <meta name="title" content="Interface IChatService
    ">
     <meta name="generator" content="docfx 2.18.2.0">
     
@@ -67,53 +67,67 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CommonBotLibrary.Services">
+            <article class="content wrap" id="_content" data-uid="CommonBotLibrary.Interfaces.IChatService">
   
-  <h1 id="CommonBotLibrary_Services" data-uid="CommonBotLibrary.Services">Namespace CommonBotLibrary.Services
+  
+  <h1 id="CommonBotLibrary_Interfaces_IChatService" data-uid="CommonBotLibrary.Interfaces.IChatService">Interface IChatService
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Defines an API for chatting with AIs.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <h6><strong>Namespace</strong>: <a class="xref" href="CommonBotLibrary.Interfaces.html">CommonBotLibrary.Interfaces</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CommonBotLibrary_Interfaces_IChatService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IChatService</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="CommonBotLibrary.Services.BotLibreService.html">BotLibreService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.GithubService.html">GithubService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.GoogleSearchService.html">GoogleSearchService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.GoogleVisionService.html">GoogleVisionService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.ImgurService.html">ImgurService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.MyAnimeListService.html">MyAnimeListService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.NCalcService.html">NCalcService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.OmdbService.html">OmdbService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.OpenTriviaDbService.html">OpenTriviaDbService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.OpenWeatherMapService.html">OpenWeatherMapService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.RandomService.html">RandomService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.RedditService.html">RedditService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.SteamService.html">SteamService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.TwitterService.html">TwitterService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.UrbanDictionaryService.html">UrbanDictionaryService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.WatsonPersonalityService.html">WatsonPersonalityService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.YahooFinanceService.html">YahooFinanceService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.YandexTranslateService.html">YandexTranslateService</a></h4>
-      <section></section>
-      <h4><a class="xref" href="CommonBotLibrary.Services.YouTubeService.html">YouTubeService</a></h4>
-      <section></section>
+  
+  
+  <a id="CommonBotLibrary_Interfaces_IChatService_ConverseAsync_" data-uid="CommonBotLibrary.Interfaces.IChatService.ConverseAsync*"></a>
+  <h4 id="CommonBotLibrary_Interfaces_IChatService_ConverseAsync_System_String_" data-uid="CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String)">ConverseAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Converses with an AI.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; ConverseAsync(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to send.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>The AI&#39;s response.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

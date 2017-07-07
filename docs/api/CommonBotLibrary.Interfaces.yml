@@ -6,6 +6,7 @@ items:
   children:
   - CommonBotLibrary.Interfaces.IAnimeService
   - CommonBotLibrary.Interfaces.ICalculatorService
+  - CommonBotLibrary.Interfaces.IChatService
   - CommonBotLibrary.Interfaces.IDictionaryService
   - CommonBotLibrary.Interfaces.IMediaService
   - CommonBotLibrary.Interfaces.ISearchable`1
@@ -39,6 +40,12 @@ references:
   name: ICalculatorService
   nameWithType: ICalculatorService
   fullName: CommonBotLibrary.Interfaces.ICalculatorService
+- uid: CommonBotLibrary.Interfaces.IChatService
+  commentId: T:CommonBotLibrary.Interfaces.IChatService
+  isExternal: false
+  name: IChatService
+  nameWithType: IChatService
+  fullName: CommonBotLibrary.Interfaces.IChatService
 - uid: CommonBotLibrary.Interfaces.IDictionaryService
   commentId: T:CommonBotLibrary.Interfaces.IDictionaryService
   isExternal: false

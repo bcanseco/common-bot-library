@@ -20,7 +20,7 @@ items:
   source:
     id: TwitterResult
     path: ''
-    startLine: 2597
+    startLine: 2697
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -51,7 +51,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2600
+    startLine: 2700
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -80,7 +80,7 @@ items:
   source:
     id: Tweet
     path: ''
-    startLine: 2611
+    startLine: 2711
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -113,7 +113,7 @@ items:
   source:
     id: Url
     path: ''
-    startLine: 2612
+    startLine: 2712
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -144,7 +144,7 @@ items:
   source:
     id: Title
     path: ''
-    startLine: 2613
+    startLine: 2713
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -175,7 +175,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 2615
+    startLine: 2715
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

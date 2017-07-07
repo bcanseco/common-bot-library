@@ -87,6 +87,12 @@ namespace CommonBotLibrary
         public static BasicAuthCredentials Watson { get; set; }
 
         /// <summary>
+        ///   Contains BotLibre application and bot ID.
+        /// </summary>
+        [JsonProperty]
+        public static BotLibreCredentials BotLibre { get; set; }
+
+        /// <summary>
         ///   Contains Github repository and authentication credentials.
         /// </summary>
         [JsonProperty]

@@ -17,7 +17,7 @@ items:
   source:
     id: YahooFinanceService
     path: ''
-    startLine: 1812
+    startLine: 1912
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -51,7 +51,7 @@ items:
   source:
     id: SearchSymbolsAsync
     path: ''
-    startLine: 1821
+    startLine: 1921
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -90,7 +90,7 @@ items:
   source:
     id: GetQuoteAsync
     path: ''
-    startLine: 1847
+    startLine: 1947
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

@@ -17,7 +17,7 @@ items:
   source:
     id: GoogleSearchService
     path: ''
-    startLine: 849
+    startLine: 949
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -51,7 +51,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 857
+    startLine: 957
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -86,7 +86,7 @@ items:
   source:
     id: SearchAsync
     path: ''
-    startLine: 885
+    startLine: 985
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
