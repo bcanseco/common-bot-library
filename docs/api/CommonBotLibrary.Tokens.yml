@@ -5,6 +5,7 @@ items:
   id: Tokens
   parent: CommonBotLibrary
   children:
+  - CommonBotLibrary.Tokens.BotLibre
   - CommonBotLibrary.Tokens.Github
   - CommonBotLibrary.Tokens.Google
   - CommonBotLibrary.Tokens.Imgur
@@ -26,7 +27,7 @@ items:
   source:
     id: Tokens
     path: ''
-    startLine: 72
+    startLine: 82
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -63,7 +64,7 @@ items:
   source:
     id: LoadAsync
     path: ''
-    startLine: 84
+    startLine: 94
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -99,7 +100,7 @@ items:
   source:
     id: LoadAsync
     path: ''
-    startLine: 100
+    startLine: 110
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -141,7 +142,7 @@ items:
   source:
     id: OpenWeatherMap
     path: ''
-    startLine: 109
+    startLine: 119
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -176,7 +177,7 @@ items:
   source:
     id: Omdb
     path: ''
-    startLine: 115
+    startLine: 125
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -211,7 +212,7 @@ items:
   source:
     id: Imgur
     path: ''
-    startLine: 121
+    startLine: 131
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -246,7 +247,7 @@ items:
   source:
     id: Yandex
     path: ''
-    startLine: 127
+    startLine: 137
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -281,7 +282,7 @@ items:
   source:
     id: Google
     path: ''
-    startLine: 133
+    startLine: 143
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -316,7 +317,7 @@ items:
   source:
     id: Twitter
     path: ''
-    startLine: 139
+    startLine: 149
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -351,7 +352,7 @@ items:
   source:
     id: MyAnimeList
     path: ''
-    startLine: 145
+    startLine: 155
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -386,7 +387,7 @@ items:
   source:
     id: Watson
     path: ''
-    startLine: 151
+    startLine: 161
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -399,6 +400,41 @@ items:
       type: CommonBotLibrary.Tokens.BasicAuthCredentials
     content.vb: Public Shared Property Watson As Tokens.BasicAuthCredentials
   overload: CommonBotLibrary.Tokens.Watson*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CommonBotLibrary.Tokens.BotLibre
+  commentId: P:CommonBotLibrary.Tokens.BotLibre
+  id: BotLibre
+  parent: CommonBotLibrary.Tokens
+  langs:
+  - csharp
+  - vb
+  name: BotLibre
+  nameWithType: Tokens.BotLibre
+  fullName: CommonBotLibrary.Tokens.BotLibre
+  type: Property
+  source:
+    id: BotLibre
+    path: ''
+    startLine: 167
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary
+  summary: "\nContains BotLibre application and bot ID.\n"
+  example: []
+  syntax:
+    content: public static Tokens.BotLibreCredentials BotLibre { get; set; }
+    parameters: []
+    return:
+      type: CommonBotLibrary.Tokens.BotLibreCredentials
+    content.vb: Public Shared Property BotLibre As Tokens.BotLibreCredentials
+  overload: CommonBotLibrary.Tokens.BotLibre*
   modifiers.csharp:
   - public
   - static
@@ -421,7 +457,7 @@ items:
   source:
     id: Github
     path: ''
-    startLine: 157
+    startLine: 173
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -834,6 +870,19 @@ references:
   name: Watson
   nameWithType: Tokens.Watson
   fullName: CommonBotLibrary.Tokens.Watson
+- uid: CommonBotLibrary.Tokens.BotLibre*
+  commentId: Overload:CommonBotLibrary.Tokens.BotLibre
+  isExternal: false
+  name: BotLibre
+  nameWithType: Tokens.BotLibre
+  fullName: CommonBotLibrary.Tokens.BotLibre
+- uid: CommonBotLibrary.Tokens.BotLibreCredentials
+  commentId: T:CommonBotLibrary.Tokens.BotLibreCredentials
+  parent: CommonBotLibrary
+  isExternal: false
+  name: Tokens.BotLibreCredentials
+  nameWithType: Tokens.BotLibreCredentials
+  fullName: CommonBotLibrary.Tokens.BotLibreCredentials
 - uid: CommonBotLibrary.Tokens.Github*
   commentId: Overload:CommonBotLibrary.Tokens.Github
   isExternal: false

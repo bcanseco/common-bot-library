@@ -21,7 +21,7 @@ items:
   source:
     id: OpenWeatherMapResult
     path: ''
-    startLine: 2374
+    startLine: 2474
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -52,7 +52,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2376
+    startLine: 2476
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -83,7 +83,7 @@ items:
   source:
     id: CountryInitials
     path: ''
-    startLine: 2388
+    startLine: 2488
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -114,7 +114,7 @@ items:
   source:
     id: Conditions
     path: ''
-    startLine: 2389
+    startLine: 2489
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -145,7 +145,7 @@ items:
   source:
     id: Humidity
     path: ''
-    startLine: 2390
+    startLine: 2490
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -176,7 +176,7 @@ items:
   source:
     id: WindSpeed
     path: ''
-    startLine: 2391
+    startLine: 2491
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -207,7 +207,7 @@ items:
   source:
     id: Location
     path: ''
-    startLine: 2392
+    startLine: 2492
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

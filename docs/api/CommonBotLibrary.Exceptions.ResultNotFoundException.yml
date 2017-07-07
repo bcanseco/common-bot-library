@@ -18,7 +18,7 @@ items:
   source:
     id: ResultNotFoundException
     path: ''
-    startLine: 240
+    startLine: 256
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Exceptions
@@ -49,7 +49,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 242
+    startLine: 258
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Exceptions
@@ -75,7 +75,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 245
+    startLine: 261
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Exceptions
@@ -104,7 +104,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 249
+    startLine: 265
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Exceptions

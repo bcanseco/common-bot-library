@@ -17,7 +17,7 @@ items:
   source:
     id: TranslationBase
     path: ''
-    startLine: 718
+    startLine: 752
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -56,7 +56,7 @@ items:
   source:
     id: InputText
     path: ''
-    startLine: 720
+    startLine: 754
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -87,7 +87,7 @@ items:
   source:
     id: OutputText
     path: ''
-    startLine: 721
+    startLine: 755
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models

@@ -19,7 +19,7 @@ items:
   source:
     id: YandexResult
     path: ''
-    startLine: 2884
+    startLine: 2984
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -50,7 +50,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2886
+    startLine: 2986
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -85,7 +85,7 @@ items:
   source:
     id: IsSourceDetected
     path: ''
-    startLine: 2901
+    startLine: 3001
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -116,7 +116,7 @@ items:
   source:
     id: SourceLanguage
     path: ''
-    startLine: 2902
+    startLine: 3002
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -147,7 +147,7 @@ items:
   source:
     id: TargetLanguage
     path: ''
-    startLine: 2903
+    startLine: 3003
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

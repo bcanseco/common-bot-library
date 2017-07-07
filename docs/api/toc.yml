@@ -6,6 +6,8 @@
     name: Tokens
   - uid: CommonBotLibrary.Tokens.BasicAuthCredentials
     name: Tokens.BasicAuthCredentials
+  - uid: CommonBotLibrary.Tokens.BotLibreCredentials
+    name: Tokens.BotLibreCredentials
   - uid: CommonBotLibrary.Tokens.GithubCredentials
     name: Tokens.GithubCredentials
   - uid: CommonBotLibrary.Tokens.GoogleCredentials
@@ -43,6 +45,8 @@
     name: IAnimeService
   - uid: CommonBotLibrary.Interfaces.ICalculatorService
     name: ICalculatorService
+  - uid: CommonBotLibrary.Interfaces.IChatService
+    name: IChatService
   - uid: CommonBotLibrary.Interfaces.IDictionaryService
     name: IDictionaryService
   - uid: CommonBotLibrary.Interfaces.IMediaService
@@ -94,6 +98,8 @@
 - uid: CommonBotLibrary.Services
   name: CommonBotLibrary.Services
   items:
+  - uid: CommonBotLibrary.Services.BotLibreService
+    name: BotLibreService
   - uid: CommonBotLibrary.Services.GithubService
     name: GithubService
   - uid: CommonBotLibrary.Services.GoogleSearchService

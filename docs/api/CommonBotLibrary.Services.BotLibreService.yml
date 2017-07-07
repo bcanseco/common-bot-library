@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: CommonBotLibrary.Services.BotLibreService
+  commentId: T:CommonBotLibrary.Services.BotLibreService
+  id: BotLibreService
+  parent: CommonBotLibrary.Services
+  children:
+  - CommonBotLibrary.Services.BotLibreService.#ctor(System.String,System.String)
+  - CommonBotLibrary.Services.BotLibreService.ConverseAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: BotLibreService
+  nameWithType: BotLibreService
+  fullName: CommonBotLibrary.Services.BotLibreService
+  type: Class
+  source:
+    id: BotLibreService
+    path: ''
+    startLine: 813
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  syntax:
+    content: 'public class BotLibreService : IChatService'
+    content.vb: >-
+      Public Class BotLibreService
+          Inherits IChatService
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CommonBotLibrary.Services.BotLibreService.#ctor(System.String,System.String)
+  commentId: M:CommonBotLibrary.Services.BotLibreService.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: CommonBotLibrary.Services.BotLibreService
+  langs:
+  - csharp
+  - vb
+  name: BotLibreService(String, String)
+  nameWithType: BotLibreService.BotLibreService(String, String)
+  fullName: CommonBotLibrary.Services.BotLibreService.BotLibreService(System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 821
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nConstructs an <see cref=\"!:IChatService\"></see> implementation that uses BotLibre.\n"
+  example: []
+  syntax:
+    content: public BotLibreService(string applicationId = null, string botId = null)
+    parameters:
+    - id: applicationId
+      type: System.String
+      description: Defaults to username in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
+    - id: botId
+      type: System.String
+      description: Defaults to repository in <xref href="CommonBotLibrary.Tokens" data-throw-if-not-resolved="false"></xref> if null.
+    content.vb: Public Sub New(applicationId As String = Nothing, botId As String = Nothing)
+  overload: CommonBotLibrary.Services.BotLibreService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CommonBotLibrary.Services.BotLibreService.ConverseAsync(System.String)
+  commentId: M:CommonBotLibrary.Services.BotLibreService.ConverseAsync(System.String)
+  id: ConverseAsync(System.String)
+  parent: CommonBotLibrary.Services.BotLibreService
+  langs:
+  - csharp
+  - vb
+  name: ConverseAsync(String)
+  nameWithType: BotLibreService.ConverseAsync(String)
+  fullName: CommonBotLibrary.Services.BotLibreService.ConverseAsync(System.String)
+  type: Method
+  source:
+    id: ConverseAsync
+    path: ''
+    startLine: 848
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary.Services
+  summary: "\nUses botlibre.com to communicate with an AI.\n"
+  example: []
+  syntax:
+    content: public Task<string> ConverseAsync(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message to send.
+    return:
+      type: Task{System.String}
+      description: The AI's response.
+    content.vb: Public Function ConverseAsync(message As String) As Task(Of String)
+  overload: CommonBotLibrary.Services.BotLibreService.ConverseAsync*
+  seealso:
+  - linkType: HRef
+    linkId: https://www.botlibre.com/terms.jsp
+    altText: TOS
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CommonBotLibrary.Services
+  commentId: N:CommonBotLibrary.Services
+  isExternal: false
+  name: CommonBotLibrary.Services
+  nameWithType: CommonBotLibrary.Services
+  fullName: CommonBotLibrary.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CommonBotLibrary.Tokens
+  commentId: T:CommonBotLibrary.Tokens
+  isExternal: false
+  name: Tokens
+  nameWithType: Tokens
+  fullName: CommonBotLibrary.Tokens
+- uid: CommonBotLibrary.Services.BotLibreService.#ctor*
+  commentId: Overload:CommonBotLibrary.Services.BotLibreService.#ctor
+  isExternal: false
+  name: BotLibreService
+  nameWithType: BotLibreService.BotLibreService
+  fullName: CommonBotLibrary.Services.BotLibreService.BotLibreService
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CommonBotLibrary.Services.BotLibreService.ConverseAsync*
+  commentId: Overload:CommonBotLibrary.Services.BotLibreService.ConverseAsync
+  isExternal: false
+  name: ConverseAsync
+  nameWithType: BotLibreService.ConverseAsync
+  fullName: CommonBotLibrary.Services.BotLibreService.ConverseAsync
+- uid: Task{System.String}
+  commentId: '!:Task{System.String}'
+  definition: Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
