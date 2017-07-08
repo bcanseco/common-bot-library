@@ -11,7 +11,8 @@ namespace CommonBotLibrary.Interfaces
         ///   Converses with an AI.
         /// </summary>
         /// <param name="message">The message to send.</param>
-        /// <returns>The AI's response.</returns>
-        Task<string> ConverseAsync(string message);
+        /// <param name="conversationId">The conversation context to send the message in.</param>
+        /// <returns>The AI's response, and the current conversation ID.</returns>
+        Task<(string Reply, string ConversationId)> ConverseAsync(string message, string conversationId);
     }
 }

@@ -58,9 +58,6 @@ var databaseConnection = MyCustomTokens.MyCustomDatabaseString;
 Now you can use all the CBL services plus your own custom services without having to worry about API keys.
 
 ### Services
-* **BotLibre Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.BotLibreService.html)**
-   * Converses with a Cleverbot-like chatbot. 
-   * Requires a [BotLibre account](https://www.botlibre.com/login?sign-up=true) and [bot instance](https://www.botlibre.com/browse?browse-type=Bot&create=true).
 * **Github Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.GithubService.html)**
    * Posts issues to a https://github.com repository.
    * Requires an [access token](https://github.com/settings/tokens).
@@ -88,6 +85,9 @@ Now you can use all the CBL services plus your own custom services without havin
 * **OpenWeatherMap Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.OpenWeatherMapService.html)**
    * Searches https://openweathermap.org for weather data.
    * Requires an [API key](https://openweathermap.org/appid).
+* **Pandorabot Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.PandorabotService.html)**
+   * Converses with a Cleverbot-like chatbot.
+   * Requires a [bot ID](https://www.pandorabots.com).
 * **Random Service [[API docs]](https://bcanseco.github.io/common-bot-library/api/CommonBotLibrary.Services.RandomService.html)**
    * Flips coins and rolls dice.
    * Good for when you have users input their desired die side numbers (e.g. `d20`). Everything is validated.
