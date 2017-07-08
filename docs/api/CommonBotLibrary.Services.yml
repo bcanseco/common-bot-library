@@ -4,7 +4,6 @@ items:
   commentId: N:CommonBotLibrary.Services
   id: CommonBotLibrary.Services
   children:
-  - CommonBotLibrary.Services.BotLibreService
   - CommonBotLibrary.Services.GithubService
   - CommonBotLibrary.Services.GoogleSearchService
   - CommonBotLibrary.Services.GoogleVisionService
@@ -14,6 +13,7 @@ items:
   - CommonBotLibrary.Services.OmdbService
   - CommonBotLibrary.Services.OpenTriviaDbService
   - CommonBotLibrary.Services.OpenWeatherMapService
+  - CommonBotLibrary.Services.PandorabotService
   - CommonBotLibrary.Services.RandomService
   - CommonBotLibrary.Services.RedditService
   - CommonBotLibrary.Services.SteamService
@@ -33,12 +33,6 @@ items:
   assemblies:
   - cs.temp.dll
 references:
-- uid: CommonBotLibrary.Services.BotLibreService
-  commentId: T:CommonBotLibrary.Services.BotLibreService
-  isExternal: false
-  name: BotLibreService
-  nameWithType: BotLibreService
-  fullName: CommonBotLibrary.Services.BotLibreService
 - uid: CommonBotLibrary.Services.GithubService
   commentId: T:CommonBotLibrary.Services.GithubService
   isExternal: false
@@ -93,6 +87,12 @@ references:
   name: OpenWeatherMapService
   nameWithType: OpenWeatherMapService
   fullName: CommonBotLibrary.Services.OpenWeatherMapService
+- uid: CommonBotLibrary.Services.PandorabotService
+  commentId: T:CommonBotLibrary.Services.PandorabotService
+  isExternal: false
+  name: PandorabotService
+  nameWithType: PandorabotService
+  fullName: CommonBotLibrary.Services.PandorabotService
 - uid: CommonBotLibrary.Services.RandomService
   commentId: T:CommonBotLibrary.Services.RandomService
   isExternal: false

@@ -33,7 +33,7 @@ items:
   source:
     id: SteamSpyData
     path: ''
-    startLine: 2656
+    startLine: 2649
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -70,7 +70,7 @@ items:
   source:
     id: AppId
     path: ''
-    startLine: 2658
+    startLine: 2651
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -101,7 +101,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 2659
+    startLine: 2652
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -132,7 +132,7 @@ items:
   source:
     id: Developer
     path: ''
-    startLine: 2660
+    startLine: 2653
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -163,7 +163,7 @@ items:
   source:
     id: Publisher
     path: ''
-    startLine: 2661
+    startLine: 2654
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -194,7 +194,7 @@ items:
   source:
     id: ScoreRank
     path: ''
-    startLine: 2662
+    startLine: 2655
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -225,7 +225,7 @@ items:
   source:
     id: Owners
     path: ''
-    startLine: 2664
+    startLine: 2657
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -256,7 +256,7 @@ items:
   source:
     id: OwnersVariance
     path: ''
-    startLine: 2665
+    startLine: 2658
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -287,7 +287,7 @@ items:
   source:
     id: PlayersForever
     path: ''
-    startLine: 2667
+    startLine: 2660
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -318,7 +318,7 @@ items:
   source:
     id: PlayersForeverVariance
     path: ''
-    startLine: 2669
+    startLine: 2662
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -349,7 +349,7 @@ items:
   source:
     id: Players2Weeks
     path: ''
-    startLine: 2671
+    startLine: 2664
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -380,7 +380,7 @@ items:
   source:
     id: Players2WeeksVariance
     path: ''
-    startLine: 2673
+    startLine: 2666
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -411,7 +411,7 @@ items:
   source:
     id: AverageForever
     path: ''
-    startLine: 2675
+    startLine: 2668
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -442,7 +442,7 @@ items:
   source:
     id: Average2Weeks
     path: ''
-    startLine: 2677
+    startLine: 2670
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -473,7 +473,7 @@ items:
   source:
     id: MedianForever
     path: ''
-    startLine: 2679
+    startLine: 2672
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -504,7 +504,7 @@ items:
   source:
     id: Median2Weeks
     path: ''
-    startLine: 2681
+    startLine: 2674
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -535,7 +535,7 @@ items:
   source:
     id: Ccu
     path: ''
-    startLine: 2683
+    startLine: 2676
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -566,7 +566,7 @@ items:
   source:
     id: Price
     path: ''
-    startLine: 2684
+    startLine: 2677
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -597,7 +597,7 @@ items:
   source:
     id: Tags
     path: ''
-    startLine: 2685
+    startLine: 2678
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

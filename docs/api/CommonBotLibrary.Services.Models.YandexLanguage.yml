@@ -20,7 +20,7 @@ items:
   source:
     id: YandexLanguage
     path: ''
-    startLine: 2842
+    startLine: 2835
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -56,7 +56,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2852
+    startLine: 2845
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -88,7 +88,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 2872
+    startLine: 2865
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -119,7 +119,7 @@ items:
   source:
     id: Code
     path: ''
-    startLine: 2873
+    startLine: 2866
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -150,7 +150,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 2875
+    startLine: 2868
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -181,7 +181,7 @@ items:
   source:
     id: LanguageCodes
     path: ''
-    startLine: 2878
+    startLine: 2871
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

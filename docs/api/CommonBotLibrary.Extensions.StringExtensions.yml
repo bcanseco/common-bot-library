@@ -16,7 +16,7 @@ items:
   source:
     id: StringExtensions
     path: ''
-    startLine: 370
+    startLine: 360
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Extensions
@@ -55,7 +55,7 @@ items:
   source:
     id: NoPunctuation
     path: ''
-    startLine: 372
+    startLine: 362
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Extensions

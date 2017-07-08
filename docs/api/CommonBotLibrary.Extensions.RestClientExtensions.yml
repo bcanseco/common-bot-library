@@ -16,7 +16,7 @@ items:
   source:
     id: RestClientExtensions
     path: ''
-    startLine: 302
+    startLine: 292
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Extensions
@@ -55,7 +55,7 @@ items:
   source:
     id: ExecuteAsync
     path: ''
-    startLine: 309
+    startLine: 299
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Extensions

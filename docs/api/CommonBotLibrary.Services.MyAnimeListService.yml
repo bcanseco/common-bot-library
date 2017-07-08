@@ -17,7 +17,7 @@ items:
   source:
     id: MyAnimeListService
     path: ''
-    startLine: 1179
+    startLine: 1104
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -52,7 +52,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1187
+    startLine: 1112
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -87,7 +87,7 @@ items:
   source:
     id: SearchAsync
     path: ''
-    startLine: 1212
+    startLine: 1137
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
