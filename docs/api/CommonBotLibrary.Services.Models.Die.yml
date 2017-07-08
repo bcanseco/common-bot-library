@@ -27,7 +27,7 @@ items:
   source:
     id: Die
     path: ''
-    startLine: 2135
+    startLine: 2128
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -60,7 +60,7 @@ items:
   source:
     id: Sides
     path: ''
-    startLine: 2139
+    startLine: 2132
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -91,7 +91,7 @@ items:
   source:
     id: Factory
     path: ''
-    startLine: 2152
+    startLine: 2145
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -128,7 +128,7 @@ items:
   source:
     id: Factory
     path: ''
-    startLine: 2176
+    startLine: 2169
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -165,7 +165,7 @@ items:
   source:
     id: StartsWithD
     path: ''
-    startLine: 2187
+    startLine: 2180
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -198,7 +198,7 @@ items:
   source:
     id: Equals
     path: ''
-    startLine: 2190
+    startLine: 2183
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -229,7 +229,7 @@ items:
   source:
     id: Equals
     path: ''
-    startLine: 2192
+    startLine: 2185
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -262,7 +262,7 @@ items:
   source:
     id: GetHashCode
     path: ''
-    startLine: 2198
+    startLine: 2191
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -292,7 +292,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 2199
+    startLine: 2192
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -322,7 +322,7 @@ items:
   source:
     id: op_Equality
     path: ''
-    startLine: 2201
+    startLine: 2194
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -357,7 +357,7 @@ items:
   source:
     id: op_Inequality
     path: ''
-    startLine: 2202
+    startLine: 2195
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -392,7 +392,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 2204
+    startLine: 2197
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -428,7 +428,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 2205
+    startLine: 2198
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

@@ -18,7 +18,7 @@ items:
   source:
     id: Coordinates
     path: ''
-    startLine: 2494
+    startLine: 2487
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -55,7 +55,7 @@ items:
   source:
     id: Latitude
     path: ''
-    startLine: 2497
+    startLine: 2490
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -86,7 +86,7 @@ items:
   source:
     id: Longitude
     path: ''
-    startLine: 2498
+    startLine: 2491
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -117,7 +117,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2500
+    startLine: 2493
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

@@ -17,7 +17,7 @@ items:
   source:
     id: IStockService
     path: ''
-    startLine: 510
+    startLine: 501
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
@@ -44,7 +44,7 @@ items:
   source:
     id: SearchSymbolsAsync
     path: ''
-    startLine: 517
+    startLine: 508
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
@@ -75,7 +75,7 @@ items:
   source:
     id: GetQuoteAsync
     path: ''
-    startLine: 525
+    startLine: 516
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces

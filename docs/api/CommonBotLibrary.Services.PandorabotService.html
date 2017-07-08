@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IChatService
+    <title>Class PandorabotService
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IChatService
+    <meta name="title" content="Class PandorabotService
    ">
     <meta name="generator" content="docfx 2.18.2.0">
     
@@ -67,32 +67,67 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CommonBotLibrary.Interfaces.IChatService">
+            <article class="content wrap" id="_content" data-uid="CommonBotLibrary.Services.PandorabotService">
   
   
-  <h1 id="CommonBotLibrary_Interfaces_IChatService" data-uid="CommonBotLibrary.Interfaces.IChatService">Interface IChatService
+  <h1 id="CommonBotLibrary_Services_PandorabotService" data-uid="CommonBotLibrary.Services.PandorabotService">Class PandorabotService
   </h1>
-  <div class="markdown level0 summary"><p>Defines an API for chatting with AIs.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CommonBotLibrary.Interfaces.html">CommonBotLibrary.Interfaces</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="CommonBotLibrary_Interfaces_IChatService_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IChatService</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">PandorabotService</span></div>
   </div>
-  <h3 id="methods">Methods
+  <h6><strong>Namespace</strong>: <a class="xref" href="CommonBotLibrary.Services.html">CommonBotLibrary.Services</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CommonBotLibrary_Services_PandorabotService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PandorabotService : IChatService</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="CommonBotLibrary_Interfaces_IChatService_ConverseAsync_" data-uid="CommonBotLibrary.Interfaces.IChatService.ConverseAsync*"></a>
-  <h4 id="CommonBotLibrary_Interfaces_IChatService_ConverseAsync_System_String_System_String_" data-uid="CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String,System.String)">ConverseAsync(String, String)</h4>
-  <div class="markdown level1 summary"><p>Converses with an AI.</p>
+  <a id="CommonBotLibrary_Services_PandorabotService__ctor_" data-uid="CommonBotLibrary.Services.PandorabotService.#ctor*"></a>
+  <h4 id="CommonBotLibrary_Services_PandorabotService__ctor_System_String_" data-uid="CommonBotLibrary.Services.PandorabotService.#ctor(System.String)">PandorabotService(String)</h4>
+  <div class="markdown level1 summary"><p>Constructs an <see cref="!:IChatService"></see> implementation that uses Pandorabots.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;&gt; ConverseAsync(string message, string conversationId)</code></pre>
+    <pre><code class="lang-csharp hljs">public PandorabotService(string botId = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">botId</span></td>
+        <td><p>Defaults to bot Id in <a class="xref" href="CommonBotLibrary.Tokens.html">Tokens</a> if null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CommonBotLibrary_Services_PandorabotService_ConverseAsync_" data-uid="CommonBotLibrary.Services.PandorabotService.ConverseAsync*"></a>
+  <h4 id="CommonBotLibrary_Services_PandorabotService_ConverseAsync_System_String_System_String_" data-uid="CommonBotLibrary.Services.PandorabotService.ConverseAsync(System.String,System.String)">ConverseAsync(String, String)</h4>
+  <div class="markdown level1 summary"><p>Uses pandorabots.com to communicate with an AI.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;&gt; ConverseAsync(string message, string customerId = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -112,8 +147,8 @@
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">conversationId</span></td>
-        <td><p>The conversation context to send the message in.</p>
+        <td><span class="parametername">customerId</span></td>
+        <td><p>A unique identifier for the current conversation.</p>
 </td>
       </tr>
     </tbody>
@@ -134,6 +169,10 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="CommonBotLibrary_Services_PandorabotService_ConverseAsync_System_String_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span><a href="https://pandorabots.com/static/html/Legal/">TOS</a></span></div>
+  </div>
 </article>
           </div>
           

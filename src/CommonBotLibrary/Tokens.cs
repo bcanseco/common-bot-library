@@ -62,6 +62,12 @@ namespace CommonBotLibrary
         [JsonProperty]
         public static string Yandex { internal get; set; }
 
+        /// <summary>
+        ///   Pandorabots bot ID.
+        /// </summary>
+        [JsonProperty]
+        public static string Pandorabot { internal get; set; }
+
         /// <summary> 
         ///   Contains Google Cloud Platform API key and Custom Search Engine ID.
         /// </summary>
@@ -85,12 +91,6 @@ namespace CommonBotLibrary
         /// </summary>
         [JsonProperty]
         public static BasicAuthCredentials Watson { get; set; }
-
-        /// <summary>
-        ///   Contains BotLibre application and bot ID.
-        /// </summary>
-        [JsonProperty]
-        public static BotLibreCredentials BotLibre { get; set; }
 
         /// <summary>
         ///   Contains Github repository and authentication credentials.

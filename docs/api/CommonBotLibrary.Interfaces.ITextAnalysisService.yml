@@ -16,7 +16,7 @@ items:
   source:
     id: ITextAnalysisService
     path: ''
-    startLine: 537
+    startLine: 528
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
@@ -45,7 +45,7 @@ items:
   source:
     id: AnalyzeAsync
     path: ''
-    startLine: 544
+    startLine: 535
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces

@@ -5,7 +5,6 @@ items:
   id: Tokens
   parent: CommonBotLibrary
   children:
-  - CommonBotLibrary.Tokens.BotLibre
   - CommonBotLibrary.Tokens.Github
   - CommonBotLibrary.Tokens.Google
   - CommonBotLibrary.Tokens.Imgur
@@ -14,6 +13,7 @@ items:
   - CommonBotLibrary.Tokens.MyAnimeList
   - CommonBotLibrary.Tokens.Omdb
   - CommonBotLibrary.Tokens.OpenWeatherMap
+  - CommonBotLibrary.Tokens.Pandorabot
   - CommonBotLibrary.Tokens.Twitter
   - CommonBotLibrary.Tokens.Watson
   - CommonBotLibrary.Tokens.Yandex
@@ -27,7 +27,7 @@ items:
   source:
     id: Tokens
     path: ''
-    startLine: 82
+    startLine: 72
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -64,7 +64,7 @@ items:
   source:
     id: LoadAsync
     path: ''
-    startLine: 94
+    startLine: 84
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -100,7 +100,7 @@ items:
   source:
     id: LoadAsync
     path: ''
-    startLine: 110
+    startLine: 100
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -142,7 +142,7 @@ items:
   source:
     id: OpenWeatherMap
     path: ''
-    startLine: 119
+    startLine: 109
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -177,7 +177,7 @@ items:
   source:
     id: Omdb
     path: ''
-    startLine: 125
+    startLine: 115
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -212,7 +212,7 @@ items:
   source:
     id: Imgur
     path: ''
-    startLine: 131
+    startLine: 121
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -247,7 +247,7 @@ items:
   source:
     id: Yandex
     path: ''
-    startLine: 137
+    startLine: 127
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -260,6 +260,41 @@ items:
       type: System.String
     content.vb: Public Shared WriteOnly Property Yandex As String
   overload: CommonBotLibrary.Tokens.Yandex*
+  modifiers.csharp:
+  - public
+  - static
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+  - WriteOnly
+- uid: CommonBotLibrary.Tokens.Pandorabot
+  commentId: P:CommonBotLibrary.Tokens.Pandorabot
+  id: Pandorabot
+  parent: CommonBotLibrary.Tokens
+  langs:
+  - csharp
+  - vb
+  name: Pandorabot
+  nameWithType: Tokens.Pandorabot
+  fullName: CommonBotLibrary.Tokens.Pandorabot
+  type: Property
+  source:
+    id: Pandorabot
+    path: ''
+    startLine: 133
+  assemblies:
+  - cs.temp.dll
+  namespace: CommonBotLibrary
+  summary: "\nPandorabots bot ID.\n"
+  example: []
+  syntax:
+    content: public static string Pandorabot { set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared WriteOnly Property Pandorabot As String
+  overload: CommonBotLibrary.Tokens.Pandorabot*
   modifiers.csharp:
   - public
   - static
@@ -282,7 +317,7 @@ items:
   source:
     id: Google
     path: ''
-    startLine: 143
+    startLine: 139
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -317,7 +352,7 @@ items:
   source:
     id: Twitter
     path: ''
-    startLine: 149
+    startLine: 145
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -352,7 +387,7 @@ items:
   source:
     id: MyAnimeList
     path: ''
-    startLine: 155
+    startLine: 151
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -387,7 +422,7 @@ items:
   source:
     id: Watson
     path: ''
-    startLine: 161
+    startLine: 157
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -400,41 +435,6 @@ items:
       type: CommonBotLibrary.Tokens.BasicAuthCredentials
     content.vb: Public Shared Property Watson As Tokens.BasicAuthCredentials
   overload: CommonBotLibrary.Tokens.Watson*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: CommonBotLibrary.Tokens.BotLibre
-  commentId: P:CommonBotLibrary.Tokens.BotLibre
-  id: BotLibre
-  parent: CommonBotLibrary.Tokens
-  langs:
-  - csharp
-  - vb
-  name: BotLibre
-  nameWithType: Tokens.BotLibre
-  fullName: CommonBotLibrary.Tokens.BotLibre
-  type: Property
-  source:
-    id: BotLibre
-    path: ''
-    startLine: 167
-  assemblies:
-  - cs.temp.dll
-  namespace: CommonBotLibrary
-  summary: "\nContains BotLibre application and bot ID.\n"
-  example: []
-  syntax:
-    content: public static Tokens.BotLibreCredentials BotLibre { get; set; }
-    parameters: []
-    return:
-      type: CommonBotLibrary.Tokens.BotLibreCredentials
-    content.vb: Public Shared Property BotLibre As Tokens.BotLibreCredentials
-  overload: CommonBotLibrary.Tokens.BotLibre*
   modifiers.csharp:
   - public
   - static
@@ -457,7 +457,7 @@ items:
   source:
     id: Github
     path: ''
-    startLine: 173
+    startLine: 163
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary
@@ -825,6 +825,12 @@ references:
   name: Yandex
   nameWithType: Tokens.Yandex
   fullName: CommonBotLibrary.Tokens.Yandex
+- uid: CommonBotLibrary.Tokens.Pandorabot*
+  commentId: Overload:CommonBotLibrary.Tokens.Pandorabot
+  isExternal: false
+  name: Pandorabot
+  nameWithType: Tokens.Pandorabot
+  fullName: CommonBotLibrary.Tokens.Pandorabot
 - uid: CommonBotLibrary.Tokens.Google*
   commentId: Overload:CommonBotLibrary.Tokens.Google
   isExternal: false
@@ -870,19 +876,6 @@ references:
   name: Watson
   nameWithType: Tokens.Watson
   fullName: CommonBotLibrary.Tokens.Watson
-- uid: CommonBotLibrary.Tokens.BotLibre*
-  commentId: Overload:CommonBotLibrary.Tokens.BotLibre
-  isExternal: false
-  name: BotLibre
-  nameWithType: Tokens.BotLibre
-  fullName: CommonBotLibrary.Tokens.BotLibre
-- uid: CommonBotLibrary.Tokens.BotLibreCredentials
-  commentId: T:CommonBotLibrary.Tokens.BotLibreCredentials
-  parent: CommonBotLibrary
-  isExternal: false
-  name: Tokens.BotLibreCredentials
-  nameWithType: Tokens.BotLibreCredentials
-  fullName: CommonBotLibrary.Tokens.BotLibreCredentials
 - uid: CommonBotLibrary.Tokens.Github*
   commentId: Overload:CommonBotLibrary.Tokens.Github
   isExternal: false

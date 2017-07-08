@@ -10,7 +10,6 @@
       An asynchronous library of API wrappers designed to help with typical bot commands.
 
       Features:
-      -BotLibre Service: Converses with a Cleverbot-like chatbot.
       -Github Service: Posts issues to https://github.com.
       -Google Search Service: Searches https://google.com for webpages.
       -Google Vision Service: Uses Google Cloud Vision to analyze images.
@@ -20,6 +19,7 @@
       -Omdb Service: Searches https://omdbapi.com for movies.
       -OpenTriviaDb Service: Searches https://opentdb.com for trivia.
       -OpenWeatherMap Service: Searches https://openweathermap.org for weather data.
+      -Pandorabot Service: Converses with a Cleverbot-like chatbot.
       -Random Service: Flips coins and rolls dice. Die side counts are validated.
       -Reddit Service: Gets posts from https://reddit.com.
       -Steam Service: Searches https://store.steampowered.com for games.

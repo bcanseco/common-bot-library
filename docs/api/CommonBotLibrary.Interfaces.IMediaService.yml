@@ -17,7 +17,7 @@ items:
   source:
     id: IMediaService
     path: ''
-    startLine: 465
+    startLine: 456
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
@@ -46,7 +46,7 @@ items:
   source:
     id: SearchAsync
     path: ''
-    startLine: 472
+    startLine: 463
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
@@ -77,7 +77,7 @@ items:
   source:
     id: DirectAsync
     path: ''
-    startLine: 480
+    startLine: 471
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces

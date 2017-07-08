@@ -35,16 +35,6 @@ namespace CommonBotLibrary
             public string OAuth { internal get; set; }
         }
 
-        public class BotLibreCredentials
-        {
-            [JsonConstructor]
-            public BotLibreCredentials(string applicationId, string botId)
-                => (ApplicationId, BotId) = (applicationId, botId);
-
-            public string ApplicationId { internal get; set; }
-            public string BotId { internal get; set; }
-        }
-
         public class TwitterCredentials : Tweetinvi.Models.TwitterCredentials
         {
             public new string ConsumerKey

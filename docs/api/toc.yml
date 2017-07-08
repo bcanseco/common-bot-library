@@ -6,8 +6,6 @@
     name: Tokens
   - uid: CommonBotLibrary.Tokens.BasicAuthCredentials
     name: Tokens.BasicAuthCredentials
-  - uid: CommonBotLibrary.Tokens.BotLibreCredentials
-    name: Tokens.BotLibreCredentials
   - uid: CommonBotLibrary.Tokens.GithubCredentials
     name: Tokens.GithubCredentials
   - uid: CommonBotLibrary.Tokens.GoogleCredentials
@@ -98,8 +96,6 @@
 - uid: CommonBotLibrary.Services
   name: CommonBotLibrary.Services
   items:
-  - uid: CommonBotLibrary.Services.BotLibreService
-    name: BotLibreService
   - uid: CommonBotLibrary.Services.GithubService
     name: GithubService
   - uid: CommonBotLibrary.Services.GoogleSearchService
@@ -118,6 +114,8 @@
     name: OpenTriviaDbService
   - uid: CommonBotLibrary.Services.OpenWeatherMapService
     name: OpenWeatherMapService
+  - uid: CommonBotLibrary.Services.PandorabotService
+    name: PandorabotService
   - uid: CommonBotLibrary.Services.RandomService
     name: RandomService
   - uid: CommonBotLibrary.Services.RedditService

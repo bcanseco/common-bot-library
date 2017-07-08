@@ -18,7 +18,7 @@ items:
   source:
     id: OmdbSearchResult
     path: ''
-    startLine: 2354
+    startLine: 2347
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -51,7 +51,7 @@ items:
   source:
     id: ImdbId
     path: ''
-    startLine: 2356
+    startLine: 2349
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -82,7 +82,7 @@ items:
   source:
     id: Poster
     path: ''
-    startLine: 2357
+    startLine: 2350
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -113,7 +113,7 @@ items:
   source:
     id: Type
     path: ''
-    startLine: 2358
+    startLine: 2351
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

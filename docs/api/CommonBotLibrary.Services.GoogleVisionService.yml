@@ -17,7 +17,7 @@ items:
   source:
     id: GoogleVisionService
     path: ''
-    startLine: 1019
+    startLine: 944
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -48,7 +48,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1026
+    startLine: 951
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services
@@ -80,7 +80,7 @@ items:
   source:
     id: AnalyzeAsync
     path: ''
-    startLine: 1054
+    startLine: 979
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services

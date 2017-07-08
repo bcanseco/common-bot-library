@@ -296,12 +296,12 @@ references:
   commentId: T:CommonBotLibrary.Interfaces.IChatService
   fullName: CommonBotLibrary.Interfaces.IChatService
   nameWithType: IChatService
-- uid: CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String)
-  name: ConverseAsync(String)
-  href: api/CommonBotLibrary.Interfaces.IChatService.html#CommonBotLibrary_Interfaces_IChatService_ConverseAsync_System_String_
-  commentId: M:CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String)
-  fullName: CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String)
-  nameWithType: IChatService.ConverseAsync(String)
+- uid: CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String,System.String)
+  name: ConverseAsync(String, String)
+  href: api/CommonBotLibrary.Interfaces.IChatService.html#CommonBotLibrary_Interfaces_IChatService_ConverseAsync_System_String_System_String_
+  commentId: M:CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String,System.String)
+  fullName: CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String, System.String)
+  nameWithType: IChatService.ConverseAsync(String, String)
 - uid: CommonBotLibrary.Interfaces.IChatService.ConverseAsync*
   name: ConverseAsync
   href: api/CommonBotLibrary.Interfaces.IChatService.html#CommonBotLibrary_Interfaces_IChatService_ConverseAsync_
@@ -4149,6 +4149,36 @@ references:
   commentId: Overload:CommonBotLibrary.Services.OpenWeatherMapService.GetCurrentWeatherAsync
   fullName: CommonBotLibrary.Services.OpenWeatherMapService.GetCurrentWeatherAsync
   nameWithType: OpenWeatherMapService.GetCurrentWeatherAsync
+- uid: CommonBotLibrary.Services.PandorabotService
+  name: PandorabotService
+  href: api/CommonBotLibrary.Services.PandorabotService.html
+  commentId: T:CommonBotLibrary.Services.PandorabotService
+  fullName: CommonBotLibrary.Services.PandorabotService
+  nameWithType: PandorabotService
+- uid: CommonBotLibrary.Services.PandorabotService.#ctor(System.String)
+  name: PandorabotService(String)
+  href: api/CommonBotLibrary.Services.PandorabotService.html#CommonBotLibrary_Services_PandorabotService__ctor_System_String_
+  commentId: M:CommonBotLibrary.Services.PandorabotService.#ctor(System.String)
+  fullName: CommonBotLibrary.Services.PandorabotService.PandorabotService(System.String)
+  nameWithType: PandorabotService.PandorabotService(String)
+- uid: CommonBotLibrary.Services.PandorabotService.#ctor*
+  name: PandorabotService
+  href: api/CommonBotLibrary.Services.PandorabotService.html#CommonBotLibrary_Services_PandorabotService__ctor_
+  commentId: Overload:CommonBotLibrary.Services.PandorabotService.#ctor
+  fullName: CommonBotLibrary.Services.PandorabotService.PandorabotService
+  nameWithType: PandorabotService.PandorabotService
+- uid: CommonBotLibrary.Services.PandorabotService.ConverseAsync(System.String,System.String)
+  name: ConverseAsync(String, String)
+  href: api/CommonBotLibrary.Services.PandorabotService.html#CommonBotLibrary_Services_PandorabotService_ConverseAsync_System_String_System_String_
+  commentId: M:CommonBotLibrary.Services.PandorabotService.ConverseAsync(System.String,System.String)
+  fullName: CommonBotLibrary.Services.PandorabotService.ConverseAsync(System.String, System.String)
+  nameWithType: PandorabotService.ConverseAsync(String, String)
+- uid: CommonBotLibrary.Services.PandorabotService.ConverseAsync*
+  name: ConverseAsync
+  href: api/CommonBotLibrary.Services.PandorabotService.html#CommonBotLibrary_Services_PandorabotService_ConverseAsync_
+  commentId: Overload:CommonBotLibrary.Services.PandorabotService.ConverseAsync
+  fullName: CommonBotLibrary.Services.PandorabotService.ConverseAsync
+  nameWithType: PandorabotService.ConverseAsync
 - uid: CommonBotLibrary.Services.RandomService
   name: RandomService
   href: api/CommonBotLibrary.Services.RandomService.html
@@ -4467,18 +4497,6 @@ references:
   commentId: Overload:CommonBotLibrary.Tokens.BasicAuthCredentials.Username
   fullName: CommonBotLibrary.Tokens.BasicAuthCredentials.Username
   nameWithType: Tokens.BasicAuthCredentials.Username
-- uid: CommonBotLibrary.Tokens.BotLibre
-  name: BotLibre
-  href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_BotLibre
-  commentId: P:CommonBotLibrary.Tokens.BotLibre
-  fullName: CommonBotLibrary.Tokens.BotLibre
-  nameWithType: Tokens.BotLibre
-- uid: CommonBotLibrary.Tokens.BotLibre*
-  name: BotLibre
-  href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_BotLibre_
-  commentId: Overload:CommonBotLibrary.Tokens.BotLibre
-  fullName: CommonBotLibrary.Tokens.BotLibre
-  nameWithType: Tokens.BotLibre
 - uid: CommonBotLibrary.Tokens.BotLibreCredentials
   name: Tokens.BotLibreCredentials
   href: api/CommonBotLibrary.Tokens.BotLibreCredentials.html
@@ -4752,6 +4770,18 @@ references:
   commentId: Overload:CommonBotLibrary.Tokens.OpenWeatherMap
   fullName: CommonBotLibrary.Tokens.OpenWeatherMap
   nameWithType: Tokens.OpenWeatherMap
+- uid: CommonBotLibrary.Tokens.Pandorabot
+  name: Pandorabot
+  href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_Pandorabot
+  commentId: P:CommonBotLibrary.Tokens.Pandorabot
+  fullName: CommonBotLibrary.Tokens.Pandorabot
+  nameWithType: Tokens.Pandorabot
+- uid: CommonBotLibrary.Tokens.Pandorabot*
+  name: Pandorabot
+  href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_Pandorabot_
+  commentId: Overload:CommonBotLibrary.Tokens.Pandorabot
+  fullName: CommonBotLibrary.Tokens.Pandorabot
+  nameWithType: Tokens.Pandorabot
 - uid: CommonBotLibrary.Tokens.Twitter
   name: Twitter
   href: api/CommonBotLibrary.Tokens.html#CommonBotLibrary_Tokens_Twitter
