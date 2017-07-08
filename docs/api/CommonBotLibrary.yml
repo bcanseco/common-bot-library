@@ -6,7 +6,6 @@ items:
   children:
   - CommonBotLibrary.Tokens
   - CommonBotLibrary.Tokens.BasicAuthCredentials
-  - CommonBotLibrary.Tokens.BotLibreCredentials
   - CommonBotLibrary.Tokens.GithubCredentials
   - CommonBotLibrary.Tokens.GoogleCredentials
   - CommonBotLibrary.Tokens.TwitterCredentials
@@ -47,13 +46,6 @@ references:
   name: Tokens.GithubCredentials
   nameWithType: Tokens.GithubCredentials
   fullName: CommonBotLibrary.Tokens.GithubCredentials
-- uid: CommonBotLibrary.Tokens.BotLibreCredentials
-  commentId: T:CommonBotLibrary.Tokens.BotLibreCredentials
-  parent: CommonBotLibrary
-  isExternal: false
-  name: Tokens.BotLibreCredentials
-  nameWithType: Tokens.BotLibreCredentials
-  fullName: CommonBotLibrary.Tokens.BotLibreCredentials
 - uid: CommonBotLibrary.Tokens.TwitterCredentials
   commentId: T:CommonBotLibrary.Tokens.TwitterCredentials
   parent: CommonBotLibrary

@@ -5,7 +5,7 @@ items:
   id: IChatService
   parent: CommonBotLibrary.Interfaces
   children:
-  - CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String)
+  - CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String,System.String)
   langs:
   - csharp
   - vb
@@ -16,7 +16,7 @@ items:
   source:
     id: IChatService
     path: ''
-    startLine: 425
+    startLine: 415
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
@@ -31,36 +31,39 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String)
-  commentId: M:CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String)
-  id: ConverseAsync(System.String)
+- uid: CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String,System.String)
+  commentId: M:CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String,System.String)
+  id: ConverseAsync(System.String,System.String)
   parent: CommonBotLibrary.Interfaces.IChatService
   langs:
   - csharp
   - vb
-  name: ConverseAsync(String)
-  nameWithType: IChatService.ConverseAsync(String)
-  fullName: CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String)
+  name: ConverseAsync(String, String)
+  nameWithType: IChatService.ConverseAsync(String, String)
+  fullName: CommonBotLibrary.Interfaces.IChatService.ConverseAsync(System.String, System.String)
   type: Method
   source:
     id: ConverseAsync
     path: ''
-    startLine: 432
+    startLine: 423
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
   summary: "\nConverses with an AI.\n"
   example: []
   syntax:
-    content: Task<string> ConverseAsync(string message)
+    content: Task<> ConverseAsync(string message, string conversationId)
     parameters:
     - id: message
       type: System.String
       description: The message to send.
+    - id: conversationId
+      type: System.String
+      description: The conversation context to send the message in.
     return:
-      type: Task{System.String}
-      description: The AI's response.
-    content.vb: Function ConverseAsync(message As String) As Task(Of String)
+      type: Task{System.}
+      description: The AI's response, and the current conversation ID.
+    content.vb: Function ConverseAsync(message As String, conversationId As String) As Task(Of )
   overload: CommonBotLibrary.Interfaces.IChatService.ConverseAsync*
 references:
 - uid: CommonBotLibrary.Interfaces
@@ -82,15 +85,15 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: Task{System.String}
-  commentId: '!:Task{System.String}'
+- uid: Task{System.}
+  commentId: '!:Task{System.}'
   definition: Task`1
-  name: Task<String>
-  nameWithType: Task<String>
-  fullName: Task<System.String>
-  nameWithType.vb: Task(Of String)
-  fullName.vb: Task(Of System.String)
-  name.vb: Task(Of String)
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<System.>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of System.)
+  name.vb: Task(Of )
   spec.csharp:
   - uid: Task`1
     name: Task
@@ -100,11 +103,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
+  - uid: System.
+    name: ''
+    nameWithType: ''
+    fullName: System.
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -117,11 +119,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
+  - uid: System.
+    name: ''
+    nameWithType: ''
+    fullName: System.
   - name: )
     nameWithType: )
     fullName: )

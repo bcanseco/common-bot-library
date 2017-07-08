@@ -16,7 +16,7 @@ items:
   source:
     id: IWeatherService
     path: ''
-    startLine: 630
+    startLine: 621
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces
@@ -43,7 +43,7 @@ items:
   source:
     id: GetCurrentWeatherAsync
     path: ''
-    startLine: 638
+    startLine: 629
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces

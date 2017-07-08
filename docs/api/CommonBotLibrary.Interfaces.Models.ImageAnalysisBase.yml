@@ -16,7 +16,7 @@ items:
   source:
     id: ImageAnalysisBase
     path: ''
-    startLine: 695
+    startLine: 686
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -55,7 +55,7 @@ items:
   source:
     id: Text
     path: ''
-    startLine: 697
+    startLine: 688
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models

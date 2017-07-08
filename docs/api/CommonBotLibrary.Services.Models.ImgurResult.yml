@@ -20,7 +20,7 @@ items:
   source:
     id: ImgurResult
     path: ''
-    startLine: 2272
+    startLine: 2265
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -51,7 +51,7 @@ items:
   source:
     id: Url
     path: ''
-    startLine: 2274
+    startLine: 2267
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -82,7 +82,7 @@ items:
   source:
     id: Title
     path: ''
-    startLine: 2276
+    startLine: 2269
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -113,7 +113,7 @@ items:
   source:
     id: Id
     path: ''
-    startLine: 2278
+    startLine: 2271
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -144,7 +144,7 @@ items:
   source:
     id: Description
     path: ''
-    startLine: 2279
+    startLine: 2272
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -175,7 +175,7 @@ items:
   source:
     id: IsAlbum
     path: ''
-    startLine: 2280
+    startLine: 2273
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

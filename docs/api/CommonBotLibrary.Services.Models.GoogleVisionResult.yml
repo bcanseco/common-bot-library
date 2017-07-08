@@ -19,7 +19,7 @@ items:
   source:
     id: GoogleVisionResult
     path: ''
-    startLine: 2245
+    startLine: 2238
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -50,7 +50,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2247
+    startLine: 2240
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -79,7 +79,7 @@ items:
   source:
     id: ApiResult
     path: ''
-    startLine: 2259
+    startLine: 2252
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -112,7 +112,7 @@ items:
   source:
     id: DominantColors
     path: ''
-    startLine: 2260
+    startLine: 2253
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models
@@ -143,7 +143,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 2262
+    startLine: 2255
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Services.Models

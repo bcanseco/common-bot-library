@@ -18,7 +18,7 @@ items:
   source:
     id: MediaBase
     path: ''
-    startLine: 717
+    startLine: 708
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -56,7 +56,7 @@ items:
   source:
     id: Title
     path: ''
-    startLine: 719
+    startLine: 710
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -87,7 +87,7 @@ items:
   source:
     id: Year
     path: ''
-    startLine: 720
+    startLine: 711
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
@@ -118,7 +118,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 722
+    startLine: 713
   assemblies:
   - cs.temp.dll
   namespace: CommonBotLibrary.Interfaces.Models
